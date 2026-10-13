@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "G-PREROLL-BANNER",
+  "file": "assets/generated/g-preroll-banner.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide banner photograph: a single slim cannabis pre-roll joint, finger length, rolled in natural unbleached brown hemp paper, green ground cannabis flower visible at its open twisted end, lying diagonally on pale stone in the right half of the frame with calm empty pale stone on the left, soft golden side light, shallow depth of field; no glass, no cup, no smoke, no hands, no print on the paper, no filter tip, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+  "input": {
+    "aspect_ratio": "21:9",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 2836887985,
+  "requestId": "01a133e3-e6dc-72c3-8bee-66c8abc2ed85",
+  "cutout": null,
+  "width": 3136,
+  "height": 1344,
+  "sha256": "4eb42d5ed98bcae3a372f8af304039d5868c88748e8faed28e7b74c0b4917b75",
+  "raw": "tmp/img/raw/G-PREROLL-BANNER.1791871963686.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-10-13T06:12:45.552Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "a slim hemp-paper pre-roll lying diagonally on pale stone, ground flower spilling from the open end, calm stone on the left for the title; the paper carries no print; no glass, smoke, hands or filter tip",
+    "method": "whole frame (new-attempt2.png) + four 100% tiles (rv-6.png) + the open end and the tube at 100% (new-attempt2-zoom.png)",
+    "by": "IMAGERY (WF3b)",
+    "date": "2026-10-13"
+  }
+}

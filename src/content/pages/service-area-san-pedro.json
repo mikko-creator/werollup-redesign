@@ -1,0 +1,263 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "service-area-town",
+ "path": "/service-area/san-pedro/",
+ "slug": "service-area-san-pedro",
+ "sourceUrl": "https://werollup.com/service-area/san-pedro",
+ "rawFile": "audit/raw/service-area-san-pedro.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "San Pedro – We Roll Up",
+ "metaDescription": "Technically an area of Los Angeles, San Pedro is a walkable neighborhood with the feel of a small town.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/service-area/san-pedro/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "San Pedro",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "San Pedro",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "San Pedro",
+      "text": "San Pedro"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Come Visit Us in San Pedro",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "paragraph",
+     "html": "Technically an area of Los Angeles, San Pedro is a walkable neighborhood with the feel of a small town. Along with friendly people and cultural diversity, there’s so many things to see and do. Downtown offers gorgeous murals, theaters, art galleries, museums and outstanding restaurants, pubs and breweries. The waterfront promenades, harbor and parks are ideal for discovering live music and activities such as boating, fishing, sailing and surfing.",
+     "text": "Technically an area of Los Angeles, San Pedro is a walkable neighborhood with the feel of a small town. Along with friendly people and cultural diversity, there’s so many things to see and do. Downtown offers gorgeous murals, theaters, art galleries, museums and outstanding restaurants, pubs and breweries. The waterfront promenades, harbor and parks are ideal for discovering live music and activities such as boating, fishing, sailing and surfing."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Come Visit Us in San Pedro",
+     "text": "Come Visit Us in San Pedro"
+    },
+    {
+     "type": "paragraph",
+     "html": "Whether you’re visiting San Pedro for the sunshine and amazing beaches or a long-time local, We Roll Up is the perfect stop for focusing on health and happiness. We are extremely proud of our distinction as the first licensed cannabis dispensary in San Pedro. Open seven days per week, our location at 1705 S Gaffey Street welcomes California MMJ cardholders and recreational enthusiasts 21+ from across the country.",
+     "text": "Whether you’re visiting San Pedro for the sunshine and amazing beaches or a long-time local, We Roll Up is the perfect stop for focusing on health and happiness. We are extremely proud of our distinction as the first licensed cannabis dispensary in San Pedro. Open seven days per week, our location at 1705 S Gaffey Street welcomes California MMJ cardholders and recreational enthusiasts 21+ from across the country."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "We Roll Up Has the Strains You Love",
+     "text": "We Roll Up Has the Strains You Love"
+    },
+    {
+     "type": "paragraph",
+     "html": "Step inside our doors and discover a friendly, casual, inclusive vibe, where all walks of life are appreciated. Check out an assorted and amazing selection of top quality cannabis. Our shelves are a showcase of perfectly pungent flower, wonderfully affordable pre-rolls, high-THC concentrates, non-psychoactive topicals, discreet vapes and abundance of tasty edibles. You’ll find everything you could ever want available for in-store pickup, curbside pickup and online ordering.",
+     "text": "Step inside our doors and discover a friendly, casual, inclusive vibe, where all walks of life are appreciated. Check out an assorted and amazing selection of top quality cannabis. Our shelves are a showcase of perfectly pungent flower, wonderfully affordable pre-rolls, high-THC concentrates, non-psychoactive topicals, discreet vapes and abundance of tasty edibles. You’ll find everything you could ever want available for in-store pickup, curbside pickup and online ordering."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "We are <a href=\"/service-area/\">proud to serve</a> the Palos Verdes Peninsula and surrounding areas!",
+     "text": "We are proud to serve the Palos Verdes Peninsula and surrounding areas!"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "content",
+   "heading": "A Dispensary Rooted Between San Pedro and Palos Verdes",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "paragraph",
+     "html": "Picture the stretch of coastline that connects San Pedro to Palos Verdes: rolling hills, ocean overlooks, working harbors, and tight-knit neighborhoods where people know their corner stores by name. Somewhere between a morning hike along the bluffs and an evening spent unwinding at home, plenty of residents along this corridor find themselves wanting a trustworthy, legal place to shop for cannabis. That is exactly the need we set out to meet, and it is why so many folks traveling between these two communities make a point of stopping in.",
+     "text": "Picture the stretch of coastline that connects San Pedro to Palos Verdes: rolling hills, ocean overlooks, working harbors, and tight-knit neighborhoods where people know their corner stores by name. Somewhere between a morning hike along the bluffs and an evening spent unwinding at home, plenty of residents along this corridor find themselves wanting a trustworthy, legal place to shop for cannabis. That is exactly the need we set out to meet, and it is why so many folks traveling between these two communities make a point of stopping in."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "A Dispensary Rooted Between San Pedro and Palos Verdes",
+     "text": "A Dispensary Rooted Between San Pedro and Palos Verdes"
+    },
+    {
+     "type": "paragraph",
+     "html": "As San Pedro’s first licensed cannabis dispensary, <a href=\"/\">We Roll Up holds a unique position</a> along this part of the coast. Being the first legal, licensed operation in the area means we carry a responsibility to set the standard, and we take that seriously by maintaining a safe, secure, and welcoming environment for everyone who walks through our doors. The Palos Verdes peninsula and San Pedro share a border and a rhythm, and we function as part of that local society rather than apart from it.",
+     "text": "As San Pedro’s first licensed cannabis dispensary, We Roll Up holds a unique position along this part of the coast. Being the first legal, licensed operation in the area means we carry a responsibility to set the standard, and we take that seriously by maintaining a safe, secure, and welcoming environment for everyone who walks through our doors. The Palos Verdes peninsula and San Pedro share a border and a rhythm, and we function as part of that local society rather than apart from it."
+    },
+    {
+     "type": "paragraph",
+     "html": "Our location matters to residents on both sides of that line. Whether you are coming down from the hills or up from the harbor, we sit conveniently within reach for a quick visit. We’re open seven days a week, which means your schedule rarely has to bend around ours. We also speak Spanish, with a Spanish-speaking team member always onsite, so language is never a barrier to getting the guidance you need.",
+     "text": "Our location matters to residents on both sides of that line. Whether you are coming down from the hills or up from the harbor, we sit conveniently within reach for a quick visit. We’re open seven days a week, which means your schedule rarely has to bend around ours. We also speak Spanish, with a Spanish-speaking team member always onsite, so language is never a barrier to getting the guidance you need."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "How We Guide You Through the Menu",
+     "text": "How We Guide You Through the Menu"
+    },
+    {
+     "type": "paragraph",
+     "html": "Walking into a dispensary for the first time can feel like a lot, especially with the breadth of products available today. Our approach is consultative and unhurried. Our diverse, knowledgeable team takes the time to learn what you’re looking for, whether that’s relief, relaxation, focus, or simple enjoyment, and then matches you with options that fit. First-time patients and longtime aficionados receive the same attention.",
+     "text": "Walking into a dispensary for the first time can feel like a lot, especially with the breadth of products available today. Our approach is consultative and unhurried. Our diverse, knowledgeable team takes the time to learn what you’re looking for, whether that’s relief, relaxation, focus, or simple enjoyment, and then matches you with options that fit. First-time patients and longtime aficionados receive the same attention."
+    },
+    {
+     "type": "paragraph",
+     "html": "To make the experience smooth from start to finish, we offer several ways to shop and pick up your order:",
+     "text": "To make the experience smooth from start to finish, we offer several ways to shop and pick up your order:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong>Online ordering:</strong> Browse our live menu, build your cart, and reserve products before you ever leave home.",
+       "text": "Online ordering: Browse our live menu, build your cart, and reserve products before you ever leave home."
+      },
+      {
+       "html": "<strong>In-store pickup:</strong> Skip the wait by ordering ahead and grabbing your items at the counter.",
+       "text": "In-store pickup: Skip the wait by ordering ahead and grabbing your items at the counter."
+      },
+      {
+       "html": "<strong>Curbside pickup:</strong> Stay in your car and let our team bring your order out to you.",
+       "text": "Curbside pickup: Stay in your car and let our team bring your order out to you."
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "Each of these methods is designed around convenience, because we believe getting quality cannabis should fit naturally into your day rather than complicate it.",
+     "text": "Each of these methods is designed around convenience, because we believe getting quality cannabis should fit naturally into your day rather than complicate it."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "The Range of Products on Our Shelves",
+     "text": "The Range of Products on Our Shelves"
+    },
+    {
+     "type": "paragraph",
+     "html": "Our hand-picked selection spans the full spectrum of what modern cannabis has to offer, all at affordable prices. We pay close attention to cannabinoids, terpenes, and the effects different products deliver, so the menu reflects genuine variety rather than just volume. From the casual weekend user to the dedicated connoisseur, there is something here worth exploring.",
+     "text": "Our hand-picked selection spans the full spectrum of what modern cannabis has to offer, all at affordable prices. We pay close attention to cannabinoids, terpenes, and the effects different products deliver, so the menu reflects genuine variety rather than just volume. From the casual weekend user to the dedicated connoisseur, there is something here worth exploring."
+    },
+    {
+     "type": "paragraph",
+     "html": "Among the categories you’ll find with us:",
+     "text": "Among the categories you’ll find with us:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong><a href=\"/products/flower/\">Smokable flower</a>:</strong> Exceptional buds across a range of strains, aromas, and potencies.",
+       "text": "Smokable flower: Exceptional buds across a range of strains, aromas, and potencies."
+      },
+      {
+       "html": "<strong><a href=\"/products/pre-rolls/\">Pre-rolls</a>:</strong> All types, ready to enjoy without any prep work.",
+       "text": "Pre-rolls: All types, ready to enjoy without any prep work."
+      },
+      {
+       "html": "<strong><a href=\"/products/vaporizers-cartridges/\">Vapes</a>:</strong> A wide variety of cartridges and devices for discreet, convenient use.",
+       "text": "Vapes: A wide variety of cartridges and devices for discreet, convenient use."
+      },
+      {
+       "html": "<strong><a href=\"/products/edibles/\">Gummies and edibles</a>:</strong> Delicious options with measured dosing for predictable results.",
+       "text": "Gummies and edibles: Delicious options with measured dosing for predictable results."
+      },
+      {
+       "html": "<strong><a href=\"/products/concentrates/\">Concentrates</a>:</strong> Potent extracts for those seeking a stronger, more refined experience.",
+       "text": "Concentrates: Potent extracts for those seeking a stronger, more refined experience."
+      },
+      {
+       "html": "<strong><a href=\"/products/topicals/\">Topicals</a>:</strong> Soothing creams and balms aimed at localized, non-intoxicating relief.",
+       "text": "Topicals: Soothing creams and balms aimed at localized, non-intoxicating relief."
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "This breadth lets us serve recreational users and medical patients with equal care. If you’re managing discomfort, a topical or a carefully dosed edible may be the right starting point. If you’re gathering with friends, flower or pre-rolls often set the tone. Our staff helps you navigate these choices without pressure.",
+     "text": "This breadth lets us serve recreational users and medical patients with equal care. If you’re managing discomfort, a topical or a carefully dosed edible may be the right starting point. If you’re gathering with friends, flower or pre-rolls often set the tone. Our staff helps you navigate these choices without pressure."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Serving the Wider Coastal Community",
+     "text": "Serving the Wider Coastal Community"
+    },
+    {
+     "type": "paragraph",
+     "html": "While San Pedro and Palos Verdes are central to who we are, we proudly welcome customers from across California and beyond. People come to us from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX and from much farther away, drawn by the chance to shop in a secure, comfortable, and genuinely accepting space. Visitors, locals, and adventurers all find a place at our counter.",
+     "text": "While San Pedro and Palos Verdes are central to who we are, we proudly welcome customers from across California and beyond. People come to us from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX and from much farther away, drawn by the chance to shop in a secure, comfortable, and genuinely accepting space. Visitors, locals, and adventurers all find a place at our counter."
+    },
+    {
+     "type": "paragraph",
+     "html": "We believe cannabis can bring communities together, easing socialization, providing medicinal relief, and offering options that suit a wide range of needs. Pioneering legal access in this area was never just about opening a store, it was about elevating quality of life along this coast. Let us welcome you, share insight into our menu, and send you home happy. For recreational and medicinal marijuana along the San Pedro to Palos Verdes corridor, this is where potential and opportunity meet.",
+     "text": "We believe cannabis can bring communities together, easing socialization, providing medicinal relief, and offering options that suit a wide range of needs. Pioneering legal access in this area was never just about opening a store, it was about elevating quality of life along this coast. Let us welcome you, share insight into our menu, and send you home happy. For recreational and medicinal marijuana along the San Pedro to Palos Verdes corridor, this is where potential and opportunity meet."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

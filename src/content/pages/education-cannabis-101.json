@@ -1,0 +1,142 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "education",
+ "path": "/education/cannabis-101/",
+ "slug": "education-cannabis-101",
+ "sourceUrl": "https://werollup.com/education/cannabis-101",
+ "rawFile": "audit/raw/education-cannabis-101.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Cannabis 101 – We Roll Up",
+ "metaDescription": "Step inside We Roll Up and you’ll notice the strains are categorized as indica, sativa, and hybrid.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/education/cannabis-101/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Cannabis 101",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Cannabis 101",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Cannabis 101",
+      "text": "Cannabis 101"
+     },
+     "image": {
+      "ref": "assets/source/refetch-cannabis-buds-mason-jars.webp",
+      "src": "https://werollup.com/media/cannabis-buds-mason-jars.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1280,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Cannabis Education at We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Cannabis Education at We Roll Up",
+     "text": "Cannabis Education at We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/\">Step inside We Roll Up</a> and you’ll notice the strains are categorized as indica, sativa, and hybrid. While this is a great guideline for determining effects, we highly recommend familiarizing yourself with the chemical profile of the strain. Compounds such as cannabinoids and terpenes provide a more in-depth understanding of the product.",
+     "text": "Step inside We Roll Up and you’ll notice the strains are categorized as indica, sativa, and hybrid. While this is a great guideline for determining effects, we highly recommend familiarizing yourself with the chemical profile of the strain. Compounds such as cannabinoids and terpenes provide a more in-depth understanding of the product."
+    },
+    {
+     "type": "paragraph",
+     "html": "Sativa, indica, and hybrid are actually botanical classifications of the plant’s structure. However, the terms have been widely adopted as a simple method of navigating effects. Generally, indica strains tend to be sedating, calming, relaxing, and more of a full-body high for nighttime use. Sativas lean toward energizing, uplifting and cerebral effects that help with socialization, creativity, and physical activity. Hybrids are a mix.",
+     "text": "Sativa, indica, and hybrid are actually botanical classifications of the plant’s structure. However, the terms have been widely adopted as a simple method of navigating effects. Generally, indica strains tend to be sedating, calming, relaxing, and more of a full-body high for nighttime use. Sativas lean toward energizing, uplifting and cerebral effects that help with socialization, creativity, and physical activity. Hybrids are a mix."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Questions About Cannabis?",
+     "text": "Questions About Cannabis?"
+    },
+    {
+     "type": "paragraph",
+     "html": "Once you’re more experienced with cannabis, learning about chemical profiles, cannabinoids and terpenes help to narrow down and customize choices to best fit your preferences and purposes. You’ll discover that each strain interacts in a unique way with your body chemistry. The cannabinoids and terpenes combine into what’s known as the entourage effect.",
+     "text": "Once you’re more experienced with cannabis, learning about chemical profiles, cannabinoids and terpenes help to narrow down and customize choices to best fit your preferences and purposes. You’ll discover that each strain interacts in a unique way with your body chemistry. The cannabinoids and terpenes combine into what’s known as the entourage effect."
+    },
+    {
+     "type": "paragraph",
+     "html": "While there are hundreds of chemical compounds found in the cannabis plant, the two primary cannabinoids are THC and CBD. THC (tetrahydrocannabinol) is responsible for the psychoactive effects and is often used for treating symptoms of pain and nausea. CBD (cannabidiol) is non-intoxicating and shows great promise for alleviating pain, inflammation, anxiety, and numerous medical issues.",
+     "text": "While there are hundreds of chemical compounds found in the cannabis plant, the two primary cannabinoids are THC and CBD. THC (tetrahydrocannabinol) is responsible for the psychoactive effects and is often used for treating symptoms of pain and nausea. CBD (cannabidiol) is non-intoxicating and shows great promise for alleviating pain, inflammation, anxiety, and numerous medical issues."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h2",
+     "tag": "h3",
+     "html": "We’re Here to Help!",
+     "text": "We’re Here to Help!"
+    },
+    {
+     "type": "paragraph",
+     "html": "Terpenes are aromatic compounds produced by a variety of plants and fruit, such as oranges, eucalyptus, pepper, and lavender. They are the reason for the distinct odors and flavors of cannabis. We are still discovering how combinations of terpenes and cannabinoids impact the effects of different strains, but you’ll definitely identify your favorites with just a sniff.",
+     "text": "Terpenes are aromatic compounds produced by a variety of plants and fruit, such as oranges, eucalyptus, pepper, and lavender. They are the reason for the distinct odors and flavors of cannabis. We are still discovering how combinations of terpenes and cannabinoids impact the effects of different strains, but you’ll definitely identify your favorites with just a sniff."
+    },
+    {
+     "type": "paragraph",
+     "html": "For any questions, concerns or even curiosity you might have, We Roll Up is here to share knowledge, information, and recommendations. We welcome all walks of life and look forward to getting to know your preferences and assisting your cannabis journey. The <a href=\"/service-area/san-pedro/\">first licensed dispensary in San Pedro</a>, we offer an exciting collection of cannabis options. We invite shopping in-store, ordering online, in-store/curbside pick-up, and plan to add delivery services very soon!",
+     "text": "For any questions, concerns or even curiosity you might have, We Roll Up is here to share knowledge, information, and recommendations. We welcome all walks of life and look forward to getting to know your preferences and assisting your cannabis journey. The first licensed dispensary in San Pedro, we offer an exciting collection of cannabis options. We invite shopping in-store, ordering online, in-store/curbside pick-up, and plan to add delivery services very soon!"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Our helpful, knowledgeable staff is ready to help!",
+     "text": "Our helpful, knowledgeable staff is ready to help!"
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-cannabis-buds-mason-jars.webp",
+  "src": "https://werollup.com/media/cannabis-buds-mason-jars.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/refetch-cannabis-buds-mason-jars.webp"
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "product-category",
+ "path": "/products/topicals/",
+ "slug": "products-topicals",
+ "sourceUrl": "https://werollup.com/products/topicals",
+ "rawFile": "audit/raw/products-topicals.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Topicals – We Roll Up",
+ "metaDescription": "Relatively new on the market, cannabis-infused topicals are safe, efficient and wonderfully versatile.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/products/topicals/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Topicals",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Topicals",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Topicals",
+      "text": "Topicals"
+     },
+     "image": {
+      "ref": "assets/source/refetch-cannabis-1.webp",
+      "src": "https://werollup.com/media/cannabis-1.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 640,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Topicals from We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "paragraph",
+     "html": "Relatively new on the market, cannabis-infused topicals are safe, efficient and wonderfully versatile. Balms and lotions are applied directly to the skin and the cannabinoids are absorbed for localized treatment of soreness, inflammation, pain, and numerous skin issues. Because they are non-intoxicating, topicals can be applied multiple times per day with no worries over feeling high.",
+     "text": "Relatively new on the market, cannabis-infused topicals are safe, efficient and wonderfully versatile. Balms and lotions are applied directly to the skin and the cannabinoids are absorbed for localized treatment of soreness, inflammation, pain, and numerous skin issues. Because they are non-intoxicating, topicals can be applied multiple times per day with no worries over feeling high."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Topicals from We Roll Up",
+     "text": "Topicals from We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "There are natural cannabinoid CB1 and CB2 receptors in the skin that interact with the active compounds in cannabis. Along with the curative potential of terpenes and cannabinoids, such as THC and CBD, <a href=\"/\">topicals from We Roll Up</a> include essential soothing oils like lavender, eucalyptus and peppermint. Hydrate the skin with Mango Seed Oil, Shea Butter and Jojoba Oil and appreciate head-to-toe benefits. Our topicals are ideal for targeted relief.",
+     "text": "There are natural cannabinoid CB1 and CB2 receptors in the skin that interact with the active compounds in cannabis. Along with the curative potential of terpenes and cannabinoids, such as THC and CBD, topicals from We Roll Up include essential soothing oils like lavender, eucalyptus and peppermint. Hydrate the skin with Mango Seed Oil, Shea Butter and Jojoba Oil and appreciate head-to-toe benefits. Our topicals are ideal for targeted relief."
+    },
+    {
+     "type": "heading",
+     "level": null,
+     "look": "h2",
+     "tag": "div",
+     "html": "Find Relief with Our Cannabis Topicals",
+     "text": "Find Relief with Our Cannabis Topicals"
+    },
+    {
+     "type": "paragraph",
+     "html": "Topicals are easy, discreet and smell lovely. Visit We Roll Up for a no-pressure, relaxed and rewarding shopping experience. Browse our website at your leisure for online ordering and the ease of curbside or in-store pickup. We are your original <a href=\"/service-area/san-pedro/\">San Pedro</a> and<a href=\"/service-area/lax/\"> LAX dispensary</a> and welcome in-state MMJ cardholders and adult 21+ recreational customers from anywhere across the country. Let our friendly and knowledgeable staff members help you with informed decisions. We have Spanish-speaking employees here to assist.",
+     "text": "Topicals are easy, discreet and smell lovely. Visit We Roll Up for a no-pressure, relaxed and rewarding shopping experience. Browse our website at your leisure for online ordering and the ease of curbside or in-store pickup. We are your original San Pedro and LAX dispensary and welcome in-state MMJ cardholders and adult 21+ recreational customers from anywhere across the country. Let our friendly and knowledgeable staff members help you with informed decisions. We have Spanish-speaking employees here to assist."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Our topicals are the ultimate addition to your bath &amp; body collection",
+     "text": "Our topicals are the ultimate addition to your bath & body collection"
+    },
+    {
+     "type": "buttons",
+     "wrapper": "h3",
+     "items": [
+      {
+       "label": "Shop Now",
+       "text": "Shop Now",
+       "href": "/shop/",
+       "variant": "secondary",
+       "activeLocation": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-cannabis-1.webp",
+  "src": "https://werollup.com/media/cannabis-1.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/topicals/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-cannabis-1.webp"
+ ]
+}

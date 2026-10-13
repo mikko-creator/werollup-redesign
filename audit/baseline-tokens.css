@@ -1,0 +1,94 @@
+/* tokens.css — derived by sr-tokens.mjs from computed (browser capture).
+   Every value below traces to audit/design-baseline.json. Change values HERE,
+   never at a call site: one source, or the system is not a system. */
+:root {
+  /* --- colour ------------------------------------------------------ */
+  --c-1: #203022;
+  --c-2: #ffffff;
+  --c-3: #5dbc5d;
+  --c-4: #f5f4f1;
+  --c-5: #2c2c2c;
+  --c-6: #f2f5ee;
+  --c-7: #000000;
+
+  /* --- type -------------------------------------------------------- */
+  --font-body: "Libre Franklin", sans-serif;
+  --font-display: HelveticaNeue, "Libre Franklin", sans-serif;
+  --fs-1: 10.5px;
+  --fs-2: 12px;
+  --fs-3: 12.25px;
+  --fs-4: 13.7812px;
+  --fs-5: 14px;
+  --fs-6: 15.75px;
+  --fs-7: 16px;
+  --fs-8: 16.8px;
+  --fs-9: 18px;
+  --fs-10: 20px;
+  --fs-11: 21.328px;
+  --fs-12: 21.57px;
+  --fs-13: 22.704px;
+  --fs-14: 23.472px;
+  --fs-15: 24px;
+  --fs-16: 28.432px;
+  --fs-17: 37.904px;
+  --fs-18: 44.8px;
+  --fs-19: 50.512px;
+  --fs-20: 64px;
+
+  /* --- space ------------------------------------------------------- */
+  --sp-1: 1px;
+  --sp-2: 2px;
+  --sp-3: 4px;
+  --sp-4: 5px;
+  --sp-5: 6px;
+  --sp-6: 7.2px;
+  --sp-7: 7.5px;
+  --sp-8: 8px;
+  --sp-9: 10px;
+  --sp-10: 12px;
+  --sp-11: 15px;
+  --sp-12: 16px;
+  --sp-13: 18px;
+  --sp-14: 24px;
+  --sp-15: 25px;
+  --sp-16: 32px;
+  --sp-17: 36px;
+  --sp-18: 40px;
+  --sp-19: 50px;
+  --sp-20: 60px;
+  --sp-21: 72px;
+  --sp-22: 75px;
+  --sp-23: 104px;
+  --sp-24: 144px;
+  --sp-25: 240px;
+
+  /* --- shape ------------------------------------------------------- */
+  --radius-1: 9px;
+  --radius-2: 30px;
+  --radius-3: 8px;
+  --radius-4: 3px;
+  --shadow-1: rgba(0, 0, 0, 0.075) 0px 2px 4px 0px;
+  --shadow-2: rgba(0, 0, 0, 0.35) 0px 7px 15px -15px;
+  --shadow-3: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
+
+  /* --- layout ------------------------------------------------------ */
+  --container: 100%;
+  --bp-1: 98px;
+  --bp-2: 321px;
+  --bp-3: 569px;
+  --bp-4: 576px;
+  --bp-5: 640px;
+  --bp-6: 641px;
+  --bp-7: 761px;
+  --bp-8: 767px;
+  --bp-9: 768px;
+  --bp-10: 992px;
+  --bp-11: 1170px;
+  --bp-12: 1200px;
+  --bp-13: 1255px;
+  --bp-14: 1400px;
+  --bp-15: 1800px;
+  --bp-16: 2400px;
+  --bp-17: 3000px;
+  --bp-18: 5000px;
+}

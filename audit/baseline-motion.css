@@ -1,0 +1,433 @@
+/* motion.css — replication of the source site motion.
+ * Keyframes below are VERBATIM from the live capture.
+ * Do not re-type them: a retyped keyframe is a different animation.
+ * Source: audit/motion-inventory.json
+ */
+
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes splide-loading {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(1turn); }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes lg-right-end {
+  0% { left: 0px; }
+  50% { left: -30px; }
+  100% { left: 0px; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes lg-left-end {
+  0% { left: 0px; }
+  50% { left: 30px; }
+  100% { left: 0px; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes lg-play-stroke {
+  0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 89, 200; stroke-dashoffset: -35px; }
+  100% { stroke-dasharray: 89, 200; stroke-dashoffset: -124px; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes lg-play-rotate {
+  100% { transform: rotate(360deg); }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes progress-bar-stripes {
+  0% { background-position-x: 1rem; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes spinner-border {
+  100% { transform: rotate(1turn); }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes spinner-grow {
+  0% { transform: scale(0); }
+  50% { opacity: 1; transform: none; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes placeholder-glow {
+  50% { opacity: 0.2; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes placeholder-wave {
+  100% { mask-position: -200% 0px; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes bg-fade-out {
+  33% { opacity: 1; }
+  66% { opacity: 0; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes stripe-slide {
+  0% { background-position: 0px 0px; }
+  100% { background-position: 100% 0px; }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css */
+@keyframes header-order-dd-in {
+  0% { opacity: 0; transform: translateY(-6px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0px) scale(1); }
+}
+/* from capture (inline) */
+@keyframes fa-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* from capture https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.css?v=1791856227 */
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* --- easing tokens observed on the source ------------------------------ */
+:root {
+  --ease-1: cubic-bezier(0,0,.25,1);
+  --ease-2: cubic-bezier(.65,0,.076,1);
+  --ease-3: cubic-bezier(.12,.415,.01,1.19);
+  --ease-4: cubic-bezier(.175,.885,.32,1.275);
+  --ease-5: cubic-bezier(.17,.88,.32,1.28);
+  --ease-6: cubic-bezier(.55,.085,.68,.53);
+  --ease-7: cubic-bezier(.25,.46,.45,.94);
+  --ease-8: cubic-bezier(.455,.03,.515,.955);
+  --dur-1: 0.35s;
+  --dur-2: 0.2s;
+  --dur-3: 0.3s;
+  --dur-4: 0.15s, 0.15s, 0.15s;
+  --dur-5: 0.5s;
+  --dur-6: 0.75s;
+}
+
+/* --- per-element motion measured on the source -------------------------- */
+/* Each block below is what the ORIGINAL element resolved to. Re-apply these
+   to the equivalent rebuilt component; the selector names will differ, the
+   VALUES must not. */
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(4)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #site-navigation  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #site-navigation > div.default-header-logo-wrapper.mb-2:nth-of-type(1) > a.navbar-brand.me-0  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #main-logo  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #site-navigation > button.navbar-toggler.bg-transparent  @1024px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* #site-navigation > a.cta-item.active-location-menu  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #site-topbar  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s linear;
+}
+/* #scroll-text > div.text-block  @1024px */
+.REPLACE-ME {
+  animation: scroll 20s linear 0s infinite;
+  transform: matrix(1, 0, 0, 1, -46.3093, 0);
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(4)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #splide01-list  @1024px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, -2202.59, 0);
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(4)  @1024px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.footer-location-group.mb-4:nth-of-type(1) > div.d-flex.flex-column:nth-of-type(2) > div.footer-icon-content.text-center:nth-of-type(2) > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.footer-location-group:nth-of-type(2) > div.d-flex.flex-column:nth-of-type(2) > div.footer-icon-content.text-center:nth-of-type(2) > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > a.mx-1:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > a.mx-1:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > a.mx-1:nth-of-type(3)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > div.d-inline-flex > a.mx-1  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62038 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62041 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62057 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-60999 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62039 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62040 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-61023 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-61227 > a  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.row:nth-of-type(4) > div.col-12.pe-0 > div.footer-copyright.py-3 > a.d-inline.color-white:nth-of-type(1)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.row:nth-of-type(4) > div.col-12.pe-0 > div.footer-copyright.py-3 > a.d-inline.color-white:nth-of-type(2)  @1024px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(1)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(2)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(3)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #headless-top-bar > div.flex-shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(4)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #site-navigation  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #site-navigation > div.default-header-logo-wrapper.mb-2:nth-of-type(1) > a.navbar-brand.me-0  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #main-logo  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #menu-item-62037 > a.nav-link  @1440px */
+.REPLACE-ME {
+  transition: color, background-color, border-color 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out 0s, 0s, 0s;
+}
+/* #menu-item-61806 > a.nav-link  @1440px */
+.REPLACE-ME {
+  transition: color, background-color, border-color 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out 0s, 0s, 0s;
+}
+/* #menu-item-61804 > a.nav-link  @1440px */
+.REPLACE-ME {
+  transition: color, background-color, border-color 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out 0s, 0s, 0s;
+}
+/* #site-navigation > button.navbar-toggler.bg-transparent  @1440px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* #site-navigation > a.cta-item.active-location-menu  @1440px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #site-topbar  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s linear;
+}
+/* #scroll-text > div.text-block  @1440px */
+.REPLACE-ME {
+  animation: scroll 20s linear 0s infinite;
+  transform: matrix(1, 0, 0, 1, -277.805, 0);
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(1)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(2)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(3)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #mainContent > div.wrap:nth-of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(4)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #splide01-list  @1440px */
+.REPLACE-ME {
+  transform: matrix(1, 0, 0, 1, -2902.5, 0);
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(1)  @1440px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)  @1440px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(3)  @1440px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.py-4:nth-of-type(3) > div.row:nth-of-type(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(4)  @1440px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.footer-location-group.mb-4:nth-of-type(1) > div.d-flex.flex-column:nth-of-type(2) > div.footer-icon-content.text-center:nth-of-type(2) > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.footer-location-group:nth-of-type(2) > div.d-flex.flex-column:nth-of-type(2) > div.footer-icon-content.text-center:nth-of-type(2) > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > a.mx-1:nth-of-type(1)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > a.mx-1:nth-of-type(2)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > a.mx-1:nth-of-type(3)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.col-12.col-lg-6:nth-of-type(1) > div.mt-3.text-center:nth-of-type(3) > div.d-inline-flex > a.mx-1  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62038 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62041 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62057 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-60999 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62039 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-62040 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-61023 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #menu-item-61227 > a  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.row:nth-of-type(4) > div.col-12.pe-0 > div.footer-copyright.py-3 > a.d-inline.color-white:nth-of-type(1)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #mainContent > div.container-fluid.site-footer:nth-of-type(4) > div.row.justify-content-between > div.row:nth-of-type(4) > div.col-12.pe-0 > div.footer-copyright.py-3 > a.d-inline.color-white:nth-of-type(2)  @1440px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #site-navigation  @390px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #site-navigation > div.default-header-logo-wrapper.mb-2:nth-of-type(1) > a.navbar-brand.me-0  @390px */
+.REPLACE-ME {
+  transition: all 0.35s ease;
+}
+/* #main-logo  @390px */
+.REPLACE-ME {
+  transition: all 0.35s ease-in-out;
+}
+/* #site-navigation > button.navbar-toggler.bg-transparent  @390px */
+.REPLACE-ME {
+  transition: all 0.2s ease-in;
+}
+/* #site-navigation > a.cta-item.active-location-menu  @390px */
+.REPLACE-ME {
+  transition: all 0.3s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

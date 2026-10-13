@@ -1,0 +1,20 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide atmospheric photograph of soft drifting smoke ribbons and layered mist glowing in pale leaf-green and cream light against a deep forest-green to near-black background, slow flowing curves, long exposure softness, calm and ethereal, abstract, no objects, no text, no logo, no people",
+  "input": {
+    "aspect_ratio": "21:9",
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a1334b-b6b0-7ed3-bac6-e10174534d46",
+  "seed": 2050173123,
+  "width": 3136,
+  "height": 1344,
+  "contentType": "image/jpeg",
+  "bytes": 476785,
+  "sha256": "9c1c2ae8c4f446fcec9c3f186ac9b6d99f935cf076534fa2e5b2898db355c986",
+  "file": "tmp/panel/b/gen/g6-mist-ribbons.jpg",
+  "generatedAt": "2026-10-13T03:26:14.317Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

@@ -1,0 +1,151 @@
+{
+  "schema": "site-reforge/project@1",
+  "name": "werollup-com",
+  "targetUrl": "https://werollup.com/",
+  "origin": "https://werollup.com",
+  "createdAt": "2026-10-13T01:42:45.190Z",
+  "updatedAt": "2026-10-13T02:02:29.026Z",
+  "config": {
+    "maxPages": 300,
+    "concurrency": 2,
+    "includeSubdomains": false,
+    "breakpoints": [
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "pixelDiffThreshold": 0.02,
+    "contentRecallFloor": 0.95,
+    "requestDelayMs": 150,
+    "requestHeaders": {}
+  },
+  "tooling": {
+    "browser": "unknown",
+    "imageGen": "unknown",
+    "detectedAt": null
+  },
+  "stages": {
+    "intake": {
+      "status": "done",
+      "at": "2026-10-13T01:42:45.190Z",
+      "note": "workspace created"
+    },
+    "crawl": {
+      "status": "done",
+      "at": "2026-10-13T01:46:21.236Z",
+      "note": "92 pages, 1 failed"
+    },
+    "extract": {
+      "status": "done",
+      "at": "2026-10-13T01:46:48.387Z",
+      "note": "91 pages extracted"
+    },
+    "assets": {
+      "status": "partial",
+      "at": "2026-10-13T01:47:32.565Z",
+      "note": "40/41 assets on disk"
+    },
+    "capture": {
+      "status": "done",
+      "at": "2026-10-13T02:00:11.153Z",
+      "note": "captures merged"
+    },
+    "tokens": {
+      "status": "done",
+      "at": "2026-10-13T02:02:27.902Z",
+      "note": "computed (browser capture)"
+    },
+    "motion": {
+      "status": "done",
+      "at": "2026-10-13T02:02:29.025Z",
+      "note": "15 keyframes, 4031 animated elements"
+    },
+    "presets": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "ux": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "brand": {
+      "status": "partial",
+      "at": "2026-10-13T02:02:27.902Z",
+      "note": "tokens emitted; brand-system.md still owed"
+    },
+    "implement": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "clone": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "cloneVerify": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "responsive": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "seo": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "performance": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "decontaminate": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "parity": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "fabrication": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "pixeldiff": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "sweep": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "functional": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "gate": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    },
+    "package": {
+      "status": "pending",
+      "at": null,
+      "note": ""
+    }
+  },
+  "notes": []
+}

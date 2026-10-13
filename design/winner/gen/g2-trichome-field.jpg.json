@@ -1,0 +1,20 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Abstract macro photograph of cannabis trichomes, glassy round resin heads on slender stalks like a soft-focus crystal forest, cool white and pale leaf-green light, deep forest-green shadows, dreamy depth of field with a thin plane of focus across the lower middle, faint mist, ethereal and calm, photographic realism, no text, no logo, no people",
+  "input": {
+    "aspect_ratio": "16:9",
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a1334b-b4b8-7793-80ff-493c13a24057",
+  "seed": 1670578878,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 1123884,
+  "sha256": "27c97ef2a335ec5549b825a22450431a523396dfad35ff784b463970b951611b",
+  "file": "tmp/panel/b/gen/g2-trichome-field.jpg",
+  "generatedAt": "2026-10-13T03:26:14.194Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

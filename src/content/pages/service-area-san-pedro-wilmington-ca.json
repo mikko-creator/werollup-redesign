@@ -1,0 +1,224 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "service-area-town",
+ "path": "/service-area/san-pedro/wilmington-ca/",
+ "slug": "service-area-san-pedro-wilmington-ca",
+ "sourceUrl": "https://werollup.com/service-area/san-pedro/wilmington-ca",
+ "rawFile": "audit/raw/service-area-san-pedro-wilmington-ca.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Wilmington, CA – We Roll Up",
+ "metaDescription": "Wilmington sits at the working heart of the Los Angeles Harbor, a neighborhood shaped by refineries, port traffic, and tight-knit residential streets that",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/service-area/san-pedro/wilmington-ca/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Wilmington, CA",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Wilmington, CA",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Wilmington, CA",
+      "text": "Wilmington, CA"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Cannabis for the Wilmington Community",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Cannabis for the Wilmington Community",
+     "text": "Cannabis for the Wilmington Community"
+    },
+    {
+     "type": "paragraph",
+     "html": "Wilmington sits at the working heart of the Los Angeles Harbor, a neighborhood shaped by refineries, port traffic, and tight-knit residential streets that have grown around them for generations. People here keep long, irregular hours, and the demand for a reliable, legal source of cannabis reflects that reality. We Roll Up serves Wilmington from our location in San Pedro, just a short drive across the harbor, which makes us one of the most accessible licensed options for anyone in the area looking for quality products without a lengthy trip.",
+     "text": "Wilmington sits at the working heart of the Los Angeles Harbor, a neighborhood shaped by refineries, port traffic, and tight-knit residential streets that have grown around them for generations. People here keep long, irregular hours, and the demand for a reliable, legal source of cannabis reflects that reality. We Roll Up serves Wilmington from our location in San Pedro, just a short drive across the harbor, which makes us one of the most accessible licensed options for anyone in the area looking for quality products without a lengthy trip."
+    },
+    {
+     "type": "paragraph",
+     "html": "As<a href=\"/\"> San Pedro’s first licensed cannabis dispensary</a>, We Roll Up has built a reputation on transparency and consistency. For Wilmington residents who may have grown accustomed to uncertain or unregulated sources, that matters. Every product on our shelves is tracked, tested, and labeled according to California regulations, so you always know what you are bringing home. Whether you are a recreational shopper or a medical patient, the experience is the same: clear information, fair selection, and staff who treat your questions seriously rather than rushing you out the door.",
+     "text": "As San Pedro’s first licensed cannabis dispensary, We Roll Up has built a reputation on transparency and consistency. For Wilmington residents who may have grown accustomed to uncertain or unregulated sources, that matters. Every product on our shelves is tracked, tested, and labeled according to California regulations, so you always know what you are bringing home. Whether you are a recreational shopper or a medical patient, the experience is the same: clear information, fair selection, and staff who treat your questions seriously rather than rushing you out the door."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "What You Can Expect on Our Menu",
+     "text": "What You Can Expect on Our Menu"
+    },
+    {
+     "type": "paragraph",
+     "html": "The variety we carry is meant to suit both newcomers and longtime enthusiasts, and that breadth is part of what keeps Wilmington customers coming back. We hand-pick our inventory rather than simply stocking whatever moves fastest, which means you find products chosen for quality, potency, and consistency. Our team is happy to walk you through terpene profiles, cannabinoid percentages, and the practical differences between product formats so you can match what you buy to what you actually want from it.",
+     "text": "The variety we carry is meant to suit both newcomers and longtime enthusiasts, and that breadth is part of what keeps Wilmington customers coming back. We hand-pick our inventory rather than simply stocking whatever moves fastest, which means you find products chosen for quality, potency, and consistency. Our team is happy to walk you through terpene profiles, cannabinoid percentages, and the practical differences between product formats so you can match what you buy to what you actually want from it."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Here is a snapshot of the categories we keep stocked for shoppers traveling in from Wilmington:",
+     "text": "Here is a snapshot of the categories we keep stocked for shoppers traveling in from Wilmington:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong><a href=\"/products/flower/\">Smokable flower</a>:</strong> a rotating lineup of strains spanning indica, sativa, and hybrid options, available in multiple weights.",
+       "text": "Smokable flower: a rotating lineup of strains spanning indica, sativa, and hybrid options, available in multiple weights."
+      },
+      {
+       "html": "<strong><a href=\"/products/pre-rolls/\">Pre-rolls</a>:</strong> single and multi-packs, including infused varieties for those who want something stronger.",
+       "text": "Pre-rolls: single and multi-packs, including infused varieties for those who want something stronger."
+      },
+      {
+       "html": "<strong><a href=\"/products/vaporizers-cartridges/\">Vapes</a>:</strong> cartridges, disposables, and pods across a wide range of potencies and flavors.",
+       "text": "Vapes: cartridges, disposables, and pods across a wide range of potencies and flavors."
+      },
+      {
+       "html": "<strong><a href=\"/products/edibles/\">Edibles</a>:</strong> gummies, chocolates, and other treats with clearly labeled dosing for predictable effects.",
+       "text": "Edibles: gummies, chocolates, and other treats with clearly labeled dosing for predictable effects."
+      },
+      {
+       "html": "<strong><a href=\"/products/concentrates/\">Concentrates</a>:</strong> waxes, shatters, badders, and live resin for experienced consumers seeking high potency.",
+       "text": "Concentrates: waxes, shatters, badders, and live resin for experienced consumers seeking high potency."
+      },
+      {
+       "html": "<strong><a href=\"/products/topicals/\">Topicals</a>:</strong> balms, lotions, and salves aimed at localized relief without psychoactive effects.",
+       "text": "Topicals: balms, lotions, and salves aimed at localized relief without psychoactive effects."
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "If you are unsure where to begin, that is exactly the situation our staff handles best. A first-time edible buyer needs different guidance than someone shopping for high-THC concentrates, and we adjust our recommendations accordingly. We also know that the same product can serve very different goals, from winding down after a port shift to managing chronic discomfort, and we factor that into the conversation.",
+     "text": "If you are unsure where to begin, that is exactly the situation our staff handles best. A first-time edible buyer needs different guidance than someone shopping for high-THC concentrates, and we adjust our recommendations accordingly. We also know that the same product can serve very different goals, from winding down after a port shift to managing chronic discomfort, and we factor that into the conversation."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "How Shopping With Us Works",
+     "text": "How Shopping With Us Works"
+    },
+    {
+     "type": "paragraph",
+     "html": "We have tried to make the path from browsing to purchase as smooth as possible. You can explore our full catalog online before ever leaving Wilmington, which is helpful when you want to compare options or check whether a specific strain is in stock. Once you know what you want, the process is straightforward and built to respect your time. Many customers appreciate being able to settle on their selections in advance rather than deciding everything at the counter.",
+     "text": "We have tried to make the path from browsing to purchase as smooth as possible. You can explore our full catalog online before ever leaving Wilmington, which is helpful when you want to compare options or check whether a specific strain is in stock. Once you know what you want, the process is straightforward and built to respect your time. Many customers appreciate being able to settle on their selections in advance rather than deciding everything at the counter."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "The basic flow looks like this:",
+     "text": "The basic flow looks like this:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "html": "<strong>Browse the menu:</strong> view live inventory online or in person, with descriptions and lab information available for each item.",
+       "text": "Browse the menu: view live inventory online or in person, with descriptions and lab information available for each item."
+      },
+      {
+       "html": "<strong>Place your order:</strong> order ahead online for pickup, or build your selection with help from our staff once you arrive.",
+       "text": "Place your order: order ahead online for pickup, or build your selection with help from our staff once you arrive."
+      },
+      {
+       "html": "<strong>Verify your age:</strong> bring valid government-issued identification, as required by California law for all adult-use and medical purchases.",
+       "text": "Verify your age: bring valid government-issued identification, as required by California law for all adult-use and medical purchases."
+      },
+      {
+       "html": "<strong>Choose your pickup method:</strong> step inside for the full in-store experience or use curbside pickup if you would rather stay in your vehicle.",
+       "text": "Choose your pickup method: step inside for the full in-store experience or use curbside pickup if you would rather stay in your vehicle."
+      },
+      {
+       "html": "<strong>Head home:</strong> leave with tested, labeled products and the confidence that everything was handled legally.",
+       "text": "Head home: leave with tested, labeled products and the confidence that everything was handled legally."
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "For Wilmington shoppers who prefer not to linger, in-store pickup and curbside pickup both cut down the time you spend on-site. And because we operate seven days a week, fitting a visit around an unusual schedule is rarely a problem. We also always have a Spanish-speaking member of our team available, which reflects the community we serve and removes a barrier that other dispensaries sometimes overlook.",
+     "text": "For Wilmington shoppers who prefer not to linger, in-store pickup and curbside pickup both cut down the time you spend on-site. And because we operate seven days a week, fitting a visit around an unusual schedule is rarely a problem. We also always have a Spanish-speaking member of our team available, which reflects the community we serve and removes a barrier that other dispensaries sometimes overlook."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Why Wilmington Residents Choose We Roll Up",
+     "text": "Why Wilmington Residents Choose We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "Being the first licensed dispensary<a href=\"/service-area/san-pedro/\"> in San Pedro</a> carries a responsibility we take seriously. We function as part of the local society rather than as an outside operation, and that shapes how we treat everyone who walks through our doors. Recreational users, medical patients, novices, and connoisseurs are all warmly welcome, and we make a point of creating a secure, comfortable, and accepting environment for each of them. For Wilmington, that means a nearby option run by people who actually care about the surrounding California rather than just moving product.",
+     "text": "Being the first licensed dispensary in San Pedro carries a responsibility we take seriously. We function as part of the local society rather than as an outside operation, and that shapes how we treat everyone who walks through our doors. Recreational users, medical patients, novices, and connoisseurs are all warmly welcome, and we make a point of creating a secure, comfortable, and accepting environment for each of them. For Wilmington, that means a nearby option run by people who actually care about the surrounding California rather than just moving product."
+    },
+    {
+     "type": "paragraph",
+     "html": "What ultimately sets the experience apart is the combination of selection, knowledge, and atmosphere. You get a hand-picked menu at affordable prices, staff who can explain the difference between cannabinoids and terpenes without talking down to you, and a welcoming space that treats your visit as the start of an ongoing relationship. We love elevating quality of life, whether that comes through medicinal relief, easygoing socialization, or simply finding the strain that fits you best. For anyone in Wilmington weighing where to shop, We Roll Up offers a short trip, a dependable selection, and a team genuinely glad to help you find what you are looking for. Stop by any day of the week and see what a properly licensed dispensary feels like.",
+     "text": "What ultimately sets the experience apart is the combination of selection, knowledge, and atmosphere. You get a hand-picked menu at affordable prices, staff who can explain the difference between cannabinoids and terpenes without talking down to you, and a welcoming space that treats your visit as the start of an ongoing relationship. We love elevating quality of life, whether that comes through medicinal relief, easygoing socialization, or simply finding the strain that fits you best. For anyone in Wilmington weighing where to shop, We Roll Up offers a short trip, a dependable selection, and a team genuinely glad to help you find what you are looking for. Stop by any day of the week and see what a properly licensed dispensary feels like."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

@@ -1,0 +1,4684 @@
+{
+  "schema": "site-reforge/seo-inventory@1",
+  "generated": "2026-10-13T01:46:48.382Z",
+  "origin": "https://werollup.com",
+  "pages": [
+    {
+      "url": "https://werollup.com/",
+      "finalUrl": "https://werollup.com/",
+      "status": 200,
+      "redirectChain": [],
+      "title": "We Roll Up",
+      "titleLength": 10,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop Our Weed Products",
+        "2:Delivery",
+        "3:We Are Here to Serve Your Cannabis Needs",
+        "2:Convenient Ways to Get Your Cannabis",
+        "2:Shop Cannabis In-Store or Order Online for Pickup & Delivery",
+        "3:Shop Cannabis In-Store or Order Online for Pickup & Delivery",
+        "3:A Community Built Around Cannabis",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 34489
+    },
+    {
+      "url": "https://werollup.com/about-us",
+      "finalUrl": "https://werollup.com/about-us/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/about-us",
+          "status": 301,
+          "to": "https://werollup.com/about-us/"
+        }
+      ],
+      "title": "About Us – We Roll Up",
+      "titleLength": 21,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/about-us/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:About Us",
+        "2:Welcome to We Roll Up",
+        "3:We speak Spanish!",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/about-us/daily-deals",
+      "finalUrl": "https://werollup.com/about-us/daily-deals/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/about-us/daily-deals",
+          "status": 301,
+          "to": "https://werollup.com/about-us/daily-deals/"
+        }
+      ],
+      "title": "Daily Deals – We Roll Up",
+      "titleLength": 24,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/about-us/daily-deals/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Daily Deals",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/accessibility-statement",
+      "finalUrl": "https://werollup.com/accessibility-statement/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/accessibility-statement",
+          "status": 301,
+          "to": "https://werollup.com/accessibility-statement/"
+        }
+      ],
+      "title": "Accessibility Statement – We Roll Up",
+      "titleLength": 36,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/accessibility-statement/",
+      "lang": "en-US",
+      "h1Count": 2,
+      "headingOutline": [
+        "1:Accessibility Statement",
+        "2:Date: January 10, 2022",
+        "1:Accessibility conformance status",
+        "2:Accessibility feedback",
+        "3:Technical specifications",
+        "3:Accessibility features",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/author/werollupadmin",
+      "finalUrl": "https://werollup.com/author/werollupadmin/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/author/werollupadmin",
+          "status": 301,
+          "to": "https://werollup.com/author/werollupadmin/"
+        }
+      ],
+      "title": "admin – We Roll Up",
+      "titleLength": 18,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Author: admin",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/contact",
+      "finalUrl": "https://werollup.com/contact/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/contact",
+          "status": 301,
+          "to": "https://werollup.com/contact/"
+        }
+      ],
+      "title": "Contact – We Roll Up",
+      "titleLength": 20,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/contact/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Contact",
+        "3:Contact Us Online",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23",
+        "https://werollup.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+        "https://werollup.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+        "https://werollup.com/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d",
+        "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5",
+        "https://werollup.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.5",
+        "https://www.google.com/recaptcha/api.js?hl=en&&ver=7.1.3#038;render=explicit",
+        "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.10.5",
+        "https://werollup.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5",
+        "https://werollup.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d",
+        "https://werollup.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=7c651d0ba638ce98b9c65141edddd567",
+        "https://werollup.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=301fdc9aa6144168f3b854c4c2c8f6d3",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/education",
+      "finalUrl": "https://werollup.com/education/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/education",
+          "status": 301,
+          "to": "https://werollup.com/education/"
+        }
+      ],
+      "title": "Education – We Roll Up",
+      "titleLength": 22,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/education/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Education",
+        "2:Cannabis Education at We Roll Up",
+        "2:Understanding the Cannabis Plant",
+        "2:Navigating Product Categories",
+        "3:Key Topics We Cover In-Store",
+        "2:Industry Trends and the Future of Cannabis Knowledge",
+        "3:Visit Us and Learn Something New",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/education/cannabis-101",
+      "finalUrl": "https://werollup.com/education/cannabis-101/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/education/cannabis-101",
+          "status": 301,
+          "to": "https://werollup.com/education/cannabis-101/"
+        }
+      ],
+      "title": "Cannabis 101 – We Roll Up",
+      "titleLength": 25,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/education/cannabis-101/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Cannabis 101",
+        "2:Cannabis Education at We Roll Up",
+        "2:Questions About Cannabis?",
+        "3:We’re Here to Help!",
+        "3:Our helpful, knowledgeable staff is ready to help!",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/education/recreational-medicinal",
+      "finalUrl": "https://werollup.com/education/recreational-medicinal/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/education/recreational-medicinal",
+          "status": 301,
+          "to": "https://werollup.com/education/recreational-medicinal/"
+        }
+      ],
+      "title": "Recreational & Medicinal – We Roll Up",
+      "titleLength": 37,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/education/recreational-medicinal/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Recreational & Medicinal",
+        "2:Recreational Weed vs Medical Weed",
+        "2:Get Medical Cannabis from Us",
+        "3:Recreational Cannabis from We Roll Up",
+        "3:Our cannabis selection is sure to suit your medicinal & recreational needs!",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/lax-menu",
+      "finalUrl": "https://werollup.com/lax-menu/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/lax-menu",
+          "status": 301,
+          "to": "https://werollup.com/lax-menu/"
+        }
+      ],
+      "title": "Shop LAX – We Roll Up",
+      "titleLength": 21,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/lax-menu/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location-pagetype/cannabis-menu-page",
+      "finalUrl": "https://werollup.com/location-pagetype/cannabis-menu-page/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location-pagetype/cannabis-menu-page",
+          "status": 301,
+          "to": "https://werollup.com/location-pagetype/cannabis-menu-page/"
+        }
+      ],
+      "title": "Cannabis Menu Page – We Roll Up",
+      "titleLength": 31,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Page Type: Cannabis Menu Page",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location-pagetype/primary-location",
+      "finalUrl": "https://werollup.com/location-pagetype/primary-location/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location-pagetype/primary-location",
+          "status": 301,
+          "to": "https://werollup.com/location-pagetype/primary-location/"
+        }
+      ],
+      "title": "Primary Location – We Roll Up",
+      "titleLength": 29,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "",
+      "lang": "en-US",
+      "h1Count": 0,
+      "headingOutline": [
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 5,
+      "imagesMissingAlt": 1,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city",
+      "finalUrl": "https://werollup.com/location/culver-city/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/"
+        }
+      ],
+      "title": "LAX – Culver City – We Roll Up",
+      "titleLength": 30,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/",
+      "lang": "en-US",
+      "h1Count": 0,
+      "headingOutline": [
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 18,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 37,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+      "finalUrl": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+          "status": 301,
+          "to": "https://werollup.com/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599"
+        }
+      ],
+      "title": "Shop LAX – Culver City – We Roll Up",
+      "titleLength": 35,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/culver-city/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop LAX - Culver City",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 9,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werolluplax.wm.store/static/js/embed.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro",
+      "finalUrl": "https://werollup.com/location/san-pedro/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/"
+        }
+      ],
+      "title": "San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 37,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/",
+      "lang": "en-US",
+      "h1Count": 0,
+      "headingOutline": [
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 16,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 46,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/edible",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/edible/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/edible",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/edible/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/edible/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/extract",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/extract/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/extract",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/extract/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/extract/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/flower",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/flower/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/flower",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/flower/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/flower/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/gear",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/gear/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/gear",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/gear/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/gear/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/jane-gold",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/jane-gold/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/jane-gold",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/jane-gold/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/jane-gold/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/pre-roll",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/pre-roll/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/pre-roll",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/pre-roll/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/pre-roll/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/topical",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/topical/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/topical",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/topical/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/topical/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop/menu/vape",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/menu/vape/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop/menu/vape",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/menu/vape/"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/menu/vape/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape",
+      "finalUrl": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape",
+          "status": 301,
+          "to": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape"
+        }
+      ],
+      "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+      "titleLength": 42,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Shop San Pedro - Palos Verdes",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 26,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/privacy-policy",
+      "finalUrl": "https://werollup.com/privacy-policy/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/privacy-policy",
+          "status": 301,
+          "to": "https://werollup.com/privacy-policy/"
+        }
+      ],
+      "title": "Privacy Policy – We Roll Up",
+      "titleLength": 27,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/privacy-policy/",
+      "lang": "en-US",
+      "h1Count": 2,
+      "headingOutline": [
+        "1:Privacy Policy",
+        "1:Welcome to our Privacy Policy",
+        "3:Your privacy is critically important to us.",
+        "2:Website Visitors",
+        "2:Gathering of Personally-Identifying Information",
+        "2:Security",
+        "2:Advertisements",
+        "2:Links To External Sites",
+        "2:We Roll Up uses Google AdWords for remarketing",
+        "2:Protection of Certain Personally-Identifying Information",
+        "2:Aggregated Statistics",
+        "2:Cookies",
+        "2:E-commerce",
+        "2:Privacy Policy Changes",
+        "3:At We Roll Up, your privacy is our top priority.",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/products",
+      "finalUrl": "https://werollup.com/products/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/products",
+          "status": 301,
+          "to": "https://werollup.com/products/"
+        }
+      ],
+      "title": "Products – We Roll Up",
+      "titleLength": 21,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/products/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Products",
+        "2:Cannabis Products for Every Preference and Need",
+        "2:Flower: The Foundation of Cannabis",
+        "2:Pre-Rolls: Convenience Without Compromise",
+        "2:Vaporizers: Modern and Discreet Consumption",
+        "2:Edibles: Delicious and Long-Lasting Effects",
+        "2:Concentrates: Potency and Purity",
+        "3:Topicals: Targeted Relief Without Psychoactive Effects",
+        "3:How We Help You Choose",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 40,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/products/concentrates",
+      "finalUrl": "https://werollup.com/products/concentrates/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/products/concentrates",
+          "status": 301,
+          "to": "https://werollup.com/products/concentrates/"
+        }
+      ],
+      "title": "Concentrates – We Roll Up",
+      "titleLength": 25,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/products/concentrates/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Concentrates",
+        "2:Weed Concentrates at We Roll Up",
+        "2:Premium cannabis Dabs for Days",
+        "3:Carefully Curated Concentrates",
+        "3:Check out our concentrate selection today!",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 36,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/products/edibles",
+      "finalUrl": "https://werollup.com/products/edibles/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/products/edibles",
+          "status": 301,
+          "to": "https://werollup.com/products/edibles/"
+        }
+      ],
+      "title": "Edibles – We Roll Up",
+      "titleLength": 20,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/products/edibles/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Edibles",
+        "2:Edibles Offered At We Roll Up",
+        "2:Cannabis Edibles from We Roll Up",
+        "3:Enjoy Our Edibles Today",
+        "3:Our selection of edibles is sure to satisfy your sweet tooth!",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 35,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/products/flower",
+      "finalUrl": "https://werollup.com/products/flower/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/products/flower",
+          "status": 301,
+          "to": "https://werollup.com/products/flower/"
+        }
+      ],
+      "title": "Flower – We Roll Up",
+      "titleLength": 19,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/products/flower/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Flower",
+        "2:Why are we so especially proud of our selection of flower?",
+        "2:Weed Flower at We Roll Up",
+        "2:Our Flower Hits Different",
+        "3:Find the Flower You’re Looking for At We Roll Up",
+        "2:Cannabis Flower: The Heart of the Plant",
+        "3:From Harvest to Shelf: How Flower Is Prepared",
+        "2:Understanding Strain Types and Effects",
+        "3:Ways to Enjoy Flower",
+        "2:Why San Pedro Chooses We Roll Up for Flower",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 37,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/products/pre-rolls",
+      "finalUrl": "https://werollup.com/products/pre-rolls/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/products/pre-rolls",
+          "status": 301,
+          "to": "https://werollup.com/products/pre-rolls/"
+        }
+      ],
+      "title": "Pre-Rolls – We Roll Up",
+      "titleLength": 22,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/products/pre-rolls/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Pre-Rolls",
+        "2:Pre-Rolls At We Roll Up",
+        "2:Convenient, Tasty Pre-Rolls",
+        "3:Cannabis Pre-Rolls From We Roll Up",
+        "3:Give our pre-rolls a try today!",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 36,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/products/topicals",
+      "finalUrl": "https://werollup.com/products/topicals/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/products/topicals",
+          "status": 301,
+          "to": "https://werollup.com/products/topicals/"
+        }
+      ],
+      "title": "Topicals – We Roll Up",
+      "titleLength": 21,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/products/topicals/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Topicals",
+        "2:Topicals from We Roll Up",
+        "3:Our topicals are the ultimate addition to your bath & body collection",
+        "3:Shop Now",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 36,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/products/vaporizers-cartridges",
+      "finalUrl": "https://werollup.com/products/vaporizers-cartridges/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/products/vaporizers-cartridges",
+          "status": 301,
+          "to": "https://werollup.com/products/vaporizers-cartridges/"
+        }
+      ],
+      "title": "Vaporizers & Cartridges – We Roll Up",
+      "titleLength": 36,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/products/vaporizers-cartridges/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Vaporizers & Cartridges",
+        "2:Vape Pens at We Roll Up",
+        "2:Get the Vapes and Cartridges You Love from We Roll Up",
+        "3:Taste the Terpenes in Our Vapes",
+        "3:Our knowledgeable staff is ready to help you choose your vape!",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 36,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/reviews/greg-s",
+      "finalUrl": "https://werollup.com/reviews/greg-s/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/reviews/greg-s",
+          "status": 301,
+          "to": "https://werollup.com/reviews/greg-s/"
+        }
+      ],
+      "title": "Greg S – We Roll Up",
+      "titleLength": 19,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/reviews/greg-s/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Greg S",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/reviews/james",
+      "finalUrl": "https://werollup.com/reviews/james/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/reviews/james",
+          "status": 301,
+          "to": "https://werollup.com/reviews/james/"
+        }
+      ],
+      "title": "James – We Roll Up",
+      "titleLength": 18,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/reviews/james/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:James",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/reviews/jennifer",
+      "finalUrl": "https://werollup.com/reviews/jennifer/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/reviews/jennifer",
+          "status": 301,
+          "to": "https://werollup.com/reviews/jennifer/"
+        }
+      ],
+      "title": "Jennifer – We Roll Up",
+      "titleLength": 21,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/reviews/jennifer/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Jennifer",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/reviews/patricia-h",
+      "finalUrl": "https://werollup.com/reviews/patricia-h/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/reviews/patricia-h",
+          "status": 301,
+          "to": "https://werollup.com/reviews/patricia-h/"
+        }
+      ],
+      "title": "Patricia H – We Roll Up",
+      "titleLength": 23,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/reviews/patricia-h/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Patricia H",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/reviews/thomas-h",
+      "finalUrl": "https://werollup.com/reviews/thomas-h/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/reviews/thomas-h",
+          "status": 301,
+          "to": "https://werollup.com/reviews/thomas-h/"
+        }
+      ],
+      "title": "Thomas H – We Roll Up",
+      "titleLength": 21,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/reviews/thomas-h/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Thomas H",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 33,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area",
+      "finalUrl": "https://werollup.com/service-area/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area",
+          "status": 301,
+          "to": "https://werollup.com/service-area/"
+        }
+      ],
+      "title": "Service Area – We Roll Up",
+      "titleLength": 25,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Service Area",
+        "2:Our California Service Area",
+        "2:Communities We Proudly Serve",
+        "2:What Makes Our Service Area Unique",
+        "2:Convenience Across Our Service Area",
+        "3:Our Product Selection Across the Region",
+        "3:Growing With Our Communities",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 39,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/culver-city",
+      "finalUrl": "https://werollup.com/service-area/culver-city/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/culver-city",
+          "status": 301,
+          "to": "https://werollup.com/service-area/culver-city/"
+        }
+      ],
+      "title": "Culver City – We Roll Up",
+      "titleLength": 24,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/culver-city/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Culver City",
+        "2:San Pedro’s First Licensed Cannabis Dispensary, Now Serving the LAX Area",
+        "2:Premium Cannabis Products Near LAX and Culver City",
+        "3:Knowledgeable Team and Convenient Cannabis Services",
+        "3:LAX Community Hub",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 37,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup",
+      "finalUrl": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup",
+          "status": 301,
+          "to": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup/"
+        }
+      ],
+      "title": "Culver City Delivery and Pickup – We Roll Up",
+      "titleLength": 44,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Culver City Delivery and Pickup",
+        "2:Your Westside Service HubYour Westside Service Hub",
+        "2:Service Areas",
+        "3:Directions for Pickup",
+        "2:Order Now – Culver City Delivery",
+        "3:Map",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 40,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/lax",
+      "finalUrl": "https://werollup.com/service-area/lax/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/lax",
+          "status": 301,
+          "to": "https://werollup.com/service-area/lax/"
+        }
+      ],
+      "title": "LAX – We Roll Up",
+      "titleLength": 16,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/lax/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:LAX",
+        "2:Why LAX Travelers Pay Attention to Cannabis Access",
+        "2:Understanding the Rules Before You Travel",
+        "3:How the Buying Process Works With Us",
+        "3:Products That Suit Travelers and Locals Alike",
+        "3:Serving the Airport-Adjacent Communities",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/lax/lax-weed-delivery",
+      "finalUrl": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/lax/lax-weed-delivery",
+          "status": 301,
+          "to": "https://werollup.com/service-area/lax/lax-weed-delivery/"
+        }
+      ],
+      "title": "LAX Weed Delivery – We Roll Up",
+      "titleLength": 30,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:LAX Weed Delivery",
+        "2:What Makes the LAX Area Unique for Delivery",
+        "2:How the Ordering and Delivery Process Works",
+        "3:Products Suited to Travelers and Residents",
+        "3:Why Customers Across the Region Choose Us",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/marina-del-rey-ca",
+      "finalUrl": "https://werollup.com/service-area/marina-del-rey-ca/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/marina-del-rey-ca",
+          "status": 301,
+          "to": "https://werollup.com/service-area/marina-del-rey-ca/"
+        }
+      ],
+      "title": "Marina del Rey, CA – We Roll Up",
+      "titleLength": 31,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/marina-del-rey-ca/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Marina del Rey, CA",
+        "2:Weed Dispensary and Cannabis Delivery Serving Marina del Rey, CA",
+        "2:Why Marina del Rey Residents Choose Us as Their Weed Shop",
+        "2:Exploring Our Product Selection for Weed Delivery and In-Store Visits",
+        "3:Cannabis Delivery Options for Marina del Rey, CA",
+        "3:Serving the Marina del Rey Community and Beyond",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+      "finalUrl": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+          "status": 301,
+          "to": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/"
+        }
+      ],
+      "title": "Marina del Rey Weed Delivery – We Roll Up",
+      "titleLength": 41,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Marina del Rey Weed Delivery",
+        "2:Stage One: Browsing and Building Your Order",
+        "2:Stage Two: Verification and Order Confirmation",
+        "3:Stage Three: What You Can Have Delivered",
+        "3:Stage Four: Receiving and Enjoying Your Delivery",
+        "3:Who Relies on Marina del Rey Delivery",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/playa-vista-ca",
+      "finalUrl": "https://werollup.com/service-area/playa-vista-ca/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/playa-vista-ca",
+          "status": 301,
+          "to": "https://werollup.com/service-area/playa-vista-ca/"
+        }
+      ],
+      "title": "Playa Vista, CA – We Roll Up",
+      "titleLength": 28,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/playa-vista-ca/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Playa Vista, CA",
+        "2:Cannabis Delivery and Dispensary Services for Playa Vista, CA",
+        "2:Why Playa Vista Residents Choose Us for Cannabis Delivery",
+        "2:Exploring Our Extensive Product Menu",
+        "3:Serving the Playa Vista Community with Expertise and Care",
+        "3:Your Next Step Toward Premium Cannabis in Playa Vista",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 35,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery",
+      "finalUrl": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery",
+          "status": 301,
+          "to": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery/"
+        }
+      ],
+      "title": "Playa Vista Weed Delivery – We Roll Up",
+      "titleLength": 38,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Playa Vista Weed Delivery",
+        "2:Bringing Legal Cannabis Straight to Playa Vista Doorsteps",
+        "2:How the Delivery Process Actually Works",
+        "3:A Product Menu Worth Exploring",
+        "3:Serving Playa Vista and the Surrounding Westside",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/san-pedro",
+      "finalUrl": "https://werollup.com/service-area/san-pedro/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/san-pedro",
+          "status": 301,
+          "to": "https://werollup.com/service-area/san-pedro/"
+        }
+      ],
+      "title": "San Pedro – We Roll Up",
+      "titleLength": 22,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/san-pedro/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:San Pedro",
+        "2:Come Visit Us in San Pedro",
+        "2:We Roll Up Has the Strains You Love",
+        "3:We are proud to serve the Palos Verdes Peninsula and surrounding areas!",
+        "2:A Dispensary Rooted Between San Pedro and Palos Verdes",
+        "2:How We Guide You Through the Menu",
+        "3:The Range of Products on Our Shelves",
+        "3:Serving the Wider Coastal Community",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/san-pedro/carson-ca",
+      "finalUrl": "https://werollup.com/service-area/san-pedro/carson-ca/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/san-pedro/carson-ca",
+          "status": 301,
+          "to": "https://werollup.com/service-area/san-pedro/carson-ca/"
+        }
+      ],
+      "title": "Carson, CA – We Roll Up",
+      "titleLength": 23,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/san-pedro/carson-ca/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Carson, CA",
+        "2:Carson Shoppers Looking for a Trusted Cannabis Source",
+        "2:Why Carson Customers Make the Drive to San Pedro",
+        "2:How the In-Store Experience Works",
+        "3:The Range of Products on Our Shelves",
+        "3:Serving Carson and the Broader Community",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca",
+      "finalUrl": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca",
+          "status": 301,
+          "to": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca/"
+        }
+      ],
+      "title": "Rancho Palos Verdes, CA – We Roll Up",
+      "titleLength": 36,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Rancho Palos Verdes, CA",
+        "2:Cannabis Access for Rancho Palos Verdes Residents",
+        "2:What Sets Our Selection Apart",
+        "2:How the Visit Comes Together",
+        "3:A Welcoming Team and Environment",
+        "3:Serving the Broader Coastal Community",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery",
+      "finalUrl": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery",
+          "status": 301,
+          "to": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery/"
+        }
+      ],
+      "title": "San Pedro – Palos Verdes Weed Delivery – We Roll Up",
+      "titleLength": 51,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:San Pedro - Palos Verdes Weed Delivery",
+        "2:San Pedro Weed Delivery",
+        "3:How Our Weed Delivery Process Works",
+        "2:What You Can Order for Delivery in San Pedro",
+        "3:Serving San Pedro and Surrounding Areas",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 35,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/san-pedro/wilmington-ca",
+      "finalUrl": "https://werollup.com/service-area/san-pedro/wilmington-ca/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/san-pedro/wilmington-ca",
+          "status": 301,
+          "to": "https://werollup.com/service-area/san-pedro/wilmington-ca/"
+        }
+      ],
+      "title": "Wilmington, CA – We Roll Up",
+      "titleLength": 27,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/san-pedro/wilmington-ca/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Wilmington, CA",
+        "2:Cannabis for the Wilmington Community",
+        "2:What You Can Expect on Our Menu",
+        "3:Here is a snapshot of the categories we keep stocked for shoppers traveling in from Wilmington:",
+        "2:How Shopping With Us Works",
+        "3:The basic flow looks like this:",
+        "3:Why Wilmington Residents Choose We Roll Up",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/westchester-ca",
+      "finalUrl": "https://werollup.com/service-area/westchester-ca/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/westchester-ca",
+          "status": 301,
+          "to": "https://werollup.com/service-area/westchester-ca/"
+        }
+      ],
+      "title": "Westchester, CA – We Roll Up",
+      "titleLength": 28,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/westchester-ca/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Westchester, CA",
+        "2:Weed Dispensary and Cannabis Delivery Serving Westchester, Los Angeles, CA",
+        "2:Why Westchester Residents Choose We Roll Up",
+        "2:Exploring Our Extensive Product Selection",
+        "3:Cannabis Delivery and Convenient Ordering for Westchester",
+        "3:Building Community Through Cannabis",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 34,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery",
+      "finalUrl": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery",
+          "status": 301,
+          "to": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery/"
+        }
+      ],
+      "title": "Westchester Weed Delivery – We Roll Up",
+      "titleLength": 38,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Westchester Weed Delivery",
+        "2:What Westchester Delivery Looks Like Step by Step",
+        "2:The Range of Products We Bring to You",
+        "3:Situations Where Delivery Makes the Most Sense",
+        "3:Why Westchester Customers Choose Us",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 35,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    },
+    {
+      "url": "https://werollup.com/weed-delivery",
+      "finalUrl": "https://werollup.com/weed-delivery/",
+      "status": 200,
+      "redirectChain": [
+        {
+          "from": "https://werollup.com/weed-delivery",
+          "status": 301,
+          "to": "https://werollup.com/weed-delivery/"
+        }
+      ],
+      "title": "Weed Delivery – We Roll Up",
+      "titleLength": 26,
+      "metaDescription": "",
+      "metaDescriptionLength": 0,
+      "metaRobots": "max-image-preview:large",
+      "canonical": "https://werollup.com/weed-delivery/",
+      "lang": "en-US",
+      "h1Count": 1,
+      "headingOutline": [
+        "1:Weed Delivery",
+        "2:Convenient delivery to your door in San Pedro and Surrounding Communities",
+        "2:How Our Delivery Process Works",
+        "3:Step 1: Browse & Order",
+        "3:Step 2: Verification & Fulfillment",
+        "3:Step 3: Receive Your Delivery",
+        "2:What You Can Order for Delivery",
+        "2:Serving a Wide Range of Communities",
+        "2:Why Licensed Delivery Matters",
+        "2:Tips for a Great Delivery Experience",
+        "2:A Delivery Service Built on Community Values",
+        "6:LAX - Culver City",
+        "6:San Pedro - Palos Verdes"
+      ],
+      "openGraph": {
+        "og:url": "https://werollup.com",
+        "og:title": "We Roll Up",
+        "og:image": "https://werollup.comhttps://werollup.com/media/logo-white-x.png",
+        "og:image:width": "400",
+        "og:image:height": "71"
+      },
+      "twitter": {},
+      "hreflang": [],
+      "jsonLdTypes": [],
+      "jsonLd": [],
+      "imageCount": 4,
+      "imagesMissingAlt": 0,
+      "internalLinkCount": 35,
+      "externalLinkCount": 8,
+      "scripts": [
+        "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL",
+        "https://cdn.userway.org/widget.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+        "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js"
+      ],
+      "inlineStyleBytes": 31353
+    }
+  ]
+}

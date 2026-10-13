@@ -1,0 +1,14 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/c",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:28.068Z"
+    }
+  ]
+}

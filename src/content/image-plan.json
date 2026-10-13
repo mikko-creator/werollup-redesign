@@ -1,0 +1,310 @@
+{
+  "schema": "werollup/image-plan@1",
+  "note": "IMAGERY (WF3b), DESIGN-SPEC 10.4-10.5. role \"hero\" = the page-header art (banner or store hero) of the listed pages: the build puts it in page.generated.hero. role \"art\" = an atmosphere plate inside a band; \"card\" = a mega/sheet menu card drawn by the chrome on every page (pages []); \"cutout\" = a protrusion (5.4). Every alt is \"\" (DESIGN-SPEC 11: decorative): pass attrs { \"data-decorative\": \"\" }. \"phone\" = a 1170x960 crop of the same master for 390x320 banners at DPR 3: pass it to ctx.img as a file ref. Files under assets/generated/real/ are the client's own photos with the background removed: no AI label (needs the PIPELINE exemption, see docs/IMAGERY.md). kind \"video\": ctx.video(id) is null until the loop files exist; render the still named in \"still\" then. The 404 banner is S-MIST (render404 has no page path).",
+  "slots": {
+    "S-BUD-BANNER": {
+      "file": "assets/generated/s-bud-banner.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/products/"
+      ],
+      "phone": "assets/generated/s-bud-banner-phone.jpg",
+      "aiLabel": true,
+      "uses": "/products/ banner (6.18.9); the documented alternative home hero (Q1): switch \"/\" in by adding it to pages"
+    },
+    "S-TRICHOME": {
+      "file": "assets/generated/s-trichome.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/products/flower/"
+      ],
+      "phone": "assets/generated/s-trichome-phone.jpg",
+      "aiLabel": true,
+      "uses": "/products/flower/ banner (6.17); the still and reduced-motion state of V-TRICHOME"
+    },
+    "S-MIST": {
+      "file": "assets/generated/s-mist.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/about-us/daily-deals/",
+        "/accessibility-statement/",
+        "/privacy-policy/",
+        "/author/werollupadmin/",
+        "/reviews/greg-s/",
+        "/reviews/james/",
+        "/reviews/jennifer/",
+        "/reviews/patricia-h/",
+        "/reviews/thomas-h/"
+      ],
+      "phone": "assets/generated/s-mist-phone.jpg",
+      "aiLabel": true,
+      "uses": "banner of daily deals, the 2 legal pages, the author archive, the 5 review singles, and the 404 (render404: no page path) (6.18)"
+    },
+    "S-MIST-BAND": {
+      "file": "assets/generated/s-mist.jpg",
+      "alt": "",
+      "role": "art",
+      "kind": "image",
+      "pages": [
+        "/",
+        "/products/flower/"
+      ],
+      "sameAs": "S-MIST",
+      "aiLabel": true,
+      "uses": "atmosphere plate (4.2): home Serve band and the phone hero ground under the pane (6.9, D-2); the flower \"Hits Different\" band (6.17). Masked radially, never behind a text box"
+    },
+    "S-DUSK-PALMS": {
+      "file": "assets/generated/s-dusk-palms.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/about-us/",
+        "/contact/",
+        "/weed-delivery/",
+        "/service-area/"
+      ],
+      "phone": "assets/generated/s-dusk-palms-phone.jpg",
+      "aiLabel": true,
+      "uses": "banners of /about-us, /contact, /weed-delivery and the /service-area hub (10.4, 6.18)"
+    },
+    "S-DUSK-PALMS-BAND": {
+      "file": "assets/generated/s-dusk-palms.jpg",
+      "alt": "",
+      "role": "art",
+      "kind": "image",
+      "pages": [
+        "/"
+      ],
+      "sameAs": "S-DUSK-PALMS",
+      "aiLabel": true,
+      "uses": "home Community band, full-bleed under the cream veil (4.2, 6.10 row 5, D-3); still of V-DUSK"
+    },
+    "S-CARD-PREROLL": {
+      "file": "assets/generated/s-card-preroll.jpg",
+      "alt": "",
+      "role": "card",
+      "kind": "image",
+      "pages": [],
+      "aiLabel": true,
+      "uses": "Pre-Rolls mega card and menu-sheet card (6.4; chrome on every page); optional 88 px thumbnail on /products/ (6.18.9)"
+    },
+    "S-CARD-VAPE": {
+      "file": "assets/generated/s-card-vape.jpg",
+      "alt": "",
+      "role": "card",
+      "kind": "image",
+      "pages": [],
+      "aiLabel": true,
+      "uses": "Vaporizers & Cartridges mega card and menu-sheet card (6.4); optional /products/ thumbnail"
+    },
+    "S-CARD-EDIBLES": {
+      "file": "assets/generated/s-card-edibles.jpg",
+      "alt": "",
+      "role": "card",
+      "kind": "image",
+      "pages": [],
+      "aiLabel": true,
+      "uses": "Edibles mega card and menu-sheet card (6.4; deliberately non-depictive, A9); optional /products/ thumbnail"
+    },
+    "S-EDIBLES-BANNER": {
+      "file": "assets/generated/s-card-edibles-banner.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/products/edibles/"
+      ],
+      "phone": "assets/generated/s-card-edibles-phone.jpg",
+      "sameAs": "S-CARD-EDIBLES",
+      "aiLabel": true,
+      "uses": "/products/edibles/ banner: the 21:9 crop of the S-CARD-EDIBLES master the spec names (10.4: 2368x1015, 1.25 at 1898 px)"
+    },
+    "S-CUT-BUD": {
+      "file": "assets/generated/s-cut-bud.png",
+      "alt": "",
+      "role": "cutout",
+      "kind": "image",
+      "pages": [
+        "/products/flower/"
+      ],
+      "aiLabel": true,
+      "uses": "F1: the cured-bud cut-out across the flower banner seam (5.4)"
+    },
+    "CUT-CAP": {
+      "file": "assets/generated/real/cut-cap.png",
+      "alt": "",
+      "role": "cutout",
+      "kind": "image",
+      "pages": [
+        "/",
+        "/weed-delivery/"
+      ],
+      "aiLabel": false,
+      "uses": "H3 (home Serve light box, bottom and left frame edges) and T3 (/weed-delivery split-section light box) (5.4)"
+    },
+    "CUT-LIGHTER": {
+      "file": "assets/generated/real/cut-lighter.png",
+      "alt": "",
+      "role": "cutout",
+      "kind": "image",
+      "pages": [
+        "/",
+        "/products/pre-rolls/"
+      ],
+      "twin": {
+        "photo": "assets/source/8bd7f345-werollup-red-lighter-preroll-ashtray-playing-cards-gallery.webp",
+        "photoSize": [
+          1200,
+          1600
+        ],
+        "x": 207,
+        "y": 310,
+        "w": 523,
+        "h": 686
+      },
+      "aiLabel": false,
+      "uses": "H4 (rises out of the top edge of the home Community light box, aligned over its photo twin) and T2 (/products/pre-rolls banner bottom edge) (5.4)"
+    },
+    "G-LAX-DUSK": {
+      "file": "assets/generated/g-lax-dusk.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/service-area/culver-city/",
+        "/service-area/culver-city/culver-city-delivery-and-pickup/",
+        "/service-area/lax/",
+        "/service-area/lax/lax-weed-delivery/",
+        "/service-area/marina-del-rey-ca/",
+        "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+        "/service-area/playa-vista-ca/",
+        "/service-area/playa-vista-ca/playa-vista-weed-delivery/",
+        "/service-area/westchester-ca/",
+        "/service-area/westchester-ca/westchester-weed-delivery/",
+        "/location/culver-city/",
+        "/location/culver-city/shop/",
+        "/lax-menu/",
+        "/location-pagetype/cannabis-menu-page/"
+      ],
+      "phone": "assets/generated/g-lax-dusk-phone.jpg",
+      "aiLabel": true,
+      "uses": "banners of the 10 Westside town pages, /location/culver-city hero (place plate), the Culver City shop banner (the 18 query variants are the same file), /lax-menu, /location-pagetype/cannabis-menu-page"
+    },
+    "G-HARBOR-HAZE": {
+      "file": "assets/generated/g-harbor-haze.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/service-area/san-pedro/",
+        "/service-area/san-pedro/carson-ca/",
+        "/service-area/san-pedro/rancho-palos-verdes-ca/",
+        "/service-area/san-pedro/san-pedro-weed-delivery/",
+        "/service-area/san-pedro/wilmington-ca/",
+        "/location/san-pedro/",
+        "/location/san-pedro/shop/",
+        "/location/san-pedro/shop/menu/edible/",
+        "/location/san-pedro/shop/menu/extract/",
+        "/location/san-pedro/shop/menu/flower/",
+        "/location/san-pedro/shop/menu/gear/",
+        "/location/san-pedro/shop/menu/jane-gold/",
+        "/location/san-pedro/shop/menu/pre-roll/",
+        "/location/san-pedro/shop/menu/topical/",
+        "/location/san-pedro/shop/menu/vape/",
+        "/location-pagetype/primary-location/"
+      ],
+      "phone": "assets/generated/g-harbor-haze-phone.jpg",
+      "aiLabel": true,
+      "uses": "banners of the 5 San Pedro group pages, /location/san-pedro hero, the San Pedro shop banner and its 8 menu paths (the 19 filter variants are the same file), /location-pagetype/primary-location"
+    },
+    "G-PREROLL-BANNER": {
+      "file": "assets/generated/g-preroll-banner.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/products/pre-rolls/"
+      ],
+      "phone": "assets/generated/g-preroll-banner-phone.jpg",
+      "aiLabel": true,
+      "uses": "/products/pre-rolls banner (6.17)"
+    },
+    "G-VAPE-BANNER": {
+      "file": "assets/generated/g-vape-banner.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/products/vaporizers-cartridges/"
+      ],
+      "phone": "assets/generated/g-vape-banner-phone.jpg",
+      "aiLabel": true,
+      "uses": "/products/vaporizers-cartridges banner (6.17)"
+    },
+    "V-MIST": {
+      "file": "assets/generated/v-mist-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/",
+        "/products/flower/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-mist.mp4",
+        "webm": "assets/generated/v-mist.webm",
+        "mp4Phone": "assets/generated/v-mist-phone.mp4",
+        "webmPhone": "assets/generated/v-mist-phone.webm",
+        "poster": "assets/generated/v-mist-poster.webp"
+      },
+      "still": "S-MIST-BAND",
+      "aiLabel": true,
+      "uses": "loop over S-MIST in the home Serve band and the flower Hits band (10.5, 7.5); never in the home hero"
+    },
+    "V-DUSK": {
+      "file": "assets/generated/v-dusk-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-dusk.mp4",
+        "webm": "assets/generated/v-dusk.webm",
+        "mp4Phone": "assets/generated/v-dusk-phone.mp4",
+        "webmPhone": "assets/generated/v-dusk-phone.webm",
+        "poster": "assets/generated/v-dusk-poster.webp"
+      },
+      "still": "S-DUSK-PALMS-BAND",
+      "aiLabel": true,
+      "uses": "loop over S-DUSK-PALMS in the home Community band (10.5)"
+    },
+    "V-TRICHOME": {
+      "file": "assets/generated/v-trichome-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/products/flower/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-trichome.mp4",
+        "webm": "assets/generated/v-trichome.webm",
+        "mp4Phone": "assets/generated/v-trichome-phone.mp4",
+        "webmPhone": "assets/generated/v-trichome-phone.webm",
+        "poster": "assets/generated/v-trichome-poster.webp"
+      },
+      "still": "S-TRICHOME",
+      "aiLabel": true,
+      "uses": "loop over S-TRICHOME in the /products/flower banner (10.5; in that page's first screen, Q4)"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead1",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.800Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead2",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.802Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead3",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.816Z"
+    }
+  ]
+}

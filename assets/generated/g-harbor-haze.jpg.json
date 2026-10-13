@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "G-HARBOR-HAZE",
+  "file": "assets/generated/g-harbor-haze.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Coastal morning haze over calm harbour water in soft golden light, layered pale hills dissolving into mist, gentle reflections, photographic, wide, calm; no bridge, no ships' names, no cranes with markings, no buildings in focus, no text, no logos, no people; no faces, no hands, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+  "input": {
+    "aspect_ratio": "21:9",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 2814687974,
+  "requestId": "01a133e2-84eb-7aa3-829b-0526f30f6d87",
+  "cutout": null,
+  "width": 3136,
+  "height": 1344,
+  "sha256": "73b8bfe0bcdef8b2b7a82b57a4899fda22bbc6a50af592463c74102344a651d3",
+  "raw": "tmp/img/raw/G-HARBOR-HAZE.1791871855957.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-10-13T06:10:58.001Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "harbour haze, layered hills, calm water; a soft unmarked cargo ship and two plain cranes at mid-left (no names, numbers or markings at 200%, which the prompt allows); no text, no people",
+    "method": "whole frame (new-attempt1.png) + four 100% tiles (rv-5.png) + the ship and cranes at 200% (new-attempt1-zoom.png)",
+    "by": "IMAGERY (WF3b)",
+    "date": "2026-10-13"
+  }
+}

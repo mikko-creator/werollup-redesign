@@ -1,0 +1,122 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "archive-taxonomy",
+ "path": "/location-pagetype/cannabis-menu-page/",
+ "slug": "location-pagetype-cannabis-menu-page",
+ "sourceUrl": "https://werollup.com/location-pagetype/cannabis-menu-page",
+ "rawFile": "audit/raw/location-pagetype-cannabis-menu-page.html",
+ "wpTemplate": "tax-location-pagetype",
+ "store": "culver-city",
+ "menuFamily": "lax-culver-city",
+ "subheader": "shopping-strip",
+ "title": "Cannabis Menu Page – We Roll Up",
+ "metaDescription": "Page Type: Cannabis Menu Page",
+ "metaDescriptionFrom": "h1",
+ "canonical": "https://werollup.com/location-pagetype/cannabis-menu-page/",
+ "canonicalFrom": "self (A17: the source has none)",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Page Type: Cannabis Menu Page",
+ "breadcrumbs": [
+  {
+   "label": "Home",
+   "href": "/",
+   "current": false
+  },
+  {
+   "label": "Locations",
+   "href": "/location/culver-city/shop/",
+   "current": false
+  },
+  {
+   "label": "LAX - Culver City",
+   "href": "/location/culver-city/",
+   "current": false
+  },
+  {
+   "label": "Shop LAX - Culver City",
+   "href": null,
+   "current": true
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Page Type: Cannabis Menu Page",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Page Type: Cannabis Menu Page",
+      "text": "Page Type: Cannabis Menu Page"
+     },
+     "image": {
+      "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "post-list",
+   "heading": null,
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "post-list",
+     "posts": [
+      {
+       "date": {
+        "month": "Apr",
+        "day": "3",
+        "year": "2026"
+       },
+       "image": null,
+       "iconLink": {
+        "href": "/location/culver-city/shop/",
+        "icon": "external-link-alt"
+       },
+       "title": "Shop LAX - Culver City",
+       "text": "Shop LAX - Culver City",
+       "href": "/location/culver-city/shop/",
+       "titleLook": "h3"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp"
+ ]
+}

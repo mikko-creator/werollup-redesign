@@ -1,0 +1,199 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "education",
+ "path": "/education/",
+ "slug": "education",
+ "sourceUrl": "https://werollup.com/education",
+ "rawFile": "audit/raw/education.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Education – We Roll Up",
+ "metaDescription": "At We Roll Up, we believe that informed consumers make the best decisions for their health, lifestyle, and overall well-being.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/education/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Education",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Education",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Education",
+      "text": "Education"
+     },
+     "image": {
+      "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Cannabis Education at We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Cannabis Education at We Roll Up",
+     "text": "Cannabis Education at We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "At <a href=\"/\">We Roll Up</a>, we believe that informed consumers make the best decisions for their health, lifestyle, and overall well-being. As <a href=\"/service-area/san-pedro/\">San Pedro</a>‘s first licensed cannabis dispensary, we have always prioritized education as a cornerstone of our mission. Whether you are a first-time visitor exploring a weed dispensary for the very first time or a seasoned connoisseur looking to deepen your understanding of cannabinoid science, our knowledgeable and diverse team is here to guide you through every question and curiosity you bring through our doors. We are open seven days a week and proudly serve customers from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX and beyond, ensuring that cannabis education remains accessible to everyone in California.",
+     "text": "At We Roll Up, we believe that informed consumers make the best decisions for their health, lifestyle, and overall well-being. As San Pedro‘s first licensed cannabis dispensary, we have always prioritized education as a cornerstone of our mission. Whether you are a first-time visitor exploring a weed dispensary for the very first time or a seasoned connoisseur looking to deepen your understanding of cannabinoid science, our knowledgeable and diverse team is here to guide you through every question and curiosity you bring through our doors. We are open seven days a week and proudly serve customers from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX and beyond, ensuring that cannabis education remains accessible to everyone in California."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Understanding the Cannabis Plant",
+     "text": "Understanding the Cannabis Plant"
+    },
+    {
+     "type": "paragraph",
+     "html": "Cannabis is a complex plant containing over four hundred chemical compounds, with more than one hundred identified cannabinoids. The two most widely recognized cannabinoids are THC (tetrahydrocannabinol) and CBD (cannabidiol). THC is the primary psychoactive compound responsible for the euphoric sensation commonly associated with marijuana, while CBD is non-intoxicating and has been studied for its potential therapeutic properties. However, these two compounds only scratch the surface. Minor cannabinoids like CBN, CBG, and THCV are gaining significant attention in the industry for their unique effects, and our team loves exploring these topics with curious customers.",
+     "text": "Cannabis is a complex plant containing over four hundred chemical compounds, with more than one hundred identified cannabinoids. The two most widely recognized cannabinoids are THC (tetrahydrocannabinol) and CBD (cannabidiol). THC is the primary psychoactive compound responsible for the euphoric sensation commonly associated with marijuana, while CBD is non-intoxicating and has been studied for its potential therapeutic properties. However, these two compounds only scratch the surface. Minor cannabinoids like CBN, CBG, and THCV are gaining significant attention in the industry for their unique effects, and our team loves exploring these topics with curious customers."
+    },
+    {
+     "type": "paragraph",
+     "html": "Terpenes are another essential component of the cannabis plant that we emphasize in our educational conversations. These aromatic compounds are responsible for the distinctive scents and flavors found in different strains, from the citrusy burst of limonene to the earthy calm of myrcene. Beyond aroma, terpenes work synergistically with cannabinoids in what researchers call the “entourage effect,” potentially enhancing or modifying the overall experience. When you visit our weed shop, we help you understand how terpene profiles influence the effects you feel, so you can make choices aligned with your personal preferences.",
+     "text": "Terpenes are another essential component of the cannabis plant that we emphasize in our educational conversations. These aromatic compounds are responsible for the distinctive scents and flavors found in different strains, from the citrusy burst of limonene to the earthy calm of myrcene. Beyond aroma, terpenes work synergistically with cannabinoids in what researchers call the “entourage effect,” potentially enhancing or modifying the overall experience. When you visit our weed shop, we help you understand how terpene profiles influence the effects you feel, so you can make choices aligned with your personal preferences."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Navigating Product Categories",
+     "text": "Navigating Product Categories"
+    },
+    {
+     "type": "paragraph",
+     "html": "One of the most common areas where customers seek guidance is understanding the wide range of product types available. At We Roll Up, we carry an extensive menu that includes smokable <a href=\"/products/flower/\">flower</a>, <a href=\"/products/pre-rolls/\">pre-rolls</a>, <a href=\"/products/vaporizers-cartridges/\">vapes</a>, gummies, <a href=\"/products/edibles/\">edibles</a>, <a href=\"/products/concentrates/\">concentrates</a>, and <a href=\"/products/topicals/\">topicals</a>. Each category offers a different onset time, duration of effects, and method of consumption. Smokable flower and vapes typically deliver effects within minutes, while edibles can take anywhere from thirty minutes to two hours to fully manifest. Concentrates offer higher potency for experienced users, and topicals provide localized relief without psychoactive effects.",
+     "text": "One of the most common areas where customers seek guidance is understanding the wide range of product types available. At We Roll Up, we carry an extensive menu that includes smokable flower, pre-rolls, vapes, gummies, edibles, concentrates, and topicals. Each category offers a different onset time, duration of effects, and method of consumption. Smokable flower and vapes typically deliver effects within minutes, while edibles can take anywhere from thirty minutes to two hours to fully manifest. Concentrates offer higher potency for experienced users, and topicals provide localized relief without psychoactive effects."
+    },
+    {
+     "type": "paragraph",
+     "html": "Our friendly staff walks every customer through these distinctions because choosing the right product matters. We always have a Spanish-speaking team member onsite to ensure language is never a barrier to understanding. Whether someone searching for marijuana near me lands at our dispensary for pain management, relaxation, creativity, or social enjoyment, we tailor our recommendations based on individual needs and experience levels. Finding your perfect strain is our mission, and education is how we accomplish it.",
+     "text": "Our friendly staff walks every customer through these distinctions because choosing the right product matters. We always have a Spanish-speaking team member onsite to ensure language is never a barrier to understanding. Whether someone searching for marijuana near me lands at our dispensary for pain management, relaxation, creativity, or social enjoyment, we tailor our recommendations based on individual needs and experience levels. Finding your perfect strain is our mission, and education is how we accomplish it."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Key Topics We Cover In-Store",
+     "text": "Key Topics We Cover In-Store"
+    },
+    {
+     "type": "paragraph",
+     "html": "When you visit us, our team is prepared to discuss a broad range of educational topics that help you feel confident about your purchase. Here are some of the areas we frequently explore with customers:",
+     "text": "When you visit us, our team is prepared to discuss a broad range of educational topics that help you feel confident about your purchase. Here are some of the areas we frequently explore with customers:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong>Dosing and microdosing</strong> for beginners who want to start low and go slow to find their ideal comfort level",
+       "text": "Dosing and microdosing for beginners who want to start low and go slow to find their ideal comfort level"
+      },
+      {
+       "html": "<strong>Indica, sativa, and hybrid distinctions</strong> and how modern cannabis science is moving toward terpene and cannabinoid profiling for more accurate effect predictions",
+       "text": "Indica, sativa, and hybrid distinctions and how modern cannabis science is moving toward terpene and cannabinoid profiling for more accurate effect predictions"
+      },
+      {
+       "html": "<strong>Storage and freshness</strong> to help customers preserve potency and flavor at home",
+       "text": "Storage and freshness to help customers preserve potency and flavor at home"
+      },
+      {
+       "html": "<strong>Legal compliance</strong> including possession limits, consumption regulations, and age requirements in California",
+       "text": "Legal compliance including possession limits, consumption regulations, and age requirements in California"
+      },
+      {
+       "html": "<strong>Medical versus recreational use</strong> and how to determine which approach best serves your goals",
+       "text": "Medical versus recreational use and how to determine which approach best serves your goals"
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Industry Trends and the Future of Cannabis Knowledge",
+     "text": "Industry Trends and the Future of Cannabis Knowledge"
+    },
+    {
+     "type": "paragraph",
+     "html": "The cannabis industry in the United States is evolving rapidly. According to recent market analyses, the legal cannabis market is projected to exceed fifty billion dollars in annual revenue within the next several years. With this growth comes an increasing demand for consumer education. Emerging trends include lab-tested product transparency, strain-specific research, and personalized cannabis wellness plans based on individual endocannabinoid systems. Consumers searching for weed near me or cannabis delivery options are no longer just looking for convenience. They want trustworthy information to accompany their purchases.",
+     "text": "The cannabis industry in the United States is evolving rapidly. According to recent market analyses, the legal cannabis market is projected to exceed fifty billion dollars in annual revenue within the next several years. With this growth comes an increasing demand for consumer education. Emerging trends include lab-tested product transparency, strain-specific research, and personalized cannabis wellness plans based on individual endocannabinoid systems. Consumers searching for weed near me or cannabis delivery options are no longer just looking for convenience. They want trustworthy information to accompany their purchases."
+    },
+    {
+     "type": "paragraph",
+     "html": "At We Roll Up, we are committed to staying ahead of these developments. We continuously train our team on the latest research, product innovations, and regulatory changes so that every interaction you have with us is rooted in accurate, up-to-date knowledge. We also offer convenient options like online ordering, in-store pickup, and curbside pickup so that your educational journey and shopping experience are seamless from start to finish.",
+     "text": "At We Roll Up, we are committed to staying ahead of these developments. We continuously train our team on the latest research, product innovations, and regulatory changes so that every interaction you have with us is rooted in accurate, up-to-date knowledge. We also offer convenient options like online ordering, in-store pickup, and curbside pickup so that your educational journey and shopping experience are seamless from start to finish."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Visit Us and Learn Something New",
+     "text": "Visit Us and Learn Something New"
+    },
+    {
+     "type": "paragraph",
+     "html": "Cannabis education is not a one-time event. It is an ongoing conversation, and we welcome you to be part of it. Whether you stop by from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX or from across the country, our doors are open to recreational users, medical patients, novices, and connoisseurs alike. We create a secure, comfortable, and accepting environment where questions are encouraged and knowledge is freely shared. Come discover the best of cannabinoids, terpenes, and effects with a team that genuinely loves what we do.",
+     "text": "Cannabis education is not a one-time event. It is an ongoing conversation, and we welcome you to be part of it. Whether you stop by from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX or from across the country, our doors are open to recreational users, medical patients, novices, and connoisseurs alike. We create a secure, comfortable, and accepting environment where questions are encouraged and knowledge is freely shared. Come discover the best of cannabinoids, terpenes, and effects with a team that genuinely loves what we do."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp"
+ ]
+}

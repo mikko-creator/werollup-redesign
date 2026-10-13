@@ -1,0 +1,1817 @@
+{
+  "schema": "werollup-reforge/commerce@1",
+  "generated": "2026-10-13T02:37:45.605Z",
+  "generator": "tmp/understand/commerce/build-commerce.mjs (COMMERCE lane, UNDERSTAND phase); evidence = audit/raw/*.html, audit/site-inventory.json, assets/js/4c0935fa-main.js",
+  "correctionToBrief": "The brief assumed Culver City uses the Jane Boost embed. The HTML proves the reverse: Culver City (and /lax-menu) embed the Weedmaps WM Store script werolluplax.wm.store; San Pedro is the Jane Boost partner-hosted frameless embed (store 4281, embed config 989).",
+  "stores": [
+    {
+      "name": "LAX - Culver City",
+      "shopPath": "/location/culver-city/shop/",
+      "alsoServedBy": [
+        "/lax-menu/ (separate WordPress page, same WM Store script, inside <p>)",
+        "/shop (301 alias, crawl)",
+        "/shop-playa-vista?filters[root_types][]=vape (alias, query dropped, crawl)"
+      ],
+      "provider": "Weedmaps WM Store (hosted storefront embed, subdomain werolluplax.wm.store)",
+      "embed": {
+        "snippet": "<div style=\"min-height:100vh\"><script src=\"https://werolluplax.wm.store/static/js/embed.js\"></script></div>",
+        "snippetLaxMenu": "<p><script src=\"https://werolluplax.wm.store/static/js/embed.js\"></script></p>",
+        "storeId": "werolluplax (wm.store subdomain); locationId=10599 appears as a host-page query param in deep links",
+        "configId": null,
+        "scriptUrls": [
+          "https://werolluplax.wm.store/static/js/embed.js"
+        ],
+        "container": "none declared: the script tag sits inside <div style=\"min-height:100vh\"> placed after the empty location <article> in <main>; on /lax-menu inside a <p>. Where embed.js renders (iframe or inline) is UNVERIFIED: embed.js is not on disk and fetching it means contacting the vendor.",
+        "evidence": [
+          "audit/raw/location-culver-city-shop.html L365",
+          "audit/raw/lax-menu.html L348",
+          "pages carrying embed.js: 20 (20 = 19 culver shop records + lax-menu)"
+        ],
+        "inlineConfig": null
+      },
+      "routes": {
+        "scheme": "query string on the one shop page: ?store_path=<path in the WM store>&store_query=<URL-encoded query of the WM store, itself carrying %5B..%5D brackets, so the link holds them double-encoded as %255B..%255D>&locationId=10599 (optional). Read client-side by embed.js (inference from parameter names; UNVERIFIED). The server returns the same page for every query (canonical stays /location/culver-city/shop/).",
+        "examples": [
+          {
+            "route": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+            "decoded": {
+              "store_path": "/",
+              "store_query": "filter%5BanyClientCategories%5D%5B%5D=accessories-category-pages&sortBy=most_popular&page=1",
+              "locationId": "10599"
+            }
+          },
+          {
+            "route": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+            "decoded": {
+              "store_path": "/",
+              "store_query": "filter%5BanyClientCategories%5D%5B%5D=concentrates-category-pages&page=1",
+              "locationId": null
+            }
+          },
+          {
+            "route": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+            "decoded": {
+              "store_path": "/",
+              "store_query": "filter%5BanyClientCategories%5D%5B%5D=concentrates-category-pages&sortBy=most_popular&page=1",
+              "locationId": "10599"
+            }
+          },
+          {
+            "route": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+            "decoded": {
+              "store_path": "/",
+              "store_query": "filter%5BanyClientCategories%5D%5B%5D=edibles-category-pages&page=1",
+              "locationId": null
+            }
+          },
+          {
+            "route": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+            "decoded": {
+              "store_path": "/",
+              "store_query": "filter%5BbrandSlugs%5D%5B%5D=710-labs&page=1",
+              "locationId": null
+            }
+          }
+        ],
+        "count": 19,
+        "countNote": "19 crawled records = base + 18 query variants; plus /lax-menu",
+        "all": [
+          "/location/culver-city/shop",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+          "/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599"
+        ],
+        "staticRebuildNeeds": "one file /location/culver-city/shop/index.html; every query variant works automatically because the host ignores the query and the script reads location.search. Also serve /lax-menu/index.html, and redirects /shop -> /location/culver-city/shop/ and /shop-playa-vista -> /location/culver-city/shop/."
+      },
+      "links": [
+        {
+          "label": "Best Selling",
+          "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+          "occurrences": 122
+        },
+        {
+          "label": "Order Concentrates",
+          "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 122
+        },
+        {
+          "label": "Order Edibles & Gummies",
+          "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 122
+        },
+        {
+          "label": "Order Flower",
+          "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 122
+        },
+        {
+          "label": "Order Pre-Rolls",
+          "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 122
+        },
+        {
+          "label": "Order Topicals",
+          "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 122
+        },
+        {
+          "label": "Order Vaporizers & Cartridges",
+          "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 122
+        },
+        {
+          "label": "LAX - Culver City 11834 Jefferson Boulevard, Culver City, CA 11834 Select Location",
+          "page": "all 91 pages",
+          "href": "https://werollup.com/location/culver-city/shop/",
+          "occurrences": 91
+        },
+        {
+          "label": "Order Now",
+          "page": "all 91 pages",
+          "href": "https://werollup.com/location/culver-city/shop/",
+          "occurrences": 91
+        },
+        {
+          "label": "Order Now",
+          "page": "all 91 pages",
+          "href": "https://werollup.com/location/culver-city/shop/",
+          "occurrences": 91
+        },
+        {
+          "label": "Shop LAX - Culver City",
+          "page": "all 91 pages",
+          "href": "/location/culver-city/shop/",
+          "occurrences": 91
+        },
+        {
+          "label": "Order Vaporizers & Cartridges",
+          "page": "every primary-navigation menu page (40)",
+          "href": "/shop-playa-vista/?filters%5Broot_types%5D%5B%5D=vape",
+          "occurrences": 80
+        },
+        {
+          "label": "Locations",
+          "page": "20 pages, e.g. /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "href": "https://werollup.com/location/culver-city/shop/",
+          "occurrences": 20
+        },
+        {
+          "label": "View Other Locations",
+          "page": "20 pages, e.g. /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "href": "https://werollup.com/location/culver-city/shop/",
+          "occurrences": 20
+        },
+        {
+          "label": "Shop Now",
+          "page": "/education/recreational-medicinal, /products/concentrates, /products/edibles, /products/pre-rolls, /products/topicals, /products/vaporizers-cartridges",
+          "href": "/shop",
+          "occurrences": 6
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+          "occurrences": 2
+        },
+        {
+          "label": "Order Now",
+          "page": "/, /weed-delivery",
+          "href": "/location/culver-city/shop/",
+          "occurrences": 2
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location-pagetype/cannabis-menu-page",
+          "href": "https://werollup.com/location/culver-city/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "Delivery",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "Delivery Menu",
+          "page": "/",
+          "href": "/location/culver-city/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "Order Now",
+          "page": "/",
+          "href": "/shop",
+          "occurrences": 1
+        },
+        {
+          "label": "Order Now",
+          "page": "/",
+          "href": "/shop",
+          "occurrences": 1
+        },
+        {
+          "label": "Order Now",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "See Deals",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop LAX - Culver City",
+          "page": "/location-pagetype/cannabis-menu-page",
+          "href": "https://werollup.com/location/culver-city/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop now",
+          "page": "/",
+          "href": "https://werollup.com/location/culver-city/shop",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now",
+          "page": "/",
+          "href": "/shop",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now",
+          "page": "/products/flower",
+          "href": "/shop",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/culver-city",
+          "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop now!",
+          "page": "/service-area/culver-city/culver-city-delivery-and-pickup",
+          "href": "https://werollup.com/lax-menu/",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "San Pedro - Palos Verdes",
+      "shopPath": "/location/san-pedro/shop/",
+      "provider": "Jane (iheartjane) Boost partner-hosted frameless embed, served by the Jane WordPress plugin (meta jane:version 1.4.7)",
+      "embed": {
+        "snippet": "<script>\n      window.prerenderReady = false;\n    </script>\n<script id=\"jane_frameless_embed_runtime_config\">\n      window.___JANE___ = JSON.parse(\n        '{\"runtimeConfig\":{\"embedConfigId\":989,\"isFramelessEmbedMode\":true,\"showAgeGate\":false,\"ssoCredentials\":{\"google_oauth2\":\"128534276959-62hdmpmibqr7qiub6h3s41k05o5ep8ka.apps.googleusercontent.com\"},\"storeId\":4281,\"partnerHostedPath\":\"/location/san-pedro/shop\",\"disableJaneTitleAndDescriptionMeta\":false,\"customProductDetailTitleSuffix\":\"\"}}'\n      );\n    </script>\n<link href=\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/omgf-stylesheet-155.css?ver=1667243715\" rel=\"stylesheet\">\n<script type=\"module\" crossorigin=\"\" src=\"https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js\"></script>\n<script id=\"jane-app-settings\" type=\"application/json\">{\"actionCablePath\":\"wss://api.iheartjane.com/cable\",\"aeropayConsumerId\":\"e982b409-6bf8-4dc1-98e4-b6ee51a8f957\",\"aeropayEnv\":\"production\",\"algoliaAppId\":\"VFM4X0N23A\",\"algoliaEnv\":\"production\",\"algoliaUrl\":\"search.iheartjane.com\",\"apiPath\":\"/api/v1\",\"apiPathBase\":\"/api\",\"apiPathV2\":\"/api/v2\",\"appleClientId\":\"com.jane.jane-web-app\",\"boostDeployPublicPath\":\"https://boost-assets.iheartjane.com/\",\"brandLaunchDarklyClientID\":\"64f8b62c828d8e12f442c899\",\"brandPortalUrl\":\"https://brands.iheartjane.com\",\"brandsDatadogAppId\":\"71bbf853-dffe-45c0-ab3a-dab37d6802f6\",\"brandServerUrl\":\"https://brands-api.iheartjane.com\",\"businessDatadogAppId\":\"ff9a79f4-31da-4a17-aed7-2d32d4b10747\",\"businessLaunchDarklyClientID\":\"6406e548daa24412d4231b62\",\"businessUrl\":\"https://business.iheartjane.com\",\"canPayV2RemotePaySDK\":\"https://remotepay.canpaydebit.com/cp-min.js\",\"cartLimitDuplicateRuleUserIds\":[3728],\"datadogEnv\":\"core-prod\",\"deployPublicPath\":\"https://www.iheartjane.com/\",\"deployPublicPathWithoutUriScheme\":\"www.iheartjane.com/\",\"dmEndpoint\":\"https://dmerch.iheartjane.com\",\"embeddedMenuRowScriptUrl\":\"https://bloom-assets.iheartjane.com/embedded-menu-row.js\",\"facebookAppId\":\"1525460180845768\",\"features\":[\"groupSpecials\",\"googleSignIn\",\"guestCheckout\",\"curbsidePickupNotify\",\"ownershipIdentification\",\"variableMaxOrders\",\"stronghold\",\"storeCommunicationBanner\",\"strongholdBusiness\",\"appleSignIn\",\"twoWayMessaging\",\"roundingDisplay\",\"appPromotion\",\"rootsOnlyCustomRows\"],\"fingerprintEndpoint\":\"https://iheartjane.com/aly2djS2yXoTGnR0/DBeqE6HSSwijog9l\",\"fingerprintScriptPath\":\"https://iheartjane.com/aly2djS2yXoTGnR0/JiGrIFOganSXlo1y\",\"framelessEmbedApiUrl\":\"https://api.iheartjane.com\",\"fulfillmentV2\":\"https://business.iheartjane.com/web/fulfillment\",\"googleAnalyticsBusinessTrackingId\":\"UA-90435177-3\",\"googleAnalyticsCustomerTrackingId\":\"UA-90435177-2\",\"googleClientId\":\"1003381492261-86f9tg21hn9dvqg2ko0852805g37nfj5.apps.googleusercontent.com\",\"idAnalyticsUrl\":\"https://id.iheartjane.com/1\",\"janeSupportManagerIds\":[1,3728],\"kioskDatadogAppId\":\"f6809d75-7295-4a20-8500-fd4a2f2b1b74\",\"kioskV2Url\":\"https://kiosk.iheartjane.com\",\"launchDarklyClientID\":\"6384e85523613d11ad9588c5\",\"marketplaceUrl\":\"https://www.iheartjane.com\",\"mfaForceSMS\":true,\"mixpanelDomain\":\"https://user-events.iheartjane.com\",\"moengageDebug\":false,\"moengageEnv\":\"LIVE\",\"moengageWorkspaceId\":\"FBMS77MLGF4QMXGVHT88GWLW\",\"monerisEnv\":\"prod\",\"monerisJsSdkUrl\":\"https://gateway.moneris.com/chkt/js/chkt_v1.00.js\",\"rootsOnlyCustomRowStoreIds\":[771,1236,1589,3405,3406,4098,4594,4595,4596,4597,4598,4599,4600,4601,4602,4659,4780,4862,4886,4936,4937,4938,5298,5350,5351,5360,5374,5405,5407,5408,5430],\"roundingBetaStoreIds\":[3747,3246,3241,3245,2929,4988],\"ruleBasedCustomRowsStoreIds\":[1920,2723,1687,1688,2724,2725,1468,1469,4242,4243,2453,2440,3451,3460,2943,2997,3452,3453,2163,2590,2083,2087,3442,3443,3487,4436],\"squareApplicationId\":\"sq0idp-E7bBL_4jkDu0l61NXYQFPg\",\"squareWebPaymentsSdkUrl\":\"https://web.squarecdn.com/v1/square.js\",\"strongholdEnv\":\"live\",\"strongholdIntegrationId\":\"integration_dakegrStKBCS2VtQOd9xt4AA\",\"trackJsApplication\":\"jane-production\",\"trackJsDomain\":\"tjs.iheartjane.com\",\"useEmailOverSMS\":true}</script>\n<script id=\"jane-app-secrets\" type=\"application/json\">{\"algoliaApiKey\":\"REDACTED\",\"branchIoKey\":\"REDACTED\",\"brandMixpanelToken\":\"REDACTED\",\"brandsDatadogClientToken\":\"REDACTED\",\"brazeAPIKey\":\"REDACTED\",\"businessDatadogClientToken\":\"REDACTED\",\"businessMixpanelCustomerToken\":\"REDACTED\",\"dmMixpanelToken\":\"REDACTED\",\"dmSdkApiKey\":\"REDACTED\",\"dmServiceToken\":\"REDACTED\",\"fingerprintApiKey\":\"REDACTED\",\"googleFontsKey\":\"REDACTED\",\"googlePlacesKey\":\"REDACTED\",\"kioskMixpanelCustomerToken\":\"REDACTED\",\"mapboxAccessToken\":\"REDACTED\",\"mixpanelCrmToken\":\"REDACTED\",\"mixpanelCustomerToken\":\"REDACTED\",\"recaptchaKey\":\"REDACTED\",\"streamChatApiToken\":\"REDACTED\",\"trackJsToken\":\"REDACTED\"}</script>\n<div id=\"app\" class=\"app\"></div>",
+        "snippetHead": "<script>\n      window.prerenderReady = false;\n    </script>\n<script id=\"jane_frameless_embed_runtime_config\">\n      window.___JANE___ = JSON.parse(\n        '{\"runtimeConfig\":{\"embedConfigId\":989,\"isFramelessEmbedMode\":true,\"showAgeGate\":false,\"ssoCredentials\":{\"google_oauth2\":\"128534276959-62hdmpmibqr7qiub6h3s41k05o5ep8ka.apps.googleusercontent.com\"},\"storeId\":4281,\"partnerHostedPath\":\"/location/san-pedro/shop\",\"disableJaneTitleAndDescriptionMeta\":false,\"customProductDetailTitleSuffix\":\"\"}}'\n      );\n    </script>\n<link href=\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/omgf-stylesheet-155.css?ver=1667243715\" rel=\"stylesheet\">\n<script type=\"module\" crossorigin=\"\" src=\"https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js\"></script>\n<script id=\"jane-app-settings\" type=\"application/json\">{\"actionCablePath\":\"wss://api.iheartjane.com/cable\",\"aeropayConsumerId\":\"e982b409-6bf8-4dc1-98e4-b6ee51a8f957\",\"aeropayEnv\":\"production\",\"algoliaAppId\":\"VFM4X0N23A\",\"algoliaEnv\":\"production\",\"algoliaUrl\":\"search.iheartjane.com\",\"apiPath\":\"/api/v1\",\"apiPathBase\":\"/api\",\"apiPathV2\":\"/api/v2\",\"appleClientId\":\"com.jane.jane-web-app\",\"boostDeployPublicPath\":\"https://boost-assets.iheartjane.com/\",\"brandLaunchDarklyClientID\":\"64f8b62c828d8e12f442c899\",\"brandPortalUrl\":\"https://brands.iheartjane.com\",\"brandsDatadogAppId\":\"71bbf853-dffe-45c0-ab3a-dab37d6802f6\",\"brandServerUrl\":\"https://brands-api.iheartjane.com\",\"businessDatadogAppId\":\"ff9a79f4-31da-4a17-aed7-2d32d4b10747\",\"businessLaunchDarklyClientID\":\"6406e548daa24412d4231b62\",\"businessUrl\":\"https://business.iheartjane.com\",\"canPayV2RemotePaySDK\":\"https://remotepay.canpaydebit.com/cp-min.js\",\"cartLimitDuplicateRuleUserIds\":[3728],\"datadogEnv\":\"core-prod\",\"deployPublicPath\":\"https://www.iheartjane.com/\",\"deployPublicPathWithoutUriScheme\":\"www.iheartjane.com/\",\"dmEndpoint\":\"https://dmerch.iheartjane.com\",\"embeddedMenuRowScriptUrl\":\"https://bloom-assets.iheartjane.com/embedded-menu-row.js\",\"facebookAppId\":\"1525460180845768\",\"features\":[\"groupSpecials\",\"googleSignIn\",\"guestCheckout\",\"curbsidePickupNotify\",\"ownershipIdentification\",\"variableMaxOrders\",\"stronghold\",\"storeCommunicationBanner\",\"strongholdBusiness\",\"appleSignIn\",\"twoWayMessaging\",\"roundingDisplay\",\"appPromotion\",\"rootsOnlyCustomRows\"],\"fingerprintEndpoint\":\"https://iheartjane.com/aly2djS2yXoTGnR0/DBeqE6HSSwijog9l\",\"fingerprintScriptPath\":\"https://iheartjane.com/aly2djS2yXoTGnR0/JiGrIFOganSXlo1y\",\"framelessEmbedApiUrl\":\"https://api.iheartjane.com\",\"fulfillmentV2\":\"https://business.iheartjane.com/web/fulfillment\",\"googleAnalyticsBusinessTrackingId\":\"UA-90435177-3\",\"googleAnalyticsCustomerTrackingId\":\"UA-90435177-2\",\"googleClientId\":\"1003381492261-86f9tg21hn9dvqg2ko0852805g37nfj5.apps.googleusercontent.com\",\"idAnalyticsUrl\":\"https://id.iheartjane.com/1\",\"janeSupportManagerIds\":[1,3728],\"kioskDatadogAppId\":\"f6809d75-7295-4a20-8500-fd4a2f2b1b74\",\"kioskV2Url\":\"https://kiosk.iheartjane.com\",\"launchDarklyClientID\":\"6384e85523613d11ad9588c5\",\"marketplaceUrl\":\"https://www.iheartjane.com\",\"mfaForceSMS\":true,\"mixpanelDomain\":\"https://user-events.iheartjane.com\",\"moengageDebug\":false,\"moengageEnv\":\"LIVE\",\"moengageWorkspaceId\":\"FBMS77MLGF4QMXGVHT88GWLW\",\"monerisEnv\":\"prod\",\"monerisJsSdkUrl\":\"https://gateway.moneris.com/chkt/js/chkt_v1.00.js\",\"rootsOnlyCustomRowStoreIds\":[771,1236,1589,3405,3406,4098,4594,4595,4596,4597,4598,4599,4600,4601,4602,4659,4780,4862,4886,4936,4937,4938,5298,5350,5351,5360,5374,5405,5407,5408,5430],\"roundingBetaStoreIds\":[3747,3246,3241,3245,2929,4988],\"ruleBasedCustomRowsStoreIds\":[1920,2723,1687,1688,2724,2725,1468,1469,4242,4243,2453,2440,3451,3460,2943,2997,3452,3453,2163,2590,2083,2087,3442,3443,3487,4436],\"squareApplicationId\":\"sq0idp-E7bBL_4jkDu0l61NXYQFPg\",\"squareWebPaymentsSdkUrl\":\"https://web.squarecdn.com/v1/square.js\",\"strongholdEnv\":\"live\",\"strongholdIntegrationId\":\"integration_dakegrStKBCS2VtQOd9xt4AA\",\"trackJsApplication\":\"jane-production\",\"trackJsDomain\":\"tjs.iheartjane.com\",\"useEmailOverSMS\":true}</script>\n<script id=\"jane-app-secrets\" type=\"application/json\">{\"algoliaApiKey\":\"REDACTED\",\"branchIoKey\":\"REDACTED\",\"brandMixpanelToken\":\"REDACTED\",\"brandsDatadogClientToken\":\"REDACTED\",\"brazeAPIKey\":\"REDACTED\",\"businessDatadogClientToken\":\"REDACTED\",\"businessMixpanelCustomerToken\":\"REDACTED\",\"dmMixpanelToken\":\"REDACTED\",\"dmSdkApiKey\":\"REDACTED\",\"dmServiceToken\":\"REDACTED\",\"fingerprintApiKey\":\"REDACTED\",\"googleFontsKey\":\"REDACTED\",\"googlePlacesKey\":\"REDACTED\",\"kioskMixpanelCustomerToken\":\"REDACTED\",\"mapboxAccessToken\":\"REDACTED\",\"mixpanelCrmToken\":\"REDACTED\",\"mixpanelCustomerToken\":\"REDACTED\",\"recaptchaKey\":\"REDACTED\",\"streamChatApiToken\":\"REDACTED\",\"trackJsToken\":\"REDACTED\"}</script>",
+        "snippetBody": "<div id=\"app\" class=\"app\"></div>",
+        "snippetNotes": "Every line is a verbatim slice of audit/raw/location-san-pedro-shop.html. snippetHead goes in <head> (the live order is kept); snippetBody (#app) goes in the page content column. Removed: the StackAdapt offsite-ad attribution <script> (analytics, PLAN D5). The font <link> still holds the live OMGF URL and must be repointed to the rebuild font path (Source Sans Pro files are in assets/fonts/source-sans-pro-*).",
+        "storeId": 4281,
+        "configId": 989,
+        "runtimeConfig": {
+          "embedConfigId": 989,
+          "isFramelessEmbedMode": true,
+          "showAgeGate": false,
+          "ssoCredentials": {
+            "google_oauth2": "128534276959-62hdmpmibqr7qiub6h3s41k05o5ep8ka.apps.googleusercontent.com"
+          },
+          "storeId": 4281,
+          "partnerHostedPath": "/location/san-pedro/shop",
+          "disableJaneTitleAndDescriptionMeta": false,
+          "customProductDetailTitleSuffix": ""
+        },
+        "scriptUrls": [
+          "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js"
+        ],
+        "container": "<div id=\"app\" class=\"app\"></div> (between <!-- Jane Menu Plugin Body --> comments, inside .container-fluid.page-container > .row > .col-12 in <main>)",
+        "removedAsAnalytics": {
+          "what": "StackAdapt offsite-ad attribution script (SAID ceZJILiyAmsPeemuQWePLQ, loads https://tags.srv.stackadapt.com/events.js)",
+          "sha256": "cd6cce85eb212b8b8492778104d81b603d465c28f04aac08cde85560320a130c"
+        },
+        "fontDependency": "omgf-stylesheet-155.css = Source Sans Pro, locally hosted by the OMGF plugin, only on the 28 San Pedro shop pages; font files are on disk in assets/fonts/source-sans-pro-*",
+        "headerBlockSha256": "7332650fad1916b5d43c1c26a199dd3a11713d2db53cfd2c6003e67afb8f248d",
+        "identicalOnAllSanPedroShopPages": true,
+        "sanPedroShopPagesChecked": 28,
+        "evidence": [
+          "audit/raw/location-san-pedro-shop.html L84-L230 (header block)",
+          "audit/raw/location-san-pedro-shop.html L506-L516 (body block)",
+          "audit/site-inventory.json discovery.sitemapsFetched: https://www.iheartjane.com/embed_partnerhosted/stores/4281/embed_configs/989/sitemap.xml.gz",
+          "audit/robots.txt: Sitemap: https://werollup.com/media/jane-menu/sitemap.xml"
+        ]
+      },
+      "routes": {
+        "scheme": "two schemes, both owned by Jane: (1) path routes /location/san-pedro/shop/menu/<category> (the SPA strips partnerHostedPath \"/location/san-pedro/shop\" and routes the rest); (2) query filters ?filters[root_types][]=<type>, ?filters[feelings][]=<feeling>, ?filters[brand][]=<brand>. WordPress returns the same page (byte-identical Jane blocks) for all of them, with a canonical that keeps the sub-path or query.",
+        "examples": [
+          "/location/san-pedro/shop/menu/edible",
+          "/location/san-pedro/shop/menu/jane-gold",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs"
+        ],
+        "count": 28,
+        "countNote": "28 crawled records = base + 8 /shop/menu/<category> paths + 19 ?filters variants",
+        "menuPaths": [
+          "/location/san-pedro/shop/menu/edible",
+          "/location/san-pedro/shop/menu/extract",
+          "/location/san-pedro/shop/menu/flower",
+          "/location/san-pedro/shop/menu/gear",
+          "/location/san-pedro/shop/menu/jane-gold",
+          "/location/san-pedro/shop/menu/pre-roll",
+          "/location/san-pedro/shop/menu/topical",
+          "/location/san-pedro/shop/menu/vape"
+        ],
+        "filterQueries": [
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape"
+        ],
+        "all": [
+          "/location/san-pedro/shop",
+          "/location/san-pedro/shop/menu/edible",
+          "/location/san-pedro/shop/menu/extract",
+          "/location/san-pedro/shop/menu/flower",
+          "/location/san-pedro/shop/menu/gear",
+          "/location/san-pedro/shop/menu/jane-gold",
+          "/location/san-pedro/shop/menu/pre-roll",
+          "/location/san-pedro/shop/menu/topical",
+          "/location/san-pedro/shop/menu/vape",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+          "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+          "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+          "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape"
+        ],
+        "staticRebuildNeeds": "query variants work automatically on /location/san-pedro/shop/index.html. Each /shop/menu/<category> PATH needs a served 200 page: ship one generated copy per known category (8) AND a fallback for any other sub-path (host rewrite preferred, 404.html boot as last resort). See COMMERCE.md section 2."
+      },
+      "links": [
+        {
+          "label": "Best Selling",
+          "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+          "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+          "occurrences": 140
+        },
+        {
+          "label": "Order Concentrates",
+          "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+          "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+          "occurrences": 140
+        },
+        {
+          "label": "Order Edibles & Gummies",
+          "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+          "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+          "occurrences": 140
+        },
+        {
+          "label": "Order Flower",
+          "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+          "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+          "occurrences": 140
+        },
+        {
+          "label": "Order Pre-Rolls",
+          "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+          "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+          "occurrences": 140
+        },
+        {
+          "label": "Order Topicals",
+          "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+          "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+          "occurrences": 140
+        },
+        {
+          "label": "San Pedro - Palos Verdes 1705 S Gaffey Street, San Pedro, CA 90731 Select Location",
+          "page": "all 91 pages",
+          "href": "https://werollup.com/location/san-pedro/shop/",
+          "occurrences": 91
+        },
+        {
+          "label": "Shop San Pedro - Palos Verdes",
+          "page": "all 91 pages",
+          "href": "/location/san-pedro/shop/",
+          "occurrences": 91
+        },
+        {
+          "label": "Order Vapes & Cartridges",
+          "page": "every san-pedro menu page (30)",
+          "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape",
+          "occurrences": 60
+        },
+        {
+          "label": "Locations",
+          "page": "28 pages, e.g. /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+          "href": "https://werollup.com/location/san-pedro/shop/",
+          "occurrences": 28
+        },
+        {
+          "label": "View Other Locations",
+          "page": "28 pages, e.g. /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+          "href": "https://werollup.com/location/san-pedro/shop/",
+          "occurrences": 28
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay",
+          "occurrences": 1
+        },
+        {
+          "label": "(image/logo link, no text)",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD",
+          "occurrences": 1
+        },
+        {
+          "label": "Delivery",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "Delivery Menu",
+          "page": "/",
+          "href": "/location/san-pedro/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "Order Now",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/",
+          "occurrences": 1
+        },
+        {
+          "label": "See Deals",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/jane-gold",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop now",
+          "page": "/",
+          "href": "https://werollup.com/location/san-pedro/shop",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/flower",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/pre-roll",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/edible",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/vape",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/extract",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/topical",
+          "occurrences": 1
+        },
+        {
+          "label": "SHOP NOW",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/menu/gear",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now Blissful",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now Creative",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now Energetic",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now Hungry",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now Pain free",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now Relaxed",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed",
+          "occurrences": 1
+        },
+        {
+          "label": "Shop Now Sleepy",
+          "page": "/location/san-pedro",
+          "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy",
+          "occurrences": 1
+        }
+      ]
+    }
+  ],
+  "ctaMap": [
+    {
+      "label": "Daily Deals",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/about-us/daily-deals/",
+      "store": "both stores (deals page)",
+      "where": "header",
+      "classes": "nav-link",
+      "data": {},
+      "occurrences": 273,
+      "evidence": "audit/raw/about-us-daily-deals.html L154"
+    },
+    {
+      "label": "Weedmaps",
+      "page": "all 91 pages",
+      "href": "https://weedmaps.com/dispensaries/the-green-co-dispensary-inc",
+      "store": "Weedmaps listing the-green-co-dispensary-inc (store UNVERIFIED)",
+      "where": "header",
+      "classes": "mx-1 fs-5 social-icon",
+      "data": {},
+      "occurrences": 182,
+      "evidence": "audit/raw/about-us-daily-deals.html L140"
+    },
+    {
+      "label": "Best Selling",
+      "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 140,
+      "evidence": "audit/raw/about-us-daily-deals.html L172"
+    },
+    {
+      "label": "Order Concentrates",
+      "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 140,
+      "evidence": "audit/raw/about-us-daily-deals.html L177"
+    },
+    {
+      "label": "Order Edibles & Gummies",
+      "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 140,
+      "evidence": "audit/raw/about-us-daily-deals.html L176"
+    },
+    {
+      "label": "Order Flower",
+      "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 140,
+      "evidence": "audit/raw/about-us-daily-deals.html L173"
+    },
+    {
+      "label": "Order Pre-Rolls",
+      "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 140,
+      "evidence": "audit/raw/about-us-daily-deals.html L174"
+    },
+    {
+      "label": "Order Topicals",
+      "page": "every primary-navigation menu page (40) + every san-pedro menu page (30)",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 140,
+      "evidence": "audit/raw/about-us-daily-deals.html L178"
+    },
+    {
+      "label": "Best Selling",
+      "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 122,
+      "evidence": "audit/raw/about-us-daily-deals.html L183"
+    },
+    {
+      "label": "Order Concentrates",
+      "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 122,
+      "evidence": "audit/raw/about-us-daily-deals.html L188"
+    },
+    {
+      "label": "Order Edibles & Gummies",
+      "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 122,
+      "evidence": "audit/raw/about-us-daily-deals.html L187"
+    },
+    {
+      "label": "Order Flower",
+      "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 122,
+      "evidence": "audit/raw/about-us-daily-deals.html L184"
+    },
+    {
+      "label": "Order Pre-Rolls",
+      "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 122,
+      "evidence": "audit/raw/about-us-daily-deals.html L185"
+    },
+    {
+      "label": "Order Topicals",
+      "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 122,
+      "evidence": "audit/raw/about-us-daily-deals.html L189"
+    },
+    {
+      "label": "Order Vaporizers & Cartridges",
+      "page": "every primary-navigation menu page (40) + every culver-city menu page (21)",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 122,
+      "evidence": "audit/raw/about-us-daily-deals.html L186"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "all 91 pages",
+      "href": "https://weedmaps.com/dispensaries/the-green-co-dispensary-inc",
+      "store": "Weedmaps listing the-green-co-dispensary-inc (store UNVERIFIED)",
+      "where": "footer/modals / footer-main-column.blade.php",
+      "classes": "mx-1",
+      "data": {},
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L579"
+    },
+    {
+      "label": "Daily Deals",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/about-us/daily-deals/",
+      "store": "both stores (deals page)",
+      "where": "footer/modals / get-sidebar.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L592"
+    },
+    {
+      "label": "LAX - Culver City 11834 Jefferson Boulevard, Culver City, CA 11834 Select Location",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "footer/modals /  Dark Mode Toggle footer.blade.php",
+      "classes": "location-chooser-card",
+      "data": {
+        "data-location-chooser-card": "lax"
+      },
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L648"
+    },
+    {
+      "label": "Order Now",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/location/culver-city/shop/",
+      "store": "selected store (select value / cookie selected_location), else opens chooser; no-JS href = LAX - Culver City",
+      "where": "header",
+      "classes": "cta-item active-location-menu js-selected-location-menu btn btn-secondary",
+      "data": {
+        "data-lax-url": "https://werollup.com/location/culver-city/shop/",
+        "data-sanpedro-url": "https://werollup.com/location/san-pedro/shop/"
+      },
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L216"
+    },
+    {
+      "label": "Order Now",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/location/culver-city/shop/",
+      "store": "selected store (select value / cookie selected_location), else opens chooser; no-JS href = LAX - Culver City",
+      "where": "header",
+      "classes": "btn btn-primary btn-sm text-white w-100 active-location-menu js-selected-location-menu",
+      "data": {
+        "data-lax-url": "https://werollup.com/location/culver-city/shop/",
+        "data-sanpedro-url": "https://werollup.com/location/san-pedro/shop/"
+      },
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L318"
+    },
+    {
+      "label": "San Pedro - Palos Verdes 1705 S Gaffey Street, San Pedro, CA 90731 Select Location",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/location/san-pedro/shop/",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "footer/modals /  Dark Mode Toggle footer.blade.php",
+      "classes": "location-chooser-card",
+      "data": {
+        "data-location-chooser-card": "sanpedro"
+      },
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L667"
+    },
+    {
+      "label": "Shop here",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/location/culver-city/",
+      "store": "LAX - Culver City (location page, not the menu)",
+      "where": "footer/modals /  Dark Mode Toggle footer.blade.php",
+      "classes": "age-gate-location-link flex-shrink-0 ms-auto fw-semibold small stretched-link location-select-btn",
+      "data": {},
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L876"
+    },
+    {
+      "label": "Shop here",
+      "page": "all 91 pages",
+      "href": "https://werollup.com/location/san-pedro/",
+      "store": "San Pedro - Palos Verdes (location page, not the menu)",
+      "where": "footer/modals /  Dark Mode Toggle footer.blade.php",
+      "classes": "age-gate-location-link flex-shrink-0 ms-auto fw-semibold small stretched-link location-select-btn",
+      "data": {},
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L885"
+    },
+    {
+      "label": "Shop LAX - Culver City",
+      "page": "all 91 pages",
+      "href": "/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "footer/modals / get-sidebar.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L590"
+    },
+    {
+      "label": "Shop San Pedro - Palos Verdes",
+      "page": "all 91 pages",
+      "href": "/location/san-pedro/shop/",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "footer/modals / get-sidebar.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 91,
+      "evidence": "audit/raw/about-us-daily-deals.html L591"
+    },
+    {
+      "label": "Order Vaporizers & Cartridges",
+      "page": "every primary-navigation menu page (40)",
+      "href": "/shop-playa-vista/?filters%5Broot_types%5D%5B%5D=vape",
+      "store": "LAX - Culver City via redirect (label sits under the San Pedro group; query dropped) - SOURCE DEFECT",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 80,
+      "evidence": "audit/raw/about-us-daily-deals.html L175"
+    },
+    {
+      "label": "Order Vapes & Cartridges",
+      "page": "every san-pedro menu page (30)",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header",
+      "classes": "dropdown-item",
+      "data": {},
+      "occurrences": 60,
+      "evidence": "audit/raw/location-pagetype-primary-location.html L172"
+    },
+    {
+      "label": "Locations",
+      "page": "28 pages, e.g. /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+      "href": "https://werollup.com/location/san-pedro/shop/",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header / location-breadcrumbs.blade.php",
+      "classes": "animated-link overflow-visible top-0 text-uppercase bold",
+      "data": {},
+      "occurrences": 28,
+      "evidence": "audit/raw/location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-710-20Labs.html L365"
+    },
+    {
+      "label": "View Other Locations",
+      "page": "28 pages, e.g. /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs, /location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+      "href": "https://werollup.com/location/san-pedro/shop/",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "header / location-youre-shopping-button.blade.php",
+      "classes": " d-sm-inline-block animated-link d-none top-0 ms-xl-3",
+      "data": {},
+      "occurrences": 28,
+      "evidence": "audit/raw/location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-710-20Labs.html L392"
+    },
+    {
+      "label": "Locations",
+      "page": "20 pages, e.g. /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "href": "https://werollup.com/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header / location-breadcrumbs.blade.php",
+      "classes": "animated-link overflow-visible top-0 text-uppercase bold",
+      "data": {},
+      "occurrences": 20,
+      "evidence": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-3cc637b8.html L221"
+    },
+    {
+      "label": "View Other Locations",
+      "page": "20 pages, e.g. /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599, /location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "href": "https://werollup.com/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "header / location-youre-shopping-button.blade.php",
+      "classes": " d-sm-inline-block animated-link d-none top-0 ms-xl-3",
+      "data": {},
+      "occurrences": 20,
+      "evidence": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-3cc637b8.html L248"
+    },
+    {
+      "label": "Shop Now",
+      "page": "/education/recreational-medicinal, /products/concentrates, /products/edibles, /products/pre-rolls, /products/topicals, /products/vaporizers-cartridges",
+      "href": "/shop",
+      "store": "LAX - Culver City via redirect /shop -> /location/culver-city/shop/; href rewritten to the selected store menu when a store is selected (main.js module 343)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-secondary d-lg-inline-flex d-block active-location-menu",
+      "data": {},
+      "occurrences": 6,
+      "evidence": "audit/raw/education-recreational-medicinal.html L359"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 2,
+      "evidence": "audit/raw/location-culver-city.html L537"
+    },
+    {
+      "label": "Order Now",
+      "page": "/, /weed-delivery",
+      "href": "/location/culver-city/shop/",
+      "store": "visitor picks in the location chooser modal (both stores offered)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light js-location-chooser",
+      "data": {
+        "data-lax-url": "/location/culver-city/shop/",
+        "data-sanpedro-url": "/location/san-pedro/shop/"
+      },
+      "occurrences": 2,
+      "evidence": "audit/raw/index.html L346"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L545"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L549"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L553"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L557"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L561"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location-pagetype/cannabis-menu-page",
+      "href": "https://werollup.com/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / location-youre-shopping-button.blade.php",
+      "classes": "circle-link dark small d-inline-block float-end ms-2",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-pagetype-cannabis-menu-page.html L369"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L644"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L648"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L652"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L656"
+    },
+    {
+      "label": "(image/logo link, no text)",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / logo-banner.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L660"
+    },
+    {
+      "label": "Daily Deals",
+      "page": "/service-area/culver-city/culver-city-delivery-and-pickup",
+      "href": "https://werollup.com/daily-deals/",
+      "store": "both stores (deals page)",
+      "where": "main",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/service-area-culver-city-culver-city-delivery-and-pickup.html L367"
+    },
+    {
+      "label": "Delivery",
+      "page": "/",
+      "href": "/weed-delivery/",
+      "store": "visitor picks in the location chooser modal (both stores offered)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light js-location-chooser",
+      "data": {
+        "data-lax-url": "/weed-delivery/",
+        "data-sanpedro-url": "/weed-delivery/"
+      },
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L365"
+    },
+    {
+      "label": "Delivery",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L371"
+    },
+    {
+      "label": "Delivery",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L371"
+    },
+    {
+      "label": "Delivery Menu",
+      "page": "/",
+      "href": "/location/san-pedro/shop/",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / simple-content-with-image.blade.php",
+      "classes": "btn btn-light",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L558"
+    },
+    {
+      "label": "Delivery Menu",
+      "page": "/",
+      "href": "/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / simple-content-with-image.blade.php",
+      "classes": "btn btn-light",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L570"
+    },
+    {
+      "label": "Order Now",
+      "page": "/",
+      "href": "/shop",
+      "store": "visitor picks in the location chooser modal (both stores offered)",
+      "where": "main / simple-content-with-image.blade.php",
+      "classes": "mt-2 mt-lg-3 btn btn-secondary d-inline-flex js-location-chooser",
+      "data": {
+        "data-lax-url": "/location/culver-city/shop/",
+        "data-sanpedro-url": "/location/san-pedro/shop/"
+      },
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L442"
+    },
+    {
+      "label": "Order Now",
+      "page": "/",
+      "href": "/shop",
+      "store": "visitor picks in the location chooser modal (both stores offered)",
+      "where": "main / simple-content-with-image.blade.php",
+      "classes": "btn btn-accent d-inline-flex js-location-chooser mb-1 mb-lg-0",
+      "data": {
+        "data-lax-url": "/location/culver-city/shop/",
+        "data-sanpedro-url": "/location/san-pedro/shop/"
+      },
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L591"
+    },
+    {
+      "label": "Order Now",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store); href rewritten to the selected store menu when a store is selected (main.js module 343)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light active-location-menu",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L352"
+    },
+    {
+      "label": "Order Now",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/",
+      "store": "San Pedro - Palos Verdes (Jane Boost); href rewritten to the selected store menu when a store is selected (main.js module 343)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light active-location-menu",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L352"
+    },
+    {
+      "label": "Products in our menu",
+      "page": "/service-area/westchester-ca/westchester-weed-delivery",
+      "href": "https://werollup.com/products/",
+      "store": "n/a",
+      "where": "main",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/service-area-westchester-ca-westchester-weed-delivery.html L370"
+    },
+    {
+      "label": "See Deals",
+      "page": "/",
+      "href": "/about-us/daily-deals/",
+      "store": "visitor picks in the location chooser modal (both stores offered)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light js-location-chooser",
+      "data": {
+        "data-lax-url": "/about-us/daily-deals/",
+        "data-sanpedro-url": "/about-us/daily-deals/"
+      },
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L346"
+    },
+    {
+      "label": "See Deals",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L352"
+    },
+    {
+      "label": "See Deals",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/jane-gold",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / column-content.blade.php",
+      "classes": "btn btn-light",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L352"
+    },
+    {
+      "label": "Shop LAX - Culver City",
+      "page": "/location-pagetype/cannabis-menu-page",
+      "href": "https://werollup.com/location/culver-city/shop/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / location-youre-shopping-button.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-pagetype-cannabis-menu-page.html L371"
+    },
+    {
+      "label": "Shop now",
+      "page": "/",
+      "href": "https://werollup.com/location/san-pedro/shop",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / get-template.blade.php",
+      "classes": "btn btn-secondary btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L399"
+    },
+    {
+      "label": "Shop now",
+      "page": "/",
+      "href": "https://werollup.com/location/culver-city/shop",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / get-template.blade.php",
+      "classes": "btn btn-secondary btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L422"
+    },
+    {
+      "label": "Shop Now",
+      "page": "/",
+      "href": "/shop",
+      "store": "visitor picks in the location chooser modal (both stores offered)",
+      "where": "main / simple-content-with-image.blade.php",
+      "classes": "btn btn-primary d-inline-flex mt-2 mt-lg-3 js-location-chooser",
+      "data": {
+        "data-lax-url": "/location/culver-city/shop/",
+        "data-sanpedro-url": "/location/san-pedro/shop/"
+      },
+      "occurrences": 1,
+      "evidence": "audit/raw/index.html L520"
+    },
+    {
+      "label": "Shop Now",
+      "page": "/products/flower",
+      "href": "/shop",
+      "store": "LAX - Culver City via redirect /shop -> /location/culver-city/shop/; href rewritten to the selected store menu when a store is selected (main.js module 343)",
+      "where": "main / column-content.blade.php",
+      "classes": "active-location-menu btn btn-secondary d-lg-inline-flex d-block",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/products-flower.html L365"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": " btn btn-secondary position-bottom",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L399"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": " btn btn-secondary position-bottom",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L413"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-secondary position-bottom",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L427"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-secondary position-bottom",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L441"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-secondary position-bottom",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L455"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-secondary position-bottom",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L469"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/culver-city",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-secondary position-bottom",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-culver-city.html L483"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/flower",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": " btn btn-accent position-bottom btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L399"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/pre-roll",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-accent position-bottom btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L413"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/edible",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-accent position-bottom btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L427"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/vape",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": " btn btn-accent position-bottom btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L441"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/extract",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": " btn btn-accent position-bottom btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L455"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/topical",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-accent position-bottom btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L469"
+    },
+    {
+      "label": "SHOP NOW",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/menu/gear",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-accent position-bottom btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L483"
+    },
+    {
+      "label": "Shop Now Blissful",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-sm btn-light mt-2",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L540"
+    },
+    {
+      "label": "Shop Now Creative",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-light btn-sm mt-2",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L553"
+    },
+    {
+      "label": "Shop Now Energetic",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-light mt-2 btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L618"
+    },
+    {
+      "label": "Shop Now Hungry",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-light mt-2 btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L566"
+    },
+    {
+      "label": "Shop Now Pain free",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-light mt-2 btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L579"
+    },
+    {
+      "label": "Shop Now Relaxed",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-light mt-2 btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L592"
+    },
+    {
+      "label": "Shop Now Sleepy",
+      "page": "/location/san-pedro",
+      "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy",
+      "store": "San Pedro - Palos Verdes (Jane Boost)",
+      "where": "main / bootstrap-cards.blade.php",
+      "classes": "btn btn-light mt-2 btn-sm",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/location-san-pedro.html L605"
+    },
+    {
+      "label": "Shop now!",
+      "page": "/service-area/culver-city/culver-city-delivery-and-pickup",
+      "href": "https://werollup.com/lax-menu/",
+      "store": "LAX - Culver City (Weedmaps WM Store)",
+      "where": "main",
+      "classes": "btn btn-primary",
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/service-area-culver-city-culver-city-delivery-and-pickup.html L369"
+    },
+    {
+      "label": "To shop We Roll Up",
+      "page": "/education/recreational-medicinal",
+      "href": "https://werollup.com/",
+      "store": "n/a",
+      "where": "main / column-content.blade.php",
+      "classes": null,
+      "data": {},
+      "occurrences": 1,
+      "evidence": "audit/raw/education-recreational-medicinal.html L355"
+    }
+  ],
+  "locationPreference": {
+    "mechanism": "Cookie selected_location (value = option data-slug: culver-city | san-pedro), 30 days, path=/. Set when the #currently-shopping select changes (then the browser navigates to the location page) and on every page load whose path equals or sits under a location URL (/location/culver-city/... or /location/san-pedro/...). On other pages the cookie selects the option. With a selected option, main.js rewrites every .active-location-menu href to that option data-menu-url (+ data-deep-link, unused) and fills #locationAddress/#locationHours. A click on .js-selected-location-menu goes to the selected option data-menu-url, else to data-lax-url/data-sanpedro-url by cookie (culver-city|lax / san-pedro|sanpedro), else opens the location chooser modal. A click on .js-location-chooser always opens the modal, whose two cards take the trigger data-lax-url/data-sanpedro-url. The age gate is separate: localStorage agePass_v2=\"true\" + cookie agePass_v2=true (max-age 31536000, SameSite=Lax, Secure on https); its \"Shop here\" links navigate to the location page, which then sets selected_location by path. If cookies are blocked the select is hidden.",
+    "keys": [
+      {
+        "name": "selected_location",
+        "type": "cookie",
+        "values": [
+          "culver-city",
+          "san-pedro"
+        ],
+        "lifetime": "30 days, path=/",
+        "setBy": "assets/js/4c0935fa-main.js module 343",
+        "readBy": [
+          "module 343 (select restore)",
+          "location chooser block (js-selected-location-menu routing; also accepts lax and sanpedro)"
+        ]
+      },
+      {
+        "name": "agePass_v2",
+        "type": "localStorage + cookie",
+        "values": [
+          "true"
+        ],
+        "lifetime": "localStorage persistent; cookie max-age 31536000 (1 year)",
+        "setBy": "inline age-gate script (audit/raw/index.html, the script after #ageGateModal)",
+        "readBy": [
+          "inline age-gate scripts (also accept sessionStorage agePass_v2)"
+        ]
+      },
+      {
+        "name": "test_cookie",
+        "type": "cookie (transient probe)",
+        "values": [
+          "1"
+        ],
+        "lifetime": "deleted immediately",
+        "setBy": "module 343 cookie-support test",
+        "readBy": [
+          "module 343"
+        ]
+      }
+    ],
+    "evidence": [
+      "assets/js/4c0935fa-main.js offset 13726-15772 (module 343), copy tmp/understand/commerce/main-343.js",
+      "assets/js/4c0935fa-main.js around offset 311182 (#locationChooserModal, .js-location-chooser, .js-selected-location-menu), copy tmp/understand/commerce/main-chooser.js",
+      "audit/raw/location-culver-city-shop.html L110-L128 (#currently-shopping options with data-slug, data-address, data-hours, data-menu-url, data-directions-url)",
+      "audit/raw/index.html #ageGateModal / #locationGate and the following inline script (agePass_v2)",
+      "No element in any crawled page carries data-deep-link or the class active-location-directions (grep over audit/raw)."
+    ]
+  },
+  "redirectsToKeep": [
+    {
+      "from": "/shop",
+      "to": "/location/culver-city/shop/",
+      "evidence": "audit/site-inventory.json aliases of location-culver-city-shop.html; used by 10 links: 7 \"Shop Now\" (class active-location-menu) on the 6 product pages and /education/recreational-medicinal, and 3 home buttons (class js-location-chooser, index.html L442/L520/L591)"
+    },
+    {
+      "from": "/shop-playa-vista (any query)",
+      "to": "/location/culver-city/shop/",
+      "evidence": "alias https://werollup.com/shop-playa-vista?filters%5Broot_types%5D%5B%5D=vape folded into location-culver-city-shop.html: the query is dropped (sr-crawl keeps queries when it compares landed URLs, so a kept query would have produced its own page)",
+      "note": "used by the San Pedro group item \"Order Vaporizers & Cartridges\" on all 40 primary-navigation pages (80 links): a source defect, keep as-is unless the operator approves a fix"
+    },
+    {
+      "from": "/daily-deals",
+      "to": "/about-us/daily-deals/",
+      "evidence": "alias of about-us-daily-deals.html; linked once from /service-area/culver-city/culver-city-delivery-and-pickup"
+    },
+    {
+      "from": "/location/san-pedro/shop (no slash)",
+      "to": "/location/san-pedro/shop/",
+      "evidence": "redirectChain 301 in audit/site-inventory.json; the select option data-menu-url for San Pedro has no trailing slash, so every San Pedro Order Now click by selection lands on the slashless form"
+    },
+    {
+      "from": "/location/san-pedro/shop/menu/<cat> (no slash)",
+      "to": "/location/san-pedro/shop/menu/<cat>/",
+      "evidence": "redirectChain 301 for all 8 menu paths; on-site links use the slashless form"
+    }
+  ],
+  "risks": [
+    {
+      "id": "R1",
+      "severity": "high",
+      "status": "UNVERIFIED",
+      "risk": "Partner-hosted embeds may be bound to the werollup.com origin and path. Jane runtimeConfig carries partnerHostedPath \"/location/san-pedro/shop\" and embed config 989 is a partner-hosted config, presumably registered for werollup.com (nothing on disk shows Jane origin settings); Jane may reject API calls from another origin (CORS) or mis-route when the page is not at that exact path (for example a Pages preview under /<repo>/...). The Weedmaps script lives on the store subdomain werolluplax.wm.store and may check the embedding origin. A preview on another host may therefore show no menu.",
+      "test": "only on the operator-approved preview or the production cutover, in a real browser; do not probe the vendors from this workspace"
+    },
+    {
+      "id": "R2",
+      "severity": "high",
+      "status": "OBSERVED, cause UNVERIFIED",
+      "risk": "In the harvest headless Chrome (tools/capture-live.mjs, which does not block iheartjane or wm.store) neither menu painted: San Pedro #app box height 0 at 1440 (audit/capture/baseline.location-san-pedro-shop.1440.style.json) and the screenshots show an empty area under the Culver City hero and nothing under the San Pedro and /lax-menu heroes (audit/screens/source/*shop*.1440.png, lax-menu.1440.png). Headless QA of the rebuild cannot prove the menus work, and an empty #app in QA is not by itself a regression.",
+      "test": "compare like with like: the live page and the rebuild in the same browser mode"
+    },
+    {
+      "id": "R3",
+      "severity": "medium",
+      "status": "UNVERIFIED",
+      "risk": "The Jane module URL is content-hashed (index-D8IbwKpn.js) and the header block is generated by Jane at request time (comment: \"See api/app/lib/embed/html/build.rb\"). A static snapshot freezes this hash and the settings JSON; when Jane deploys a new build the old asset may be removed from boost-assets.iheartjane.com and the San Pedro menu goes blank. Nothing on disk shows Jane retention policy.",
+      "test": "none possible offline; mitigation = a documented refresh step (re-copy the Jane header block from a fresh fetch, operator-approved) or a server-side include"
+    },
+    {
+      "id": "R4",
+      "severity": "medium",
+      "status": "VERIFIED from code",
+      "risk": "Age gate vs embed: until agePass_v2 is found, #mainContent carries .hidden-content (visibility:hidden; opacity:0, aria-hidden=true) and body overflow is hidden; the embeds sit inside #mainContent. Scripts still load while hidden. After the pass the inline script removes .hidden-content. The rebuild must keep the menu container inside the revealed region, must not lazy-load the vendor scripts behind an IntersectionObserver that never fires while hidden, and must not add a second gate. Jane runtimeConfig sets showAgeGate:false, so the site gate is the only gate for San Pedro; whether the Weedmaps store shows its own gate is UNVERIFIED.",
+      "test": "functional QA: fresh profile -> pass gate -> choose store -> menu container visible and not zero-height (subject to R2)"
+    },
+    {
+      "id": "R5",
+      "severity": "low",
+      "status": "VERIFIED from settings JSON",
+      "risk": "Payment and checkout run inside the vendor apps: jane-app-settings names Square (web.squarecdn.com), Moneris (gateway.moneris.com), CanPay (remotepay.canpaydebit.com), Aeropay and Stronghold. The rebuild needs nothing for them except not blocking them: no restrictive Content-Security-Policy, no sandboxing, no blocking of third-party scripts on the shop pages. Whether the live site sends a CSP is UNVERIFIED (the crawl stored only 5 response headers).",
+      "test": "header check on the built host"
+    },
+    {
+      "id": "R6",
+      "severity": "medium",
+      "status": "VERIFIED from inventory",
+      "risk": "Deep links: 47 of the 91 crawled pages are shop variants (18 Culver City query variants, 8 San Pedro /shop/menu/<category> paths, 19 San Pedro ?filters variants, plus the 2 base shop pages; /lax-menu separately). Query variants need no extra files; the 8 menu paths need served pages. Jane can generate further sub-paths while a visitor browses (not in the crawl; the Jane sitemap at /media/jane-menu/sitemap.xml was not saved), so without a catch-all a reload or shared link of such a URL returns 404 on a static host.",
+      "test": "link-check every inventory URL on the build; request one unknown sub-path such as /location/san-pedro/shop/menu/does-not-exist and confirm the fallback boots the embed"
+    },
+    {
+      "id": "R7",
+      "severity": "low",
+      "status": "VERIFIED",
+      "risk": "Secret scanning: jane-app-secrets and jane-app-settings carry vendor public client keys (Google API keys of the AIza form, Mapbox pk., Algolia search key, Mixpanel/Braze/Datadog tokens). They are served to every visitor of the live page and are not the operator keys of PLAN D7, but a scanner will match them. Allowlist these exact strings for the San Pedro shop pages only; do not loosen the scanner globally.",
+      "test": "run tools/secret-scan.mjs on dist with the allowlist and a positive control"
+    },
+    {
+      "id": "R8",
+      "severity": "medium",
+      "status": "VERIFIED source defect",
+      "risk": "Primary-navigation pages (40) list \"Order Vaporizers & Cartridges\" under the San Pedro group with href /shop-playa-vista/?filters%5Broot_types%5D%5B%5D=vape, which lands on the Culver City (Weedmaps) shop with the filter dropped. Carry verbatim by default (PLAN D2); fixing it to /location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape (the href the San Pedro menu itself uses) needs operator approval.",
+      "test": "n/a"
+    },
+    {
+      "id": "R9",
+      "severity": "low",
+      "status": "VERIFIED from HTML",
+      "risk": "Canonicals: live San Pedro variants carry their own canonical (sub-path or query kept, e.g. https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free) while Culver City variants all point to /location/culver-city/shop/. One static file per path cannot vary its canonical by query string; the generated /shop/menu/<cat>/ copies can keep theirs. Hand to the SEO lane.",
+      "test": "n/a"
+    },
+    {
+      "id": "R10",
+      "severity": "low",
+      "status": "VERIFIED from code",
+      "risk": "Location preference JS quirks to preserve or consciously drop: .active-location-menu also matches the footer <li id=\"menu-item-62041\"> (main.js sets .href on the LI, a no-op, and sets display:inherit); data-deep-link support exists but no element uses it; if cookies are disabled the #currently-shopping select is hidden.",
+      "test": "n/a"
+    }
+  ]
+}

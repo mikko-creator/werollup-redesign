@@ -1,0 +1,70 @@
+{
+  "schema": "site-reforge/scripts@1",
+  "generated": "2026-10-13T01:47:16.242Z",
+  "note": "Same-origin <script src> only. A third-party script is an outbound dependency of the site, not an asset of it; vendoring one would change what the page does.",
+  "discovered": [
+    "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+    "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5",
+    "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.10.5",
+    "https://werollup.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5"
+  ],
+  "saved": [
+    {
+      "url": "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "savedAs": "35f7f8a9-jquery.min.js",
+      "bytes": 87553
+    },
+    {
+      "url": "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "savedAs": "20abbf41-jquery-migrate.min.js",
+      "bytes": 13577
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js",
+      "savedAs": "4c0935fa-main.js",
+      "bytes": 326828
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5",
+      "savedAs": "60da5acf-jquery.json.min.js",
+      "bytes": 1823
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.10.5",
+      "savedAs": "f4447b5f-jquery.maskedinput.min.js",
+      "bytes": 4159
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5",
+      "savedAs": "a4513583-placeholders.jquery.min.js",
+      "bytes": 4639
+    }
+  ],
+  "map": {
+    "https://werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": "/scripts/35f7f8a9-jquery.min.js",
+    "//werollup.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": "/scripts/35f7f8a9-jquery.min.js",
+    "/wp-includes/js/jquery/jquery.min.js?ver=3.7.1": "/scripts/35f7f8a9-jquery.min.js",
+    "/wp-includes/js/jquery/jquery.min.js": "/scripts/35f7f8a9-jquery.min.js",
+    "https://werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1": "/scripts/20abbf41-jquery-migrate.min.js",
+    "//werollup.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1": "/scripts/20abbf41-jquery-migrate.min.js",
+    "/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1": "/scripts/20abbf41-jquery-migrate.min.js",
+    "/wp-includes/js/jquery/jquery-migrate.min.js": "/scripts/20abbf41-jquery-migrate.min.js",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js": "/scripts/4c0935fa-main.js",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/scripts/main.js": "/scripts/4c0935fa-main.js",
+    "/wp-content/themes/basebuildv3/dist/scripts/main.js": "/scripts/4c0935fa-main.js",
+    "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5": "/scripts/60da5acf-jquery.json.min.js",
+    "//werollup.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5": "/scripts/60da5acf-jquery.json.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5": "/scripts/60da5acf-jquery.json.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.json.min.js": "/scripts/60da5acf-jquery.json.min.js",
+    "https://werollup.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.10.5": "/scripts/f4447b5f-jquery.maskedinput.min.js",
+    "//werollup.com/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.10.5": "/scripts/f4447b5f-jquery.maskedinput.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js?ver=2.10.5": "/scripts/f4447b5f-jquery.maskedinput.min.js",
+    "/wp-content/plugins/gravityforms/js/jquery.maskedinput.min.js": "/scripts/f4447b5f-jquery.maskedinput.min.js",
+    "https://werollup.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5": "/scripts/a4513583-placeholders.jquery.min.js",
+    "//werollup.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5": "/scripts/a4513583-placeholders.jquery.min.js",
+    "/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5": "/scripts/a4513583-placeholders.jquery.min.js",
+    "/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js": "/scripts/a4513583-placeholders.jquery.min.js"
+  }
+}

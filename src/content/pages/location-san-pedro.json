@@ -1,0 +1,889 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "location",
+ "path": "/location/san-pedro/",
+ "slug": "location-san-pedro",
+ "sourceUrl": "https://werollup.com/location/san-pedro",
+ "rawFile": "audit/raw/location-san-pedro.html",
+ "wpTemplate": "single-location",
+ "store": "san-pedro",
+ "menuFamily": "san-pedro",
+ "subheader": "shopping-strip",
+ "title": "San Pedro – Palos Verdes – We Roll Up",
+ "metaDescription": "Full menu for your selected store, plus fresh daily deals.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/location/san-pedro/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Shop San Pedro – Palos Verdes",
+ "breadcrumbs": [
+  {
+   "label": "Home",
+   "href": "/",
+   "current": false
+  },
+  {
+   "label": "Locations",
+   "href": "/location/san-pedro/",
+   "current": false
+  },
+  {
+   "label": "San Pedro - Palos Verdes",
+   "href": null,
+   "current": true
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "hero-tile",
+   "heading": "Shop San Pedro – Palos Verdes",
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "hero-tile",
+     "image": {
+      "ref": "assets/source/8b360abb-werollup-prerolls-book-keychain-lighter-flatlay-hero-scaled.webp",
+      "src": "https://werollup.com/media/werollup-prerolls-book-keychain-lighter-flatlay-hero-scaled.webp",
+      "alt": "",
+      "width": 1790,
+      "height": 2560,
+      "role": "hero-tile"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 1,
+       "look": "h1",
+       "tag": "p",
+       "html": "Shop San Pedro – Palos Verdes",
+       "text": "Shop San Pedro – Palos Verdes",
+       "promotedFrom": "p"
+      },
+      {
+       "type": "paragraph",
+       "html": "Full menu for your selected store, plus fresh daily deals.",
+       "text": "Full menu for your selected store, plus fresh daily deals.",
+       "look": "fs-4"
+      },
+      {
+       "type": "paragraph",
+       "html": "Browse everything in stock — and check rotating specials before you shop.",
+       "text": "Browse everything in stock — and check rotating specials before you shop."
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Order Now",
+         "text": "Order Now",
+         "href": "/location/san-pedro/shop/",
+         "variant": "light",
+         "activeLocation": true
+        },
+        {
+         "label": "See Deals",
+         "text": "See Deals",
+         "href": "/location/san-pedro/shop/menu/jane-gold/",
+         "variant": "light"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "hero-tile",
+     "image": {
+      "ref": "assets/source/7a4352fe-werollup-store-edibles-display-neon-sign-hero.webp",
+      "src": "https://werollup.com/media/werollup-store-edibles-display-neon-sign-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "hero-tile"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15))",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": null,
+       "look": "h1",
+       "tag": "p",
+       "html": "Delivery",
+       "text": "Delivery"
+      },
+      {
+       "type": "paragraph",
+       "html": "Get your order how and where it works for you.",
+       "text": "Get your order how and where it works for you.",
+       "look": "fs-4"
+      },
+      {
+       "type": "paragraph",
+       "html": "Pickup, delivery, and flexible options—so you never have to miss what you want.",
+       "text": "Pickup, delivery, and flexible options—so you never have to miss what you want."
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Delivery",
+         "text": "Delivery",
+         "href": "/location/san-pedro/shop/",
+         "variant": "light"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "card-carousel",
+   "heading": "Shop by Category",
+   "level": null,
+   "sourceBg": "light",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": null,
+     "look": "h1",
+     "tag": "span",
+     "html": "Shop by Category",
+     "text": "Shop by Category"
+    },
+    {
+     "type": "card-carousel",
+     "variant": "category",
+     "splide": {
+      "type": "loop",
+      "pagination": "slider",
+      "arrows": false,
+      "autoplay": true,
+      "perPage": 4,
+      "breakpoints": {
+       "575": {
+        "perPage": 1,
+        "padding": "0"
+       },
+       "767": {
+        "perPage": 2
+       },
+       "991": {
+        "perPage": 3
+       },
+       "1199": {
+        "perPage": 4
+       }
+      },
+      "gap": "1.5rem",
+      "perMove": 1,
+      "cover": true,
+      "speed": 500
+     },
+     "cards": [
+      {
+       "image": {
+        "ref": "assets/source/dc361d95-5-e1666212610628.png",
+        "src": "https://werollup.com/media/5-e1666212610628.png",
+        "alt": "Flower",
+        "width": 175,
+        "height": 175,
+        "role": "category-card"
+       },
+       "imageAltFrom": "card title (the source alt is the placeholder \"background image\")",
+       "tone": null,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "Flower",
+         "text": "Flower"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "SHOP NOW",
+           "text": "SHOP NOW",
+           "href": "/location/san-pedro/shop/menu/flower/",
+           "variant": "accent",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": {
+        "ref": "assets/source/b33235c2-4-e1666212655306.png",
+        "src": "https://werollup.com/media/4-e1666212655306.png",
+        "alt": "Pre-Rolls",
+        "width": 253,
+        "height": 280,
+        "role": "category-card"
+       },
+       "imageAltFrom": "card title (the source alt is the placeholder \"background image\")",
+       "tone": null,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "Pre-Rolls",
+         "text": "Pre-Rolls"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "SHOP NOW",
+           "text": "SHOP NOW",
+           "href": "/location/san-pedro/shop/menu/pre-roll/",
+           "variant": "accent",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": {
+        "ref": "assets/source/a3d38155-3-e1666212672735.png",
+        "src": "https://werollup.com/media/3-e1666212672735.png",
+        "alt": "Edibles",
+        "width": 221,
+        "height": 285,
+        "role": "category-card"
+       },
+       "imageAltFrom": "card title (the source alt is the placeholder \"background image\")",
+       "tone": null,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "Edibles",
+         "text": "Edibles"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "SHOP NOW",
+           "text": "SHOP NOW",
+           "href": "/location/san-pedro/shop/menu/edible/",
+           "variant": "accent",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": {
+        "ref": "assets/source/3e9d1609-2-e1666212690610.png",
+        "src": "https://werollup.com/media/2-e1666212690610.png",
+        "alt": "Vapes",
+        "width": 235,
+        "height": 283,
+        "role": "category-card"
+       },
+       "imageAltFrom": "card title (the source alt is the placeholder \"background image\")",
+       "tone": null,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "Vapes",
+         "text": "Vapes"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "SHOP NOW",
+           "text": "SHOP NOW",
+           "href": "/location/san-pedro/shop/menu/vape/",
+           "variant": "accent",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": {
+        "ref": "assets/source/f603d5c0-1-e1666212708428.png",
+        "src": "https://werollup.com/media/1-e1666212708428.png",
+        "alt": "Extract",
+        "width": 199,
+        "height": 286,
+        "role": "category-card"
+       },
+       "imageAltFrom": "card title (the source alt is the placeholder \"background image\")",
+       "tone": null,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "Extract",
+         "text": "Extract"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "SHOP NOW",
+           "text": "SHOP NOW",
+           "href": "/location/san-pedro/shop/menu/extract/",
+           "variant": "accent",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": {
+        "ref": "assets/source/e181cbbf-8.webp",
+        "src": "https://werollup.com/media/8.webp",
+        "alt": "CBD",
+        "width": 1920,
+        "height": 1920,
+        "role": "category-card"
+       },
+       "imageAltFrom": "card title (the source alt is the placeholder \"background image\")",
+       "tone": null,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "CBD",
+         "text": "CBD"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "SHOP NOW",
+           "text": "SHOP NOW",
+           "href": "/location/san-pedro/shop/menu/topical/",
+           "variant": "accent",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": {
+        "ref": "assets/source/7ed18521-1-1.webp",
+        "src": "https://werollup.com/media/1-1.webp",
+        "alt": "Accessories",
+        "width": 1920,
+        "height": 1920,
+        "role": "category-card"
+       },
+       "imageAltFrom": "card title (the source alt is the placeholder \"background image\")",
+       "tone": null,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "Accessories",
+         "text": "Accessories"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "SHOP NOW",
+           "text": "SHOP NOW",
+           "href": "/location/san-pedro/shop/menu/gear/",
+           "variant": "accent",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "deals",
+   "heading": "Daily Deals",
+   "level": null,
+   "sourceBg": "black",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": null,
+     "look": "h1",
+     "tag": "div",
+     "html": "Daily Deals",
+     "text": "Daily Deals"
+    },
+    {
+     "type": "deals",
+     "items": [
+      {
+       "href": "/location/san-pedro/",
+       "icon": "fire-alt",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "10% Off - Seniors, Military Members, &amp; Longshoremen",
+         "text": "10% Off - Seniors, Military Members, & Longshoremen"
+        }
+       ]
+      },
+      {
+       "href": "/location/san-pedro/",
+       "icon": "fire-alt",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h3",
+         "tag": "div",
+         "html": "Munchie Monday - 10% off Edibles",
+         "text": "Munchie Monday - 10% off Edibles"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "card-carousel",
+   "heading": "Shop by Mood",
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": null,
+     "look": "h1",
+     "tag": "span",
+     "html": "Shop by Mood",
+     "text": "Shop by Mood"
+    },
+    {
+     "type": "card-carousel",
+     "variant": "mood",
+     "splide": {
+      "type": "loop",
+      "pagination": "slider",
+      "arrows": false,
+      "perPage": 4,
+      "breakpoints": {
+       "575": {
+        "perPage": 2,
+        "padding": "0"
+       },
+       "767": {
+        "perPage": 2
+       },
+       "991": {
+        "perPage": 3
+       },
+       "1199": {
+        "perPage": 4
+       }
+      },
+      "gap": "1.5rem",
+      "perMove": 1,
+      "cover": true,
+      "speed": 500
+     },
+     "cards": [
+      {
+       "image": null,
+       "tone": "blissful",
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "I’m feeling",
+         "text": "I’m feeling",
+         "bare": true
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "div",
+         "html": "Blissful",
+         "text": "Blissful"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop Now<span class=\"sr-only\">Blissful</span>",
+           "text": "Shop NowBlissful",
+           "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful",
+           "variant": "light",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": null,
+       "tone": "creative",
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "I’m feeling",
+         "text": "I’m feeling",
+         "bare": true
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "div",
+         "html": "Creative",
+         "text": "Creative"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop Now<span class=\"sr-only\">Creative</span>",
+           "text": "Shop NowCreative",
+           "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative",
+           "variant": "light",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": null,
+       "tone": "hungry",
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "I’m feeling",
+         "text": "I’m feeling",
+         "bare": true
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "div",
+         "html": "Hungry",
+         "text": "Hungry"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop Now<span class=\"sr-only\">Hungry</span>",
+           "text": "Shop NowHungry",
+           "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry",
+           "variant": "light",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": null,
+       "tone": "pain-free",
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "I’m feeling",
+         "text": "I’m feeling",
+         "bare": true
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "div",
+         "html": "Pain Free",
+         "text": "Pain Free"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop Now<span class=\"sr-only\">Pain free</span>",
+           "text": "Shop NowPain free",
+           "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+           "variant": "light",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": null,
+       "tone": "relaxed",
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "I’m feeling",
+         "text": "I’m feeling",
+         "bare": true
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "div",
+         "html": "Relaxed",
+         "text": "Relaxed"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop Now<span class=\"sr-only\">Relaxed</span>",
+           "text": "Shop NowRelaxed",
+           "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed",
+           "variant": "light",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": null,
+       "tone": "sleepy",
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "I’m feeling",
+         "text": "I’m feeling",
+         "bare": true
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "div",
+         "html": "Sleepy",
+         "text": "Sleepy"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop Now<span class=\"sr-only\">Sleepy</span>",
+           "text": "Shop NowSleepy",
+           "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy",
+           "variant": "light",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": null,
+       "tone": "energetic",
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "I’m feeling",
+         "text": "I’m feeling",
+         "bare": true
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "div",
+         "html": "Energetic",
+         "text": "Energetic"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop Now<span class=\"sr-only\">Energetic</span>",
+           "text": "Shop NowEnergetic",
+           "href": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic",
+           "variant": "light",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "logo-carousel",
+   "heading": "Our Featured Brands",
+   "level": null,
+   "sourceBg": "black",
+   "blocks": [
+    {
+     "type": "heading",
+     "level": null,
+     "look": "h1",
+     "tag": "div",
+     "html": "Our Featured Brands",
+     "text": "Our Featured Brands"
+    },
+    {
+     "type": "logo-carousel",
+     "splide": {
+      "type": "loop",
+      "pagination": false,
+      "arrows": false,
+      "perPage": 4,
+      "breakpoints": {
+       "575": {
+        "perPage": 2,
+        "padding": "0"
+       },
+       "767": {
+        "perPage": 2
+       },
+       "991": {
+        "perPage": 2
+       },
+       "1199": {
+        "perPage": 3
+       }
+      },
+      "gap": "1.5rem",
+      "perMove": 1,
+      "cover": true,
+      "speed": 500
+     },
+     "logos": [
+      {
+       "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+       "rel": "nofollow",
+       "image": {
+        "ref": "assets/source/4cbc0f1e-st-ides-logo.webp",
+        "src": "https://werollup.com/media/st-ides-logo.webp",
+        "alt": "Company Logo 1",
+        "width": 200,
+        "height": 200,
+        "role": "logo"
+       }
+      },
+      {
+       "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs",
+       "rel": "nofollow",
+       "image": {
+        "ref": "assets/source/bbe694a7-710-labs-logo.webp",
+        "src": "https://werollup.com/media/710-labs-logo.webp",
+        "alt": "Company Logo 2",
+        "width": 200,
+        "height": 200,
+        "role": "logo"
+       }
+      },
+      {
+       "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+       "rel": "nofollow",
+       "image": {
+        "ref": "assets/source/385c9a3b-alien-labs-6a2325f719171.webp",
+        "src": "https://werollup.com/media/alien-labs-6a2325f719171.webp",
+        "alt": "Company Logo 3",
+        "width": 400,
+        "height": 231,
+        "role": "logo"
+       }
+      },
+      {
+       "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay",
+       "rel": "nofollow",
+       "image": {
+        "ref": "assets/source/c958f54c-plugplay.webp",
+        "src": "https://werollup.com/media/plugplay.webp",
+        "alt": "Company Logo 4",
+        "width": 200,
+        "height": 194,
+        "role": "logo"
+       }
+      },
+      {
+       "href": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD",
+       "rel": "nofollow",
+       "image": {
+        "ref": "assets/source/c6755eb3-wyld.webp",
+        "src": "https://werollup.com/media/wyld.webp",
+        "alt": "Company Logo 5",
+        "width": 200,
+        "height": 200,
+        "role": "logo"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": null,
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/san-pedro/"
+ ],
+ "imagesUsed": [
+  "assets/source/385c9a3b-alien-labs-6a2325f719171.webp",
+  "assets/source/3e9d1609-2-e1666212690610.png",
+  "assets/source/4cbc0f1e-st-ides-logo.webp",
+  "assets/source/7a4352fe-werollup-store-edibles-display-neon-sign-hero.webp",
+  "assets/source/7ed18521-1-1.webp",
+  "assets/source/8b360abb-werollup-prerolls-book-keychain-lighter-flatlay-hero-scaled.webp",
+  "assets/source/a3d38155-3-e1666212672735.png",
+  "assets/source/b33235c2-4-e1666212655306.png",
+  "assets/source/bbe694a7-710-labs-logo.webp",
+  "assets/source/c6755eb3-wyld.webp",
+  "assets/source/c958f54c-plugplay.webp",
+  "assets/source/dc361d95-5-e1666212610628.png",
+  "assets/source/e181cbbf-8.webp",
+  "assets/source/f603d5c0-1-e1666212708428.png"
+ ]
+}

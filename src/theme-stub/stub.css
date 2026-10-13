@@ -1,0 +1,45 @@
+/* theme-stub: the minimum to read the stub build. The real theme replaces it (src/styles via src/theme/index.mjs). */
+:root { --forest: #203022; --leaf: #5dbc5d; --cream: #f5f4f1; }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-family: 'Libre Franklin', system-ui, sans-serif; color: var(--forest); background: #fff; line-height: 1.5; }
+img { max-width: 100%; height: auto; }
+a { color: inherit; }
+a:focus-visible, button:focus-visible, summary:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--leaf); outline-offset: 2px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+[hidden] { display: none !important; }
+.topbar, .site-header, .marquee, .shopping-strip, .site-footer, .reviews { padding: .75rem 1rem; }
+.topbar { background: var(--forest); color: #fff; display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; font-size: .875rem; }
+.tb-details p { margin: 0; }
+.site-header { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; background: #111; color: #fff; }
+.brand__logo { width: 150px; }
+.menu, .submenu { list-style: none; margin: 0; padding: 0; }
+.site-header .menu { display: flex; flex-wrap: wrap; gap: .75rem; }
+.submenu { padding-left: 1rem; font-size: .875rem; }
+.btn { display: inline-block; padding: .5rem 1rem; border-radius: 999px; background: var(--leaf); color: var(--forest); text-decoration: none; font-weight: 700; }
+.btn-row { display: flex; flex-wrap: wrap; gap: .5rem; }
+.marquee, .shopping-strip { background: var(--cream); }
+.crumbs ol { list-style: none; display: flex; gap: .5rem; padding: 0; margin: 0; }
+main { display: block; }
+.section { padding: 1.5rem 1rem; max-width: 80rem; margin: 0 auto; }
+.section--embed, .shop-embed { max-width: none; width: 100%; }
+.shop-embed--weedmaps > div, .shop-embed--weedmaps > p { min-height: 100vh; }
+.page-header { position: relative; }
+.page-header__img { width: 100%; max-height: 22rem; object-fit: cover; }
+.hero-tile { position: relative; margin-bottom: 1rem; }
+.hero-tile__img { width: 100%; max-height: 28rem; object-fit: cover; }
+.split { display: grid; gap: 1rem; }
+@media (min-width: 62rem) { .split { grid-template-columns: 1fr 1fr; } .split--img-left .split__img { order: -1; } }
+.card-grid__cards, .card-row, .location-cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+.card { border: 1px solid #ddd; border-radius: .75rem; padding: 1rem; }
+.logo-row, .deals, .posts, .reviews__list { list-style: none; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+.stars::before { content: '\2605\2605\2605\2605\2605'; color: var(--leaf); }
+.map iframe { max-width: 100%; }
+.form-note { font-size: .875rem; }
+.field { display: grid; gap: .25rem; margin-bottom: .75rem; }
+.site-footer { background: #111; color: #fff; }
+.oc-close::before { content: '\00d7'; }
+.look-h1, h1 { font-size: 2.25rem; } .look-h2, h2 { font-size: 1.75rem; } .look-h3, h3 { font-size: 1.375rem; }
+.look-h-ultra { font-size: 2.75rem; font-weight: 700; }
+html.jane-boot .not-found { display: none; }
+.img-slot { display: block; width: 100%; aspect-ratio: 16 / 9; background: linear-gradient(135deg, var(--cream), #e4efe4); border: 1px dashed #9bbf9b; border-radius: .75rem; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

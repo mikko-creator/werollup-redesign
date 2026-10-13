@@ -1,0 +1,217 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "service-area-town",
+ "path": "/service-area/lax/",
+ "slug": "service-area-lax",
+ "sourceUrl": "https://werollup.com/service-area/lax",
+ "rawFile": "audit/raw/service-area-lax.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "LAX – We Roll Up",
+ "metaDescription": "Los Angeles International Airport sits at the center of one of the busiest travel corridors in the country, and the neighborhoods that surround it have",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/service-area/lax/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "LAX",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "LAX",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "LAX",
+      "text": "LAX"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Why LAX Travelers Pay Attention to Cannabis Access",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Why LAX Travelers Pay Attention to Cannabis Access",
+     "text": "Why LAX Travelers Pay Attention to Cannabis Access"
+    },
+    {
+     "type": "paragraph",
+     "html": "Los Angeles International Airport sits at the center of one of the busiest travel corridors in the country, and the neighborhoods that surround it have become a natural stopping point for people arriving, departing, or simply passing through. For anyone curious about legal cannabis near the LAX area, knowing how access works, what is permitted, and where to find quality products makes a real difference in the experience.",
+     "text": "Los Angeles International Airport sits at the center of one of the busiest travel corridors in the country, and the neighborhoods that surround it have become a natural stopping point for people arriving, departing, or simply passing through. For anyone curious about legal cannabis near the LAX area, knowing how access works, what is permitted, and where to find quality products makes a real difference in the experience."
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/\">We Roll Up</a> is positioned to serve customers across the communities ringing the airport, including Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX. As San Pedro’s first licensed cannabis dispensary, we built our operation around clarity and reliability, two things that matter especially to travelers who do not have time to sort through confusing rules or low-grade selections. Whether you live near the flight paths or are visiting for a few days, our goal is to make the process straightforward.",
+     "text": "We Roll Up is positioned to serve customers across the communities ringing the airport, including Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX. As San Pedro’s first licensed cannabis dispensary, we built our operation around clarity and reliability, two things that matter especially to travelers who do not have time to sort through confusing rules or low-grade selections. Whether you live near the flight paths or are visiting for a few days, our goal is to make the process straightforward."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Understanding the Rules Before You Travel",
+     "text": "Understanding the Rules Before You Travel"
+    },
+    {
+     "type": "paragraph",
+     "html": "Cannabis remains federally regulated, which means it cannot legally be carried through airport security or onto an aircraft, regardless of state laws. This is the single most important fact for anyone heading to or from LAX. California permits adult recreational use and medical use, but those permissions stop at the boundaries of federally controlled spaces like the airport terminal and the airspace beyond it.",
+     "text": "Cannabis remains federally regulated, which means it cannot legally be carried through airport security or onto an aircraft, regardless of state laws. This is the single most important fact for anyone heading to or from LAX. California permits adult recreational use and medical use, but those permissions stop at the boundaries of federally controlled spaces like the airport terminal and the airspace beyond it."
+    },
+    {
+     "type": "paragraph",
+     "html": "What this means in practice is simple. Purchase and enjoy cannabis legally within California, but do not attempt to bring it on a flight. Many of our customers plan accordingly by buying what they need for their local stay and consuming responsibly before departure. We are always happy to explain these distinctions in store, and we always have a Spanish-speaking member of our team onsite to assist.",
+     "text": "What this means in practice is simple. Purchase and enjoy cannabis legally within California, but do not attempt to bring it on a flight. Many of our customers plan accordingly by buying what they need for their local stay and consuming responsibly before departure. We are always happy to explain these distinctions in store, and we always have a Spanish-speaking member of our team onsite to assist."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "How the Buying Process Works With Us",
+     "text": "How the Buying Process Works With Us"
+    },
+    {
+     "type": "paragraph",
+     "html": "We designed our shopping experience to be quick and welcoming, whether you are a first-time visitor or a seasoned connoisseur. The process moves through a few clear stages from start to finish.",
+     "text": "We designed our shopping experience to be quick and welcoming, whether you are a first-time visitor or a seasoned connoisseur. The process moves through a few clear stages from start to finish."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong>Browse the menu:</strong> Explore our online catalog or step inside to review smokable flower, pre-rolls, vapes, edibles, concentrates, and topicals.",
+       "text": "Browse the menu: Explore our online catalog or step inside to review smokable flower, pre-rolls, vapes, edibles, concentrates, and topicals."
+      },
+      {
+       "html": "<strong>Get guidance:</strong> Our knowledgeable team helps match products to your preferences, experience level, and desired effects.",
+       "text": "Get guidance: Our knowledgeable team helps match products to your preferences, experience level, and desired effects."
+      },
+      {
+       "html": "<strong>Choose your pickup:</strong> Select online ordering with in-store pickup, curbside pickup, or shop on the spot.",
+       "text": "Choose your pickup: Select online ordering with in-store pickup, curbside pickup, or shop on the spot."
+      },
+      {
+       "html": "<strong>Verify and complete:</strong> Bring valid identification proving you are of legal age, and we handle the rest.",
+       "text": "Verify and complete: Bring valid identification proving you are of legal age, and we handle the rest."
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "This structure keeps things efficient for people on tight schedules, which describes a lot of folks moving in and out of the LAX area. We open seven days per week, so timing is rarely an obstacle.",
+     "text": "This structure keeps things efficient for people on tight schedules, which describes a lot of folks moving in and out of the LAX area. We open seven days per week, so timing is rarely an obstacle."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Products That Suit Travelers and Locals Alike",
+     "text": "Products That Suit Travelers and Locals Alike"
+    },
+    {
+     "type": "paragraph",
+     "html": "Our hand-picked selection reflects the variety of people we <a href=\"/service-area/\">serve across California</a>. Recreational users looking to unwind after a long flight, medical patients seeking relief, and curious newcomers all find something appropriate. We focus on quality at affordable prices, sourcing items that hold up to scrutiny.",
+     "text": "Our hand-picked selection reflects the variety of people we serve across California. Recreational users looking to unwind after a long flight, medical patients seeking relief, and curious newcomers all find something appropriate. We focus on quality at affordable prices, sourcing items that hold up to scrutiny."
+    },
+    {
+     "type": "paragraph",
+     "html": "Some categories prove especially popular among those near the airport corridor:",
+     "text": "Some categories prove especially popular among those near the airport corridor:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "html": "<strong>Pre-rolls:</strong> Convenient and ready to use, ideal for a relaxed evening without extra equipment.",
+       "text": "Pre-rolls: Convenient and ready to use, ideal for a relaxed evening without extra equipment."
+      },
+      {
+       "html": "<strong>Edibles and gummies:</strong> Discreet, smoke-free options with predictable dosing for measured experiences.",
+       "text": "Edibles and gummies: Discreet, smoke-free options with predictable dosing for measured experiences."
+      },
+      {
+       "html": "<strong>Vapes:</strong> Compact and easy to manage, available in a wide range of strains and effects.",
+       "text": "Vapes: Compact and easy to manage, available in a wide range of strains and effects."
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "Beyond these, our flower selection covers indica, sativa, and hybrid strains, while concentrates and topicals round out the menu for those with specific goals. Finding your perfect strain is our mission, and we genuinely enjoy guiding people toward the right choice.",
+     "text": "Beyond these, our flower selection covers indica, sativa, and hybrid strains, while concentrates and topicals round out the menu for those with specific goals. Finding your perfect strain is our mission, and we genuinely enjoy guiding people toward the right choice."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Serving the Airport-Adjacent Communities",
+     "text": "Serving the Airport-Adjacent Communities"
+    },
+    {
+     "type": "paragraph",
+     "html": "The areas surrounding LAX represent a diverse mix of residents, commuters, and visitors. We function as part of the local society, and we take pride in creating a secure, comfortable, and accepting environment for everyone who walks through our doors. Locals stop in regularly, while visitors discover us when they want a trustworthy place that respects both the law and their time.",
+     "text": "The areas surrounding LAX represent a diverse mix of residents, commuters, and visitors. We function as part of the local society, and we take pride in creating a secure, comfortable, and accepting environment for everyone who walks through our doors. Locals stop in regularly, while visitors discover us when they want a trustworthy place that respects both the law and their time."
+    },
+    {
+     "type": "paragraph",
+     "html": "Our team works hard to send every customer home happy. We treat first-time patients with the same care as long-time aficionados, answering questions patiently and never rushing the experience. For recreational and medicinal marijuana alike, We Roll Up is where potential and opportunity meet. If your travels bring you through the LAX region, or if you simply live nearby, we invite you to explore our menu, lean on our staff, and discover the best of cannabinoids, terpenes, and effects in a setting built for the community.",
+     "text": "Our team works hard to send every customer home happy. We treat first-time patients with the same care as long-time aficionados, answering questions patiently and never rushing the experience. For recreational and medicinal marijuana alike, We Roll Up is where potential and opportunity meet. If your travels bring you through the LAX region, or if you simply live nearby, we invite you to explore our menu, lean on our staff, and discover the best of cannabinoids, terpenes, and effects in a setting built for the community."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/lax/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

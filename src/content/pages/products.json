@@ -1,0 +1,241 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "products-hub",
+ "path": "/products/",
+ "slug": "products",
+ "sourceUrl": "https://werollup.com/products",
+ "rawFile": "audit/raw/products.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Products – We Roll Up",
+ "metaDescription": "At We Roll Up, we carry a comprehensive selection of cannabis products designed to meet the needs of every customer who walks through our doors.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/products/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Products",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Products",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Products",
+      "text": "Products"
+     },
+     "image": {
+      "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Cannabis Products for Every Preference and Need",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Cannabis Products for Every Preference and Need",
+     "text": "Cannabis Products for Every Preference and Need"
+    },
+    {
+     "type": "paragraph",
+     "html": "At <a href=\"/\">We Roll Up</a>, we carry a comprehensive selection of cannabis products designed to meet the needs of every customer who walks through our doors. As <a href=\"/service-area/san-pedro/\">San Pedro</a>‘s first licensed cannabis dispensary, we have built our inventory around quality, variety, and accessibility. Whether you are a recreational user exploring cannabis for the first time, a medical patient seeking targeted relief, or a seasoned connoisseur looking for something exceptional, our hand-picked menu offers something for everyone. We proudly serve customers from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX and surrounding communities throughout California, providing a welcoming environment where you can explore the best weed products near me with guidance from our knowledgeable, diverse team.",
+     "text": "At We Roll Up, we carry a comprehensive selection of cannabis products designed to meet the needs of every customer who walks through our doors. As San Pedro‘s first licensed cannabis dispensary, we have built our inventory around quality, variety, and accessibility. Whether you are a recreational user exploring cannabis for the first time, a medical patient seeking targeted relief, or a seasoned connoisseur looking for something exceptional, our hand-picked menu offers something for everyone. We proudly serve customers from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX and surrounding communities throughout California, providing a welcoming environment where you can explore the best weed products near me with guidance from our knowledgeable, diverse team."
+    },
+    {
+     "type": "paragraph",
+     "html": "Our approach to product selection involves carefully vetting brands and cultivators to ensure that everything on our shelves meets rigorous standards for potency, purity, and consistency. The cannabis industry has grown exponentially, with the legal market now valued at over thirty billion dollars nationwide, and we stay on top of emerging trends so our customers always have access to the latest and most effective cannabis products available. From classic categories to innovative new formulations, our dispensary deals near me are designed to deliver premium quality at affordable prices.",
+     "text": "Our approach to product selection involves carefully vetting brands and cultivators to ensure that everything on our shelves meets rigorous standards for potency, purity, and consistency. The cannabis industry has grown exponentially, with the legal market now valued at over thirty billion dollars nationwide, and we stay on top of emerging trends so our customers always have access to the latest and most effective cannabis products available. From classic categories to innovative new formulations, our dispensary deals near me are designed to deliver premium quality at affordable prices."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Flower: The Foundation of Cannabis",
+     "text": "Flower: The Foundation of Cannabis"
+    },
+    {
+     "type": "paragraph",
+     "html": "Smokable Flower remains the most popular cannabis product category in the United States, accounting for roughly forty percent of all dispensary sales. At We Roll Up, our flower selection spans indica, sativa, and hybrid strains sourced from top-tier cultivators in California. Each strain is chosen for its unique terpene profile, cannabinoid content, and overall experience. Whether you prefer the relaxing body effects of a heavy indica or the uplifting cerebral energy of a pure sativa, finding your perfect strain is our mission. We stock flower in multiple sizes, from single grams to full ounces, making it easy to sample something new or stock up on a favorite.",
+     "text": "Smokable Flower remains the most popular cannabis product category in the United States, accounting for roughly forty percent of all dispensary sales. At We Roll Up, our flower selection spans indica, sativa, and hybrid strains sourced from top-tier cultivators in California. Each strain is chosen for its unique terpene profile, cannabinoid content, and overall experience. Whether you prefer the relaxing body effects of a heavy indica or the uplifting cerebral energy of a pure sativa, finding your perfect strain is our mission. We stock flower in multiple sizes, from single grams to full ounces, making it easy to sample something new or stock up on a favorite."
+    },
+    {
+     "type": "paragraph",
+     "html": "Our team evaluates flower based on appearance, aroma, cure quality, and lab-tested THC and CBD percentages. California’s regulated testing requirements ensure that every product on our shelf has been verified for contaminants including pesticides, heavy metals, and microbial impurities. This means you can shop with confidence knowing that safety and transparency are built into every purchase you make.",
+     "text": "Our team evaluates flower based on appearance, aroma, cure quality, and lab-tested THC and CBD percentages. California’s regulated testing requirements ensure that every product on our shelf has been verified for contaminants including pesticides, heavy metals, and microbial impurities. This means you can shop with confidence knowing that safety and transparency are built into every purchase you make."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Pre-Rolls: Convenience Without Compromise",
+     "text": "Pre-Rolls: Convenience Without Compromise"
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/pre-rolls/\">Pre-rolls</a> have surged in popularity over the past several years, and it is easy to understand why. They offer the full flower experience without requiring any preparation, grinding, or rolling equipment. We carry an extensive range of pre-roll options including single joints, multi-packs, infused pre-rolls coated in concentrate and rolled in kief, and mini pre-rolls perfect for shorter sessions. Infused pre-rolls in particular have become one of the fastest-growing segments in the cannabis market, delivering enhanced potency and flavor that elevates the traditional smoking experience.",
+     "text": "Pre-rolls have surged in popularity over the past several years, and it is easy to understand why. They offer the full flower experience without requiring any preparation, grinding, or rolling equipment. We carry an extensive range of pre-roll options including single joints, multi-packs, infused pre-rolls coated in concentrate and rolled in kief, and mini pre-rolls perfect for shorter sessions. Infused pre-rolls in particular have become one of the fastest-growing segments in the cannabis market, delivering enhanced potency and flavor that elevates the traditional smoking experience."
+    },
+    {
+     "type": "paragraph",
+     "html": "Our pre-roll selection includes options from brands that use only premium whole flower rather than trim or shake, ensuring a smooth and flavorful burn from start to finish. For customers visiting from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX looking for dispensary deals near me, pre-roll packs often represent outstanding value while maintaining the quality standards we are known for.",
+     "text": "Our pre-roll selection includes options from brands that use only premium whole flower rather than trim or shake, ensuring a smooth and flavorful burn from start to finish. For customers visiting from Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX looking for dispensary deals near me, pre-roll packs often represent outstanding value while maintaining the quality standards we are known for."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Vaporizers: Modern and Discreet Consumption",
+     "text": "Vaporizers: Modern and Discreet Consumption"
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/vaporizers-cartridges/\">Vaporizers</a> represent one of the most rapidly evolving categories in cannabis products. We stock a wide variety of vape options including disposable pens, cartridge-and-battery systems, and pod-based devices from industry-leading brands. Vaporizers heat cannabis oil to a temperature that releases cannabinoids and terpenes without combustion, producing a smoother inhale with less odor than traditional smoking methods. This makes them an attractive option for customers who value discretion and portability.",
+     "text": "Vaporizers represent one of the most rapidly evolving categories in cannabis products. We stock a wide variety of vape options including disposable pens, cartridge-and-battery systems, and pod-based devices from industry-leading brands. Vaporizers heat cannabis oil to a temperature that releases cannabinoids and terpenes without combustion, producing a smoother inhale with less odor than traditional smoking methods. This makes them an attractive option for customers who value discretion and portability."
+    },
+    {
+     "type": "paragraph",
+     "html": "Our vape cartridges come in multiple formulations including live resin, live rosin, distillate, and full-spectrum extracts. Live resin and live rosin cartridges are made from flash-frozen cannabis flower, preserving the plant’s natural terpene profile and delivering a flavor experience that closely mirrors smoking fresh flower. Distillate cartridges offer high potency and consistent effects, while full-spectrum options maintain a broader range of cannabinoids for what many users describe as a more balanced and nuanced experience. Our staff is always available to walk you through the differences and help you find the vaporizer that best matches your lifestyle and preferences.",
+     "text": "Our vape cartridges come in multiple formulations including live resin, live rosin, distillate, and full-spectrum extracts. Live resin and live rosin cartridges are made from flash-frozen cannabis flower, preserving the plant’s natural terpene profile and delivering a flavor experience that closely mirrors smoking fresh flower. Distillate cartridges offer high potency and consistent effects, while full-spectrum options maintain a broader range of cannabinoids for what many users describe as a more balanced and nuanced experience. Our staff is always available to walk you through the differences and help you find the vaporizer that best matches your lifestyle and preferences."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Edibles: Delicious and Long-Lasting Effects",
+     "text": "Edibles: Delicious and Long-Lasting Effects"
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/edibles-gummies/\">Edibles</a> have transformed the way people consume cannabis, offering a smoke-free alternative that delivers potent, long-lasting effects through ingestion. Our edible selection includes gummies, chocolates, baked goods, beverages, mints, and other infused treats available in a range of THC and CBD dosages. California law caps individual edible servings at ten milligrams of THC, with most packages containing multiple servings, making it straightforward to control your intake and find a comfortable dose.",
+     "text": "Edibles have transformed the way people consume cannabis, offering a smoke-free alternative that delivers potent, long-lasting effects through ingestion. Our edible selection includes gummies, chocolates, baked goods, beverages, mints, and other infused treats available in a range of THC and CBD dosages. California law caps individual edible servings at ten milligrams of THC, with most packages containing multiple servings, making it straightforward to control your intake and find a comfortable dose."
+    },
+    {
+     "type": "paragraph",
+     "html": "For first-time consumers, our team recommends starting with a low dose and waiting at least ninety minutes before consuming more, since edibles must pass through the digestive system before effects are felt. Experienced users often appreciate higher-dose options or nano-emulsified edibles that use advanced technology to improve bioavailability and onset time. We speak Spanish and English, and our friendly staff is always ready to provide personalized guidance so you leave with the right product for your needs.",
+     "text": "For first-time consumers, our team recommends starting with a low dose and waiting at least ninety minutes before consuming more, since edibles must pass through the digestive system before effects are felt. Experienced users often appreciate higher-dose options or nano-emulsified edibles that use advanced technology to improve bioavailability and onset time. We speak Spanish and English, and our friendly staff is always ready to provide personalized guidance so you leave with the right product for your needs."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Concentrates: Potency and Purity",
+     "text": "Concentrates: Potency and Purity"
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/concentrates/\">Concentrates</a> are designed for consumers seeking maximum potency and efficiency. These products are created through extraction processes that isolate cannabinoids and terpenes from raw cannabis plant material, resulting in products that typically range from sixty to over ninety percent THC. Our concentrate menu includes:",
+     "text": "Concentrates are designed for consumers seeking maximum potency and efficiency. These products are created through extraction processes that isolate cannabinoids and terpenes from raw cannabis plant material, resulting in products that typically range from sixty to over ninety percent THC. Our concentrate menu includes:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong>Live resin and live rosin</strong> crafted from fresh-frozen flower to preserve terpene richness and deliver exceptional flavor",
+       "text": "Live resin and live rosin crafted from fresh-frozen flower to preserve terpene richness and deliver exceptional flavor"
+      },
+      {
+       "html": "<strong>Shatter, wax, and budder</strong> offering versatile textures suitable for dabbing with a rig or electronic device",
+       "text": "Shatter, wax, and budder offering versatile textures suitable for dabbing with a rig or electronic device"
+      },
+      {
+       "html": "<strong>Diamonds and sauce</strong> combining crystalline THC-A with terpene-rich sauce for a premium experience",
+       "text": "Diamonds and sauce combining crystalline THC-A with terpene-rich sauce for a premium experience"
+      },
+      {
+       "html": "<strong>Rosin pressed without solvents</strong> appealing to health-conscious consumers who prefer solventless extraction methods",
+       "text": "Rosin pressed without solvents appealing to health-conscious consumers who prefer solventless extraction methods"
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "Concentrates require specific accessories for consumption, and our team can help you understand the equipment and techniques involved if you are new to this category. The concentrate market continues to grow as extraction technology advances, and we regularly update our inventory to feature the most innovative products available.",
+     "text": "Concentrates require specific accessories for consumption, and our team can help you understand the equipment and techniques involved if you are new to this category. The concentrate market continues to grow as extraction technology advances, and we regularly update our inventory to feature the most innovative products available."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Topicals: Targeted Relief Without Psychoactive Effects",
+     "text": "Topicals: Targeted Relief Without Psychoactive Effects"
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/topicals/\">Topicals</a> represent a unique category of cannabis products that are applied directly to the skin rather than inhaled or ingested. These products include lotions, balms, salves, patches, and bath products infused with THC, CBD, or a combination of both. Because cannabinoids applied topically interact with receptors in the skin without entering the bloodstream in significant amounts, most topicals provide localized relief without producing the psychoactive high associated with other consumption methods.",
+     "text": "Topicals represent a unique category of cannabis products that are applied directly to the skin rather than inhaled or ingested. These products include lotions, balms, salves, patches, and bath products infused with THC, CBD, or a combination of both. Because cannabinoids applied topically interact with receptors in the skin without entering the bloodstream in significant amounts, most topicals provide localized relief without producing the psychoactive high associated with other consumption methods."
+    },
+    {
+     "type": "paragraph",
+     "html": "This makes topicals particularly popular among medical patients and older adults seeking relief from discomfort, inflammation, or skin conditions. Transdermal patches are an exception, as they are specifically designed to deliver cannabinoids through the skin and into the bloodstream for systemic effects over an extended period. Our topical selection caters to a broad range of needs, and our knowledgeable team members can help you identify the right product based on your specific goals.",
+     "text": "This makes topicals particularly popular among medical patients and older adults seeking relief from discomfort, inflammation, or skin conditions. Transdermal patches are an exception, as they are specifically designed to deliver cannabinoids through the skin and into the bloodstream for systemic effects over an extended period. Our topical selection caters to a broad range of needs, and our knowledgeable team members can help you identify the right product based on your specific goals."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "How We Help You Choose",
+     "text": "How We Help You Choose"
+    },
+    {
+     "type": "paragraph",
+     "html": "With so many cannabis products available, finding the right option can feel overwhelming. That is exactly why our diverse and knowledgeable team is here. We guide every customer through our extensive menu with patience and expertise, whether you visit us in store, place an online order, or take advantage of our curbside pickup service. Our open-door philosophy means we welcome recreational users, medical patients, novices, and connoisseurs alike, seven days per week. At We Roll Up, we just love elevating your quality of life through premium cannabis products and exceptional service.",
+     "text": "With so many cannabis products available, finding the right option can feel overwhelming. That is exactly why our diverse and knowledgeable team is here. We guide every customer through our extensive menu with patience and expertise, whether you visit us in store, place an online order, or take advantage of our curbside pickup service. Our open-door philosophy means we welcome recreational users, medical patients, novices, and connoisseurs alike, seven days per week. At We Roll Up, we just love elevating your quality of life through premium cannabis products and exceptional service."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp"
+ ]
+}

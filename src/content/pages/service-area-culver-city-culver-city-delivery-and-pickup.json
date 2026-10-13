@@ -1,0 +1,167 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "service-area-town",
+ "path": "/service-area/culver-city/culver-city-delivery-and-pickup/",
+ "slug": "service-area-culver-city-culver-city-delivery-and-pickup",
+ "sourceUrl": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup",
+ "rawFile": "audit/raw/service-area-culver-city-culver-city-delivery-and-pickup.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Culver City Delivery and Pickup – We Roll Up",
+ "metaDescription": "At We Roll Up LAX, we offer fast local delivery and quick pickup to customers in Culver City, Fox Hills and neighboring communities.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Culver City Delivery and Pickup",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Culver City Delivery and Pickup",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Culver City Delivery and Pickup",
+      "text": "Culver City Delivery and Pickup"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Your Westside Service Hub",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Your Westside Service Hub",
+     "text": "Your Westside Service Hub"
+    },
+    {
+     "type": "paragraph",
+     "html": "At <a href=\"/\">We Roll Up LAX</a>, we offer fast local delivery and quick pickup to customers in Culver City, Fox Hills and neighboring communities. Our storefront on West Jefferson Blvd is just minutes from <a href=\"/culver-city/\">Downtown Culver</a> and the Culver Steps, making it easy for you to stop by or receive your order at home. As a trusted Westside shop with friendly service and daily specials, we’re committed to providing a smooth, convenient experience every time.",
+     "text": "At We Roll Up LAX, we offer fast local delivery and quick pickup to customers in Culver City, Fox Hills and neighboring communities. Our storefront on West Jefferson Blvd is just minutes from Downtown Culver and the Culver Steps, making it easy for you to stop by or receive your order at home. As a trusted Westside shop with friendly service and daily specials, we’re committed to providing a smooth, convenient experience every time."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Service Areas",
+     "text": "Service Areas"
+    },
+    {
+     "type": "paragraph",
+     "html": "Fox Hills (near Westfield Culver City mall)<br> Culver Steps area and downtown Culver City<br> Carlson Park and residential neighborhoods north of Culver Blvd<br> Sony Studios district<br> Washington Blvd corridor",
+     "text": "Fox Hills (near Westfield Culver City mall) Culver Steps area and downtown Culver City Carlson Park and residential neighborhoods north of Culver Blvd Sony Studios district Washington Blvd corridor"
+    },
+    {
+     "type": "paragraph",
+     "html": "We also reach neighboring pockets of<a href=\"/service-area/playa-vista-ca/\"> Playa Vista</a>, <a href=\"/service-area/marina-del-rey-ca/\">Marina del Rey</a>, <a href=\"/service-area/westchester-ca/\">Westchester</a> and<a href=\"/service-area/lax/\"> LAX</a>.",
+     "text": "We also reach neighboring pockets of Playa Vista, Marina del Rey, Westchester and LAX."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Directions for Pickup",
+     "text": "Directions for Pickup"
+    },
+    {
+     "type": "paragraph",
+     "html": "From Downtown Culver City: Travel west on Culver Blvd; at the intersection with Overland Ave, continue straight onto Jefferson Blvd. We’re located on the right just past Centinela Ave.<br> From Fox Hills: Drive east on Slauson Ave, merge onto the 405 Freeway southbound, exit at Jefferson Blvd, then head east; our shop is on the left before Lincoln Blvd.<br> Highlights for Culver City Customers<br> Priority delivery: Culver City orders are placed at the top of our delivery queue.<br> Quick pickup: Parking is available onsite for easy in‑and‑out service.<br> Simple online ordering: Browse our menu and secure your order in moments.<br> Local specials: Residents often enjoy exclusive deals—check our <a href=\"/daily-deals/\">Daily Deals</a> product for current offers.<br> Friendly staff: Whether in store or on the phone, we aim to provide the best customer service.",
+     "text": "From Downtown Culver City: Travel west on Culver Blvd; at the intersection with Overland Ave, continue straight onto Jefferson Blvd. We’re located on the right just past Centinela Ave. From Fox Hills: Drive east on Slauson Ave, merge onto the 405 Freeway southbound, exit at Jefferson Blvd, then head east; our shop is on the left before Lincoln Blvd. Highlights for Culver City Customers Priority delivery: Culver City orders are placed at the top of our delivery queue. Quick pickup: Parking is available onsite for easy in‑and‑out service. Simple online ordering: Browse our menu and secure your order in moments. Local specials: Residents often enjoy exclusive deals—check our Daily Deals product for current offers. Friendly staff: Whether in store or on the phone, we aim to provide the best customer service."
+    },
+    {
+     "type": "buttons",
+     "items": [
+      {
+       "label": "Shop now!",
+       "text": "Shop now!",
+       "href": "/lax-menu/",
+       "variant": "primary"
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Order Now – Culver City Delivery",
+     "text": "Order Now – Culver City Delivery"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Map",
+     "text": "Map"
+    },
+    {
+     "type": "map",
+     "provider": "google-maps",
+     "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6493.361254341059!2d-118.29652592651573!3d33.7287311077142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1663356466437!5m2!1sen!2sus",
+     "width": "800",
+     "height": "450",
+     "html": "<iframe width=\"800\" height=\"450\" style=\"border: 1;\" frameborder=\"1\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6493.361254341059!2d-118.29652592651573!3d33.7287311077142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1663356466437!5m2!1sen!2sus\" allowfullscreen=\"allowfullscreen\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" p=\"\"></iframe>"
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [
+  {
+   "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6493.361254341059!2d-118.29652592651573!3d33.7287311077142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1663356466437!5m2!1sen!2sus",
+   "width": "800",
+   "height": "450"
+  }
+ ],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/culver-city/culver-city-delivery-and-pickup/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

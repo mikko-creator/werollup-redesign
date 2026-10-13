@@ -1,0 +1,141 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "product-category",
+ "path": "/products/pre-rolls/",
+ "slug": "products-pre-rolls",
+ "sourceUrl": "https://werollup.com/products/pre-rolls",
+ "rawFile": "audit/raw/products-pre-rolls.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Pre-Rolls – We Roll Up",
+ "metaDescription": "How skilled are you at rolling a joint? Unless you’ve spent some time practicing, the process can be frustrating.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/products/pre-rolls/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Pre-Rolls",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Pre-Rolls",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Pre-Rolls",
+      "text": "Pre-Rolls"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp",
+      "src": "https://werollup.com/media/werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1620,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Pre-Rolls At We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Pre-Rolls At We Roll Up",
+     "text": "Pre-Rolls At We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "How skilled are you at rolling a joint? Unless you’ve spent some time practicing, the process can be frustrating. Along with waste, mess, and the necessary gear, a less-than-perfect finished <a href=\"/products/\">product</a> can diminish the whole experience. If the joint burns too fast, won’t stay lit, or develops lengthy ash, enjoyment suffers. The solution is pre-rolls, and <a href=\"/\">We Roll Up is the right place</a> to find them.",
+     "text": "How skilled are you at rolling a joint? Unless you’ve spent some time practicing, the process can be frustrating. Along with waste, mess, and the necessary gear, a less-than-perfect finished product can diminish the whole experience. If the joint burns too fast, won’t stay lit, or develops lengthy ash, enjoyment suffers. The solution is pre-rolls, and We Roll Up is the right place to find them."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Convenient, Tasty Pre-Rolls",
+     "text": "Convenient, Tasty Pre-Rolls"
+    },
+    {
+     "type": "paragraph",
+     "html": "We Roll Up answers the demand for ready-made smokeables with exceptional quality. Because the rolling paper conceals what’s inside, pre-rolls are too often created from sub-par weed. Rest assured, you won’t find anything but outstanding grow practices and premium pre-rolls on our shelves. Stop by or browse our website. Speed up the transaction with online ordering and curbside or in-store pickup. Check back for delivery coming soon!",
+     "text": "We Roll Up answers the demand for ready-made smokeables with exceptional quality. Because the rolling paper conceals what’s inside, pre-rolls are too often created from sub-par weed. Rest assured, you won’t find anything but outstanding grow practices and premium pre-rolls on our shelves. Stop by or browse our website. Speed up the transaction with online ordering and curbside or in-store pickup. Check back for delivery coming soon!"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h2",
+     "tag": "h3",
+     "html": "Cannabis Pre-Rolls From We Roll Up",
+     "text": "Cannabis Pre-Rolls From We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "As the first legal and licensed<a href=\"/service-area/san-pedro/\"> cannabis dispensary in San Pedro</a>, We Roll Up creates a well-established and welcoming environment for medicinal patients and recreational consumers. Our pre-rolls are especially affordable and provide a great opportunity to sample something new. They are portable, discreet, disposable, easy to consume, an excellent choice for beginners, and ideal for gifting or sharing.",
+     "text": "As the first legal and licensed cannabis dispensary in San Pedro, We Roll Up creates a well-established and welcoming environment for medicinal patients and recreational consumers. Our pre-rolls are especially affordable and provide a great opportunity to sample something new. They are portable, discreet, disposable, easy to consume, an excellent choice for beginners, and ideal for gifting or sharing."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Give our pre-rolls a try today!",
+     "text": "Give our pre-rolls a try today!"
+    },
+    {
+     "type": "buttons",
+     "items": [
+      {
+       "label": "Shop Now",
+       "text": "Shop Now",
+       "href": "/shop/",
+       "variant": "secondary",
+       "activeLocation": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp",
+  "src": "https://werollup.com/media/werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/pre-rolls/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp"
+ ]
+}

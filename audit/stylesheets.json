@@ -1,0 +1,62 @@
+{
+  "schema": "site-reforge/stylesheets@1",
+  "generated": "2026-10-13T01:47:32.564Z",
+  "discovered": [
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/omgf-stylesheet-80.css?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/omgf-stylesheet-138.css?ver=1667243715",
+    "https://werollup.com/wp-content/plugins/spellbook/styles/plugins.css?ver=7.1.3",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css",
+    "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.10.5",
+    "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.10.5",
+    "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.10.5",
+    "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.10.5",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/omgf-stylesheet-155.css?ver=1667243715"
+  ],
+  "saved": [
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/omgf-stylesheet-80.css?ver=1667243715",
+      "savedAs": "wp-content-uploads-omgf-omgf-stylesheet-80-omgf-stylesheet-80.css-ver-1667243715.css",
+      "bytes": 2720
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/omgf-stylesheet-138.css?ver=1667243715",
+      "savedAs": "wp-content-uploads-omgf-omgf-stylesheet-138-omgf-stylesheet-138.css-ver-1667243715.css",
+      "bytes": 8752
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/spellbook/styles/plugins.css?ver=7.1.3",
+      "savedAs": "wp-content-plugins-spellbook-styles-plugins.css-ver-7.1.3.css",
+      "bytes": 776
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.10.5",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-formreset.min.css-ver-2.10.5.css",
+      "bytes": 3860
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/styles/main.css",
+      "savedAs": "wp-content-themes-basebuildv3-dist-styles-main.css",
+      "bytes": 587080
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.10.5",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-formsmain.min.css-ver-2.10.5.css",
+      "bytes": 83159
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.10.5",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-readyclass.min.css-ver-2.10.5.css",
+      "bytes": 30750
+    },
+    {
+      "url": "https://werollup.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.10.5",
+      "savedAs": "wp-content-plugins-gravityforms-legacy-css-browsers.min.css-ver-2.10.5.css",
+      "bytes": 8407
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/omgf-stylesheet-155.css?ver=1667243715",
+      "savedAs": "wp-content-uploads-omgf-omgf-stylesheet-155-omgf-stylesheet-155.css-ver-1667243715.css",
+      "bytes": 10628
+    }
+  ]
+}

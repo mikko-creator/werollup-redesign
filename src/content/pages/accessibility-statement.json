@@ -1,0 +1,195 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "legal",
+ "path": "/accessibility-statement/",
+ "slug": "accessibility-statement",
+ "sourceUrl": "https://werollup.com/accessibility-statement",
+ "rawFile": "audit/raw/accessibility-statement.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Accessibility Statement – We Roll Up",
+ "metaDescription": "We Roll Up is committed to accessibility and strives to ensure its services are accessible to the broadest circle of people, including those with",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/accessibility-statement/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Accessibility Statement",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Accessibility Statement",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Accessibility Statement",
+      "text": "Accessibility Statement"
+     },
+     "image": {
+      "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Date: January 10, 2022",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Date: January 10, 2022",
+     "text": "Date: January 10, 2022"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h1",
+     "html": "Accessibility conformance status",
+     "text": "Accessibility conformance status",
+     "demotedFrom": 1
+    },
+    {
+     "type": "paragraph",
+     "html": "We Roll Up is committed to accessibility and strives to ensure its services are accessible to the broadest circle of people, including those with disabilities. This website is designed with the goal of conforming to the principles of the World Wide Web Consortium’s Web Content Accessibility Guidelines (WCAG 2.1) 2.1 Level AA.",
+     "text": "We Roll Up is committed to accessibility and strives to ensure its services are accessible to the broadest circle of people, including those with disabilities. This website is designed with the goal of conforming to the principles of the World Wide Web Consortium’s Web Content Accessibility Guidelines (WCAG 2.1) 2.1 Level AA."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Accessibility feedback",
+     "text": "Accessibility feedback"
+    },
+    {
+     "type": "paragraph",
+     "html": "Accessibility is powered by your willingness to share your experience on our site. If you have any specific questions, concerns, or general feedback about the accessibility of any of the content on our website, please contact us. Please be sure to specify the page/URL of concern, and we will get back to you in a timely manner.",
+     "text": "Accessibility is powered by your willingness to share your experience on our site. If you have any specific questions, concerns, or general feedback about the accessibility of any of the content on our website, please contact us. Please be sure to specify the page/URL of concern, and we will get back to you in a timely manner."
+    },
+    {
+     "type": "paragraph",
+     "html": "<strong>Email: <a href=\"mailto:[email]\">[email]</a></strong><br> <strong>Physical address: 1705 S Gaffey Street</strong>",
+     "text": "Email: [email] Physical address: 1705 S Gaffey Street"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Technical specifications",
+     "text": "Technical specifications"
+    },
+    {
+     "type": "paragraph",
+     "html": "<strong>The accessibility of We Roll Up relies on the following technologies:</strong>",
+     "text": "The accessibility of We Roll Up relies on the following technologies:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "HTML",
+       "text": "HTML"
+      },
+      {
+       "html": "WAI-ARIA",
+       "text": "WAI-ARIA"
+      },
+      {
+       "html": "CSS",
+       "text": "CSS"
+      },
+      {
+       "html": "JavaScript",
+       "text": "JavaScript"
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Accessibility features",
+     "text": "Accessibility features"
+    },
+    {
+     "type": "paragraph",
+     "html": "<strong>We Roll Up reaches beyond compliance, providing usability improvements that benefit all users including those that rely on assistive technology. Accessibility features on our website include and are not limited to:</strong>",
+     "text": "We Roll Up reaches beyond compliance, providing usability improvements that benefit all users including those that rely on assistive technology. Accessibility features on our website include and are not limited to:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Keyboard accessibility",
+       "text": "Keyboard accessibility"
+      },
+      {
+       "html": "Sufficient color contrast",
+       "text": "Sufficient color contrast"
+      },
+      {
+       "html": "Alternative text",
+       "text": "Alternative text"
+      },
+      {
+       "html": "Text-zoom",
+       "text": "Text-zoom"
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "Technology is constantly evolving, and new techniques to implement web accessibility are increasingly available. We will continue to review our website and apply additional accessibility as needed.",
+     "text": "Technology is constantly evolving, and new techniques to implement web accessibility are increasingly available. We will continue to review our website and apply additional accessibility as needed."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp"
+ ]
+}

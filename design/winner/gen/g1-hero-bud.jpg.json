@@ -1,0 +1,20 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Extreme macro photograph of one cured cannabis flower bud covered in frosted white trichomes, placed in the right third of the frame, lit by a soft leaf-green rim light from behind, drifting pale green mist and thin translucent smoke ribbons curling around it, deep dark forest-green background fading to near black on the left half, shallow depth of field, creamy bokeh, calm night atmosphere, fine crisp detail, photographic realism, no text, no logo, no people, no hands",
+  "input": {
+    "aspect_ratio": "16:9",
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a1334b-b448-7251-8716-457dfc44bdbe",
+  "seed": 181926495,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 786496,
+  "sha256": "bf72c6638cb4daa07d2b759fda7df8e17834564720b9486d48fd8ec5f7efb527",
+  "file": "tmp/panel/b/gen/g1-hero-bud.jpg",
+  "generatedAt": "2026-10-13T03:26:14.045Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

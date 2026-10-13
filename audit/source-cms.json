@@ -1,0 +1,27 @@
+{
+  "schema": "site-reforge/source-cms@1",
+  "generated": "2026-10-13T01:46:48.387Z",
+  "detected": [
+    {
+      "id": "wordpress",
+      "label": "WordPress",
+      "matchedPatterns": 4,
+      "evidence": [
+        "/\\/wp-content\\//i",
+        "/\\/wp-includes\\//i",
+        "/name=[\"']generator[\"'][^>]*WordPress/i"
+      ],
+      "pages": 91
+    },
+    {
+      "id": "webflow",
+      "label": "Webflow",
+      "matchedPatterns": 1,
+      "evidence": [
+        "/w-(?:container|row|col|nav|slider)\\b/i"
+      ],
+      "pages": 1
+    }
+  ],
+  "note": "Every id listed here MUST be absent from dist/ before packaging. sr-decontaminate.mjs enforces it."
+}

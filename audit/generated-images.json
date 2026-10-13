@@ -1,0 +1,1641 @@
+{
+  "schema": "site-reforge/generated-images@2",
+  "provider": "fal.ai (flux-pro v1.1 ultra, birefnet v2) and Higgsfield (kling-video/v3.0-turbo/image-to-video)",
+  "note": "Atmospheric and botanical imagery ADDED by the redesign (DESIGN-SPEC 10). None stands in for a real person, place, product, brand or result of We Roll Up (werollup.com). Every generated file carries the IPTC trainedAlgorithmicMedia label; the two real-photo cut-outs (CUT-CAP, CUT-LIGHTER) are the client's own photographs with the background removed and carry none. Every slot renders with alt=\"\" (decorative, DESIGN-SPEC 11).",
+  "images": [
+    {
+      "id": "G-LAX-DUSK",
+      "file": "assets/generated/g-lax-dusk.jpg",
+      "raw": "tmp/img/raw/G-LAX-DUSK.1791871855577.jpg",
+      "rawBytes": 436488,
+      "role": "banner",
+      "alt": "",
+      "usedFor": [
+        "10 Westside service-area town banners",
+        "/location/culver-city/ hero",
+        "/location/culver-city/shop/ banner",
+        "/lax-menu/ banner",
+        "/location-pagetype/cannabis-menu-page/ banner"
+      ],
+      "prompt": "Pastel dusk sky over west Los Angeles, long soft clouds lit peach and pale mint, a faint high contrail, low distant silhouettes of slender palm trees along the bottom edge, soft haze, calm, photographic, wide; no buildings in focus, no landmarks, no aircraft, no signs, no text, no logos, no people; no faces, no hands, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 3826831895,
+      "requestId": "01a133e2-84ed-7c53-b8fa-2053ea24d036",
+      "width": 3136,
+      "height": 1344,
+      "cutout": null,
+      "sha256": "7f8e4bd1e4164a6c497f3fb4094fe98781ef00b9478477108509f2db1b73b55d",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T06:10:57.427Z",
+      "attempt": 1
+    },
+    {
+      "id": "G-HARBOR-HAZE",
+      "file": "assets/generated/g-harbor-haze.jpg",
+      "raw": "tmp/img/raw/G-HARBOR-HAZE.1791871855957.jpg",
+      "rawBytes": 583370,
+      "role": "banner",
+      "alt": "",
+      "usedFor": [
+        "5 San Pedro group service-area banners",
+        "/location/san-pedro/ hero",
+        "/location/san-pedro/shop/ banner and its 8 menu paths",
+        "/location-pagetype/primary-location/ banner"
+      ],
+      "prompt": "Coastal morning haze over calm harbour water in soft golden light, layered pale hills dissolving into mist, gentle reflections, photographic, wide, calm; no bridge, no ships' names, no cranes with markings, no buildings in focus, no text, no logos, no people; no faces, no hands, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 2814687974,
+      "requestId": "01a133e2-84eb-7aa3-829b-0526f30f6d87",
+      "width": 3136,
+      "height": 1344,
+      "cutout": null,
+      "sha256": "73b8bfe0bcdef8b2b7a82b57a4899fda22bbc6a50af592463c74102344a651d3",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T06:10:58.001Z",
+      "attempt": 1
+    },
+    {
+      "id": "G-VAPE-BANNER",
+      "file": "assets/generated/g-vape-banner.jpg",
+      "raw": "tmp/img/raw/G-VAPE-BANNER.1791871963683.jpg",
+      "rawBytes": 594972,
+      "role": "banner",
+      "alt": "",
+      "usedFor": [
+        "/products/vaporizers-cartridges/ banner"
+      ],
+      "prompt": "Wide banner photograph: a single plain unbranded clear glass oil cartridge, a slim smooth blank glass cylinder with golden amber oil, a plain metal mouthpiece and a plain metal base, lying on pale cream stone in the right third of the frame with calm empty stone on the left, soft leaf shadows, a faint wisp of vapour, green bokeh, photographic; no device brand, no label, no print, no engraving, no lettering, no numbers, no hands, no people, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 2482812792,
+      "requestId": "01a133e3-e6da-73b3-8c2d-f3ed62f02cdf",
+      "width": 3136,
+      "height": 1344,
+      "cutout": null,
+      "sha256": "926fa75ea6b006c911fafa0d0cfca300d7f7ad329cec07fc31b428c817031073",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T06:12:45.462Z",
+      "attempt": 2
+    },
+    {
+      "id": "G-PREROLL-BANNER",
+      "file": "assets/generated/g-preroll-banner.jpg",
+      "raw": "tmp/img/raw/G-PREROLL-BANNER.1791871963686.jpg",
+      "rawBytes": 814261,
+      "role": "banner",
+      "alt": "",
+      "usedFor": [
+        "/products/pre-rolls/ banner"
+      ],
+      "prompt": "Wide banner photograph: a single slim cannabis pre-roll joint, finger length, rolled in natural unbleached brown hemp paper, green ground cannabis flower visible at its open twisted end, lying diagonally on pale stone in the right half of the frame with calm empty pale stone on the left, soft golden side light, shallow depth of field; no glass, no cup, no smoke, no hands, no print on the paper, no filter tip, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 2836887985,
+      "requestId": "01a133e3-e6dc-72c3-8bee-66c8abc2ed85",
+      "width": 3136,
+      "height": 1344,
+      "cutout": null,
+      "sha256": "4eb42d5ed98bcae3a372f8af304039d5868c88748e8faed28e7b74c0b4917b75",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T06:12:45.552Z",
+      "attempt": 2
+    }
+  ],
+  "failures": [],
+  "spend": {
+    "ultraCalls": 6,
+    "cutoutCalls": 0,
+    "otherCalls": 0,
+    "calls": [
+      {
+        "kind": "ultra",
+        "id": "G-LAX-DUSK",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T06:10:44.487Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "G-HARBOR-HAZE",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T06:10:44.504Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "G-PREROLL-BANNER",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T06:10:44.506Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "G-VAPE-BANNER",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T06:10:44.507Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "G-PREROLL-BANNER",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T06:12:15.134Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "G-VAPE-BANNER",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T06:12:15.151Z"
+      }
+    ],
+    "estUSD": 0.36,
+    "priceBasis": "about $0.06 per flux-pro ultra call and $0.005 per birefnet cut-out (fal list prices, UNVERIFIED against the invoice)",
+    "caps": {
+      "ultra": 8,
+      "cutout": 0,
+      "lane": "IMG"
+    }
+  },
+  "generated": "2026-10-13T06:12:45.552Z",
+  "rejected": [
+    {
+      "id": "G-VAPE-BANNER",
+      "file": "assets/generated/g-vape-banner.jpg",
+      "raw": "tmp/img/raw/G-VAPE-BANNER.1791871855958.jpg",
+      "rawBytes": 846423,
+      "role": "banner",
+      "alt": "",
+      "usedFor": [
+        "/products/vaporizers-cartridges/ banner"
+      ],
+      "prompt": "Wide banner photograph: a single unbranded clear glass oil cartridge with golden amber oil lying on pale cream stone in the right half of the frame, soft leaf shadows, a faint wisp of vapour, green bokeh, photographic; no device brand, no label, no print, no hands, no people, no text, no logos; no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 3776982165,
+      "requestId": "01a133e2-84ec-7ac3-ba22-e18658cc8b47",
+      "width": 3136,
+      "height": 1344,
+      "cutout": null,
+      "sha256": "f68bfa39f1f892b9e14c780b49f3c6203759fc8801dcfda5b05ad70660bfbc2f",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T06:10:57.936Z",
+      "attempt": 1,
+      "archivedAs": "tmp/img/rejected/G-VAPE-BANNER.1791871963683.jpg",
+      "reason": "attempt 1 (01a133e2-84ec-7ac3-ba22-e18658cc8b47) REJECTED on the 100% review: pseudo-text glyphs printed on the amber glass of the cartridge (A9: no text or marks); the vial also reads as a perfume roller, not a cartridge",
+      "at": "2026-10-13T06:12:45.461Z"
+    },
+    {
+      "id": "G-PREROLL-BANNER",
+      "file": "assets/generated/g-preroll-banner.jpg",
+      "raw": "tmp/img/raw/G-PREROLL-BANNER.1791871855954.jpg",
+      "rawBytes": 848994,
+      "role": "banner",
+      "alt": "",
+      "usedFor": [
+        "/products/pre-rolls/ banner"
+      ],
+      "prompt": "Wide banner photograph: a cannabis pre-roll joint rolled in natural unbleached brown hemp paper, green ground cannabis flower visible at its open twisted end, lying on pale stone in the right half of the frame with calm empty stone on the left, soft golden side light, shallow depth of field; no glass, no cup, no smoke, no hands, no print on the paper, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 70045724,
+      "requestId": "01a133e2-84ee-7161-8f9b-4f715570d3a1",
+      "width": 3136,
+      "height": 1344,
+      "cutout": null,
+      "sha256": "2584598076e7ea6c20f5ad016270334361e0db13229e70e086358536af3363d5",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T06:10:57.987Z",
+      "attempt": 1,
+      "archivedAs": "tmp/img/rejected/G-PREROLL-BANNER.1791871963686.jpg",
+      "reason": "attempt 1 (01a133e2-84ee-7161-8f9b-4f715570d3a1) not chosen on review: an oversized open kraft-paper tube, not a slim pre-roll (no twisted end), and its busy flower end sits in the bottom-left title zone of the banner",
+      "at": "2026-10-13T06:12:45.551Z"
+    }
+  ],
+  "higgsfield": [
+    {
+      "slot": "V-MIST",
+      "tool": "tools/hf-run.mjs",
+      "endpoint": "kling-video/v3.0-turbo/image-to-video",
+      "input": {
+        "prompt": "the smoke ribbons drift slowly sideways and thin out, gentle, continuous, no new objects, camera static",
+        "duration": 5,
+        "resolution": "1080p",
+        "image_url": "(Higgsfield upload of tmp/imagery/hf/in-v-mist.jpg, a 1920x1080 crop/scale of the approved still)"
+      },
+      "requestId": "bc401d6c-b187-45b3-82c6-13052e042116",
+      "acceptedAt": "2026-10-13T06:15:10.954Z",
+      "status": "failed",
+      "error": "This model is temporarily unavailable. Please try again later or contact support.",
+      "costUSD": 0,
+      "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)",
+      "log": "tmp/imagery/hf/v-mist-a1.log"
+    },
+    {
+      "slot": "V-DUSK",
+      "tool": "tools/hf-run.mjs",
+      "endpoint": "kling-video/v3.0-turbo/image-to-video",
+      "input": {
+        "prompt": "the haze drifts slowly, the palm silhouettes sway very slightly, the light shimmers softly, camera static, no people, no vehicles, no birds",
+        "duration": 5,
+        "resolution": "1080p",
+        "image_url": "(Higgsfield upload of tmp/imagery/hf/in-v-dusk.jpg, a 1920x1080 crop/scale of the approved still)"
+      },
+      "requestId": "8b2332ba-1265-4da9-ac7d-e923507adfdc",
+      "acceptedAt": "2026-10-13T06:15:11.021Z",
+      "status": "failed",
+      "error": "This model is temporarily unavailable. Please try again later or contact support.",
+      "costUSD": 0,
+      "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)",
+      "log": "tmp/imagery/hf/v-dusk-a1.log"
+    },
+    {
+      "slot": "V-TRICHOME",
+      "tool": "tools/hf-run.mjs",
+      "endpoint": "kling-video/v3.0-turbo/image-to-video",
+      "input": {
+        "prompt": "a very slow rack focus across the frosted trichomes, soft light drift, camera nearly static",
+        "duration": 5,
+        "resolution": "1080p",
+        "image_url": "(Higgsfield upload of tmp/imagery/hf/in-v-trichome.jpg, a 1920x1080 crop/scale of the approved still)"
+      },
+      "requestId": "eb97bbac-bd87-4a37-803b-265cf93dc82e",
+      "acceptedAt": "2026-10-13T06:15:11.082Z",
+      "status": "failed",
+      "error": "This model is temporarily unavailable. Please try again later or contact support.",
+      "costUSD": 0,
+      "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)",
+      "log": "tmp/imagery/hf/v-trichome-a1.log"
+    },
+    {
+      "slot": "V-MIST",
+      "tool": "tools/hf-run.mjs",
+      "endpoint": "kling-video/v3.0-turbo/image-to-video",
+      "input": {
+        "prompt": "the smoke ribbons drift slowly sideways and thin out, gentle, continuous, no new objects, camera static",
+        "duration": 5,
+        "resolution": "1080p",
+        "image_url": "(Higgsfield upload of tmp/imagery/hf/in-v-mist.jpg, a 1920x1080 crop/scale of the approved still)"
+      },
+      "requestId": "6fe00fc3-99d6-4906-bb95-bb3df3d3a5e3",
+      "acceptedAt": "2026-10-13T06:18:08.718Z",
+      "status": "failed",
+      "error": "This model is temporarily unavailable. Please try again later or contact support.",
+      "costUSD": 0,
+      "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)",
+      "log": "tmp/imagery/hf/v-mist-a2.log"
+    },
+    {
+      "slot": "V-MIST",
+      "tool": "tools/hf-run.mjs",
+      "endpoint": "kling-video/v3.0-turbo/image-to-video",
+      "input": {
+        "prompt": "the smoke ribbons drift slowly sideways and thin out, gentle, continuous, no new objects, camera static",
+        "duration": 5,
+        "resolution": "1080p",
+        "image_url": "(Higgsfield upload of tmp/imagery/hf/in-v-mist.jpg, a 1920x1080 crop/scale of the approved still)"
+      },
+      "requestId": "989325b7-1804-43a6-888a-270714583bfe",
+      "generatedAt": "2026-10-13T06:34:59.243Z",
+      "status": "completed",
+      "output": "tmp/imagery/hf/v-mist-a3.mp4 (4764646 B, sha256 b410e7c0531a94f4...)",
+      "costUSD": 0.7,
+      "costNote": "11.2 credits = $0.70 (hf-run --estimate, 14:13)",
+      "log": "tmp/imagery/hf/v-mist-a3.log"
+    },
+    {
+      "slot": "V-DUSK",
+      "tool": "tools/hf-run.mjs",
+      "endpoint": "kling-video/v3.0-turbo/image-to-video",
+      "input": {
+        "prompt": "the haze drifts slowly, the palm silhouettes sway very slightly, the light shimmers softly, camera static, no people, no vehicles, no birds",
+        "duration": 5,
+        "resolution": "1080p",
+        "image_url": "(Higgsfield upload of tmp/imagery/hf/in-v-dusk.jpg, a 1920x1080 scale of the approved still)"
+      },
+      "requestId": "c233af6c-1faa-422a-9a0d-835eec2e2ef7",
+      "generatedAt": "2026-10-13T06:38:36.495Z",
+      "status": "completed",
+      "output": "tmp/imagery/hf/v-dusk-a2.mp4 (6088181 B, sha256 26e2c83f9d7bb386...)",
+      "costUSD": 0.7,
+      "costNote": "11.2 credits = $0.70 (hf-run --estimate, 14:13)",
+      "log": "tmp/imagery/hf/v-dusk-a2.log"
+    }
+  ],
+  "slots": [
+    {
+      "id": "S-BUD-BANNER",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/products/"
+      ],
+      "uses": "/products/ banner (6.18.9); the documented alternative home hero (Q1): switch \"/\" in by adding it to pages",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-bud-banner.jpg",
+          "px": [
+            2752,
+            1536
+          ],
+          "bytes": 401782,
+          "sha256": "1bca912701830d79be2324881f5d39f55c309f390c545fbffcac04b64e278c8b",
+          "labelHits": 1
+        },
+        {
+          "file": "assets/generated/s-bud-banner-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 171627,
+          "sha256": "92f3f5c567e3825ea3ba085acd489c07d5ef2ff39af1390be6d5de6918683195",
+          "labelHits": 1
+        }
+      ],
+      "need": "full-bleed 1265x400 CSS at 1.5: 1898 px across",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g1-hero-bud.jpg",
+      "masterSha256": "0e1747bfc02b228277aa2d8f3b12a609927333536d36500f2567304ae6f43686",
+      "masterPx": [
+        2752,
+        1536
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Extreme macro photograph of one cured cannabis flower bud covered in frosted white trichomes, placed in the right third of the frame, lit by a soft leaf-green rim light from behind, drifting pale green mist and thin translucent smoke ribbons curling around it, deep dark forest-green background fading to near black on the left half, shallow depth of field, creamy bokeh, calm night atmosphere, fine crisp detail, photographic realism, no text, no logo, no people, no hands",
+      "requestId": "01a1334b-b448-7251-8716-457dfc44bdbe",
+      "seed": 181926495,
+      "input": {
+        "aspect_ratio": "16:9",
+        "safety_tolerance": "5"
+      },
+      "grade": "ffmpeg eq=saturation=0.84 (DESIGN-SPEC 10.4 \"graded to saturation .84\"; D-4)",
+      "costUSD": 0.06,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame + four 100% tiles (tmp/imagery/sheets/rv-1.png)",
+        "found": "one cured bud with frosted trichomes and pale green smoke ribbons on forest black; no text, marks, people, candy, alcohol, party, luxury, neon or iridescence; organic subject, no print-capable surface"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-TRICHOME",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/products/flower/"
+      ],
+      "uses": "/products/flower/ banner (6.17); the still and reduced-motion state of V-TRICHOME",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-trichome.jpg",
+          "px": [
+            2752,
+            1536
+          ],
+          "bytes": 545600,
+          "sha256": "bc429ceaeb9c412dee4e384bb676ff0ed2f53fea1d9f93ac013f4f0bb6fe914d",
+          "labelHits": 1
+        },
+        {
+          "file": "assets/generated/s-trichome-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 188805,
+          "sha256": "a33593888ebaf7a138e0ee6609446f1c6cc96b84714e98c47bf696f4fe77c7ac",
+          "labelHits": 1
+        }
+      ],
+      "need": "1898 px across",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g2-trichome-field.jpg",
+      "masterSha256": "64cfac9e6115c9f911af166c2806f4d78695314ff99be07fb665e3af245f3efb",
+      "masterPx": [
+        2752,
+        1536
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Abstract macro photograph of cannabis trichomes, glassy round resin heads on slender stalks like a soft-focus crystal forest, cool white and pale leaf-green light, deep forest-green shadows, dreamy depth of field with a thin plane of focus across the lower middle, faint mist, ethereal and calm, photographic realism, no text, no logo, no people",
+      "requestId": "01a1334b-b4b8-7793-80ff-493c13a24057",
+      "seed": 1670578878,
+      "input": {
+        "aspect_ratio": "16:9",
+        "safety_tolerance": "5"
+      },
+      "grade": "ffmpeg hue=h=-18 (B: \"hue pulled 18 deg from teal toward leaf green\"), then eq=saturation=0.84 (D-4: green-tinted atmosphere at .84 or less)",
+      "costUSD": 0.06,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame + four 100% tiles (rv-1.png); grade compared with the panel's own variant (grades.png)",
+        "found": "a soft-focus trichome field in leaf green and cream with a few soft peach bokeh discs; no text or marks; no neon or prism palette"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-MIST",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/about-us/daily-deals/",
+        "/accessibility-statement/",
+        "/privacy-policy/",
+        "/author/werollupadmin/",
+        "/reviews/greg-s/",
+        "/reviews/james/",
+        "/reviews/jennifer/",
+        "/reviews/patricia-h/",
+        "/reviews/thomas-h/"
+      ],
+      "uses": "banner of daily deals, the 2 legal pages, the author archive, the 5 review singles, and the 404 (render404: no page path) (6.18)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-mist.jpg",
+          "px": [
+            3136,
+            1344
+          ],
+          "bytes": 175128,
+          "sha256": "9c9185862af7e7c878f0007ed410809dcfc06d7db9dbb6747dd67e2f7d1365f0",
+          "labelHits": 1
+        },
+        {
+          "file": "assets/generated/s-mist-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 60176,
+          "sha256": "259f83b7c97fb01a657db1114751ac899df8b3814b7973da3f65f8a0bc62bc76",
+          "labelHits": 1
+        }
+      ],
+      "need": "1898 px across",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g6-mist-ribbons.jpg",
+      "masterSha256": "9ae3f8e238b90f81f784d21dc63288a1827d0fd387455a0b8e3f7a45a0abf897",
+      "masterPx": [
+        3136,
+        1344
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Wide atmospheric photograph of soft drifting smoke ribbons and layered mist glowing in pale leaf-green and cream light against a deep forest-green to near-black background, slow flowing curves, long exposure softness, calm and ethereal, abstract, no objects, no text, no logo, no people",
+      "requestId": "01a1334b-b6b0-7ed3-bac6-e10174534d46",
+      "seed": 2050173123,
+      "input": {
+        "aspect_ratio": "21:9",
+        "safety_tolerance": "5"
+      },
+      "grade": "ffmpeg eq=saturation=0.84 (4.2: \"graded to saturation 0.84 or less\")",
+      "costUSD": 0.06,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame + four 100% tiles (rv-2.png)",
+        "found": "abstract green smoke ribbons on forest; no objects, text or marks"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-MIST-BAND",
+      "kind": "image",
+      "role": "art",
+      "pages": [
+        "/",
+        "/products/flower/"
+      ],
+      "uses": "atmosphere plate (4.2): home Serve band and the phone hero ground under the pane (6.9, D-2); the flower \"Hits Different\" band (6.17). Masked radially, never behind a text box",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-mist.jpg",
+          "px": [
+            3136,
+            1344
+          ],
+          "bytes": 175128,
+          "sha256": "9c9185862af7e7c878f0007ed410809dcfc06d7db9dbb6747dd67e2f7d1365f0",
+          "labelHits": 1
+        }
+      ],
+      "need": "1898 px across",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g6-mist-ribbons.jpg",
+      "masterSha256": "9ae3f8e238b90f81f784d21dc63288a1827d0fd387455a0b8e3f7a45a0abf897",
+      "masterPx": [
+        3136,
+        1344
+      ],
+      "grade": "none",
+      "sameAs": "S-MIST",
+      "costUSD": 0,
+      "costNote": "same master as S-MIST (no extra call)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "same file as S-MIST (rv-2.png)",
+        "found": "as S-MIST"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-DUSK-PALMS",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/about-us/",
+        "/contact/",
+        "/weed-delivery/",
+        "/service-area/"
+      ],
+      "uses": "banners of /about-us, /contact, /weed-delivery and the /service-area hub (10.4, 6.18)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-dusk-palms.jpg",
+          "px": [
+            2752,
+            1536
+          ],
+          "bytes": 921187,
+          "sha256": "9cb9cb7064d34c314ddc53815cd968d263987f3900d200e858dd76bb95c3e648",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/s-dusk-palms-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 116648,
+          "sha256": "bd24dd0d47b32747e1ac321e7e1649ef049c6314a75b62a4231c49aa197fe931",
+          "labelHits": 1
+        }
+      ],
+      "need": "1898 px across (ship 2400 from the master)",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/a/gen/SPEND.md, not re-billed",
+      "master": "tmp/panel/a/gen/haze-palms.jpg",
+      "masterSha256": "57847ea3669649d04c356c7a06e38bd35355dbe30210a160748af7e8f3651ea2",
+      "masterPx": [
+        2752,
+        1536
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Golden hour haze over west Los Angeles: a few tall slender palm tree silhouettes softly dissolving into warm peach and cream mist, low sun glow, layered atmospheric depth, gentle light leaks, pale mint green high in the sky, soft focus, fine film grain, photographic, calm and airy, empty sky, no people, no buildings, no signs, no text, no vehicles, no birds",
+      "requestId": "01a1334d-35e1-76b1-83c3-b9bceaa9794d",
+      "seed": 3653905625,
+      "input": {
+        "aspect_ratio": "16:9",
+        "safety_tolerance": "5"
+      },
+      "grade": "none (warm peach haze, not a green-tinted atmosphere; master copied byte for byte, then labelled)",
+      "costUSD": 0.06,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame + four 100% tiles (rv-2.png); the sky speck and the bottom strip at about 116-400% (dusk-zoom.png)",
+        "found": "warm peach haze, palm silhouettes, distant hills; the sky 'speck' is a palm-frond tip, not a bird; the bottom strip holds a flat building silhouette, power lines, poles, a street lamp and one round pole-mounted silhouette with no legible face; no signs with text, no people, no vehicles"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-DUSK-PALMS-BAND",
+      "kind": "image",
+      "role": "art",
+      "pages": [
+        "/"
+      ],
+      "uses": "home Community band, full-bleed under the cream veil (4.2, 6.10 row 5, D-3); still of V-DUSK",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-dusk-palms.jpg",
+          "px": [
+            2752,
+            1536
+          ],
+          "bytes": 921187,
+          "sha256": "9cb9cb7064d34c314ddc53815cd968d263987f3900d200e858dd76bb95c3e648",
+          "labelHits": 2
+        }
+      ],
+      "need": "1898 px across",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/a/gen/SPEND.md, not re-billed",
+      "master": "tmp/panel/a/gen/haze-palms.jpg",
+      "masterSha256": "57847ea3669649d04c356c7a06e38bd35355dbe30210a160748af7e8f3651ea2",
+      "masterPx": [
+        2752,
+        1536
+      ],
+      "grade": "none",
+      "sameAs": "S-DUSK-PALMS",
+      "costUSD": 0,
+      "costNote": "same master as S-DUSK-PALMS (no extra call)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "same file as S-DUSK-PALMS",
+        "found": "as S-DUSK-PALMS"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-CARD-PREROLL",
+      "kind": "image",
+      "role": "card",
+      "pages": [],
+      "uses": "Pre-Rolls mega card and menu-sheet card (6.4; chrome on every page); optional 88 px thumbnail on /products/ (6.18.9)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-card-preroll.jpg",
+          "px": [
+            1792,
+            2368
+          ],
+          "bytes": 489671,
+          "sha256": "192dd37e6ef61b534fef476f32b777d1a05904ad53e8994eb393a9ce96091d45",
+          "labelHits": 2
+        }
+      ],
+      "need": "200 px card: 300 px at 1.5",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g8-preroll-flat.jpg",
+      "masterSha256": "192dd37e6ef61b534fef476f32b777d1a05904ad53e8994eb393a9ce96091d45",
+      "masterPx": [
+        1792,
+        2368
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Macro still-life photograph of a single hand-rolled cannabis pre-roll cone made of plain white paper with a neatly twisted tip and ground green flower visible at the open end, lying flat and diagonal on a pale frosted stone surface, soft leaf-green rim light, deep forest-green background with gentle bokeh, shallow depth of field, quiet and minimal, no glass, no cup, no smoke, no flame, no ash, no text, no logo, no printing, no people, no hands",
+      "requestId": "01a13351-f7b6-7070-a2e0-2eb8dcf49842",
+      "seed": 1373954519,
+      "input": {
+        "aspect_ratio": "3:4",
+        "safety_tolerance": "5"
+      },
+      "grade": "none",
+      "costUSD": 0.06,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame + four 100% tiles (rv-3.png); the paper at 200% (print-zoom.png)",
+        "found": "a plain white pre-roll cone with ground flower at the open end on a pale stone block; paper carries no print; no glass, cup, smoke, hands"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-CARD-VAPE",
+      "kind": "image",
+      "role": "card",
+      "pages": [],
+      "uses": "Vaporizers & Cartridges mega card and menu-sheet card (6.4); optional /products/ thumbnail",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-card-vape.jpg",
+          "px": [
+            2368,
+            1792
+          ],
+          "bytes": 510638,
+          "sha256": "f05420cd245dc385d933922b28e14b8fee2845b4f9f8550f67dafc4a4b1f955a",
+          "labelHits": 2
+        }
+      ],
+      "need": "300 px",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g3-cartridge.jpg",
+      "masterSha256": "f05420cd245dc385d933922b28e14b8fee2845b4f9f8550f67dafc4a4b1f955a",
+      "masterPx": [
+        2368,
+        1792
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Calm product photograph of a plain unbranded clear glass oil cartridge with amber golden oil, standing upright slightly right of center, a faint translucent wisp of vapour rising above it, dark forest-green background with soft green bokeh, gentle cream rim light, minimal, no text, no logo, no label, no printing, no people, no hands",
+      "requestId": "01a1334b-b50f-7422-bfa0-5cc6ee1d1182",
+      "seed": 1345624524,
+      "input": {
+        "aspect_ratio": "4:3",
+        "safety_tolerance": "5"
+      },
+      "grade": "none",
+      "costUSD": 0.06,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame + four 100% tiles (rv-3.png); the cartridge at 200% (print-zoom.png)",
+        "found": "an unbranded glass cartridge with a green cap and amber oil, a wisp of vapour, green bokeh; the glass and cap carry no glyphs or marks at 200%"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-CARD-EDIBLES",
+      "kind": "image",
+      "role": "card",
+      "pages": [],
+      "uses": "Edibles mega card and menu-sheet card (6.4; deliberately non-depictive, A9); optional /products/ thumbnail",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-card-edibles.jpg",
+          "px": [
+            2368,
+            1792
+          ],
+          "bytes": 704679,
+          "sha256": "c6b251429667ad4fe11c3adf7a2c93d4e542aa6ddd74ff6dae3bc5a362675603",
+          "labelHits": 2
+        }
+      ],
+      "need": "300 px",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g4-leaf-dew.jpg",
+      "masterSha256": "c6b251429667ad4fe11c3adf7a2c93d4e542aa6ddd74ff6dae3bc5a362675603",
+      "masterPx": [
+        2368,
+        1792
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Macro photograph of the serrated edge of a fresh cannabis fan leaf with tiny dew drops, backlit by soft leaf-green light, pale cream mist drifting behind, deep forest-green shadows, shallow depth of field, ethereal and calm, photographic realism, no text, no logo, no people",
+      "requestId": "01a1334b-b587-7c31-a1c4-fd3004e4564d",
+      "seed": 4158450763,
+      "input": {
+        "aspect_ratio": "4:3",
+        "safety_tolerance": "5"
+      },
+      "grade": "none",
+      "costUSD": 0.06,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame + four 100% tiles (rv-4.png)",
+        "found": "a dewy cannabis fan leaf on green bokeh; deliberately non-depictive (no edibles, candy or sweets, A9); no text or marks"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-EDIBLES-BANNER",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/products/edibles/"
+      ],
+      "uses": "/products/edibles/ banner: the 21:9 crop of the S-CARD-EDIBLES master the spec names (10.4: 2368x1015, 1.25 at 1898 px)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-card-edibles-banner.jpg",
+          "px": [
+            2368,
+            1015
+          ],
+          "bytes": 255350,
+          "sha256": "781df4be6d166441b285368a5291c6dfd74f9283c61081be8429ec62dc7d2156",
+          "labelHits": 1
+        },
+        {
+          "file": "assets/generated/s-card-edibles-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 130967,
+          "sha256": "717d46c587821e5912f36801ccc76c87ef7a730b3456af360f4414320ae9f3f1",
+          "labelHits": 1
+        }
+      ],
+      "need": "1898 px across",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g4-leaf-dew.jpg",
+      "masterSha256": "c6b251429667ad4fe11c3adf7a2c93d4e542aa6ddd74ff6dae3bc5a362675603",
+      "masterPx": [
+        2368,
+        1792
+      ],
+      "grade": "crop 2368x1015 at y 340 (keeps the dewy leaf)",
+      "sameAs": "S-CARD-EDIBLES",
+      "costUSD": 0,
+      "costNote": "same master as S-CARD-EDIBLES (no extra call)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "a crop of the reviewed S-CARD-EDIBLES master (rv-4.png)",
+        "found": "as S-CARD-EDIBLES"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "S-CUT-BUD",
+      "kind": "image",
+      "role": "cutout",
+      "pages": [
+        "/products/flower/"
+      ],
+      "uses": "F1: the cured-bud cut-out across the flower banner seam (5.4)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/s-cut-bud.png",
+          "px": [
+            1118,
+            1275
+          ],
+          "bytes": 2481650,
+          "sha256": "748778fa11bf1985c235c9c1df236b1f1c52fc23ccb38228a120bb2b0da7e6f8",
+          "labelHits": 1
+        }
+      ],
+      "need": "280 px painted: 420 px (B used a 760 file)",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/g5-bud-studio.cut.png",
+      "masterSha256": "5038fea58b8698f8df7c0f9c659477b430a350872afba6b5896a7f92fa54645a",
+      "masterPx": [
+        2048,
+        2048
+      ],
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Studio macro photograph of a single dense cured cannabis bud with frosted trichomes and a few orange pistils, isolated and centered on a plain flat dark charcoal background, soft even light with a subtle green rim light, sharp focus across the whole bud, generous empty space around it, no text, no logo, no people",
+      "requestId": "01a1334b-b61d-7e32-931f-3cc921288b82",
+      "seed": 1249413863,
+      "input": {
+        "aspect_ratio": "1:1",
+        "safety_tolerance": "5"
+      },
+      "cutout": {
+        "model": "fal-ai/birefnet/v2",
+        "requestId": "01a1334b-e245-73b2-845c-fcd60e04e687"
+      },
+      "grade": "kept the bud component (alpha > 128 from a seed), 1 px edge erosion, cropped to its box + 6 px (tmp/imagery/clean-lighter.mjs --trim no)",
+      "costUSD": 0.08,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "composited on forest and cream (cap-bud-clean.png); whole + four 100% tiles (rv-4.png)",
+        "found": "one cured bud with orange pistils, clean alpha edge on both grounds; no text or marks"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "CUT-CAP",
+      "kind": "image",
+      "role": "cutout",
+      "pages": [
+        "/",
+        "/weed-delivery/"
+      ],
+      "uses": "H3 (home Serve light box, bottom and left frame edges) and T3 (/weed-delivery split-section light box) (5.4)",
+      "aiLabel": false,
+      "realPhoto": true,
+      "files": [
+        {
+          "file": "assets/generated/real/cut-cap.png",
+          "px": [
+            943,
+            806
+          ],
+          "bytes": 454710,
+          "sha256": "859140dd180e01fde6360f5fe97cb3a0718a68a0b86c480d84a33140d29dfcfb",
+          "labelHits": 0
+        }
+      ],
+      "need": "about 240 / 260 / 150 CSS wide",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/b/gen/SPEND.md, not re-billed",
+      "master": "design/winner/gen/cap.cut.png",
+      "masterSha256": "833999915a173aee02258dfd9b264691ed4052a5f916aded502461ce067ae23a",
+      "masterPx": [
+        1920,
+        1920
+      ],
+      "realPhotoSource": "assets/source/7ed18521-1-1.webp",
+      "model": "fal-ai/birefnet/v2",
+      "prompt": null,
+      "requestId": "01a1334b-b764-7920-bd07-7585cc7422e0",
+      "seed": null,
+      "input": {
+        "image_url": "(data uri of the source photo)",
+        "model": "General Use (Heavy)",
+        "operating_resolution": "2048x2048",
+        "output_format": "png"
+      },
+      "grade": "kept the cap component, 1 px edge erosion, cropped to its box + 6 px; RE-ENCODED without metadata (the panel PNG carried an AI XMP that a real photo must not carry)",
+      "costUSD": 0.02,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "composited on forest and cream (cap-bud-clean.png)",
+        "found": "the client's own LOS ANGELES We Roll Up cap (real photo 7ed18521), clean edge on both grounds, no fringe found, so no re-clean call was spent on it; real photo: no AI label (grep 0)"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "CUT-LIGHTER",
+      "kind": "image",
+      "role": "cutout",
+      "pages": [
+        "/",
+        "/products/pre-rolls/"
+      ],
+      "uses": "H4 (rises out of the top edge of the home Community light box, aligned over its photo twin) and T2 (/products/pre-rolls banner bottom edge) (5.4)",
+      "aiLabel": false,
+      "realPhoto": true,
+      "files": [
+        {
+          "file": "assets/generated/real/cut-lighter.png",
+          "px": [
+            523,
+            686
+          ],
+          "bytes": 185797,
+          "sha256": "b6d4a5fae827ca3c01b7d7ad89a886534be05c930fec43099804a26518a7d464",
+          "labelHits": 0
+        }
+      ],
+      "need": "239x315 / 232x305 / 165x217 CSS",
+      "booked": "panel (WF2), already spent: booked in tmp/panel/a/gen/SPEND.md, not re-billed",
+      "master": "tmp/panel/a/gen/red-lighter.cut.png",
+      "masterSha256": "d96060ea0b371d4a6472851217c03c6489a1be056054866bce58a0b2ba95aeaa",
+      "masterPx": [
+        1200,
+        1600
+      ],
+      "realPhotoSource": "assets/source/8bd7f345-werollup-red-lighter-preroll-ashtray-playing-cards-gallery.webp",
+      "model": "fal-ai/birefnet/v2",
+      "prompt": null,
+      "requestId": "01a1334d-3bdd-7973-9970-e9f922a8fe2b",
+      "seed": null,
+      "input": {
+        "image_url": "(data uri of the source photo)",
+        "model": "General Use (Heavy)",
+        "operating_resolution": "2048x2048",
+        "output_format": "png"
+      },
+      "grade": "cleaned this session (tmp/imagery/clean-lighter.mjs): the lighter component only (debris, pre-roll, card and ashtray fragments dropped), the light playing-card wedge on its right edge cleared beyond the body line (3,612 px), 1 px edge erosion, cropped to its box + 6 px; no AI label (real photo)",
+      "wf3bCalls": [
+        {
+          "model": "fal-ai/birefnet/v2",
+          "requestId": "01a133e6-a71c-7132-b9c1-13523b3238c6",
+          "costUSD": 0.02,
+          "verdict": "REJECTED: Matting kept the translucent glass ashtray around the lighter as foreground (alpha above 128, connected to the lighter) and, once isolated, clipped the hood; the cleaned panel General Use cut is used instead (tmp/imagery/sheets/lighter-clean.png)"
+        }
+      ],
+      "costUSD": 0.02,
+      "costNote": "panel spend at the panel rates ($0.06 flux, birefnet booked at $0.02, UNVERIFIED against an invoice)",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "composited on forest and cream before and after cleaning (lighter-cuts.png, lighter-right-zoom.png, lighter-clean.png)",
+        "found": "the client's own red We Roll Up lighter (real photo 8bd7f345). The panel cut kept a white playing-card wedge on the body's right edge (the 'light fringe'); cleared. The new birefnet Matting re-cut (01a133e6-a71c-7132-b9c1-13523b3238c6) kept the translucent ashtray glass as foreground and clipped the hood: REJECTED, so the cleaned file is built on the panel's General Use alpha (01a1334d-3bdd-7973-9970-e9f922a8fe2b). Real photo: no AI label (grep 0)"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "G-LAX-DUSK",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/service-area/culver-city/",
+        "/service-area/culver-city/culver-city-delivery-and-pickup/",
+        "/service-area/lax/",
+        "/service-area/lax/lax-weed-delivery/",
+        "/service-area/marina-del-rey-ca/",
+        "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+        "/service-area/playa-vista-ca/",
+        "/service-area/playa-vista-ca/playa-vista-weed-delivery/",
+        "/service-area/westchester-ca/",
+        "/service-area/westchester-ca/westchester-weed-delivery/",
+        "/location/culver-city/",
+        "/location/culver-city/shop/",
+        "/lax-menu/",
+        "/location-pagetype/cannabis-menu-page/"
+      ],
+      "uses": "banners of the 10 Westside town pages, /location/culver-city hero (place plate), the Culver City shop banner (the 18 query variants are the same file), /lax-menu, /location-pagetype/cannabis-menu-page",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/g-lax-dusk.jpg",
+          "px": [
+            3136,
+            1344
+          ],
+          "bytes": 437422,
+          "sha256": "7f8e4bd1e4164a6c497f3fb4094fe98781ef00b9478477108509f2db1b73b55d",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/g-lax-dusk-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 45489,
+          "sha256": "463cd8314d5012ba937e875ae77a08caa4c80b444c4bb9926fc64b15bee7f664",
+          "labelHits": 1
+        }
+      ],
+      "need": "full-bleed 1265x360 CSS at 1.5 (1898 px: 1.65); phone 390x320 at 3 (1170 px)",
+      "booked": "WF3b (this lane)",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Pastel dusk sky over west Los Angeles, long soft clouds lit peach and pale mint, a faint high contrail, low distant silhouettes of slender palm trees along the bottom edge, soft haze, calm, photographic, wide; no buildings in focus, no landmarks, no aircraft, no signs, no text, no logos, no people; no faces, no hands, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "requestId": "01a133e2-84ed-7c53-b8fa-2053ea24d036",
+      "seed": 3826831895,
+      "masterPx": [
+        3136,
+        1344
+      ],
+      "attempts": 1,
+      "costUSD": 0.06,
+      "rejectedAttempts": [],
+      "phoneCrop": "ffmpeg crop of the master at full height (aspect 1170:960), lanczos to 1170x960, q 2, labelled",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame (new-attempt1.png) + four 100% tiles (rv-5.png) + the bottom strip at 100% (new-attempt1-zoom.png)",
+        "found": "pastel dusk sky, peach and pale mint clouds, a faint contrail, low palm silhouettes, a street lamp, a tree and a flat roof edge; no signs, text, landmarks, aircraft or people"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "G-HARBOR-HAZE",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/service-area/san-pedro/",
+        "/service-area/san-pedro/carson-ca/",
+        "/service-area/san-pedro/rancho-palos-verdes-ca/",
+        "/service-area/san-pedro/san-pedro-weed-delivery/",
+        "/service-area/san-pedro/wilmington-ca/",
+        "/location/san-pedro/",
+        "/location/san-pedro/shop/",
+        "/location/san-pedro/shop/menu/edible/",
+        "/location/san-pedro/shop/menu/extract/",
+        "/location/san-pedro/shop/menu/flower/",
+        "/location/san-pedro/shop/menu/gear/",
+        "/location/san-pedro/shop/menu/jane-gold/",
+        "/location/san-pedro/shop/menu/pre-roll/",
+        "/location/san-pedro/shop/menu/topical/",
+        "/location/san-pedro/shop/menu/vape/",
+        "/location-pagetype/primary-location/"
+      ],
+      "uses": "banners of the 5 San Pedro group pages, /location/san-pedro hero, the San Pedro shop banner and its 8 menu paths (the 19 filter variants are the same file), /location-pagetype/primary-location",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/g-harbor-haze.jpg",
+          "px": [
+            3136,
+            1344
+          ],
+          "bytes": 584304,
+          "sha256": "73b8bfe0bcdef8b2b7a82b57a4899fda22bbc6a50af592463c74102344a651d3",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/g-harbor-haze-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 86795,
+          "sha256": "579b918a69a26d96b54d78ede2bf4798e2de5a0c74a0398d43a9dbcf274097ad",
+          "labelHits": 1
+        }
+      ],
+      "need": "as G-LAX-DUSK",
+      "booked": "WF3b (this lane)",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Coastal morning haze over calm harbour water in soft golden light, layered pale hills dissolving into mist, gentle reflections, photographic, wide, calm; no bridge, no ships' names, no cranes with markings, no buildings in focus, no text, no logos, no people; no faces, no hands, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "requestId": "01a133e2-84eb-7aa3-829b-0526f30f6d87",
+      "seed": 2814687974,
+      "masterPx": [
+        3136,
+        1344
+      ],
+      "attempts": 1,
+      "costUSD": 0.06,
+      "rejectedAttempts": [],
+      "phoneCrop": "ffmpeg crop of the master at full height (aspect 1170:960), lanczos to 1170x960, q 2, labelled",
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame (new-attempt1.png) + four 100% tiles (rv-5.png) + the ship and cranes at 200% (new-attempt1-zoom.png)",
+        "found": "harbour haze, layered hills, calm water; a soft unmarked cargo ship and two plain cranes at mid-left (no names, numbers or markings at 200%, which the prompt allows); no text, no people"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "G-PREROLL-BANNER",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/products/pre-rolls/"
+      ],
+      "uses": "/products/pre-rolls banner (6.17)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/g-preroll-banner.jpg",
+          "px": [
+            3136,
+            1344
+          ],
+          "bytes": 815195,
+          "sha256": "4eb42d5ed98bcae3a372f8af304039d5868c88748e8faed28e7b74c0b4917b75",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/g-preroll-banner-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 149578,
+          "sha256": "6a8342d45142c579cc34ffc52b4839545184e5275f9993cf4ff5968d7958bf42",
+          "labelHits": 1
+        }
+      ],
+      "need": "1898 px",
+      "booked": "WF3b (this lane)",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Wide banner photograph: a single slim cannabis pre-roll joint, finger length, rolled in natural unbleached brown hemp paper, green ground cannabis flower visible at its open twisted end, lying diagonally on pale stone in the right half of the frame with calm empty pale stone on the left, soft golden side light, shallow depth of field; no glass, no cup, no smoke, no hands, no print on the paper, no filter tip, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "requestId": "01a133e3-e6dc-72c3-8bee-66c8abc2ed85",
+      "seed": 2836887985,
+      "masterPx": [
+        3136,
+        1344
+      ],
+      "attempts": 2,
+      "costUSD": 0.12,
+      "rejectedAttempts": [
+        {
+          "requestId": "01a133e2-84ee-7161-8f9b-4f715570d3a1",
+          "seed": 70045724,
+          "archivedAs": "tmp/img/rejected/G-PREROLL-BANNER.1791871963686.jpg",
+          "reason": "attempt 1 (01a133e2-84ee-7161-8f9b-4f715570d3a1) not chosen on review: an oversized open kraft-paper tube, not a slim pre-roll (no twisted end), and its busy flower end sits in the bottom-left title zone of the banner"
+        }
+      ],
+      "phoneCrop": "ffmpeg crop of the master at full height (aspect 1170:960), lanczos to 1170x960, q 2, labelled",
+      "review": {
+        "verdict": "ACCEPT (attempt 2)",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame (new-attempt2.png) + four 100% tiles (rv-6.png) + the open end and the tube at 100% (new-attempt2-zoom.png)",
+        "found": "a slim hemp-paper pre-roll lying diagonally on pale stone, ground flower spilling from the open end, calm stone on the left for the title; the paper carries no print; no glass, smoke, hands or filter tip"
+      },
+      "verdict": "ACCEPT (attempt 2)"
+    },
+    {
+      "id": "G-VAPE-BANNER",
+      "kind": "image",
+      "role": "hero",
+      "pages": [
+        "/products/vaporizers-cartridges/"
+      ],
+      "uses": "/products/vaporizers-cartridges banner (6.17)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/g-vape-banner.jpg",
+          "px": [
+            3136,
+            1344
+          ],
+          "bytes": 595906,
+          "sha256": "926fa75ea6b006c911fafa0d0cfca300d7f7ad329cec07fc31b428c817031073",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/g-vape-banner-phone.jpg",
+          "px": [
+            1170,
+            960
+          ],
+          "bytes": 82106,
+          "sha256": "40f0706f167ae5939a17137784daa12c85fa2a3ef49fce26b49301c4b4a06a33",
+          "labelHits": 1
+        }
+      ],
+      "need": "1898 px",
+      "booked": "WF3b (this lane)",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "prompt": "Wide banner photograph: a single plain unbranded clear glass oil cartridge, a slim smooth blank glass cylinder with golden amber oil, a plain metal mouthpiece and a plain metal base, lying on pale cream stone in the right third of the frame with calm empty stone on the left, soft leaf shadows, a faint wisp of vapour, green bokeh, photographic; no device brand, no label, no print, no engraving, no lettering, no numbers, no hands, no people, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+      "input": {
+        "aspect_ratio": "21:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "requestId": "01a133e3-e6da-73b3-8c2d-f3ed62f02cdf",
+      "seed": 2482812792,
+      "masterPx": [
+        3136,
+        1344
+      ],
+      "attempts": 2,
+      "costUSD": 0.12,
+      "rejectedAttempts": [
+        {
+          "requestId": "01a133e2-84ec-7ac3-ba22-e18658cc8b47",
+          "seed": 3776982165,
+          "archivedAs": "tmp/img/rejected/G-VAPE-BANNER.1791871963683.jpg",
+          "reason": "attempt 1 (01a133e2-84ec-7ac3-ba22-e18658cc8b47) REJECTED on the 100% review: pseudo-text glyphs printed on the amber glass of the cartridge (A9: no text or marks); the vial also reads as a perfume roller, not a cartridge"
+        }
+      ],
+      "phoneCrop": "ffmpeg crop of the master at full height (aspect 1170:960), lanczos to 1170x960, q 2, labelled",
+      "review": {
+        "verdict": "ACCEPT (attempt 2)",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "whole frame (new-attempt2.png) + four 100% tiles (rv-6.png) + the cartridge at 100% (new-attempt2-zoom.png) and 300% (print-zoom.png)",
+        "found": "an unbranded glass cartridge with amber oil, plain silver mouthpiece and gold base, standing on a stone slab with leaves, a wisp of vapour and green bokeh; no glyphs, marks or print at 300%; no hands or people"
+      },
+      "verdict": "ACCEPT (attempt 2)"
+    },
+    {
+      "id": "V-MIST",
+      "kind": "video",
+      "role": "art",
+      "pages": [
+        "/",
+        "/products/flower/"
+      ],
+      "uses": "loop over S-MIST in the home Serve band and the flower Hits band (10.5, 7.5); never in the home hero",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/v-mist-poster.webp",
+          "px": [
+            1920,
+            1080
+          ],
+          "bytes": 34652,
+          "sha256": "3448c8a4c21cd9b37525f0404179201211c3bbaab4e7f15c473b7ef7b0ef2759",
+          "labelHits": 1
+        },
+        {
+          "file": "assets/generated/v-mist.mp4",
+          "px": null,
+          "bytes": 542910,
+          "sha256": "230bda92046164c264615856b34848b169e271d0b89ac0dfb8bbd50fa2e200f3",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/v-mist.webm",
+          "px": null,
+          "bytes": 271017,
+          "sha256": "475baf6fde2d59f692996042cb62f9b5664b62e0730f20969675422c0f8340b4",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/v-mist-phone.mp4",
+          "px": null,
+          "bytes": 199566,
+          "sha256": "c06815961bbf6ec2cfb3fdf857e9d16137bc56ecbc3af598351c7961bc374f3d",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/v-mist-phone.webm",
+          "px": null,
+          "bytes": 113107,
+          "sha256": "d0e6d073ff853b3de614bcec04355e2b21de4c2e41811a25690ac487cb27cd77",
+          "labelHits": 2
+        }
+      ],
+      "need": null,
+      "booked": "WF3b (this lane)",
+      "model": "Higgsfield kling-video/v3.0-turbo/image-to-video (5 s, 1080p)",
+      "prompt": "the smoke ribbons drift slowly sideways and thin out, gentle, continuous, no new objects, camera static",
+      "attempts": [
+        {
+          "requestId": "bc401d6c-b187-45b3-82c6-13052e042116",
+          "status": "failed",
+          "error": "This model is temporarily unavailable. Please try again later or contact support.",
+          "costUSD": 0,
+          "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)"
+        },
+        {
+          "requestId": "6fe00fc3-99d6-4906-bb95-bb3df3d3a5e3",
+          "status": "failed",
+          "error": "This model is temporarily unavailable. Please try again later or contact support.",
+          "costUSD": 0,
+          "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)"
+        },
+        {
+          "requestId": "989325b7-1804-43a6-888a-270714583bfe",
+          "status": "completed",
+          "error": null,
+          "costUSD": 0.7,
+          "costNote": "11.2 credits = $0.70 (hf-run --estimate, 14:13)"
+        }
+      ],
+      "costUSD": 0.7,
+      "costWorstCaseUSD": 2.1,
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "frame sheet at 0/0.8/1.6/2.4/3.2 s + last frame (tmp/imagery/sheets/loop-v-mist.png); calmness by tools/make-loop.mjs; the 1.6 s frame as whole frame + four 100% tiles (tmp/imagery/sheets/rv-loops.png): no text, marks, people or artefacts",
+        "found": "smoke ribbons drift and thin; no new objects, text, people, flicker; YDIF p95 1.29, max 1.63, 0 frames over 20, seam 1.63"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "V-DUSK",
+      "kind": "video",
+      "role": "art",
+      "pages": [
+        "/"
+      ],
+      "uses": "loop over S-DUSK-PALMS in the home Community band (10.5)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/v-dusk-poster.webp",
+          "px": [
+            1920,
+            1080
+          ],
+          "bytes": 36768,
+          "sha256": "6725fbd321b13244e5ffe0c812dc646f69bf035c8550ba908da84f2902ccfb99",
+          "labelHits": 1
+        },
+        {
+          "file": "assets/generated/v-dusk.mp4",
+          "px": null,
+          "bytes": 259728,
+          "sha256": "494e4f9020d40e0f9594bdae7bfb7c5177af65d1f8127f15aafc397d086875bf",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/v-dusk.webm",
+          "px": null,
+          "bytes": 87577,
+          "sha256": "d225aa845af466a49f3a7ae71b8b5bf4e713dd22bf33f1ef605397ecb430bb8e",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/v-dusk-phone.mp4",
+          "px": null,
+          "bytes": 108754,
+          "sha256": "d5fa042e5370018e5a19129aab4f40a307d1d55abe55392ea69367f18c3c84e1",
+          "labelHits": 2
+        },
+        {
+          "file": "assets/generated/v-dusk-phone.webm",
+          "px": null,
+          "bytes": 46672,
+          "sha256": "0389506661309dafc715b8b48fb45c5471b1e38adb37970e30b94682c4de526d",
+          "labelHits": 2
+        }
+      ],
+      "need": null,
+      "booked": "WF3b (this lane)",
+      "model": "Higgsfield kling-video/v3.0-turbo/image-to-video (5 s, 1080p)",
+      "prompt": "the haze drifts slowly, the palm silhouettes sway very slightly, the light shimmers softly, camera static, no people, no vehicles, no birds",
+      "attempts": [
+        {
+          "requestId": "8b2332ba-1265-4da9-ac7d-e923507adfdc",
+          "status": "failed",
+          "error": "This model is temporarily unavailable. Please try again later or contact support.",
+          "costUSD": 0,
+          "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)"
+        },
+        {
+          "requestId": "c233af6c-1faa-422a-9a0d-835eec2e2ef7",
+          "status": "completed",
+          "error": null,
+          "costUSD": 0.7,
+          "costNote": "11.2 credits = $0.70 (hf-run --estimate, 14:13)"
+        }
+      ],
+      "costUSD": 0.7,
+      "costWorstCaseUSD": 1.4,
+      "review": {
+        "verdict": "ACCEPT",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "method": "frame sheet at 0/0.8/1.6/2.4/3.2 s + last frame (tmp/imagery/sheets/loop-v-dusk.png); calmness by tools/make-loop.mjs; the 1.6 s frame as whole frame + four 100% tiles (tmp/imagery/sheets/rv-loops.png): no text, marks, people or artefacts",
+        "found": "near-still haze and palm crowns; no new objects (people, vehicles, birds), palms not animated like characters, no flicker; YDIF p95 0.14, max 0.62, 0 frames over 20, seam 0.62"
+      },
+      "verdict": "ACCEPT"
+    },
+    {
+      "id": "V-TRICHOME",
+      "kind": "video",
+      "role": "art",
+      "pages": [
+        "/products/flower/"
+      ],
+      "uses": "loop over S-TRICHOME in the /products/flower banner (10.5; in that page's first screen, Q4)",
+      "aiLabel": true,
+      "realPhoto": false,
+      "files": [
+        {
+          "file": "assets/generated/v-trichome-poster.webp",
+          "missing": true
+        },
+        {
+          "file": "assets/generated/v-trichome.mp4",
+          "missing": true
+        },
+        {
+          "file": "assets/generated/v-trichome.webm",
+          "missing": true
+        },
+        {
+          "file": "assets/generated/v-trichome-phone.mp4",
+          "missing": true
+        },
+        {
+          "file": "assets/generated/v-trichome-phone.webm",
+          "missing": true
+        }
+      ],
+      "need": null,
+      "booked": "WF3b (this lane)",
+      "model": "Higgsfield kling-video/v3.0-turbo/image-to-video (5 s, 1080p)",
+      "prompt": "a very slow rack focus across the frosted trichomes, soft light drift, camera nearly static",
+      "attempts": [
+        {
+          "requestId": "eb97bbac-bd87-4a37-803b-265cf93dc82e",
+          "status": "failed",
+          "error": "This model is temporarily unavailable. Please try again later or contact support.",
+          "costUSD": 0,
+          "costNote": "status failed before any output; booked at $0 (billing UNVERIFIED; worst case $0.70)"
+        }
+      ],
+      "costUSD": 0,
+      "costWorstCaseUSD": 0.7,
+      "review": {
+        "verdict": "NOT GENERATED",
+        "by": "IMAGERY",
+        "date": "2026-10-13",
+        "found": "Its first request failed (model temporarily unavailable). A new call ($0.70) would take the WORST-CASE total to $6.80, past the $6.14 plan ceiling, if the 4 failed requests were billed (UNVERIFIED). Stopped before the call, as the brief requires. The booked total would be $4.00. DESIGN-SPEC Q4 also asks the operator whether this first-screen loop is wanted at all."
+      },
+      "verdict": "NOT GENERATED"
+    }
+  ],
+  "panelSpend": {
+    "source": [
+      "tmp/panel/a/gen/SPEND.md",
+      "tmp/panel/b/gen/SPEND.md",
+      "tmp/panel/c/gen/SPEND.md"
+    ],
+    "bookedUSD": {
+      "A": 0.48,
+      "B": 0.54,
+      "C": 0.39,
+      "total": 1.41,
+      "note": "A booked its 4 birefnet calls at no price"
+    },
+    "conservativeUSD": 1.52,
+    "conservativeBasis": "22 flux calls x $0.06 + 10 birefnet calls x $0.02 (DESIGN-SPEC 10.7; UNVERIFIED against an invoice)"
+  },
+  "birefnet": [
+    {
+      "slot": "CUT-LIGHTER",
+      "tool": "tools/fal-upscale.mjs",
+      "model": "fal-ai/birefnet/v2",
+      "input": {
+        "model": "Matting",
+        "operating_resolution": "2048x2048",
+        "output_format": "png",
+        "image_url": "(data uri of assets/source/8bd7f345-werollup-red-lighter-preroll-ashtray-playing-cards-gallery.webp)"
+      },
+      "requestId": "01a133e6-a71c-7132-b9c1-13523b3238c6",
+      "at": "2026-10-13T14:15:14+08:00",
+      "output": "tmp/imagery/cuts/lighter-matting.png (1200x1600 RGBA, 1,966,312 B; sidecar .json)",
+      "costUSD": 0.02,
+      "costNote": "booked at $0.02 per birefnet call (DESIGN-SPEC 10.7; fal-gen.mjs lists $0.005; UNVERIFIED against an invoice)",
+      "verdict": "REJECTED: Matting kept the translucent glass ashtray around the lighter as foreground (alpha above 128, connected to the lighter) and, once isolated, clipped the hood; the cleaned panel General Use cut is used instead (tmp/imagery/sheets/lighter-clean.png)"
+    }
+  ],
+  "budget": {
+    "capUSD": 15,
+    "ceilingUSD": 6.14,
+    "ceilingBasis": "DESIGN-SPEC 10.7: panel $1.52 + plan $2.62 + reserve $2.00",
+    "panelUSD": 1.52,
+    "wf3b": {
+      "fluxCalls": 6,
+      "fluxUSD": 0.36,
+      "birefnetCalls": 1,
+      "birefnetUSD": 0.02,
+      "higgsfieldCalls": 6,
+      "higgsfieldCompleted": 2,
+      "higgsfieldBookedUSD": 1.4,
+      "higgsfieldWorstCaseUSD": 4.2
+    },
+    "totalBookedUSD": 3.3,
+    "totalWorstCaseUSD": 6.1,
+    "headroomToCeilingWorstCaseUSD": 0.04,
+    "note": "Booked = what the calls cost when every failed Higgsfield request is not billed (the provider returned status \"failed\", \"This model is temporarily unavailable\"; billing UNVERIFIED). Worst case = every failed request billed at $0.70. Every go/no-go uses the worst case."
+  }
+}

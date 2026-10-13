@@ -1,0 +1,113 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead1",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.359Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead2",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.361Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead3",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.373Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead4",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.374Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead5",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.389Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead6",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.405Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead1",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.672Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead2",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.688Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead3",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.704Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead4",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.705Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead5",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.720Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead6",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:30.735Z"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "page",
+ "path": "/about-us/",
+ "slug": "about-us",
+ "sourceUrl": "https://werollup.com/about-us",
+ "rawFile": "audit/raw/about-us.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "About Us – We Roll Up",
+ "metaDescription": "As San Pedro’s first licensed Cannabis dispensary, We Roll Up intends to provide a safe, secure and welcoming environment to bring legal weed to the",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/about-us/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "About Us",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "About Us",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "About Us",
+      "text": "About Us"
+     },
+     "image": {
+      "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Welcome to We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Welcome to We Roll Up",
+     "text": "Welcome to We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "As San Pedro’s first licensed Cannabis dispensary, We Roll Up intends to provide a safe, secure and welcoming environment to bring legal weed to the community.",
+     "text": "As San Pedro’s first licensed Cannabis dispensary, We Roll Up intends to provide a safe, secure and welcoming environment to bring legal weed to the community."
+    },
+    {
+     "type": "paragraph",
+     "html": "We function as part of the local society and we are proudly serving San Pedro and the surrounding areas with a hand-picked selection of the finest cannabis products at affordable prices. Recreational users, medical patients, novices or connoisseurs, all are warmly welcome!",
+     "text": "We function as part of the local society and we are proudly serving San Pedro and the surrounding areas with a hand-picked selection of the finest cannabis products at affordable prices. Recreational users, medical patients, novices or connoisseurs, all are warmly welcome!"
+    },
+    {
+     "type": "heading",
+     "level": null,
+     "look": "h2",
+     "tag": "div",
+     "html": "Our Team",
+     "text": "Our Team"
+    },
+    {
+     "type": "paragraph",
+     "html": "We are proud of our diverse and very knowledgeable team. Whether you are a first-time patient or a long time aficionado, our goal is to provide you with the best service possible and to send you home happy and with a smile ?",
+     "text": "We are proud of our diverse and very knowledgeable team. Whether you are a first-time patient or a long time aficionado, our goal is to provide you with the best service possible and to send you home happy and with a smile ?"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "We speak Spanish!",
+     "text": "We speak Spanish!"
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp"
+ ]
+}

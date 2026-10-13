@@ -1,0 +1,420 @@
+{
+  "schema": "site-reforge/fonts@1",
+  "generated": "2026-10-13T01:47:13.845Z",
+  "discovered": [
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-400.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-600.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-700.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_747d0385.ttf",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_356a0e9c.woff",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_09cd8e9b.svg",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-200.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-200.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-300.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-300.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-400.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-400.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-600.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-600.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-700.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-700.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-900.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-900.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-200.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-200.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-300.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-300.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-400.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-600.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-700.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-900.woff2?ver=1667243715",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-900.woff2?ver=1667243715"
+  ],
+  "saved": [
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-400.woff2",
+      "bytes": 23096,
+      "sha256": "6bcddc1c2f4716329519fd9599deb891cafe86dad745226b2106c1e9eab92309"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-400.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-400.woff2",
+      "bytes": 14812,
+      "sha256": "fb7b366bd65fb747ebc7d6e2af9d8a25b056c27c4551db320fe68799ca43dc91"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-600.woff2",
+      "bytes": 23040,
+      "sha256": "14bb07353099b4f622a934a43c6d209acc671d37b04af80614c0704b666438f7"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-600.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-600.woff2",
+      "bytes": 14772,
+      "sha256": "a2fe82406659ad9ab5fc997e99f26dc63614f3f6fc474a1a8a2483e5248b8800"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-700.woff2",
+      "bytes": 22924,
+      "sha256": "3fbcbab63801644b5ee648bac0d2f2c9819caf58a44b31614447bbbd153ba63c"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-700.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-700.woff2",
+      "bytes": 14628,
+      "sha256": "45c6a51457cd1a536fcbf11d51ecdc225daf9635073cf6bc95381f57e87f6f46"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=1667243715",
+      "savedAs": "libre-franklin-italic-latin-ext.woff2",
+      "bytes": 28416,
+      "sha256": "f405e6460d254f7b46ff7155a0cb1b91acdacb82312807c688fb37f1856eb370"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715",
+      "savedAs": "libre-franklin-italic-latin.woff2",
+      "bytes": 32856,
+      "sha256": "c9fb9170f00060c83306219df8357a81a56c5ad142e25b3e3d9c21d2d47e2009"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=1667243715",
+      "savedAs": "libre-franklin-normal-latin-ext.woff2",
+      "bytes": 25692,
+      "sha256": "61216d8e3efe8c5a26861f8b92dc9a922645c662da95c37bf787a4a774a5c8d5"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715",
+      "savedAs": "libre-franklin-normal-latin.woff2",
+      "bytes": 29292,
+      "sha256": "52e605852c72cc2df1473df1fb7f26a3a0be58e31835bc8f33f29b1918c82cbd"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_747d0385.ttf",
+      "savedAs": "lg_747d0385.ttf",
+      "bytes": 4756,
+      "sha256": "22b72ba50bae8c932c55d6fd5b1768dc7dbca856c27a3892c1df69ac4003687f"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_356a0e9c.woff",
+      "savedAs": "lg_356a0e9c.woff",
+      "bytes": 4832,
+      "sha256": "fefc5c0d765c26cc5a1779fe4aaab9e0dabb0c14eef068aaf1ad8804592099a1"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_09cd8e9b.svg",
+      "savedAs": "lg_09cd8e9b.svg",
+      "bytes": 12834,
+      "sha256": "f2fe1c00ed9c7bec409ce50038191c71ee54f5cc4877936f5adcf8c6f2e5242d"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff",
+      "savedAs": "HelveticaNeue-Condensed.woff",
+      "bytes": 14288,
+      "sha256": "ea377279c73491c1fd9467cfad3c705d49a883885fc572ac59a3726756542f10"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2",
+      "savedAs": "HelveticaNeue-Condensed.woff2",
+      "bytes": 9732,
+      "sha256": "a498ab247c37be84e17ae422be9b32fbefe94ca5b94d63813b7785e7cbcd9031"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff",
+      "savedAs": "Agrandir-Tight.woff",
+      "bytes": 30616,
+      "sha256": "d79f4c9fcea55e825671a2889d1fe041abcca8eae8908def553972a1975e7dac"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2",
+      "savedAs": "Agrandir-Tight.woff2",
+      "bytes": 19868,
+      "sha256": "29f60c71e3eb58407e7bebb1a3b828d5dd767044ce880d9dc8412a459a1a6e2f"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-200.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-ext-200.woff2",
+      "bytes": 20856,
+      "sha256": "b9981b5cfcb9eaa30d9391979e3b413102a80e4212149d601972248a1aa6d842"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-200.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-200.woff2",
+      "bytes": 13644,
+      "sha256": "faf91d91ee6004b186d3e48bb1a1ddac1d3d9839071e7cde470e3696947d82cd"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-300.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-ext-300.woff2",
+      "bytes": 21848,
+      "sha256": "7ec8bf47bcaa4905dfd8f0443eb7ab5585edaa1c3bc180ee464c9eba1fc343fb"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-300.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-300.woff2",
+      "bytes": 14128,
+      "sha256": "4d82f78bba28b9e39c86b128b39e998d6b673355b42f91058ff6f291a98c757c"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-400.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-ext-400.woff2",
+      "bytes": 21732,
+      "sha256": "bc177e6a56c5007c1c4488ab7e349562bf7a6471b0360dbe0edd95b1d7cd50ac"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-400.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-400.woff2",
+      "bytes": 14164,
+      "sha256": "4caf5e66ec6c708b9b39405b9e2cee434a71137793f18717b637f3f8a92a12ea"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-600.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-ext-600.woff2",
+      "bytes": 21928,
+      "sha256": "38ff2e163d4a0d7b8e60723629af3198af33381c002a35b1d87c07479b84bc55"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-600.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-600.woff2",
+      "bytes": 14180,
+      "sha256": "9165a79b05213d577bd23f2c369c11593d034b2f44f87d868899ea12f2259a53"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-700.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-ext-700.woff2",
+      "bytes": 21976,
+      "sha256": "4681eab5919e1c1b68226c004bf7bf153a1dae544dc80ddf6497299b80a96eba"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-700.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-700.woff2",
+      "bytes": 14208,
+      "sha256": "a5fa7e494005ba3a647069ccefa06fd59bcd5c691751d9967793408a4babc130"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-900.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-ext-900.woff2",
+      "bytes": 21128,
+      "sha256": "2f147c9000b6944cd9299d2a5bbe22fac02a44ff17b0f78d97c06f7cf16424a6"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-900.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-italic-latin-900.woff2",
+      "bytes": 13620,
+      "sha256": "f00fe4c77593f95ca6f34612160e1a7bba22e5a358ebfa03b9005dc163f40222"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-200.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-200.woff2",
+      "bytes": 21952,
+      "sha256": "be027012916ed52c0d96e9786a8066155d68002ed2642caa6609d24f7e10430a"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-200.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-200.woff2",
+      "bytes": 14308,
+      "sha256": "675939c202e5c3f2b3a8605d1465735a40fd524458c5866bd33ef62f41674a36"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-300.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-300.woff2",
+      "bytes": 22892,
+      "sha256": "1116b45248305e0235a2bfcc027eb4aeb4bf7908b4700e2b687766d96c377d96"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-400.woff2",
+      "bytes": 23096,
+      "cached": true
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-400.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-400.woff2",
+      "bytes": 14812,
+      "cached": true
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-600.woff2",
+      "bytes": 23040,
+      "cached": true
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-600.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-600.woff2",
+      "bytes": 14772,
+      "cached": true
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-700.woff2",
+      "bytes": 22924,
+      "cached": true
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-700.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-700.woff2",
+      "bytes": 14628,
+      "cached": true
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-300.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-300.woff2",
+      "bytes": 14692,
+      "sha256": "a327a082ad3f8b9d4691d019a8a825df5951f9e0b6fa3e416e711dbe7574dfd4"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-900.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-ext-900.woff2",
+      "bytes": 22152,
+      "sha256": "99c457038899f88ab182b8a26316c2b031df7411f745de0668f20668961192d3"
+    },
+    {
+      "url": "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-900.woff2?ver=1667243715",
+      "savedAs": "source-sans-pro-normal-latin-900.woff2",
+      "bytes": 14092,
+      "sha256": "2eaf3ae2fe28e9aa1d369cd338e08c60809e9e99a9ce935e8cc7fc0fe3550f39"
+    }
+  ],
+  "map": {
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-400.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-400.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-400.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-400.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-400.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-400.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-600.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-600.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-600.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-600.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-600.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-600.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-700.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-700.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-700.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-700.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-700.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-700.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=1667243715": "/fonts/libre-franklin-italic-latin-ext.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=1667243715": "/fonts/libre-franklin-italic-latin-ext.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=1667243715": "/fonts/libre-franklin-italic-latin-ext.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715": "/fonts/libre-franklin-italic-latin.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715": "/fonts/libre-franklin-italic-latin.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715": "/fonts/libre-franklin-italic-latin.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=1667243715": "/fonts/libre-franklin-normal-latin-ext.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=1667243715": "/fonts/libre-franklin-normal-latin-ext.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=1667243715": "/fonts/libre-franklin-normal-latin-ext.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715": "/fonts/libre-franklin-normal-latin.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715": "/fonts/libre-franklin-normal-latin.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715": "/fonts/libre-franklin-normal-latin.woff2",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_747d0385.ttf": "/fonts/lg_747d0385.ttf",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_747d0385.ttf": "/fonts/lg_747d0385.ttf",
+    "/wp-content/themes/basebuildv3/dist/vendor/lg_747d0385.ttf": "/fonts/lg_747d0385.ttf",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_356a0e9c.woff": "/fonts/lg_356a0e9c.woff",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_356a0e9c.woff": "/fonts/lg_356a0e9c.woff",
+    "/wp-content/themes/basebuildv3/dist/vendor/lg_356a0e9c.woff": "/fonts/lg_356a0e9c.woff",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_09cd8e9b.svg": "/fonts/lg_09cd8e9b.svg",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/vendor/lg_09cd8e9b.svg": "/fonts/lg_09cd8e9b.svg",
+    "/wp-content/themes/basebuildv3/dist/vendor/lg_09cd8e9b.svg": "/fonts/lg_09cd8e9b.svg",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff": "/fonts/HelveticaNeue-Condensed.woff",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff": "/fonts/HelveticaNeue-Condensed.woff",
+    "/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff": "/fonts/HelveticaNeue-Condensed.woff",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2": "/fonts/HelveticaNeue-Condensed.woff2",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2": "/fonts/HelveticaNeue-Condensed.woff2",
+    "/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2": "/fonts/HelveticaNeue-Condensed.woff2",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff": "/fonts/Agrandir-Tight.woff",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff": "/fonts/Agrandir-Tight.woff",
+    "/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff": "/fonts/Agrandir-Tight.woff",
+    "https://werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2": "/fonts/Agrandir-Tight.woff2",
+    "//werollup.com/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2": "/fonts/Agrandir-Tight.woff2",
+    "/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2": "/fonts/Agrandir-Tight.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-200.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-200.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-200.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-200.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-200.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-200.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-200.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-200.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-200.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-200.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-200.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-200.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-300.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-300.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-300.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-300.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-300.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-300.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-300.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-300.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-300.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-300.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-300.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-300.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-400.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-400.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-400.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-400.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-400.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-400.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-600.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-600.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-600.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-600.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-600.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-600.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-700.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-700.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-700.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-700.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-700.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-700.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-900.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-900.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-900.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-900.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-ext-900.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-ext-900.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-900.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-900.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-900.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-900.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-italic-latin-900.woff2?ver=1667243715": "/fonts/source-sans-pro-italic-latin-900.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-200.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-200.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-200.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-200.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-200.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-200.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-200.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-200.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-200.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-200.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-200.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-200.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-300.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-300.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-300.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-300.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-300.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-300.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-400.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-400.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-400.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-400.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-400.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-400.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-400.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-600.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-600.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-600.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-600.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-600.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-600.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-600.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-700.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-700.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-700.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-700.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-700.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-700.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-700.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-300.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-300.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-300.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-300.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-300.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-300.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-900.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-900.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-900.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-900.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-ext-900.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-ext-900.woff2",
+    "https://werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-900.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-900.woff2",
+    "//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-900.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-900.woff2",
+    "/wp-content/uploads/omgf/omgf-stylesheet-155/source-sans-pro-normal-latin-900.woff2?ver=1667243715": "/fonts/source-sans-pro-normal-latin-900.woff2"
+  }
+}

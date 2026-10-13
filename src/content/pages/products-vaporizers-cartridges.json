@@ -1,0 +1,141 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "product-category",
+ "path": "/products/vaporizers-cartridges/",
+ "slug": "products-vaporizers-cartridges",
+ "sourceUrl": "https://werollup.com/products/vaporizers-cartridges",
+ "rawFile": "audit/raw/products-vaporizers-cartridges.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Vaporizers & Cartridges – We Roll Up",
+ "metaDescription": "Cannabis vapes offer unique advantages. Easy, discreet, and portable, concentrate cartridges and vape pens are available in a nearly endless selection of",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/products/vaporizers-cartridges/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Vaporizers & Cartridges",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Vaporizers & Cartridges",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Vaporizers &amp; Cartridges",
+      "text": "Vaporizers & Cartridges"
+     },
+     "image": {
+      "ref": "assets/source/refetch-cannabis-16.webp",
+      "src": "https://werollup.com/media/cannabis-16.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1280,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Vape Pens at We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Vape Pens at We Roll Up",
+     "text": "Vape Pens at We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "Cannabis vapes offer unique advantages. Easy, discreet, and portable, concentrate cartridges and vape pens are available in a nearly endless selection of types and varieties. They are especially cost-effective and provide the ability to focus on the strain’s distinctive flavor profile and characteristics. There’s none of the smoke, lingering aroma, or extra gear required, yet you get the benefits of customized and precise dosing.",
+     "text": "Cannabis vapes offer unique advantages. Easy, discreet, and portable, concentrate cartridges and vape pens are available in a nearly endless selection of types and varieties. They are especially cost-effective and provide the ability to focus on the strain’s distinctive flavor profile and characteristics. There’s none of the smoke, lingering aroma, or extra gear required, yet you get the benefits of customized and precise dosing."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Get the Vapes and Cartridges You Love from We Roll Up",
+     "text": "Get the Vapes and Cartridges You Love from We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "If you’re interested in getting into vaping, <a href=\"/\">We Roll Up is the right place</a> to start. Our array of cartridges, specialty pods, and disposables cater to cannabis newcomers, expert connoisseurs, medicinal patients, and recreational consumers. Because vaporization occurs at a lower temperature than burning cannabis, a higher percentage of cannabinoids and terpenes are converted. You’re going to appreciate the exceptional flavor, potency, and fast-acting effects.",
+     "text": "If you’re interested in getting into vaping, We Roll Up is the right place to start. Our array of cartridges, specialty pods, and disposables cater to cannabis newcomers, expert connoisseurs, medicinal patients, and recreational consumers. Because vaporization occurs at a lower temperature than burning cannabis, a higher percentage of cannabinoids and terpenes are converted. You’re going to appreciate the exceptional flavor, potency, and fast-acting effects."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h2",
+     "tag": "h3",
+     "html": "Taste the Terpenes in Our Vapes",
+     "text": "Taste the Terpenes in Our Vapes"
+    },
+    {
+     "type": "paragraph",
+     "html": "Shop our actual or virtual shelves for an incredible variety of vaporizers and cartridges. Save some time by placing your order online for in-store or curbside pickup. Check back for the convenience of delivery in the very near future. As the original licensed weed dispensary in <a href=\"/service-area/san-pedro/\">San Pedro</a> with another location in<a href=\"/service-area/lax/\"> LAX</a>, We Roll Up continues to innovate, inspire and invite all walks of life to share in our friendly and accepting cannabis community.",
+     "text": "Shop our actual or virtual shelves for an incredible variety of vaporizers and cartridges. Save some time by placing your order online for in-store or curbside pickup. Check back for the convenience of delivery in the very near future. As the original licensed weed dispensary in San Pedro with another location in LAX, We Roll Up continues to innovate, inspire and invite all walks of life to share in our friendly and accepting cannabis community."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Our knowledgeable staff is ready to help you choose your vape!",
+     "text": "Our knowledgeable staff is ready to help you choose your vape!"
+    },
+    {
+     "type": "buttons",
+     "items": [
+      {
+       "label": "Shop Now",
+       "text": "Shop Now",
+       "href": "/shop/",
+       "variant": "secondary",
+       "activeLocation": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-cannabis-16.webp",
+  "src": "https://werollup.com/media/cannabis-16.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/vaporizers-cartridges/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-cannabis-16.webp"
+ ]
+}

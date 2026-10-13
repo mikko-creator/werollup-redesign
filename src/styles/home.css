@@ -1,0 +1,150 @@
+/* home.css - HOME lane (WF3b phase 2; BUILD-CONTRACT 5.1). The home page: DESIGN-SPEC 6.9-6.15, 5.4 (H1-H4), D-1 to D-5,
+   D-24. Token names only (tokens.css holds every colour; gate C13). Every :hover rule has a :focus-visible or
+   :has(:focus-visible) twin with the same declarations (7.4, R-29). Reveals move the wrappers ([data-reveal]); hover
+   lifts live on the cards inside them (D-12, R-25). Protrusions (.cut, 5.3) are placed here; depth.css moves the
+   [data-plane] layers by --p at 761 px and up. Breakpoints: 1024 (desktop), 861 (splits stack), 761 (parallax), 701 (phone). */
+
+/* ------------------------------------------------------------------ statements (D-24): one device per statement */
+.hm-w300 { font-weight: 300; letter-spacing: -.02em; }
+.hm-w800 { font-weight: 800; }
+.hm-statement .hm-w300, .hm-statement .hm-w800, .hm-hero__title .hm-w300, .hm-hero__title .hm-w800 { display: block; }
+.hm-glow { color: var(--leaf); text-shadow: 0 0 28px var(--glow-35); }
+.hm-ink { color: var(--leaf-ink); }
+/* (0,2,0) so the statement size beats base.css h3.hd / h2.hd (0,1,1) */
+.hm-copy .hm-statement, .hm-zipcard .hm-statement { font-size: var(--fs-statement); line-height: 1; letter-spacing: -.03em; }
+
+/* ------------------------------------------------------------------ 1. hero (6.9; D-1, D-2, D-4) */
+/* the pane is a size container: the h1 never outgrows it, so "Weed Products" stays one line (77 px at 1280x585).
+   h1.hm-hero__title (0,2,1) ties blocks.css .htile h1.hd and wins by bundle order. */
+.hm-hero__pane { container-type: inline-size; }
+.hm-hero h1.hm-hero__title { font-size: min(var(--fs-hero), 15cqi); line-height: .9; letter-spacing: -.035em; color: var(--cream); }
+.hm-hero__title .hm-w300 { color: var(--cream-92); }
+.hm-hero__pane .p--fs-4 { margin-top: clamp(14px, 2.2svh, 22px); font-size: clamp(18px, 1.5vw, 20px); line-height: 1.4; font-weight: 500; color: var(--cream); text-wrap: balance; }
+.hm-hero__pane .p--fs-4 + p { margin-top: 6px; font-size: 16px; line-height: 1.5; color: var(--cream-82); max-width: 46ch; text-wrap: pretty; }
+.hm-hero__pane .btn-row { margin-top: clamp(18px, 3svh, 26px); }
+.hm-hero .lbox__plate { border-color: var(--glow-35); transition: none; } /* the first --p write at load must not start a transition in the first screen (R-24) */
+.hm-hero__mist { display: none; }
+/* the photo drifts vertically only (24 px or less, 6.9), inside a frame that clips it; sharpness holds (width-bound crop) */
+@media (min-width: 761px) and (prefers-reduced-motion: no-preference) {
+  .hm-hero__box .lbox__frame { overflow: hidden; }
+  .hm-hero__box .lbox__img { height: calc(100% + 48px); margin-top: -24px; translate: 0 calc(var(--p, 0) * -24px); }
+}
+@media (max-width: 700px) {
+  /* the hero fills the phone's first screen, so no protrusion of the next band enters it (R-7) */
+  .hm-hero .htile--first { min-height: calc(100svh - var(--topbar-h) - var(--nav-h)); }
+  .hm-hero h1.hm-hero__title { font-size: min(clamp(42px, 12.6vw, 60px), 15cqi); }
+  /* the phone pane lies over the photo's bright lower band: a denser fill keeps the h1 at AA large contrast even where
+     backdrop-filter is unavailable (R-12); the blur stays on, so the glass still has real variety behind it (R-11) */
+  .hm-hero__pane { background: linear-gradient(165deg, var(--night-78), var(--night-72) 55%, var(--night-80)); }
+  .hm-hero__mist { display: block; position: absolute; left: 0; right: 0; bottom: 0; height: min(82vw, 320px); z-index: var(--z-atmos); pointer-events: none; opacity: .5; }
+  .hm-hero__mist-img { width: 100%; height: 100%; object-fit: cover;
+    -webkit-mask-image: linear-gradient(180deg, var(--transparent), var(--black) 45%); mask-image: linear-gradient(180deg, var(--transparent), var(--black) 45%); }
+}
+
+/* ------------------------------------------------------------------ 2. Delivery card and store cards (6.11); H1, H2 */
+.hm-service { --post-w: clamp(186px, 16vw, 222px); --post-out: 60px; --post-in: calc(var(--post-w) * .96 - var(--post-out));
+  background: linear-gradient(180deg, var(--cream), var(--haze-200)); padding-block: clamp(110px, 10vw, 140px) clamp(72px, 7vw, 104px); }
+.hm-service__grid { display: grid; grid-template-columns: 1.05fr 1fr 1fr; gap: var(--gap-cards); align-items: stretch; }
+.hm-cell { display: flex; }
+.hm-cell > * { flex: 1; min-width: 0; }
+/* the Delivery card: forest gradient, cream type, lift on hover and focus (6.11, D-11) */
+.hm-dcard { position: relative; overflow: hidden; isolation: isolate; display: flex; flex-direction: column; border-radius: var(--r-m); padding: clamp(28px, 3vw, 40px);
+  background: var(--surface-delivery); color: var(--cream); box-shadow: var(--sh-2); transition: translate var(--t-hover) var(--ease-out), box-shadow var(--t-hover) ease; }
+.hm-dcard:hover, .hm-dcard:has(:focus-visible) { translate: 0 -6px; box-shadow: var(--lift); }
+.hm-dcard__aura { position: absolute; z-index: -1; right: -30%; top: -40%; width: 90%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(closest-side, var(--glow-35), var(--transparent)); pointer-events: none; }
+.hm-dcard .hm-dcard__title { font-size: clamp(44px, 4.4vw, 64px); line-height: .95; letter-spacing: -.035em; color: var(--cream); }
+.hm-dcard .p--fs-4 { margin-top: 14px; font-size: 19px; line-height: 1.4; color: var(--cream); }
+.hm-dcard .p--fs-4 + p { margin-top: 8px; font-size: 16px; line-height: 1.55; color: var(--cream-82); }
+.hm-dcard .btn-row { margin-top: auto; padding-top: 24px; }
+/* the store cards: white, a 64 px wash from the postcard, the postcard crossing the card's top edge */
+.hm-scard { display: flex; flex-direction: column; overflow: visible; }
+.hm-scard::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 64px; border-radius: var(--r-m) var(--r-m) 0 0; background: var(--peach-35); pointer-events: none; }
+.hm-scard--mint::before { background: var(--mint-35); }
+.hm-scard__body { position: relative; display: flex; flex-direction: column; flex: 1; padding: calc(var(--post-in) + 26px) 26px 28px; }
+.hm-scard .hm-scard__name { font-family: var(--f-display); font-size: clamp(24px, 2.1vw, 30px); font-weight: 700; line-height: 1.05; letter-spacing: -.02em; color: var(--forest); }
+.hm-scard__body .p--small { font-size: 16px; line-height: 1.5; color: var(--forest); }
+.hm-scard__name + .p--small { margin-top: 10px; }
+.hm-scard__body .btn-row { margin-top: auto; padding-top: 18px; }
+.hm-post { top: calc(-1 * var(--post-out)); left: 22px; width: var(--post-w); rotate: -4deg; transform-origin: 30% 80%;
+  transition: rotate var(--t-hover) var(--ease-out), translate var(--t-hover) var(--ease-out); }
+.hm-post--lax { rotate: 3deg; }
+.hm-scard:hover .hm-post, .hm-scard:has(:focus-visible) .hm-post { rotate: 0deg; translate: 0 -8px; }
+
+/* ------------------------------------------------------------------ split bands (3 Serve, 5 Community, 6 ZIP) */
+.hm-split { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1fr); gap: clamp(40px, 6vw, 96px); align-items: center; }
+.hm-split--img-right { grid-template-columns: minmax(0, 1fr) minmax(0, .95fr); }
+.hm-split--img-right .hm-split__media { order: 2; }
+.hm-split .lbox { width: calc(100% - 44px); max-width: 500px; margin-inline: auto; }
+.hm-split .lbox__img { height: auto; aspect-ratio: 3 / 4; }
+.hm-copy { position: relative; border-radius: var(--r-l); padding: clamp(30px, 3.6vw, 52px); }
+.hm-copy .hm-statement + p { margin-top: 22px; }
+.hm-copy .btn-row { margin-top: 26px; }
+.hm-copy--night { background: var(--forest-900); border: 1px solid var(--white-08); box-shadow: 0 40px 80px -40px var(--shadow-black-80); color: var(--cream); }
+.hm-copy--night::before { content: ""; position: absolute; left: 0; top: 32px; bottom: 32px; width: 3px; border-radius: 3px; background: linear-gradient(180deg, var(--leaf), var(--transparent)); box-shadow: 0 0 18px var(--glow-65); }
+.hm-copy--night p { color: var(--cream-92); }
+.hm-copy--light { background: var(--white); border: 1px solid var(--haze-300); box-shadow: var(--lift); color: var(--forest); }
+.hm-copy--light .hd, .hm-copy--light p { color: var(--forest); }
+/* loops (7.5): the loop box stays a plain positioned box (no stacking context), so its pause control sits above the
+   band content; the video itself is the atmosphere plane (z -1) */
+.hm-serve .loop, .hm-comm .loop { z-index: auto; pointer-events: none; }
+.hm-serve .loop__video, .hm-comm .loop__video { position: absolute; inset: 0; z-index: var(--z-atmos); }
+.hm-serve .loop__toggle, .hm-comm .loop__toggle { pointer-events: auto; }
+
+/* 3. Serve: night, mist masked off the copy (4.2); the cap (H3) out of the frame's bottom-left corner */
+.hm-serve { padding-block: clamp(96px, 9vw, 140px) clamp(124px, 11vw, 160px); }
+.hm-serve .loop__video, .hm-serve__still { opacity: .55;
+  -webkit-mask-image: radial-gradient(55% 65% at 28% 48%, var(--black) 30%, var(--transparent) 74%); mask-image: radial-gradient(55% 65% at 28% 48%, var(--black) 30%, var(--transparent) 74%); }
+.hm-serve__still { position: absolute; inset: 0; z-index: var(--z-atmos); pointer-events: none; }
+.hm-serve__still-img, .hm-comm__still-img { width: 100%; height: 100%; object-fit: cover; }
+.hm-cap { width: 240px; left: -64px; bottom: -86px; rotate: -6deg; }
+@media (min-width: 1400px) { .hm-cap { width: 260px; left: -70px; bottom: -92px; } } /* 5.4: about 240 / 260 / 150 wide at 1280 / 1600 / 390 */
+
+/* 4. accordions: calm haze, flat, white cards (6.13; D-3) */
+.hm-acc { padding-block: clamp(64px, 7vw, 104px); }
+.hm-acc__wrap { width: min(100% - 2 * var(--gutter), 980px); }
+.hm-acc .acc__body p, .hm-acc .acc__body .hd { max-width: 70ch; } /* a reading measure inside the wide cards (6.19's 62-75 characters per line) */
+
+/* 5. Community: dusk. The palms plate is cropped to its upper 80 % (the dark ground stays off the seam with the night ZIP
+   band) and the sky is dimmed toward dusk at the top (a seam with the haze band, R-44); text sits on an opaque card. */
+.hm-comm { padding-block: clamp(120px, 11vw, 160px) clamp(96px, 9vw, 128px); }
+.hm-comm .loop__video, .hm-comm .hm-comm__still-img { height: 125%; bottom: auto; object-fit: cover; object-position: 50% 0; }
+.hm-comm__still { position: absolute; inset: 0; z-index: var(--z-atmos); overflow: hidden; pointer-events: none; }
+.hm-comm__veil { position: absolute; inset: 0; z-index: var(--z-atmos); pointer-events: none; opacity: .7;
+  background: linear-gradient(180deg, var(--night-45), var(--transparent) 34%); }
+/* the pale light box at 5:4 with the photo at 50% 78%: the lighter's hood sits above the photo's top edge; the cut-out
+   is placed over its twin (x 207, y 310, w 523 of 1200x1600; docs/IMAGERY.md), so it rises out of the frame's top edge.
+   Geometry (frame padding 14 px, photo width W - 28): s = (W - 28) / 1200; left = 14 + 207 s; top = 14 - 0.15767 (W - 28);
+   width = 523 s. Percentages of margin-top resolve against the width, so the top offset is exact at every size. */
+.hm-comm__box .lbox__img { aspect-ratio: 5 / 4; object-position: 50% 78%; }
+.hm-lighter { left: calc(17.25% + 9.17px); top: 0; margin-top: calc(18.415px - 15.767%); width: calc(43.583% - 12.2px); }
+.hm-lighter .cut__img { width: 100%; }
+@media (min-width: 761px) and (prefers-reduced-motion: no-preference) {
+  .hm-comm [data-plane="cut"].hm-lighter { translate: 0 0; } /* stays on its photo twin: no parallax offset */
+}
+.hm-comm .lbox:hover .hm-lighter, .hm-comm .lbox:has(:focus-visible) .hm-lighter { translate: 0 -6px; }
+
+/* 6. ZIP finder: night, calm (one leaf aura, a dusk glow); the storefront-rear light box and the forest ZIP card (6.14) */
+.hm-zip__ground { position: absolute; inset: 0; z-index: var(--z-atmos); pointer-events: none; background: var(--atmos-leaf-tr), var(--atmos-dusk); }
+.hm-zipcard { position: relative; border-radius: var(--r-l); padding: clamp(28px, 3.4vw, 48px); background: var(--forest-900); border: 1px solid var(--white-08); box-shadow: 0 40px 80px -40px var(--shadow-black-80); color: var(--cream); }
+.hm-zipcard .zip__form { margin-top: 24px; }
+.hm-zipcard .zip__row-in .input { flex: 1 1 220px; min-height: 48px; }
+.hm-zip__order { margin-top: 18px; }
+
+/* ------------------------------------------------------------------ responsive */
+@media (max-width: 1023px) {
+  .hm-service__grid { grid-template-columns: 1fr 1fr; row-gap: 88px; }
+  .hm-service__grid > .hm-cell:first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 860px) {
+  .hm-split, .hm-split--img-right { grid-template-columns: minmax(0, 1fr); row-gap: 96px; }
+  .hm-split--img-right .hm-split__media { order: 0; }
+  .hm-split .lbox { max-width: 420px; }
+}
+@media (max-width: 700px) {
+  .hm-service { --post-w: 190px; --post-out: 57px; padding-block: 96px 64px; }
+  .hm-service__grid { grid-template-columns: minmax(0, 1fr); row-gap: 84px; }
+  .hm-split .lbox { width: calc(100% - 28px); margin-inline: 0 auto; }
+  .hm-serve, .hm-comm, .hm-zip { padding-block: 72px; }
+  .hm-cap { width: 150px; left: -20px; bottom: -58px; } /* 12 px or more of opaque cap outside the frame's left edge at 390 (5.3) */
+  .hm-copy, .hm-zipcard { padding: 26px 22px; }
+}

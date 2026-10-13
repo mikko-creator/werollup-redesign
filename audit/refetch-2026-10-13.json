@@ -1,0 +1,99 @@
+{
+  "schema": "werollup/refetch@1",
+  "reason": "harvester missed url(&#039;...&#039;) backgrounds and the theme overrides files",
+  "at": "2026-10-13T03:12:08.280Z",
+  "ua": "Mozilla/5.0 (compatible; site-reforge/1.0; +reconstruction-audit) AppleWebKit/537.36",
+  "items": [
+    {
+      "url": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "contentType": "image/webp",
+      "bytes": 311184,
+      "sha256": "3add14616b8634b5cdfd01854580b0abaca62697442b6aa6665669ffac1f4cb2",
+      "savedAs": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.css",
+      "status": 200,
+      "finalUrl": "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.css",
+      "contentType": "text/css",
+      "bytes": 3081,
+      "sha256": "3ecf2dcd804b4acb24b2de702b3c1591f8434ad5b9208c3a3c91651714489959",
+      "savedAs": "audit/css/refetch-overrides.css"
+    },
+    {
+      "url": "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js",
+      "status": 200,
+      "finalUrl": "https://werollup.com/wp-content/themes/basebuildv3/resources/overrides.js",
+      "contentType": "text/javascript",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "savedAs": "assets/js/refetch-overrides.js"
+    },
+    {
+      "url": "https://werollup.com/media/cannabis-buds-mason-jars.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/cannabis-buds-mason-jars.webp",
+      "contentType": "image/webp",
+      "bytes": 689426,
+      "sha256": "cac24646c1220502f07bccb8be20a36e04b930955f85fbe41fb633fd24cdb174",
+      "savedAs": "assets/source/refetch-cannabis-buds-mason-jars.webp"
+    },
+    {
+      "url": "https://werollup.com/media/cannabis-13.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/cannabis-13.webp",
+      "contentType": "image/webp",
+      "bytes": 39322,
+      "sha256": "7ee2bbe6ba162dbe6eabf782b21ec216ed7b987270f7ab25096809c8a826b103",
+      "savedAs": "assets/source/refetch-cannabis-13.webp"
+    },
+    {
+      "url": "https://werollup.com/media/kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp",
+      "contentType": "image/webp",
+      "bytes": 137566,
+      "sha256": "9e78fc83317b11350efb1a3761780c91b1946cf20e917dceed2414fcdcbc6a5d",
+      "savedAs": "assets/source/refetch-kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp"
+    },
+    {
+      "url": "https://werollup.com/media/cannabis-grinders-flower-flatlay.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/cannabis-grinders-flower-flatlay.webp",
+      "contentType": "image/webp",
+      "bytes": 150340,
+      "sha256": "b1a6a544d7980faa0f7d9d045b9a0e34ffca62ec53fe67da9bb95500607df486",
+      "savedAs": "assets/source/refetch-cannabis-grinders-flower-flatlay.webp"
+    },
+    {
+      "url": "https://werollup.com/media/werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp",
+      "contentType": "image/webp",
+      "bytes": 232894,
+      "sha256": "3fd8b69c2b5acbdf19a384f8d2a1ef55c9b945bdd799ab588e7a0341123e03dc",
+      "savedAs": "assets/source/refetch-werollup-preroll-tubes-ashtray-in-n-out-cup-alt-hero-e1778532512785.webp"
+    },
+    {
+      "url": "https://werollup.com/media/cannabis-1.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/cannabis-1.webp",
+      "contentType": "image/webp",
+      "bytes": 69684,
+      "sha256": "75b8d86288cd8f90bb921ce72713ed140510f513198d5c062f19dd9de45da3f8",
+      "savedAs": "assets/source/refetch-cannabis-1.webp"
+    },
+    {
+      "url": "https://werollup.com/media/cannabis-16.webp",
+      "status": 200,
+      "finalUrl": "https://werollup.com/media/cannabis-16.webp",
+      "contentType": "image/webp",
+      "bytes": 68078,
+      "sha256": "9699c9956c490666e791df1e37d9f41dc2793436a3ce72e54cf9efddc37e1bd7",
+      "savedAs": "assets/source/refetch-cannabis-16.webp"
+    }
+  ],
+  "stopped": null
+}

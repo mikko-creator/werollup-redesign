@@ -1,0 +1,2854 @@
+{
+  "schema": "site-reforge/site-inventory@1",
+  "target": "http://127.0.0.1:55560/",
+  "origin": "http://127.0.0.1:55560",
+  "generated": "2026-10-13T01:44:40.957Z",
+  "discovery": {
+    "robots": {
+      "status": 200,
+      "sitemaps": [
+        "http://127.0.0.1:55560/sitemap_index.xml"
+      ],
+      "disallow": [
+        "/private/"
+      ],
+      "allow": []
+    },
+    "sitemaps": [
+      "http://127.0.0.1:55560/sitemap_index.xml",
+      "http://127.0.0.1:55560/sitemap.xml",
+      "http://127.0.0.1:55560/wp-sitemap.xml",
+      "http://127.0.0.1:55560/sitemap-index.xml"
+    ],
+    "sitemapUrlCount": 8,
+    "sitemapsFetched": [
+      "http://127.0.0.1:55560/sitemap_index.xml",
+      "http://127.0.0.1:55560/sitemap.xml",
+      "http://127.0.0.1:55560/wp-sitemap.xml",
+      "http://127.0.0.1:55560/sitemap-index.xml",
+      "http://127.0.0.1:55560/s-pages.xml",
+      "http://127.0.0.1:55560/s-products.xml",
+      "http://127.0.0.1:55560/s-brands.xml"
+    ],
+    "robotsHonoured": true
+  },
+  "counts": {
+    "pages": 100,
+    "html": 100,
+    "nonHtml": 0,
+    "failed": 0,
+    "fetchedThisRun": 100,
+    "skippedResume": 0,
+    "blockedByRobots": 1,
+    "refusedHosts": [],
+    "aliasesCollapsed": 0
+  },
+  "truncated": true,
+  "queueRemaining": 1,
+  "maxPages": 100,
+  "pages": [
+    {
+      "url": "http://127.0.0.1:55560/",
+      "finalUrl": "http://127.0.0.1:55560/",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 315,
+      "sha256": "2fedd7f0e22c89446709a9657a89da8f0e086c925e794e85872404bc0980ee3a",
+      "savedAs": "index.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/about",
+        "http://127.0.0.1:55560/cal/month",
+        "http://127.0.0.1:55560/brands/b1?brand=B1",
+        "http://127.0.0.1:55560/private/x"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:38.613Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/about",
+      "finalUrl": "http://127.0.0.1:55560/about",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "85dffe0e5aa2d1e123d574454722cc174598349ad26b974bd60a92945d909237",
+      "savedAs": "about.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/blog/page/2"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:38.614Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/blog/page/2",
+      "finalUrl": "http://127.0.0.1:55560/blog/page/2",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 179,
+      "sha256": "7aa6c0ad67dfecf257627a13a9c52f9ac856f12829c9ef75fb01ab0c87426a28",
+      "savedAs": "blog-page-2.html",
+      "depth": 1,
+      "discoveredFrom": "http://127.0.0.1:55560/about",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.713Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/brands/b1",
+      "finalUrl": "http://127.0.0.1:55560/brands/b1",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 209,
+      "sha256": "7c68cefab0be36e2f2d03944b93ad37609986748a3bbebeff8d572c0139d813d",
+      "savedAs": "brands-b1.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/products/p4"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.436Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/brands/b1?brand=B1",
+      "finalUrl": "http://127.0.0.1:55560/brands/b1?brand=B1",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 209,
+      "sha256": "7c68cefab0be36e2f2d03944b93ad37609986748a3bbebeff8d572c0139d813d",
+      "savedAs": "brands-b1-brand-B1.html",
+      "depth": 1,
+      "discoveredFrom": "http://127.0.0.1:55560/",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/products/p4"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.447Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month",
+      "finalUrl": "http://127.0.0.1:55560/cal/month",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "73d4e8d6dfccb076008e5639454c92e668883db39e07064c4b517b580dba8d7a",
+      "savedAs": "cal-month.html",
+      "depth": 1,
+      "discoveredFrom": "http://127.0.0.1:55560/",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.447Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/1",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/1",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "e3dcb1797ec097ef5b40e7fdb8b4ab3c706d66c5f910453104122e5207650eb2",
+      "savedAs": "cal-month-1.html",
+      "depth": 2,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/2"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.727Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/10",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/10",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "507b38e2c5d9b413010ab736d26b6c7b29b9f5d5141c9803f33582edbe06b711",
+      "savedAs": "cal-month-10.html",
+      "depth": 11,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/9",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/11"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.867Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/11",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/11",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "7f9c05c07157a5a2f8df89bcb2e106d1c99e40aa527b5108617070ec9513769d",
+      "savedAs": "cal-month-11.html",
+      "depth": 12,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/10",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/12"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.884Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/12",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/12",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "bffa9c622b062d6e2906782958cc7746ccdd3b585f282fe93dfade6e3ab88449",
+      "savedAs": "cal-month-12.html",
+      "depth": 13,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/11",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/13"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.899Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/13",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/13",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "f0fdd5ca4b7d10f9da2fdc80b52ed69db34e5229a4784d6264e1fdf3bf4ed0cf",
+      "savedAs": "cal-month-13.html",
+      "depth": 14,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/12",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/14"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.902Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/14",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/14",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "0e3ac0549f2542dc6058b55fcb8dc0bf244eb3f694e8fcdfe42ed07203504392",
+      "savedAs": "cal-month-14.html",
+      "depth": 15,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/13",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/15"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.914Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/15",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/15",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "8090d6a0e2e7d6475c38c8f060b59c8bce4e76a6691db3947132cdab9b8c4518",
+      "savedAs": "cal-month-15.html",
+      "depth": 16,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/14",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/16"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.931Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/16",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/16",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "75a72baabeb3b83de95ff4eb6c52db14f2d1181781c9edb3911e8827b4493675",
+      "savedAs": "cal-month-16.html",
+      "depth": 17,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/15",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/17"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.946Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/17",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/17",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "1f2a3e9efd3e40e40c40e0c1f5a3ba9d4ae72d1f2600850f7b80ce3fc4e8568c",
+      "savedAs": "cal-month-17.html",
+      "depth": 18,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/16",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/18"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.962Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/18",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/18",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "576c83548557b10589154ce8ebdea33b2c586f87f6e37450999ff728a473312c",
+      "savedAs": "cal-month-18.html",
+      "depth": 19,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/17",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/19"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.978Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/19",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/19",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "c24ee6d0a4093e90456a2af094f7ffc57d29f5d818fb0ec8b42aebe07779f3e5",
+      "savedAs": "cal-month-19.html",
+      "depth": 20,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/18",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/20"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.993Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/2",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/2",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "05351662307be7576573ce214efa1123c2111ed4771bf3bd5324468fb43bd884",
+      "savedAs": "cal-month-2.html",
+      "depth": 3,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/1",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/3"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.740Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/20",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/20",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "808fea5065522320a98464defefee8683193f936e6154def5d7c550d80be8e79",
+      "savedAs": "cal-month-20.html",
+      "depth": 21,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/19",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/21"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.009Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/21",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/21",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "66adf7696a664368db2fbd0bb0bc5a4f7e7cbe62baa808426d69b92b28c56704",
+      "savedAs": "cal-month-21.html",
+      "depth": 22,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/20",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/22"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.024Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/22",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/22",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "2be478a373f6c70e234545e878b1221f0dc823594f63ba7eff09cdc41188dbc8",
+      "savedAs": "cal-month-22.html",
+      "depth": 23,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/21",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/23"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.041Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/23",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/23",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "e15e93812ac38f92b0d6dafd48541455abb66f535532e4ece9c1b379f2ff2d7b",
+      "savedAs": "cal-month-23.html",
+      "depth": 24,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/22",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/24"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.054Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/24",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/24",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "876c03490fa845b48043bb065d259acf3c1ef6305e2bfb69dafecfc3ed408049",
+      "savedAs": "cal-month-24.html",
+      "depth": 25,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/23",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/25"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.071Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/25",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/25",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "50802e1defbe6fc9116bf1aec57076008c9cef8f974cccd5f1d747f04f83e24e",
+      "savedAs": "cal-month-25.html",
+      "depth": 26,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/24",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/26"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.085Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/26",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/26",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "b96a0d8418f200305669a1784c9b8a06d2a858288acbb3c18cc514d5087ab6f4",
+      "savedAs": "cal-month-26.html",
+      "depth": 27,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/25",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/27"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.102Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/27",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/27",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "68c084b35bcb2db476635fedbe3061dd80ea203f292483ddc01ea6641f045704",
+      "savedAs": "cal-month-27.html",
+      "depth": 28,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/26",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/28"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.117Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/28",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/28",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "b64c7dd2dda06b1f3baf73358f8cc93abc0a43540523f93ece5b7a7264b7eb74",
+      "savedAs": "cal-month-28.html",
+      "depth": 29,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/27",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/29"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.133Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/29",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/29",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "5583e8459adebba7e943d619ea47d72067292d3f3feb3cf48009ff4414f84684",
+      "savedAs": "cal-month-29.html",
+      "depth": 30,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/28",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/30"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.135Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/3",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/3",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "fc51663d0d8291f59145bb875a64e67aa69be61e3d71b7961709098a3f5f86bb",
+      "savedAs": "cal-month-3.html",
+      "depth": 4,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/2",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/4"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.756Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/30",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/30",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "6c08e8e01304e6db691bffadb98a8d901394335ba3d16d689ff44e4dcb66ce36",
+      "savedAs": "cal-month-30.html",
+      "depth": 31,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/29",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/31"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.147Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/31",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/31",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "7e2f5e74ef8a220c7a5399d72079e96f23fe98f63e10ba403fd2b197d17417c1",
+      "savedAs": "cal-month-31.html",
+      "depth": 32,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/30",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/32"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.164Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/32",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/32",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "dab7d4cce6668c0f367e0ccf8af845354ab5c7ae3837b92220dfebafcd55597e",
+      "savedAs": "cal-month-32.html",
+      "depth": 33,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/31",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/33"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.178Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/33",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/33",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "1936f3c447761aa012490818315a6a94a75348c2142792f5671ff93d6ffcd005",
+      "savedAs": "cal-month-33.html",
+      "depth": 34,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/32",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/34"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.193Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/34",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/34",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "51c20b1d26715bf75c0383eb67eae0fb475a3964a8677192dddc4058f8133a54",
+      "savedAs": "cal-month-34.html",
+      "depth": 35,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/33",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/35"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.210Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/35",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/35",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "2c5b27cbef934eea8d6ac56b33e84e434e3bcd0ad69e9e64010db543ea2814e1",
+      "savedAs": "cal-month-35.html",
+      "depth": 36,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/34",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/36"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.225Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/36",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/36",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "a3e220abcfa2094dcb8726ddf43db821fd430fd4cdf76609f5eef2523505bec1",
+      "savedAs": "cal-month-36.html",
+      "depth": 37,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/35",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/37"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.241Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/37",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/37",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "6acf162db39d28636d81635624f31f834d5e3693d9e75641db40e119b89015b0",
+      "savedAs": "cal-month-37.html",
+      "depth": 38,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/36",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/38"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.244Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/38",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/38",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "3da0d868403a34e1e88ad9eb6c80ec7f7edf39a7ed55e3e578b2dda6e2e0df10",
+      "savedAs": "cal-month-38.html",
+      "depth": 39,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/37",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/39"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.256Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/39",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/39",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "6f20c02a853c3e2545e4840bbe7347380b71de8f069627408a7359ca2c2137a1",
+      "savedAs": "cal-month-39.html",
+      "depth": 40,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/38",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/40"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.272Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/4",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/4",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "2f943bf0ee6e650f1170f6ea42f1cedc238cd071e905dbfadc2e9332a90a9ce2",
+      "savedAs": "cal-month-4.html",
+      "depth": 5,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/3",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/5"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.772Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/40",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/40",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "d2798be61631093e768d394f60bb77d3cb3bdb5704d86584635bcb74d939d6e6",
+      "savedAs": "cal-month-40.html",
+      "depth": 41,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/39",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/41"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.288Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/41",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/41",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "9edfebfc0716971e7037134e4ef2ce486b6392c78b46621d0e7b3eb5101980c3",
+      "savedAs": "cal-month-41.html",
+      "depth": 42,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/40",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/42"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.304Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/42",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/42",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "51dfe6335e1f0f5a52981182b4fb5d5bab2063387898e161aa464f7097676696",
+      "savedAs": "cal-month-42.html",
+      "depth": 43,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/41",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/43"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.319Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/43",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/43",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "21b508fc10c862e1f50bc8ede88818c7ebde649307e0b430c10ed593e6e5491b",
+      "savedAs": "cal-month-43.html",
+      "depth": 44,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/42",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/44"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.335Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/44",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/44",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "25216eb8e9f80f7e834d38beaae348da4d19e75d83172d6af74ab1e788195203",
+      "savedAs": "cal-month-44.html",
+      "depth": 45,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/43",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/45"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.352Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/45",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/45",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "af346c8624373464d46eafe8dd7aa2f69de76e09ccefc39cd7d2e3556298d3e5",
+      "savedAs": "cal-month-45.html",
+      "depth": 46,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/44",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/46"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.366Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/46",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/46",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "6406682441df00543b59f26c65767271fb3d5b2419cb8d2bfed4f09698cc289b",
+      "savedAs": "cal-month-46.html",
+      "depth": 47,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/45",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/47"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.383Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/47",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/47",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "728039ba8dbeac185d92e72f8070aba12fb5b583a13cfaa152df2b848e4f4146",
+      "savedAs": "cal-month-47.html",
+      "depth": 48,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/46",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/48"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.398Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/48",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/48",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "b6b50ca19da383b05e48496d5f9a9d62559e0988c043304ddaca869b642a37a5",
+      "savedAs": "cal-month-48.html",
+      "depth": 49,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/47",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/49"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.413Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/49",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/49",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "f5f7e8e931c81fd3086f31e0f3be0f13cda07e42ceb30b13c5b3ed714e8148eb",
+      "savedAs": "cal-month-49.html",
+      "depth": 50,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/48",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/50"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.428Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/5",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/5",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "4ea8dc4d191e9c8c99a2a8a83424d63381d6ca0c7128f770bc70d300ffd9f6d2",
+      "savedAs": "cal-month-5.html",
+      "depth": 6,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/4",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/6"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.790Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/50",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/50",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "7b31471594c32e75628c4e53e14f90786083cbcd25164e1102a721c3e488ae2d",
+      "savedAs": "cal-month-50.html",
+      "depth": 51,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/49",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/51"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.430Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/51",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/51",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "39d8b458b65f87a8425c021e60adfe380e1bd30b480939577b14027a8e6f3b04",
+      "savedAs": "cal-month-51.html",
+      "depth": 52,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/50",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/52"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.443Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/52",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/52",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "f457bcc1100d0ed1637c22ebcad7ce76d23e6d5501319d358dcd74c72f37a3e8",
+      "savedAs": "cal-month-52.html",
+      "depth": 53,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/51",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/53"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.446Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/53",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/53",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "a8187aeb6bea622ddc7b9a5c509fefb8e65270c3977fc7e10853474bd9ea3fca",
+      "savedAs": "cal-month-53.html",
+      "depth": 54,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/52",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/54"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.459Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/54",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/54",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "9736756dc0c06da488170a259f9131c1fb51095b17a7d339b6ab2af3ebc51042",
+      "savedAs": "cal-month-54.html",
+      "depth": 55,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/53",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/55"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.476Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/55",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/55",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "e6d3e2a40050a774fa5e52b63a7ed47c0c2d4792209a508e2008b17bd69ff0e7",
+      "savedAs": "cal-month-55.html",
+      "depth": 56,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/54",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/56"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.492Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/56",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/56",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "dde31248aa97234cb7495c30ce9d8c964bfe3cbd9a142bd4bb8276e3c77613e9",
+      "savedAs": "cal-month-56.html",
+      "depth": 57,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/55",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/57"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.509Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/57",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/57",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "b2e753a26a4f9701dab1facf50d788b125a29d0f6b42c1c111b77a5aea2e4453",
+      "savedAs": "cal-month-57.html",
+      "depth": 58,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/56",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/58"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.522Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/58",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/58",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "cf4bd612d3eaa473aba3a64a630697a7d49e59a41513ab151486e903d084cae7",
+      "savedAs": "cal-month-58.html",
+      "depth": 59,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/57",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/59"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.538Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/59",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/59",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "669d45fef50ae26effee63edf5645a82d4ee67a7cb215cf54f0bce8c7bd8742e",
+      "savedAs": "cal-month-59.html",
+      "depth": 60,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/58",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/60"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.553Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/6",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/6",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "e656f72b707b37286100a65a2c998781fb5af82377754218979dd2bc4923a8aa",
+      "savedAs": "cal-month-6.html",
+      "depth": 7,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/5",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/7"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.806Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/60",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/60",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "3e4b0b80a5f026cd0e17beef6f915060de1fca2bf2fd88d48c445d98c663b7e8",
+      "savedAs": "cal-month-60.html",
+      "depth": 61,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/59",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/61"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.570Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/61",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/61",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "998c7c3acaf2eee3e230e72964deaa12639a83d46aed8460e909eed73b912033",
+      "savedAs": "cal-month-61.html",
+      "depth": 62,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/60",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/62"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.585Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/62",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/62",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "db2c65bac026720d774cc368e23afb1a5b28d42b84333a43516186adeccfd5a1",
+      "savedAs": "cal-month-62.html",
+      "depth": 63,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/61",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/63"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.600Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/63",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/63",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "547c1e2f121aaa47005ed988c62417afb0264c559e1ad9ddb77eded70dfe952d",
+      "savedAs": "cal-month-63.html",
+      "depth": 64,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/62",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/64"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.616Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/64",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/64",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "877666732c0b71f0bd656108fe11e4c5a686bc60a8436c87169b788e0f7ac963",
+      "savedAs": "cal-month-64.html",
+      "depth": 65,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/63",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/65"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.619Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/65",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/65",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "7af3a88be9b583ed770e7e0d73f59ae4dd762f5d7d31f3e247303f3c6fb84e3e",
+      "savedAs": "cal-month-65.html",
+      "depth": 66,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/64",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/66"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.630Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/66",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/66",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "ee40b68ffaeba096b4d1acb4e12592c03e568b48b70004377a8aee242a10aff5",
+      "savedAs": "cal-month-66.html",
+      "depth": 67,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/65",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/67"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.646Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/67",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/67",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "51a10d86ce77284b58a32da5760836fcb75aeeca3a00eb968586dcf1014e742d",
+      "savedAs": "cal-month-67.html",
+      "depth": 68,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/66",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/68"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.662Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/68",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/68",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "04a13f59f7c52da2c9d0300d6ca9ccb222ef940bc82f62f03e97483b3dec2742",
+      "savedAs": "cal-month-68.html",
+      "depth": 69,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/67",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/69"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.677Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/69",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/69",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "eaf3559e74e138bb5b2fc721b469fa78bee75b39d0133a771f2660ed3a82263e",
+      "savedAs": "cal-month-69.html",
+      "depth": 70,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/68",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/70"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.692Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/7",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/7",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "278c2f3fe7ff55be24c25592955251ecf69c6ab537135a04147eb43afd33660c",
+      "savedAs": "cal-month-7.html",
+      "depth": 8,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/6",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/8"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.820Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/70",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/70",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "8dac0c214d1a9b8332f80b025a1099fda719570a2742d492ff249e1f91c96939",
+      "savedAs": "cal-month-70.html",
+      "depth": 71,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/69",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/71"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.707Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/71",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/71",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "ebb383991fc384b1e2bc4ad2d6c40557aef82d8189557535551c2108ebb28b0d",
+      "savedAs": "cal-month-71.html",
+      "depth": 72,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/70",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/72"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.724Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/72",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/72",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "feeafe988d8ecb092a03dfa90cf25da773b9e890a7328cba2f230e91789fd18b",
+      "savedAs": "cal-month-72.html",
+      "depth": 73,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/71",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/73"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.738Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/73",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/73",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "1d80962f0e78c5e950a26f4b430b5c096b1cb0d9b82775d2536dbfc9b976dc50",
+      "savedAs": "cal-month-73.html",
+      "depth": 74,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/72",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/74"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.753Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/74",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/74",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "a459e83fd9e86eccc0e6d39387f1efcd148c8074ae64d71bbc00aebcf82248e8",
+      "savedAs": "cal-month-74.html",
+      "depth": 75,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/73",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/75"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.756Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/75",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/75",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "527bc0574bb29c47362a74956fc71a8829b53a4a97ebde0bfc7aa3e612c10edb",
+      "savedAs": "cal-month-75.html",
+      "depth": 76,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/74",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/76"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.769Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/76",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/76",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "04038defd2b901ca86809b05f9c6a9c9d00b5ee16e7463afea3eab75ddb293ff",
+      "savedAs": "cal-month-76.html",
+      "depth": 77,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/75",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/77"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.785Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/77",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/77",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "0365c2290726f929b2ff2c6d614db5a3b3c718b12734865208bb353e754c6615",
+      "savedAs": "cal-month-77.html",
+      "depth": 78,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/76",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/78"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.801Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/78",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/78",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "e50ed5c8629be7d38ecd8bfa7a561f37de5f9427fc97699776ece6412e43672e",
+      "savedAs": "cal-month-78.html",
+      "depth": 79,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/77",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/79"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.817Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/79",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/79",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "5f3761ac5bd06f2ba7c068d04ac293aa70e63ec29f652aebe88c932d3048d2bb",
+      "savedAs": "cal-month-79.html",
+      "depth": 80,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/78",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/80"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.834Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/8",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/8",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "4f173c273709706b6618079a8accb40c330a7926e4c1916511f51ff083279d3d",
+      "savedAs": "cal-month-8.html",
+      "depth": 9,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/7",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/9"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.836Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/80",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/80",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "e5543033b9fb023f1134736b4181a50fb3b5e1b68b95093d9ed73b4bae988b2c",
+      "savedAs": "cal-month-80.html",
+      "depth": 81,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/79",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/81"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.850Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/81",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/81",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "eecef4b0893cf98afa1ca371e9a47518e6c08105c0dcd2b1eae15264400bee7e",
+      "savedAs": "cal-month-81.html",
+      "depth": 82,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/80",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/82"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.865Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/82",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/82",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "334805b8f74cf1f88238f36388b864e0777d1f53a18e46665a099b28acb84178",
+      "savedAs": "cal-month-82.html",
+      "depth": 83,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/81",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/83"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.880Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/83",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/83",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "1900df780ffca667cab2ba2f010b90f7a3b67612c1c34d9c56704cb6287d32ea",
+      "savedAs": "cal-month-83.html",
+      "depth": 84,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/82",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/84"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.896Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/84",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/84",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "a6aeb3375607532b95583525585f5b7ece56cbbf2e454dfdf1f827f69bcc0107",
+      "savedAs": "cal-month-84.html",
+      "depth": 85,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/83",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/85"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.912Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/85",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/85",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "ec8934760ac7104c5a09ec6a20cb821a8fd9ae6f52f47c8d9a45ef9cab621dde",
+      "savedAs": "cal-month-85.html",
+      "depth": 86,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/84",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/86"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.927Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/86",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/86",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "964b6b2a74a90a3b21a9239ac47b79750f0e14f3a0d0788f5b9c34ad49a209bb",
+      "savedAs": "cal-month-86.html",
+      "depth": 87,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/85",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/87"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.941Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/87",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/87",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "0f6ab939bee3a885ea6afe07edb1781d428285dca0e933f3836fb1cf33fbc56d",
+      "savedAs": "cal-month-87.html",
+      "depth": 88,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/86",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/88"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.945Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/88",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/88",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 205,
+      "sha256": "894232038bc4ab28dfab621ad8f3e72f87c529c00014284e8770db43d4e95e1d",
+      "savedAs": "cal-month-88.html",
+      "depth": 89,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/87",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/89"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:40.957Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/cal/month/9",
+      "finalUrl": "http://127.0.0.1:55560/cal/month/9",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 202,
+      "sha256": "514a06df86e464379166ba8a90a8c9273ffa089846e5e8e8044c0946ba362912",
+      "savedAs": "cal-month-9.html",
+      "depth": 10,
+      "discoveredFrom": "http://127.0.0.1:55560/cal/month/8",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/cal/month/10"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.852Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p1",
+      "finalUrl": "http://127.0.0.1:55560/products/p1",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "a8dd0a1c7147af7d86867dd5885d5c671f0097e5d3d083ca461384e7dfd68d7e",
+      "savedAs": "products-p1.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:38.888Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p2",
+      "finalUrl": "http://127.0.0.1:55560/products/p2",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "17aa0d8c4f541f8b8676e5b779538f1b5da47f4a8724d244b38c7ec28fad3fc1",
+      "savedAs": "products-p2.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:38.889Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p3",
+      "finalUrl": "http://127.0.0.1:55560/products/p3",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "06009dccd613825052bc19dcca2bb3d14fba132c3c068fb93e9aeca6571661aa",
+      "savedAs": "products-p3.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.169Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p4",
+      "finalUrl": "http://127.0.0.1:55560/products/p4",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "8b721e416c2709fb9535bc01506cd1fa391c9dc2952bc79fb6f1f952ca78ae40",
+      "savedAs": "products-p4.html",
+      "depth": 1,
+      "discoveredFrom": "http://127.0.0.1:55560/brands/b1",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.713Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p5",
+      "finalUrl": "http://127.0.0.1:55560/products/p5",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "ffe7880a665db7c41e29dd858fb5e53b55527b70c47c61eb99aaac535418446b",
+      "savedAs": "products-p5.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.170Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p6",
+      "finalUrl": "http://127.0.0.1:55560/products/p6",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "91b043ad83c87a5c7fed797a35736a78411fb96349b195921aa70244c64e6589",
+      "savedAs": "products-p6.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:39.432Z"
+    }
+  ]
+}

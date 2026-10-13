@@ -1,0 +1,1869 @@
+{
+ "generated": "2026-10-13T02:36:15.908Z",
+ "schema": "werollup-reforge/brand@1",
+ "evidence": {
+  "computed": "audit/capture/baseline.<25 slugs>.{1440,390}.style.json (computed style), counted by tmp/understand/brand/analyze.mjs",
+  "scratch": "tmp/understand/brand/{measure.json,type-summary.json,notes.md,pix.txt,sheet-brandmarks.png,sheet-photos.png}",
+  "sourceCssFallback": "audit/css/wp-content-themes-basebuildv3-dist-styles-main.css (hover/focus and age-gate states only; never the proof of a rest-state value)",
+  "method": "Elements recorded by sr-capture --emit: visible, non-zero box; values none/normal/auto/0px/rgba(0,0,0,0) omitted (a background-color present = a painted fill). Off-canvas carousel clones (box fully outside the viewport) excluded. Roles: text = leaf text; link = <a> with text; button-fill/-text = button, a.btn, a.cta-item, gform button; border = per side with width>0 and style not none; shadow = box-shadow colour; gradient-stop = background-image gradient colour; icon = svg/path colour (Font Awesome currentColor).",
+  "pagesCaptured": [
+   "about-us",
+   "about-us-daily-deals",
+   "accessibility-statement",
+   "contact",
+   "education",
+   "education-cannabis-101",
+   "education-recreational-medicinal",
+   "index",
+   "lax-menu",
+   "location-culver-city",
+   "location-culver-city-shop",
+   "location-san-pedro",
+   "location-san-pedro-shop",
+   "privacy-policy",
+   "products",
+   "products-concentrates",
+   "products-edibles",
+   "products-flower",
+   "products-topicals",
+   "products-vaporizers-cartridges",
+   "reviews-james",
+   "service-area",
+   "service-area-lax",
+   "service-area-lax-lax-weed-delivery",
+   "weed-delivery"
+  ],
+  "widths": [
+   1440,
+   390
+  ]
+ },
+ "colors": [
+  {
+   "hex": "#203022",
+   "alpha": 1,
+   "role": "icon",
+   "count": 1542,
+   "count1440": 1186,
+   "count390": 356,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #scroll-text > div.text-block > span > svg.svg-inline--fa.fa-star:nth-of-type(2)",
+    "about-us@1440 #scroll-text > div.text-block > span > svg.svg-inline--fa.fa-star:nth-of-type(2) > path",
+    "about-us@1440 cation-single-review-stars.mb-3:nth-of-type(1) > svg.svg-inline--fa.fa-star:nth-of-type(1)",
+    "about-us@1440 single-review-stars.mb-3:nth-of-type(1) > svg.svg-inline--fa.fa-star:nth-of-type(1) > path"
+   ]
+  },
+  {
+   "hex": "#dee2e6",
+   "alpha": 1,
+   "role": "border",
+   "count": 1102,
+   "count1440": 715,
+   "count390": 387,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #mainContent > div.container-fluid.py-4:nth-of-type(3)",
+    "about-us@1440 #splide01-slide01 > div.border.location-single-review",
+    "about-us@1440 #splide01-slide02 > div.border.location-single-review",
+    "about-us@1440 #splide01-slide03 > div.border.location-single-review"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 1,
+   "role": "icon",
+   "count": 1100,
+   "count1440": 550,
+   "count390": 550,
+   "pages": 25,
+   "where": [
+    "about-us@1440 :nth-of-type(1) > div.small.align-self-center:nth-of-type(1) > svg.svg-inline--fa.fa-store",
+    "about-us@1440 -type(1) > div.small.align-self-center:nth-of-type(1) > svg.svg-inline--fa.fa-store > path",
+    "about-us@1440 #site-navigation > a.cta-item.active-location-menu > svg.svg-inline--fa.fa-store",
+    "about-us@1440 #site-navigation > a.cta-item.active-location-menu > svg.svg-inline--fa.fa-store > path"
+   ]
+  },
+  {
+   "hex": "#203022",
+   "alpha": 1,
+   "role": "text",
+   "count": 631,
+   "count1440": 367,
+   "count390": 264,
+   "pages": 25,
+   "where": [
+    "about-us@1440 > div.row.column-content > div.col-lg-8.mx-auto > div.column-content > h2.h2.color-primary \"Welcome to We Roll Up\"",
+    "about-us@1440 2) > div.row.column-content > div.col-lg-8.mx-auto > div.column-content > p:nth-of-type(1) \"As San Pedro’s first licensed Cannabis d\"",
+    "about-us@1440 2) > div.row.column-content > div.col-lg-8.mx-auto > div.column-content > p:nth-of-type(2) \"We function as part of the local society\"",
+    "about-us@1440  div.row.column-content > div.col-lg-8.mx-auto > div.column-content > div.h2.color-primary \"Our Team\""
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 1,
+   "role": "link",
+   "count": 600,
+   "count1440": 300,
+   "count390": 300,
+   "pages": 25,
+   "where": [
+    "about-us@1440 d-flex.flex-column:nth-of-type(2) > div.footer-icon-content.text-center:nth-of-type(2) > a \"424 264 5423\"",
+    "about-us@1440 d-flex.flex-column:nth-of-type(2) > div.footer-icon-content.text-center:nth-of-type(2) > a \"888-777-6655\"",
+    "about-us@1440 #menu-item-62038 > a \"Home\"",
+    "about-us@1440 #menu-item-62041 > a \"Shop LAX - Culver City\""
+   ]
+  },
+  {
+   "hex": "#203022",
+   "alpha": 1,
+   "role": "border",
+   "count": 408,
+   "count1440": 204,
+   "count390": 204,
+   "pages": 25,
+   "where": [
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 1,
+   "role": "text",
+   "count": 396,
+   "count1440": 202,
+   "count390": 194,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #locationAddress \"11834 Jefferson Boulevard\"",
+    "about-us@1440 #locationHours \"Open: 10:00 AM - 10:00 PM\"",
+    "about-us@1440 :nth-of-type(1) > div.container > div.row.page-header-row > div.col-12 > h1.h1.color-white \"About Us\"",
+    "about-us@1440 div.d-flex.flex-column:nth-of-type(1) > div.footer-icon-content.text-center:nth-of-type(2) \"1705 S Gaffey Street, San Pedro, CA 9073\""
+   ]
+  },
+  {
+   "hex": "#000000",
+   "alpha": 0.075,
+   "role": "shadow",
+   "count": 336,
+   "count1440": 206,
+   "count390": 130,
+   "pages": 25,
+   "where": [
+    "about-us@1440 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--prev:nth-of-type(1)",
+    "about-us@1440 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--next:nth-of-type(2)",
+    "about-us@1440 #splide01-slide01 > div.border.location-single-review",
+    "about-us@1440 #splide01-slide02 > div.border.location-single-review"
+   ]
+  },
+  {
+   "hex": "#2c2c2c",
+   "alpha": 1,
+   "role": "icon",
+   "count": 306,
+   "count1440": 250,
+   "count390": 56,
+   "pages": 25,
+   "where": [
+    "about-us@1440 n-single-review-name:nth-of-type(3) > div.review-name.smaller > svg.svg-inline--fa.fa-user",
+    "about-us@1440 e-review-name:nth-of-type(3) > div.review-name.smaller > svg.svg-inline--fa.fa-user > path",
+    "about-us@1440 n-single-review-name:nth-of-type(3) > div.review-name.smaller > svg.svg-inline--fa.fa-user",
+    "about-us@1440 e-review-name:nth-of-type(3) > div.review-name.smaller > svg.svg-inline--fa.fa-user > path"
+   ]
+  },
+  {
+   "hex": "#203022",
+   "alpha": 1,
+   "role": "button-fill",
+   "count": 243,
+   "count1440": 123,
+   "count390": 120,
+   "pages": 25,
+   "where": [
+    "about-us@1440 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--prev:nth-of-type(1)",
+    "about-us@1440 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--next:nth-of-type(2)",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(1) \"Explore All Reviews\"",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(3) \"Explore All Reviews - LAX\""
+   ]
+  },
+  {
+   "hex": "#767676",
+   "alpha": 1,
+   "role": "border",
+   "count": 232,
+   "count1440": 116,
+   "count390": 116,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #currently-shopping",
+    "contact@1440 #input_1_1",
+    "contact@1440 #input_1_2",
+    "contact@1440 #input_1_3"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 1,
+   "role": "button-text",
+   "count": 226,
+   "count1440": 116,
+   "count390": 110,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #site-navigation > a.cta-item.active-location-menu",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(1) \"Explore All Reviews\"",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(3) \"Explore All Reviews - LAX\"",
+    "about-us@390 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(1) \"Explore All Reviews\""
+   ]
+  },
+  {
+   "hex": "#f2f5ee",
+   "alpha": 1,
+   "role": "icon",
+   "count": 200,
+   "count1440": 200,
+   "count390": 0,
+   "pages": 25,
+   "where": [
+    "about-us@1440 ink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(1) > svg.svg-inline--fa.fa-instagram",
+    "about-us@1440 -none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(1) > svg.svg-inline--fa.fa-instagram > path",
+    "about-us@1440 shrink-0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(2) > svg.svg-inline--fa.fa-google",
+    "about-us@1440 0.d-none:nth-of-type(2) > a.mx-1.fs-5:nth-of-type(2) > svg.svg-inline--fa.fa-google > path"
+   ]
+  },
+  {
+   "hex": "#5dbc5d",
+   "alpha": 1,
+   "role": "text",
+   "count": 188,
+   "count1440": 99,
+   "count390": 89,
+   "pages": 25,
+   "where": [
+    "about-us@1440 .col-lg-6:nth-of-type(1) > div.footer-location-group.mb-4:nth-of-type(1) > span.d-block.h3 \"San Pedro - Palos Verdes\"",
+    "about-us@1440 ol-12.col-lg-6:nth-of-type(1) > div.footer-location-group:nth-of-type(2) > span.d-block.h3 \"LAX - Culver City\"",
+    "about-us@390 .col-lg-6:nth-of-type(1) > div.footer-location-group.mb-4:nth-of-type(1) > span.d-block.h3 \"San Pedro - Palos Verdes\"",
+    "about-us@390 ol-12.col-lg-6:nth-of-type(1) > div.footer-location-group:nth-of-type(2) > span.d-block.h3 \"LAX - Culver City\""
+   ]
+  },
+  {
+   "hex": "#203022",
+   "alpha": 1,
+   "role": "background",
+   "count": 118,
+   "count1440": 59,
+   "count390": 59,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #site-navigation",
+    "about-us@1440 #mainContent > div.container-fluid.site-footer:nth-of-type(4)",
+    "about-us-daily-deals@1440 -of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2)",
+    "about-us-daily-deals@390 -of-type(2) > div.content > main.main.inner-page > div.container-fluid.py-5:nth-of-type(2)"
+   ]
+  },
+  {
+   "hex": "#5dbc5d",
+   "alpha": 1,
+   "role": "link",
+   "count": 106,
+   "count1440": 53,
+   "count390": 53,
+   "pages": 15,
+   "where": [
+    "accessibility-statement@1440 pe(2) > div.row > div.col-12:nth-of-type(1) > p:nth-of-type(3) > strong:nth-of-type(1) > a \"[email]\"",
+    "accessibility-statement@390 pe(2) > div.row > div.col-12:nth-of-type(1) > p:nth-of-type(3) > strong:nth-of-type(1) > a \"[email]\"",
+    "education@1440 nth-of-type(2) > div.row > div.col-12:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1) \"We Roll Up\"",
+    "education@1440 nth-of-type(2) > div.row > div.col-12:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(2) \"San Pedro\""
+   ]
+  },
+  {
+   "hex": "#000000",
+   "alpha": 1,
+   "role": "button-text",
+   "count": 106,
+   "count1440": 56,
+   "count390": 50,
+   "pages": 25,
+   "where": [
+    "about-us@1440 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--prev:nth-of-type(1)",
+    "about-us@1440 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--next:nth-of-type(2)",
+    "about-us@390 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--prev:nth-of-type(1)",
+    "about-us@390 rpb-slider-arrows:nth-of-type(1) > button.splide__arrow.splide__arrow--next:nth-of-type(2)"
+   ]
+  },
+  {
+   "hex": "#203022",
+   "alpha": 1,
+   "role": "button-text",
+   "count": 102,
+   "count1440": 51,
+   "count390": 51,
+   "pages": 25,
+   "where": [
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)",
+    "about-us@1440 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(4)",
+    "about-us@390 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(2)",
+    "about-us@390 ype(3) > div.col-md-12.mt-2 > div.customer-reviews__ctas > a.btn.btn-accent:nth-of-type(4)"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 1,
+   "role": "background",
+   "count": 102,
+   "count1440": 55,
+   "count390": 47,
+   "pages": 25,
+   "where": [
+    "about-us@1440 html.fontawesome-i2svg-active.fontawesome-i2svg-complete > body.wp-singular.page-template",
+    "about-us-daily-deals@1440 iv.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(1)",
+    "about-us-daily-deals@1440 iv.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(2)",
+    "about-us-daily-deals@1440 iv.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(3)"
+   ]
+  },
+  {
+   "hex": "#000000",
+   "alpha": 0.35,
+   "role": "gradient-stop",
+   "count": 100,
+   "count1440": 50,
+   "count390": 50,
+   "pages": 24,
+   "where": [
+    "about-us@1440 ype(2) > div.content > main.main.inner-page > div.page-header.h-banner--old:nth-of-type(1)",
+    "about-us@1440 ype(2) > div.content > main.main.inner-page > div.page-header.h-banner--old:nth-of-type(1)",
+    "about-us@390 ype(2) > div.content > main.main.inner-page > div.page-header.h-banner--old:nth-of-type(1)",
+    "about-us@390 ype(2) > div.content > main.main.inner-page > div.page-header.h-banner--old:nth-of-type(1)"
+   ]
+  },
+  {
+   "hex": "#5dbc5d",
+   "alpha": 1,
+   "role": "button-fill",
+   "count": 86,
+   "count1440": 46,
+   "count390": 40,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #site-navigation > a.cta-item.active-location-menu",
+    "contact@1440 #gform_submit_button_1",
+    "education-recreational-medicinal@1440 -content > div.col-lg-8.mx-auto > div.column-content > div.pb-0.mb-0 > a.btn.btn-secondary \"Shop Now\"",
+    "education-recreational-medicinal@390 -content > div.col-lg-8.mx-auto > div.column-content > div.pb-0.mb-0 > a.btn.btn-secondary \"Shop Now\""
+   ]
+  },
+  {
+   "hex": "#f5f4f1",
+   "alpha": 1,
+   "role": "link",
+   "count": 75,
+   "count1440": 75,
+   "count390": 0,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #menu-item-62037 > a.nav-link \"Daily Deals\"",
+    "about-us@1440 #menu-item-61806 > a.nav-link \"Delivery\"",
+    "about-us@1440 #menu-item-61804 > a.nav-link \"Contact\""
+   ]
+  },
+  {
+   "hex": "#f5f4f1",
+   "alpha": 1,
+   "role": "background",
+   "count": 70,
+   "count1440": 35,
+   "count390": 35,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #site-topbar",
+    "about-us-daily-deals@1440 container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4",
+    "about-us-daily-deals@390 container-fluid.py-5:nth-of-type(2) > div.row > div.col-12.mb-4 > div.daily-deals-list.p-4",
+    "contact@1440 (2) > div.row.column-content > div.col-12.col-lg-6:nth-of-type(1) > div.column-content.p-3"
+   ]
+  },
+  {
+   "hex": "#2c2c2c",
+   "alpha": 1,
+   "role": "background",
+   "count": 54,
+   "count1440": 27,
+   "count390": 27,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #topLevelNav",
+    "weed-delivery@1440 iv.wrap:nth-of-type(2) > div.content > main.main.inner-page > section.container-fluid.py-5",
+    "weed-delivery@1440 > div.row.column-content > div.col-12.col-lg-4:nth-of-type(4) > div.column-content.rounded",
+    "weed-delivery@390 iv.wrap:nth-of-type(2) > div.content > main.main.inner-page > section.container-fluid.py-5"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 1,
+   "role": "gradient-stop",
+   "count": 52,
+   "count1440": 26,
+   "count390": 26,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #mainContent > div.container-fluid.py-4:nth-of-type(3)",
+    "index@1440 rap:nth-of-type(2) > div.content > main.main > section.container-fluid.py-3:nth-of-type(2)",
+    "index@390 rap:nth-of-type(2) > div.content > main.main > section.container-fluid.py-3:nth-of-type(2)",
+    "location-culver-city@1440 ete > body.wp-singular.location-template-default > div.container-fluid.py-4:nth-of-type(4)"
+   ]
+  },
+  {
+   "hex": "#5dbc5d",
+   "alpha": 1,
+   "role": "background",
+   "count": 52,
+   "count1440": 26,
+   "count390": 26,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #headless-top-bar",
+    "weed-delivery@1440 > div.row.column-content > div.col-12.col-lg-4:nth-of-type(2) > div.column-content.rounded",
+    "weed-delivery@390 > div.row.column-content > div.col-12.col-lg-4:nth-of-type(2) > div.column-content.rounded"
+   ]
+  },
+  {
+   "hex": "#f5f4f1",
+   "alpha": 1,
+   "role": "gradient-stop",
+   "count": 52,
+   "count1440": 26,
+   "count390": 26,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #mainContent > div.container-fluid.py-4:nth-of-type(3)",
+    "index@1440 rap:nth-of-type(2) > div.content > main.main > section.container-fluid.py-3:nth-of-type(2)",
+    "index@390 rap:nth-of-type(2) > div.content > main.main > section.container-fluid.py-3:nth-of-type(2)",
+    "location-culver-city@1440 ete > body.wp-singular.location-template-default > div.container-fluid.py-4:nth-of-type(4)"
+   ]
+  },
+  {
+   "hex": "#000000",
+   "alpha": 0.35,
+   "role": "shadow",
+   "count": 50,
+   "count1440": 25,
+   "count390": 25,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #site-navigation"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 0.65,
+   "role": "background",
+   "count": 50,
+   "count1440": 25,
+   "count390": 25,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #currently-shopping"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 0.55,
+   "role": "button-text",
+   "count": 50,
+   "count1440": 25,
+   "count390": 25,
+   "pages": 25,
+   "where": [
+    "about-us@1440 #site-navigation > button.navbar-toggler.bg-transparent"
+   ]
+  },
+  {
+   "hex": "#5dbc5d",
+   "alpha": 1,
+   "role": "icon",
+   "count": 32,
+   "count1440": 16,
+   "count390": 16,
+   "pages": 3,
+   "where": [
+    "about-us-daily-deals@1440 -deal.rounded:nth-of-type(1) > div.h3.mb-0:nth-of-type(1) > svg.svg-inline--fa.fa-fire-alt",
+    "about-us-daily-deals@1440 ounded:nth-of-type(1) > div.h3.mb-0:nth-of-type(1) > svg.svg-inline--fa.fa-fire-alt > path",
+    "about-us-daily-deals@1440 -deal.rounded:nth-of-type(2) > div.h3.mb-0:nth-of-type(1) > svg.svg-inline--fa.fa-fire-alt",
+    "about-us-daily-deals@1440 ounded:nth-of-type(2) > div.h3.mb-0:nth-of-type(1) > svg.svg-inline--fa.fa-fire-alt > path"
+   ]
+  },
+  {
+   "hex": "#2c2c2c",
+   "alpha": 1,
+   "role": "button-text",
+   "count": 26,
+   "count1440": 14,
+   "count390": 12,
+   "pages": 4,
+   "where": [
+    "index@1440 .col-12 > div.column-content.h-100 > div.d-flex.flex-wrap > a.btn.btn-light:nth-of-type(1) \"Order Now\"",
+    "index@1440 .col-12 > div.column-content.h-100 > div.d-flex.flex-wrap > a.btn.btn-light:nth-of-type(2) \"See Deals\"",
+    "index@1440 iv.col-12 > div.column-content.h-100 > div.d-flex.justify-content-center > a.btn.btn-light \"Delivery\"",
+    "index@390 .col-12 > div.column-content.h-100 > div.d-flex.flex-wrap > a.btn.btn-light:nth-of-type(1) \"Order Now\""
+   ]
+  },
+  {
+   "hex": "#f5f4f1",
+   "alpha": 1,
+   "role": "button-fill",
+   "count": 26,
+   "count1440": 14,
+   "count390": 12,
+   "pages": 4,
+   "where": [
+    "index@1440 .col-12 > div.column-content.h-100 > div.d-flex.flex-wrap > a.btn.btn-light:nth-of-type(1) \"Order Now\"",
+    "index@1440 .col-12 > div.column-content.h-100 > div.d-flex.flex-wrap > a.btn.btn-light:nth-of-type(2) \"See Deals\"",
+    "index@1440 iv.col-12 > div.column-content.h-100 > div.d-flex.justify-content-center > a.btn.btn-light \"Delivery\"",
+    "index@390 .col-12 > div.column-content.h-100 > div.d-flex.flex-wrap > a.btn.btn-light:nth-of-type(1) \"Order Now\""
+   ]
+  },
+  {
+   "hex": "#5dbc5d",
+   "alpha": 1,
+   "role": "border",
+   "count": 20,
+   "count1440": 10,
+   "count390": 10,
+   "pages": 4,
+   "where": [
+    "about-us-daily-deals@1440 iv.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(1)",
+    "about-us-daily-deals@1440 iv.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(2)",
+    "about-us-daily-deals@1440 iv.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(3)",
+    "about-us-daily-deals@1440 iv.row > div.col-12.mb-4 > div.daily-deals-list.p-4 > a.single-deal.rounded:nth-of-type(4)"
+   ]
+  },
+  {
+   "hex": "#f5f4f1",
+   "alpha": 1,
+   "role": "border",
+   "count": 14,
+   "count1440": 7,
+   "count390": 7,
+   "pages": 2,
+   "where": [
+    "index@1440 #rpb-accordion-item-0-heading",
+    "index@1440 #rpb-accordion-item-1-heading",
+    "weed-delivery@1440 #rpb-accordion-item-2-heading",
+    "weed-delivery@1440 #rpb-accordion-item-3-heading"
+   ]
+  },
+  {
+   "hex": "#000000",
+   "alpha": 0.15,
+   "role": "gradient-stop",
+   "count": 12,
+   "count1440": 6,
+   "count390": 6,
+   "pages": 2,
+   "where": [
+    "index@1440 3:nth-of-type(1) > div.row > div.col-12.col-xxl-8:nth-of-type(1) > div.color-white.rounded",
+    "index@1440 3:nth-of-type(1) > div.row > div.col-12.col-xxl-8:nth-of-type(1) > div.color-white.rounded",
+    "index@1440 3:nth-of-type(1) > div.row > div.col-12.col-xxl-4:nth-of-type(2) > div.color-white.rounded",
+    "index@1440 3:nth-of-type(1) > div.row > div.col-12.col-xxl-4:nth-of-type(2) > div.color-white.rounded"
+   ]
+  },
+  {
+   "hex": "#000000",
+   "alpha": 0.15,
+   "role": "shadow",
+   "count": 10,
+   "count1440": 6,
+   "count390": 4,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-clone08 > div.card.border-0",
+    "location-san-pedro@1440 #splide03-slide01 > div.card.border-0",
+    "location-san-pedro@1440 #splide03-slide02 > div.card.border-0",
+    "location-san-pedro@1440 #splide03-slide03 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 1,
+   "role": "border",
+   "count": 8,
+   "count1440": 4,
+   "count390": 4,
+   "pages": 1,
+   "where": [
+    "contact@1440 #input_1_4"
+   ]
+  },
+  {
+   "hex": "#2c2c2c",
+   "alpha": 1,
+   "role": "border",
+   "count": 8,
+   "count1440": 4,
+   "count390": 4,
+   "pages": 1,
+   "where": [
+    "contact@1440 #field_1_4 > div.ginput_container.ginput_container_textarea"
+   ]
+  },
+  {
+   "hex": "#9a9a9a",
+   "alpha": 1,
+   "role": "text",
+   "count": 8,
+   "count1440": 4,
+   "count390": 4,
+   "pages": 1,
+   "where": [
+    "about-us-daily-deals@1440 l.rounded:nth-of-type(1) > div.single-deal-description:nth-of-type(2) > p.small.color-gray \"Valid at LAX - Culver City\"",
+    "about-us-daily-deals@1440 l.rounded:nth-of-type(2) > div.single-deal-description:nth-of-type(2) > p.small.color-gray \"Valid at LAX - Culver City\"",
+    "about-us-daily-deals@1440 l.rounded:nth-of-type(3) > div.single-deal-description:nth-of-type(2) > p.small.color-gray \"Valid at San Pedro - Palos Verdes\"",
+    "about-us-daily-deals@1440 l.rounded:nth-of-type(4) > div.single-deal-description:nth-of-type(2) > p.small.color-gray \"Valid at San Pedro - Palos Verdes\""
+   ]
+  },
+  {
+   "hex": "#790000",
+   "alpha": 1,
+   "role": "text",
+   "count": 6,
+   "count1440": 3,
+   "count390": 3,
+   "pages": 1,
+   "where": [
+    "contact@1440 l.gform-field-label > span.gfield_required > span.gfield_required.gfield_required_asterisk \"*\"",
+    "contact@1440 l.gform-field-label > span.gfield_required > span.gfield_required.gfield_required_asterisk \"*\"",
+    "contact@1440 l.gform-field-label > span.gfield_required > span.gfield_required.gfield_required_asterisk \"*\"",
+    "contact@390 l.gform-field-label > span.gfield_required > span.gfield_required.gfield_required_asterisk \"*\""
+   ]
+  },
+  {
+   "hex": "#6c757d",
+   "alpha": 1,
+   "role": "text",
+   "count": 4,
+   "count1440": 4,
+   "count390": 0,
+   "pages": 4,
+   "where": [
+    "location-culver-city@1440 -0 > ol.breadcrumb.justify-content-lg-end > li.breadcrumb-item.small:nth-of-type(3) > span \"LAX - Culver City\"",
+    "location-culver-city-shop@1440 -0 > ol.breadcrumb.justify-content-lg-end > li.breadcrumb-item.small:nth-of-type(4) > span \"Shop LAX - Culver City\"",
+    "location-san-pedro@1440 -0 > ol.breadcrumb.justify-content-lg-end > li.breadcrumb-item.small:nth-of-type(3) > span \"San Pedro - Palos Verdes\"",
+    "location-san-pedro-shop@1440 -0 > ol.breadcrumb.justify-content-lg-end > li.breadcrumb-item.small:nth-of-type(4) > span \"Shop San Pedro - Palos Verdes\""
+   ]
+  },
+  {
+   "hex": "#cccccc",
+   "alpha": 1,
+   "role": "button-fill",
+   "count": 3,
+   "count1440": 3,
+   "count390": 0,
+   "pages": 2,
+   "where": [
+    "location-culver-city@1440 lide__slider > ul.splide__pagination > li:nth-of-type(2) > button.splide__pagination__page",
+    "location-san-pedro@1440 lide__slider > ul.splide__pagination > li:nth-of-type(2) > button.splide__pagination__page",
+    "location-san-pedro@1440 lide__slider > ul.splide__pagination > li:nth-of-type(2) > button.splide__pagination__page"
+   ]
+  },
+  {
+   "hex": "#ffffff",
+   "alpha": 0.5,
+   "role": "background",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "contact@1440 #input_1_4"
+   ]
+  },
+  {
+   "hex": "#5dbc5d",
+   "alpha": 0.72,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-clone08 > div.card.border-0",
+    "location-san-pedro@390 #splide03-clone04 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#46aa46",
+   "alpha": 0.6,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-clone08 > div.card.border-0",
+    "location-san-pedro@390 #splide03-clone04 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#a8cfa0",
+   "alpha": 0.72,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide01 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#8fc185",
+   "alpha": 0.6,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide01 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#c9b84a",
+   "alpha": 0.72,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide02 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#b4a336",
+   "alpha": 0.6,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide02 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#e86f3c",
+   "alpha": 0.76,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide03 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#e1551b",
+   "alpha": 0.62,
+   "role": "gradient-stop",
+   "count": 2,
+   "count1440": 1,
+   "count390": 1,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide03 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#4db6ac",
+   "alpha": 0.72,
+   "role": "gradient-stop",
+   "count": 1,
+   "count1440": 1,
+   "count390": 0,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide04 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#3f9b92",
+   "alpha": 0.6,
+   "role": "gradient-stop",
+   "count": 1,
+   "count1440": 1,
+   "count390": 0,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide04 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#3f8f5f",
+   "alpha": 0.72,
+   "role": "gradient-stop",
+   "count": 1,
+   "count1440": 1,
+   "count390": 0,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide05 > div.card.border-0"
+   ]
+  },
+  {
+   "hex": "#4bab72",
+   "alpha": 0.58,
+   "role": "gradient-stop",
+   "count": 1,
+   "count1440": 1,
+   "count390": 0,
+   "pages": 1,
+   "where": [
+    "location-san-pedro@1440 #splide03-slide05 > div.card.border-0"
+   ]
+  }
+ ],
+ "palette": {
+  "core": [
+   {
+    "name": "forest",
+    "hex": "#203022",
+    "role": "primary dark: nav bar, dark sections, footer, location cards, btn-primary/btn-accent fill, body text on light",
+    "evidence": "text 631, background 118, button-fill 243 on all 25 pages; :root --bs-black-rgb 32,48,34"
+   },
+   {
+    "name": "leaf",
+    "hex": "#5dbc5d",
+    "role": "accent: top bar, nav CTA, btn-secondary, footer location headings, deal titles, favicon leaf (#5dbc5e)",
+    "evidence": "background 52, button-fill 86, text 188, link 106 on all 25 pages"
+   },
+   {
+    "name": "cream",
+    "hex": "#f5f4f1",
+    "role": "light ground: #site-topbar, btn-light, gradient sections (145deg #f5f4f1 -> #fff), desktop nav link colour",
+    "evidence": "background 70, gradient-stop 52, link 75; :root --bs-light #f5f4f1"
+   },
+   {
+    "name": "white",
+    "hex": "#ffffff",
+    "role": "page ground (body) and text on dark",
+    "evidence": "body background on all pages; text 396 + link 600"
+   },
+   {
+    "name": "charcoal",
+    "hex": "#2c2c2c",
+    "role": "#topLevelNav wrapper behind the bars, btn-light text, review-name icons; :root --bs-dark",
+    "evidence": "background 54, button-text 26, icon 306"
+   }
+  ],
+  "neutrals": [
+   {
+    "hex": "#f2f5ee",
+    "role": "top-bar social icon colour (1440 only)",
+    "count": 200
+   },
+   {
+    "hex": "#dee2e6",
+    "role": "Bootstrap default border: review cards, footer rule, light-section top rule",
+    "count": 1102
+   },
+   {
+    "hex": "#767676",
+    "role": "browser-default form control border (store select, zip input, contact inputs) — not a brand colour",
+    "count": 232
+   },
+   {
+    "hex": "#9a9a9a",
+    "role": "deal fine print",
+    "count": 8
+   },
+   {
+    "hex": "#6c757d",
+    "role": "breadcrumb current item",
+    "count": 4
+   },
+   {
+    "hex": "#000000",
+    "role": "slider arrow glyph colour, select text; shadows at .075/.15/.35 alpha",
+    "count": 106
+   }
+  ],
+  "themeDerivedFromSourceCss": [
+   {
+    "hex": "#344f38",
+    "from": ".btn-primary:hover / .btn-accent:hover background"
+   },
+   {
+    "hex": "#81cb81",
+    "from": ".btn-secondary:hover background; age-gate location link hover"
+   },
+   {
+    "hex": "#3c913c",
+    "from": ".btn-secondary.gradient end stop"
+   },
+   {
+    "hex": "#010201",
+    "from": ".btn-primary.gradient / .btn-accent.gradient end stop"
+   },
+   {
+    "hex": "#d5d1c4",
+    "from": ".btn-light.gradient end stop"
+   },
+   {
+    "hex": "#304833",
+    "from": ".age-gate-modal surface gradient mid stop"
+   },
+   {
+    "hex": "#162117",
+    "from": "#ageGateYes:hover text"
+   },
+   {
+    "hex": "#dff2df",
+    "from": "#ageGateYes:hover background"
+   },
+   {
+    "hex": "#7ac87a",
+    "from": ".age-gate-modal .modal-body a:hover"
+   },
+   {
+    "hex": "#3f5e43",
+    "from": ".rpb-btn-animatedstripes .btn-primary:hover (variant not used on index.html)"
+   }
+  ],
+  "oneOffs": "San Pedro mood cards only: translucent gradient pairs a8cfa0/8fc185, c9b84a/b4a336, e86f3c/e1551b, 4db6ac/3f9b92, 3f8f5f/4bab72, 6e6aae/8884bc, 5dbc5d/46aa46 (alpha .58-.76) over #fff"
+ },
+ "contrast": [
+  {
+   "fg": "#ffffff",
+   "bg": "#203022",
+   "ratio": 13.93,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 915,
+   "pages": 25,
+   "use": "body/heading text on dark sections, footer, location cards, nav"
+  },
+  {
+   "fg": "#203022",
+   "bg": "#ffffff",
+   "ratio": 13.93,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 442,
+   "pages": 25,
+   "use": "body/heading text on white"
+  },
+  {
+   "fg": "#203022",
+   "bg": "#f5f4f1",
+   "ratio": 12.67,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 189,
+   "pages": 25,
+   "use": "text on cream gradient sections (#f5f4f1 -> #fff)"
+  },
+  {
+   "fg": "#f5f4f1",
+   "bg": "#203022",
+   "ratio": 12.67,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 75,
+   "pages": 25,
+   "use": "desktop nav links"
+  },
+  {
+   "fg": "#5dbc5d",
+   "bg": "#203022",
+   "ratio": 5.85,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 112,
+   "pages": 25,
+   "use": "footer location headings, footer social icons (passes AA)"
+  },
+  {
+   "fg": "#2c2c2c",
+   "bg": "#f5f4f1",
+   "ratio": 12.7,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 20,
+   "pages": 4,
+   "use": "btn-light (Order Now / See Deals on hero photos)"
+  },
+  {
+   "fg": "#ffffff",
+   "bg": "#5dbc5d",
+   "ratio": 2.38,
+   "aa_normal": false,
+   "aa_large": false,
+   "textRuns": 135,
+   "pages": 25,
+   "use": "FAILS AA: top-bar address and hours, green CTAs (nav cta-item, btn-secondary Shop now, Order Now, form submit)"
+  },
+  {
+   "fg": "#5dbc5d",
+   "bg": "#ffffff",
+   "ratio": 2.38,
+   "aa_normal": false,
+   "aa_large": false,
+   "textRuns": 170,
+   "pages": 17,
+   "use": "FAILS AA even for large text: green headings/links on white (daily-deal titles, inline links)"
+  },
+  {
+   "fg": "#5dbc5d",
+   "bg": "#f5f4f1",
+   "ratio": 2.17,
+   "aa_normal": false,
+   "aa_large": false,
+   "textRuns": 10,
+   "pages": 4,
+   "use": "FAILS: breadcrumb links 10.5px on the cream topbar"
+  },
+  {
+   "fg": "#f2f5ee",
+   "bg": "#5dbc5d",
+   "ratio": 2.16,
+   "aa_normal": false,
+   "aa_large": false,
+   "textRuns": 0,
+   "pages": 0,
+   "use": "FAILS (non-text 3:1 too): top-bar social icons"
+  },
+  {
+   "fg": "#6c757d",
+   "bg": "#f5f4f1",
+   "ratio": 4.26,
+   "aa_normal": false,
+   "aa_large": true,
+   "textRuns": 4,
+   "pages": 4,
+   "use": "FAILS for small text: breadcrumb current item 10.5px"
+  },
+  {
+   "fg": "#9a9a9a",
+   "bg": "#ffffff",
+   "ratio": 2.81,
+   "aa_normal": false,
+   "aa_large": false,
+   "textRuns": 8,
+   "pages": 1,
+   "use": "FAILS: daily-deal \"Valid at\" line 15.75px"
+  },
+  {
+   "fg": "#790000",
+   "bg": "#ffffff",
+   "ratio": 11.58,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 6,
+   "pages": 1,
+   "use": "Gravity Forms required asterisk"
+  },
+  {
+   "fg": "#203022",
+   "bg": "#5dbc5d",
+   "ratio": 5.85,
+   "aa_normal": true,
+   "aa_large": true,
+   "textRuns": 0,
+   "pages": 0,
+   "use": "NOT USED on the live site; the AA-passing text colour for a leaf-green fill"
+  },
+  {
+   "fg": "#ffffff",
+   "bg": "San Pedro \"I’m feeling\" mood cards: #fff + translucent gradients (composited start/end)",
+   "ratio": "1.48-2.85",
+   "aa_normal": false,
+   "aa_large": false,
+   "textRuns": 16,
+   "pages": 1,
+   "use": "FAILS: /location/san-pedro Shop by Mood cards (Blissful 1.48/1.52, Creative 1.63/1.70, Hungry 2.34/2.29, Pain Free 1.89/1.97, Relaxed 2.56/1.79, Sleepy 2.85/1.92, Energetic 1.85/1.87)"
+  }
+ ],
+ "type": {
+  "families": [
+   {
+    "name": "Libre Franklin",
+    "loaded": true,
+    "loadedIn": "400 normal 50/50, 700 normal 50/50, 600 normal 27/50, 800 normal 20/50, 900 normal 21/50, italics 400 25/50, 600 20/50, 700 25/50 captures",
+    "files": [
+     "assets/fonts/libre-franklin-normal-latin.woff2",
+     "assets/fonts/libre-franklin-normal-latin-ext.woff2",
+     "assets/fonts/libre-franklin-italic-latin.woff2",
+     "assets/fonts/libre-franklin-italic-latin-ext.woff2"
+    ],
+    "licence": "SIL OFL (name table: \"Copyright 2020 The Libre Franklin Project Authors\", licence URL https://openfontlicense.org); name table family \"Libre Franklin Thin\" (consistent with a variable font; fvar table not checked)",
+    "roles": "EVERY painted role: headings, body, nav, buttons, top bar, footer (computed font-family resolves to it on all 50 captures)"
+   },
+   {
+    "name": "HelveticaNeue (stack head) / HelveticaNeue-Condensed.woff",
+    "loaded": false,
+    "files": [
+     "assets/fonts/HelveticaNeue-Condensed.woff",
+     "assets/fonts/HelveticaNeue-Condensed.woff2"
+    ],
+    "licence": "COMMERCIAL, treat as NOT redistributable: name table \"Copyright (c) 1990 Adobe Systems Incorporated. All Rights Reserved. Helvetica is a trademark of Linotype AG\"; no licence field",
+    "roles": "declared only: font-family \"HelveticaNeue, Libre Franklin, sans-serif\" on #site-topbar (and 16 rules in main.css incl. age-gate body/footer) — the @font-face rule is broken (font-family:HelveticaNeue,Condensed is an invalid descriptor; the CSSOM shows the rule with NO family on 50/50 captures), so the face can never load; Libre Franklin paints. On Apple devices a local \"HelveticaNeue\" may match by PostScript name: UNVERIFIED (capture was Chrome on Windows)."
+   },
+   {
+    "name": "Agrandir Tight (Agrandir-Tight.woff)",
+    "loaded": false,
+    "files": [
+     "assets/fonts/Agrandir-Tight.woff",
+     "assets/fonts/Agrandir-Tight.woff2"
+    ],
+    "licence": "COMMERCIAL, treat as NOT redistributable: \"Copyright © 2018 by Alexander Slobzheninov. All rights reserved.\"; no licence field",
+    "roles": "declared only (font-family:Agrandir,Condensed — same invalid descriptor; one stack \"Agrandir, Libre Franklin, sans-serif\" in main.css); never loaded"
+   },
+   {
+    "name": "Source Sans Pro",
+    "loaded": false,
+    "files": [
+     "assets/fonts/source-sans-pro-*.woff2 (24 files)"
+    ],
+    "licence": "SIL OFL (http://scripts.sil.org/OFL, Reserved Font Name \"Source\")",
+    "roles": "declared via OMGF @font-face on 50/50 captures, loaded on 0/50; no painted element uses it"
+   },
+   {
+    "name": "lg (lightGallery icon font, data: URI)",
+    "loaded": "unknown (icon font)",
+    "files": [
+     "assets/fonts/lg_*.{svg,woff,ttf}"
+    ],
+    "roles": "gallery UI glyphs"
+   }
+  ],
+  "scale": "perfect fourth: 16 x 1.333^n -> 21.328 / 28.432 / 37.904 / 50.512 (plus 64px display .h-ultra). At 390 every heading drops one step.",
+  "roles": {
+   "display (.h-ultra, home hero H1/H2)": {
+    "390": "44.8px / 56px, 700, ls 0.16px",
+    "1440": "64px / 80px, 700, ls 0.16px, none",
+    "color": "#ffffff on photo"
+   },
+   "h1 (page banner)": {
+    "390": "37.904px / 45.4848px, 700",
+    "1440": "50.512px / 60.6144px, 700",
+    "color": "#ffffff on photo banner (rgba(0,0,0,.35) overlay) or #203022"
+   },
+   "h2": {
+    "390": "28.432px / 34.1184px, 700",
+    "1440": "37.904px / 45.4848px, 700 (uppercase when .h2 class, e.g. \"Welcome to We Roll Up\")"
+   },
+   "h3": {
+    "390": "21.328px / 25.5936px, 700",
+    "1440": "28.432px / 34.1184px, 700 (uppercase when .h3 class, e.g. \"We speak Spanish!\")"
+   },
+   "h4": {
+    "390": "16px / 19.2px, 700",
+    "1440": "21.328px / 25.5936px, 700"
+   },
+   "h5/h6": "not painted as visible text in the 25 captures (h6 exists in markup per content-inventory) — UNVERIFIED size",
+   "body": {
+    "390": "16px / 24px, 400 (accordion body 14/22.4)",
+    "1440": "18px / 24px, 400 (accordion body 18/28.8)",
+    "color": "#203022 on light, #ffffff on dark"
+   },
+   "lead (.fs-4)": {
+    "390": "21.57px / 24px",
+    "1440": "24px / 24px, 400"
+   },
+   "small": {
+    "390": "14px / 24px",
+    "1440": "15.75px / 24px, 400"
+   },
+   "nav": {
+    "390": "links collapsed behind the toggler (not visible at rest)",
+    "1440": "18px / 24px, 700, UPPERCASE, #f5f4f1, padding 8px 16px"
+   },
+   "buttons": {
+    "390": "same",
+    "1440": "16px / 24px, 700, UPPERCASE, padding 12px 24px, radius 30px (small: 14px/21px, padding 7.2px 16px)"
+   },
+   "topBar": {
+    "390": "address/hours 14px; topbar links 14px",
+    "1440": "#headless-top-bar: 14px/14px address 400, hours 700 UPPERCASE, white on #5dbc5d; #site-topbar: 16px/20px ls 0.5px (font stack HelveticaNeue -> paints Libre Franklin), links 14px 700 UPPERCASE ls .5px, breadcrumb 10.5px 600/700 UPPERCASE"
+   },
+   "footer": {
+    "390": "headings 21.328px; links 14px; copyright 12.25px",
+    "1440": "headings 28.432px/34.1184 700 (#5dbc5d location names, #fff \"Quick Links\"); links 15.75px/24 700 #fff; address 15.75px 400; copyright 13.7812px 700"
+   }
+  },
+  "measuredGroups": {
+   "display": [
+    {
+     "combo": "Libre Franklin | 64px | 700 | lh 80px | ls 0.16px | tt none",
+     "n": 1,
+     "byWidth": {
+      "1440": 1
+     },
+     "pages": 1,
+     "e_g": "index@1440 \"Shop Our Weed Products\""
+    },
+    {
+     "combo": "Libre Franklin | 44.8px | 700 | lh 56px | ls 0.16px | tt none",
+     "n": 1,
+     "byWidth": {
+      "390": 1
+     },
+     "pages": 1,
+     "e_g": "index@390 \"Shop Our Weed Products\""
+    }
+   ],
+   "h1": [
+    {
+     "combo": "Libre Franklin | 50.512px | 700 | lh 60.6144px | ls normal | tt none",
+     "n": 22,
+     "byWidth": {
+      "1440": 22
+     },
+     "pages": 22,
+     "e_g": "about-us@1440 \"About Us\""
+    },
+    {
+     "combo": "Libre Franklin | 37.904px | 700 | lh 45.4848px | ls normal | tt none",
+     "n": 22,
+     "byWidth": {
+      "390": 22
+     },
+     "pages": 22,
+     "e_g": "about-us@390 \"About Us\""
+    }
+   ],
+   "h2": [
+    {
+     "combo": "Libre Franklin | 37.904px | 700 | lh 45.4848px | ls normal | tt none",
+     "n": 43,
+     "byWidth": {
+      "1440": 43
+     },
+     "pages": 10,
+     "e_g": "accessibility-statement@1440 \"Date: January 10, 2022\""
+    },
+    {
+     "combo": "Libre Franklin | 28.432px | 700 | lh 34.1184px | ls normal | tt none",
+     "n": 43,
+     "byWidth": {
+      "390": 43
+     },
+     "pages": 10,
+     "e_g": "accessibility-statement@390 \"Date: January 10, 2022\""
+    }
+   ],
+   "h2_upper": [
+    {
+     "combo": "Libre Franklin | 37.904px | 700 | lh 45.4848px | ls normal | tt uppercase",
+     "n": 13,
+     "byWidth": {
+      "1440": 13
+     },
+     "pages": 8,
+     "e_g": "about-us@1440 \"Welcome to We Roll Up\""
+    },
+    {
+     "combo": "Libre Franklin | 28.432px | 700 | lh 34.1184px | ls normal | tt uppercase",
+     "n": 13,
+     "byWidth": {
+      "390": 13
+     },
+     "pages": 8,
+     "e_g": "about-us@390 \"Welcome to We Roll Up\""
+    }
+   ],
+   "h3": [
+    {
+     "combo": "Libre Franklin | 28.432px | 700 | lh 34.1184px | ls normal | tt none",
+     "n": 17,
+     "byWidth": {
+      "1440": 17
+     },
+     "pages": 8,
+     "e_g": "accessibility-statement@1440 \"Technical specifications\""
+    },
+    {
+     "combo": "Libre Franklin | 21.328px | 700 | lh 25.5936px | ls normal | tt none",
+     "n": 17,
+     "byWidth": {
+      "390": 17
+     },
+     "pages": 8,
+     "e_g": "accessibility-statement@390 \"Technical specifications\""
+    }
+   ],
+   "h3_upper": [
+    {
+     "combo": "Libre Franklin | 28.432px | 700 | lh 34.1184px | ls normal | tt uppercase",
+     "n": 7,
+     "byWidth": {
+      "1440": 7
+     },
+     "pages": 7,
+     "e_g": "about-us@1440 \"We speak Spanish!\""
+    },
+    {
+     "combo": "Libre Franklin | 21.328px | 700 | lh 25.5936px | ls normal | tt uppercase",
+     "n": 7,
+     "byWidth": {
+      "390": 7
+     },
+     "pages": 7,
+     "e_g": "about-us@390 \"We speak Spanish!\""
+    }
+   ],
+   "body": [
+    {
+     "combo": "Libre Franklin | 18px | 400 | lh 24px | ls normal | tt none",
+     "n": 212,
+     "byWidth": {
+      "1440": 212
+     },
+     "pages": 25,
+     "e_g": "about-us@1440 \"As San Pedro’s first licensed Cannabis d\""
+    },
+    {
+     "combo": "Libre Franklin | 16px | 400 | lh 24px | ls normal | tt none",
+     "n": 119,
+     "byWidth": {
+      "390": 119
+     },
+     "pages": 25,
+     "e_g": "about-us@390 \"As San Pedro’s first licensed Cannabis d\""
+    }
+   ],
+   "button": [
+    {
+     "combo": "Libre Franklin | 16px | 700 | lh 24px | ls normal | tt uppercase",
+     "n": 143,
+     "byWidth": {
+      "390": 70,
+      "1440": 73
+     },
+     "pages": 25,
+     "e_g": "about-us@1440 \"Explore All Reviews\""
+    },
+    {
+     "combo": "Libre Franklin | 14px | 700 | lh 21px | ls normal | tt uppercase",
+     "n": 9,
+     "byWidth": {
+      "390": 3,
+      "1440": 6
+     },
+     "pages": 2,
+     "e_g": "index@1440 \"Shop now\""
+    },
+    {
+     "combo": "Libre Franklin | 16px | 600 | lh 24px | ls normal | tt uppercase",
+     "n": 2,
+     "byWidth": {
+      "390": 1,
+      "1440": 1
+     },
+     "pages": 1,
+     "e_g": "index@1440 \"Find my Location\""
+    }
+   ],
+   "nav": [
+    {
+     "combo": "Libre Franklin | 18px | 700 | lh 24px | ls normal | tt uppercase",
+     "n": 75,
+     "byWidth": {
+      "1440": 75
+     },
+     "pages": 25,
+     "e_g": "about-us@1440 \"Daily Deals\""
+    }
+   ],
+   "footerLinks": [
+    {
+     "combo": "Libre Franklin | 15.75px | 700 | lh 24px | ls normal | tt none",
+     "n": 250,
+     "byWidth": {
+      "1440": 250
+     },
+     "pages": 25,
+     "e_g": "about-us@1440 \"424 264 5423\""
+    },
+    {
+     "combo": "Libre Franklin | 14px | 700 | lh 24px | ls normal | tt none",
+     "n": 250,
+     "byWidth": {
+      "390": 250
+     },
+     "pages": 25,
+     "e_g": "about-us@390 \"424 264 5423\""
+    }
+   ],
+   "topbar": [
+    {
+     "combo": "HelveticaNeue | 14px | 700 | lh 21px | ls 0.5px | tt uppercase",
+     "n": 24,
+     "byWidth": {
+      "390": 12,
+      "1440": 12
+     },
+     "pages": 4,
+     "e_g": "location-culver-city@1440 \"Directions\""
+    },
+    {
+     "combo": "Libre Franklin | 10.5px | 600 | lh 20px | ls 0.5px | tt uppercase",
+     "n": 10,
+     "byWidth": {
+      "1440": 10
+     },
+     "pages": 4,
+     "e_g": "location-culver-city@1440 \"Home\""
+    },
+    {
+     "combo": "HelveticaNeue | 14px | 700 | lh 20px | ls 0.5px | tt none",
+     "n": 8,
+     "byWidth": {
+      "390": 4,
+      "1440": 4
+     },
+     "pages": 4,
+     "e_g": "location-culver-city@1440 \"LAX - Culver City\""
+    },
+    {
+     "combo": "Libre Franklin | 10.5px | 700 | lh 20px | ls 0.5px | tt uppercase",
+     "n": 4,
+     "byWidth": {
+      "1440": 4
+     },
+     "pages": 4,
+     "e_g": "location-culver-city@1440 \"LAX - Culver City\""
+    }
+   ]
+  },
+  "letterSpacing": "normal everywhere except .h-ultra 0.16px and #site-topbar 0.5px (age-gate title -.02em, buttons .02em — source CSS)"
+ },
+ "logo": [
+  {
+   "file": "assets/source/8f87827f-logo-white-x.png",
+   "w": 400,
+   "h": 71,
+   "format": "PNG pal8 with alpha",
+   "alpha": "yes: 62.3% fully transparent, 9.0% partial (anti-aliased edge), 28.7% opaque",
+   "colors": [
+    "#ffffff (86.8% of visible px exactly; rest a grey anti-alias ramp)"
+   ],
+   "use": "the only wordmark file: header (a.navbar-brand ~259x46 @1440, 259x52 @390), age-gate modal (max-width min(65%,220px)), og:image (malformed URL). Reads \"We Roll Up.\" + small superscript TM after the full stop. Heavy, regular-width grotesque, very tight tracking. Typeface identity UNVERIFIED."
+  },
+  {
+   "file": "assets/source/2fac1c34-cropped-favicon-1-300x300.png",
+   "w": 300,
+   "h": 300,
+   "format": "PNG rgba",
+   "alpha": "yes: 73.4% transparent, 3.7% partial",
+   "colors": [
+    "#5dbc5e (dominant exact)",
+    "#ffffff fringe ~4% of visible px"
+   ],
+   "use": "favicon / apple-touch: green 7-point cannabis fan leaf with stem; visibly stair-stepped at 300px (upscaled raster) — favicon sizes only"
+  },
+  {
+   "file": "assets/source/8bd84cc3-cropped-favicon-1-150x150.png",
+   "w": 150,
+   "h": 150,
+   "format": "PNG rgba",
+   "alpha": "yes: 72.2% transparent, 6.0% partial",
+   "colors": [
+    "#5dbc5e"
+   ],
+   "use": "favicon 150"
+  },
+  {
+   "file": "assets/source/5ac91359-favicon.png",
+   "w": 150,
+   "h": 150,
+   "format": "PNG pal8",
+   "alpha": "binary only (75.3% transparent, 0% partial)",
+   "colors": [
+    "#5dbc5e"
+   ],
+   "use": "favicon.png"
+  },
+  {
+   "file": "assets/source/dd2e2c2b-LAX_-Culver-City-2.webp",
+   "w": 600,
+   "h": 569,
+   "format": "WebP yuva420p",
+   "alpha": "yes: 3.6% transparent (torn/deckled edge)",
+   "colors": [
+    "peach #ffccaa/#ffbb99",
+    "pink #eebbbb",
+    "sunset orange"
+   ],
+   "use": "location illustration (location cards, store picker): painterly postcard of the LAX Theme Building, palms, vertical CULVER CITY sign, sunset haze"
+  },
+  {
+   "file": "assets/source/f06599a5-San-Pedro_-Palos-Verdes-1.webp",
+   "w": 600,
+   "h": 531,
+   "format": "WebP yuva420p",
+   "alpha": "yes: 1.7% transparent edge",
+   "colors": [
+    "mint-teal #aaccbb",
+    "orange #ffbb77",
+    "peach #ffcc99"
+   ],
+   "use": "location illustration: retro travel-poster Vincent Thomas Bridge, light trails, layered hazy hills"
+  }
+ ],
+ "logoNotes": {
+  "darkOnLight": "NO dark-on-light wordmark exists in assets/source (only logo-white-x.png; no SVG). Method for one: alpha-preserving recolour of logo-white-x.png — keep the alpha channel byte-for-byte, set RGB of every pixel to #203022 (e.g. ffmpeg -i logo-white-x.png -vf \"format=rgba,geq=r=32:g=48:b=34:a=alpha(X\\,Y)\" logo-forest-x.png); verify alpha identical by hash of the extracted alpha plane; never redraw or trace. TESTED on a scratch copy (tmp/understand/brand/logo-forest-test.png): 400x71 rgba, alpha plane sha256 49a1657e17b99494af4ac648bb5a3190c3b705f16185ce806f525540a6915aa4 identical to the source, 100% of visible pixels exactly #203022. Not shipped: the build lane produces the real file.",
+  "lockupsSeenInPhotos": "photos are NOT logo sources: stacked 3-line \"We / Roll / Up.\" with a small green leaf after the full stop (window decals, jar lids, Trop Cherry bag, red lighter; TM on the bag); one-line closed-up \"WeRollUp.\" (preroll tube); all-caps \"WE ROLL UP\" + green leaf (roof sign, dark letters on white facade); embroidered script \"We Roll Up\" (caps in the display case)",
+  "ogImageDefect": "og:image is malformed: https://werollup.comhttps://werollup.com/media/logo-white-x.png (docs/PLAN.md)"
+ },
+ "components": {
+  "buttons": {
+   "shape": "pill: border-radius 30px (computed); padding 12px 24px (small 7.2px 16px); 16px/24px 700 UPPERCASE Libre Franklin; transition all .3s",
+   "variants": {
+    "btn-secondary / nav a.cta-item (class list: cta-item active-location-menu js-selected-location-menu btn btn-secondary) (leaf)": "bg #5dbc5d, text #fff (2.38:1 FAIL). hover (source CSS): bg #81cb81, scale(.96)",
+    "contact submit input.gform_button.button value Send (not .btn)": "bg #5dbc5d, text #fff; hover UNVERIFIED",
+    "btn-primary / btn-accent (forest)": "bg #203022, text #fff. hover: bg #344f38, scale(.96)",
+    "btn-light (cream, on photos and mood cards)": "bg #f5f4f1, text #2c2c2c. hover: bg #fff, text #2c2c2c, scale(.96)",
+    "outline .btn.btn-accent.transparent (#submitzip, alternating review CTAs)": "transparent, 3px solid #203022, text #203022, 600-700 UPPERCASE. hover (source CSS .btn-accent.transparent:hover): bg #203022, text #fff, scale(.96)",
+    "slider arrows": "36x36 circle (32 @390), bg #203022, shadow rgba(0,0,0,.075) 0 2px 4px; hover opacity .9",
+    "age gate (source CSS)": "Yes: pill 999px, #fff / #203022, hover #dff2df / #162117 + 2px ring rgba(93,188,93,.65); No: transparent, 2px hsla(0,0%,100%,.35), hover rgba(93,188,93,.12) + #5dbc5d border"
+   },
+   "hoverEvidence": "audit/css/...main.css: .btn:hover{color:#fff;transform:scale(.96)!important} .btn-primary:hover{background:#344f38} .btn-secondary:hover{background:#81cb81} .btn-accent:hover{background:#344f38} .btn-light:hover{background:#fff;color:#2c2c2c}; no rpb-btn-* variant class on index.html"
+  },
+  "cards": {
+   "heroTiles": "home: two photo tiles, radius 9px (8px @390), bg linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.15)) over the photo, white display type + btn-light pills",
+   "locationCard": "div.p-3.background-black: bg #203022, radius 9px, padding 24px, 1px #5dbc5d bottom rule; left: postcard illustration 235.59x184.97 (square corners, rounded-0); right: name 21.328px/700 white (16px @390), address 15.75px white, small leaf pill \"Shop now\"",
+   "reviewCard": "div.border.location-single-review: 1px solid #dee2e6, radius 9px, padding 36px, shadow rgba(0,0,0,.075) 0 2px 4px, 274.5x514 @1440; five fa-star #203022 (20x18) on top; text 18px/24 #203022; name row with fa-user icon (#2c2c2c); in a Splide carousel with forest circle arrows",
+   "dealCard": "a.single-deal: #fff, radius 9px, padding 24px, shadow rgba(0,0,0,.075) 0 2px 4px, one-side #5dbc5d rule; title 28.432px 700 #5dbc5d + fa-fire-alt; \"Valid at ...\" 15.75px #9a9a9a; hover (source): bg #203022, text #fff, reveals button",
+   "moodCard": "/location/san-pedro \"Shop by Mood\": radius 9px, padding 24px, translucent diagonal gradient tint over #fff, shadow rgba(0,0,0,.15) 0 8px 16px; \"I’m feeling\" 15.75px + mood 21.328px 700 UPPERCASE white; btn-light pill",
+   "accordion": "dark #203022 rows, heading 37.904px (28.432 @390) 700 white, 1px #f5f4f1 bottom rule; hover/active stays #203022 (source)"
+  },
+  "inputs": "store <select> #currently-shopping: bg rgba(255,255,255,.65), 1px solid #767676, radius 9px (8 @390), UPPERCASE; zip input: browser default (2px inset #767676, radius 0, 50px tall); Gravity Forms contact inputs: browser default (2px inset #767676, radius 0, 38px), labels 18px 700 #203022, required * #790000, submit leaf pill. Inputs are essentially unstyled on the live site.",
+  "icons": "Font Awesome SVG (i2svg) solid/brands at 1440: fa-star 2646, fa-user 525, fa-map-marker-alt 71, fa-store 50, fa-instagram 50, fa-google 50, fa-yelp 50, fa-edit 50, fa-mobile-alt 50, fa-cannabis 25, fa-chevron-left/right 25, fa-fire-alt 8; Weedmaps = raster weedmaps-white png. Icon licence/version UNVERIFIED.",
+  "dividers": "1px solid #dee2e6 (footer rule, light-section top rule); 1px #f5f4f1 (accordion rows on dark); 1px #5dbc5d (location-card bottom); 1px rgba(93,188,93,.35) (age-gate location divider, source CSS)",
+  "shadows": "rgba(0,0,0,.075) 0 2px 4px (cards, arrows: 336 uses); rgba(0,0,0,.35) 0 7px 15px -15px (nav bar); rgba(0,0,0,.15) 0 8px 16px (mood cards)",
+  "radii": "9px cards/tiles/select (8px @390), 30px pills, 50% arrows, 3px accordion button, 1rem age-gate surface, .65rem age-gate list items (source)",
+  "header": "sticky #topLevelNav (#2c2c2c) = #headless-top-bar (leaf, 58px @1440 / 94px @390: store select + address + hours + social icons) + nav#site-navigation (#203022, 96px @1440, padding 24px 75px, logo left, links right, leaf CTA pill) + #site-topbar (cream 32px: breadcrumb / Directions / promo)"
+ },
+ "voice": {
+  "traits": [
+   "Warm, welcoming, inclusive: \"all walks of life\", \"all are warmly welcome!\", \"built around acceptance\"",
+   "Community and local pride: harbor towns named by name; longshoremen discount; \"A Community Built Around Cannabis\"",
+   "Pioneer claim repeated: \"San Pedro’s first licensed\" dispensary on almost every long page",
+   "Second person throughout (you/your 1.2-5.2 per 100 words) paired with first-person plural (we/our 0.7-5.8 per 100)",
+   "Plain-spoken but casual: \"weed\" in the H1, \"bud\", \"Hits Different\", \"Munchie Monday\", the name itself is a pun; light exclamations (\"We speak Spanish!\", \"Awesome! We deliver to you. Fast!\")",
+   "Educational and responsible on product pages: \"Start low and go slow.\", indica/sativa explained, 21+ with valid ID",
+   "Long-form SEO pages are formal and keyword-led (avg 26-29 words per sentence, \"near me\" phrases); short UI copy is punchy; CTAs are imperative and UPPERCASE",
+   "Bilingual service is a selling point (Spanish-speaking staff always on site)",
+   "Customer reviews carry the slang (\"rad\", \"Super chill spot with a cool vibe\", \"Stoked\") — that is customer voice, quoted verbatim, not brand copy"
+  ],
+  "examples": [
+   {
+    "text": "Shop Our Weed Products",
+    "page": "/"
+   },
+   {
+    "text": "Full menu for your selected store, plus fresh daily deals. Browse everything in stock — and check rotating specials before you shop.",
+    "page": "/"
+   },
+   {
+    "text": "Get your order how and where it works for you.",
+    "page": "/"
+   },
+   {
+    "text": "Our friendly staff is here to help, and we always have a Spanish-speaking member of our team onsite.",
+    "page": "/"
+   },
+   {
+    "text": "Awesome! We deliver to you. Fast!",
+    "page": "/ (zip search result)"
+   },
+   {
+    "text": "Recreational users, medical patients, novices or connoisseurs, all are warmly welcome!",
+    "page": "/about-us"
+   },
+   {
+    "text": "We speak Spanish!",
+    "page": "/about-us"
+   },
+   {
+    "text": "10% Off - Seniors, Military Members, & Longshoremen",
+    "page": "/about-us/daily-deals"
+   },
+   {
+    "text": "Munchie Monday - 10% off Edibles",
+    "page": "/about-us/daily-deals"
+   },
+   {
+    "text": "Getting your favorite cannabis products should be convenient, straightforward, and stress-free.",
+    "page": "/weed-delivery"
+   },
+   {
+    "text": "Use this contact form to reach out to our team. We’ll get back to you as quickly as we can, thank you!",
+    "page": "/contact"
+   },
+   {
+    "text": "Step inside We Roll Up and you’ll notice the strains are categorized as indica, sativa, and hybrid.",
+    "page": "/education/cannabis-101"
+   },
+   {
+    "text": "We Roll Up is built around acceptance.",
+    "page": "/education/recreational-medicinal"
+   },
+   {
+    "text": "Our Flower Hits Different",
+    "page": "/products/flower"
+   },
+   {
+    "text": "“Start low and go slow.”",
+    "page": "/products/edibles"
+   },
+   {
+    "text": "Wilmington sits at the working heart of the Los Angeles Harbor, a neighborhood shaped by refineries, port traffic, and tight-knit residential streets that have grown around them for generations.",
+    "page": "/service-area/san-pedro/wilmington-ca"
+   },
+   {
+    "text": "Playa Vista sits in one of the most dynamic corridors of Los Angeles, and we are proud to serve this vibrant community with the same dedication and warmth that has defined our mission since day one.",
+    "page": "/service-area/playa-vista-ca"
+   },
+   {
+    "text": "Our commitment to providing a safe, secure, and welcoming environment extends far beyond our dispensary doors.",
+    "page": "/service-area"
+   },
+   {
+    "text": "I’m feeling Blissful",
+    "page": "/location/san-pedro (Shop by Mood)"
+   },
+   {
+    "text": "Great staff. They inform you on deals and are very friendly and efficient. Love this place.",
+    "page": "/reviews/james (customer voice)"
+   }
+  ],
+  "ctaCensus": "content-inventory ctas+buttons over 91 pages: Contact 273; Order Flower / Order Pre-Rolls / Order Edibles & Gummies / Order Concentrates / Order Topicals 262 each (menu); Order Now 188 (91 pages); Shop here 182; Shop LAX - Culver City 92; Shop San Pedro - Palos Verdes 91; Call Now 51; SHOP NOW 14 (category tiles); Shop Now 8; Get Directions 2; See Deals (home hero, capture). Rendered UPPERCASE by CSS (text-transform), authored in Title Case.",
+  "microcopy": {
+   "do": [
+    "Reuse the site’s own verbs and labels: Order Now, Shop Now, See Deals, Shop here, Call Now, Get Directions, Find my Location, Search Again, Select Location",
+    "Author labels in Title Case and let CSS uppercase them (as the live site does), so screen readers read words, not letters",
+    "Keep store names exactly: \"LAX - Culver City\" and \"San Pedro - Palos Verdes\" (hyphen-minus with spaces; en dash only where the source has it, e.g. \"Shop LAX – Culver City\")",
+    "Make aria-labels specific and plain: \"Order now at San Pedro - Palos Verdes\", \"Next review\", \"Previous review\", \"Open menu\", \"Close menu\", \"Choose your store\"",
+    "Speak in second person, short and warm; one exclamation at most, and only where the site already uses that energy",
+    "Keep age language exact: 21+, valid ID (\"Yes, I'm 21+\", \"No, I'm Under 21\")",
+    "Label decorative and generated imagery as decorative (empty alt) and keep real photo alts factual"
+   ],
+   "dont": [
+    "No new claims, numbers, prices, hours, ratings or superlatives (no \"best\", \"#1\", \"fastest\") beyond the crawl and facts/client-facts.json",
+    "No medical or health promises in new microcopy (no \"cures\", \"heals\", \"relief guaranteed\")",
+    "No new slang voiced as the brand (\"dank\", \"lit\", \"stoned\"); the slang on the site belongs to customer reviews",
+    "No copy that targets or appeals to minors (cartoon voice, candy framing) — see docs/COMPLIANCE.md",
+    "No ALL-CAPS typed into the HTML; no emoji in UI chrome",
+    "Do not silently fix source copy defects (D2) — log them for operator approval"
+   ]
+  },
+  "copyDefectsToLog": [
+   "\"Marina Del Ray\" (/education, /products)",
+   "\"San Pedro ‘s\" with a space and a left quote (/education, /products, /service-area, /service-area/playa-vista-ca)",
+   "\"We Roll Up ,\" space before comma (/weed-delivery, /education, /products, /service-area/playa-vista-ca)",
+   "\"to send you home happy and with a smile ?\" (/about-us; probable lost emoji)",
+   "\"Culver City, CA 11834\" (home location card, footer; the ZIP repeats the street number — UNVERIFIED)",
+   "/contact LAX hours \"Coming soon\" / \"Coming Soon PM\""
+  ]
+ },
+ "keep": [
+  "The wordmark file logo-white-x.png as is (white on dark), its TM and trailing full stop; no redraw, no re-typesetting",
+  "Forest #203022 as the dominant dark and leaf #5dbc5d as the accent; cream #f5f4f1 and white as grounds; charcoal #2c2c2c secondary dark",
+  "Libre Franklin as the painted face (what visitors actually see today), bold 700 headings, UPPERCASE CTAs and nav",
+  "Pill-shaped buttons (radius 30px) and the 9px card radius family",
+  "The green leaf (favicon) as the brand symbol",
+  "The two postcard location illustrations as the location identity",
+  "The CTA vocabulary and every word of copy (verbatim, D2), including reviews with names as shown",
+  "Bilingual note, 21+ language, the store names and addresses exactly as shown",
+  "The age gate + store picker flow (D3) and its glassy forest-green treatment"
+ ],
+ "mayChange": [
+  "Layout, grid, section order within a page template, spacing, depth/layering, motion and hover effects",
+  "Surface treatments (glass, haze, glow, gradients) as long as they derive from the brand greens/cream",
+  "Button text colour on leaf fills (white fails 2.38:1; forest #203022 passes 5.85:1) and green text on light grounds (darken per proposed tokens)",
+  "Form control styling (currently browser defaults)",
+  "Icon set (Font Awesome) may be swapped for an open-licence set with equivalent glyphs",
+  "Type scale values (the 1.333 scale may be extended for an expressive display size) while keeping Libre Franklin",
+  "Image crops, frames, protrusions and overlays (real photos stay real and sharp)",
+  "Removal of the broken HelveticaNeue/Agrandir @font-face rules and the unused Source Sans Pro download"
+ ],
+ "operatorDecisions": [
+  "Display face: Libre Franklin only (what paints today) vs adding an open-licence condensed or tight display face for the ethereal headline layer. Helvetica Neue Condensed and Agrandir Tight are commercial and must not ship.",
+  "Dark-on-light wordmark: approve the alpha-preserving recolour of logo-white-x.png, or supply a vector master.",
+  "Leaf-green CTA text: switch to forest text (AA pass) or keep white (fails AA)."
+ ],
+ "proposed": {
+  "note": "PROPOSAL, not source. Every value derives from a measured brand colour (computed) or a theme value found in source CSS; ratios computed with the WCAG formula in tmp/understand/brand.",
+  "tokens": {
+   "--wru-forest-950": {
+    "value": "#101811",
+    "derivation": "mix(#203022, #000, 50%)"
+   },
+   "--wru-forest-900": {
+    "value": "#162117",
+    "derivation": "theme: #ageGateYes:hover text"
+   },
+   "--wru-forest-800": {
+    "value": "#203022",
+    "derivation": "measured core"
+   },
+   "--wru-forest-700": {
+    "value": "#274129",
+    "derivation": "mix(#203022, #5dbc5d, 12%); white text 11.22:1"
+   },
+   "--wru-forest-650": {
+    "value": "#304833",
+    "derivation": "theme: age-gate surface mid stop; white 10.00:1"
+   },
+   "--wru-forest-600": {
+    "value": "#344f38",
+    "derivation": "theme: btn-primary hover; white 9.05:1"
+   },
+   "--wru-forest-500": {
+    "value": "#2f5230",
+    "derivation": "mix(#203022, #5dbc5d, 24%); white 8.91:1"
+   },
+   "--wru-leaf-ink": {
+    "value": "#427d42",
+    "derivation": "mix(#5dbc5d, #203022, 45%): green text 4.95:1 on white, 4.50:1 on cream (AA body); FAILS on haze-100 (4.38:1) — use forest text on haze"
+   },
+   "--wru-leaf-ink-large": {
+    "value": "#53a654",
+    "derivation": "mix(#5dbc5d, #203022, 16%): 3.02:1 on white (headings >=24px only); 2.75:1 on cream FAILS"
+   },
+   "--wru-leaf-700": {
+    "value": "#3c913c",
+    "derivation": "theme: btn-secondary gradient end; 3.96:1 on white (large text only)"
+   },
+   "--wru-leaf-500": {
+    "value": "#5dbc5d",
+    "derivation": "measured core; text on it: #203022 (5.85:1)"
+   },
+   "--wru-leaf-400": {
+    "value": "#7ac87a",
+    "derivation": "theme: age-gate link hover; 6.88:1 on forest"
+   },
+   "--wru-leaf-300": {
+    "value": "#81cb81",
+    "derivation": "theme: btn-secondary hover; 7.16:1 on forest"
+   },
+   "--wru-leaf-100": {
+    "value": "#dff2df",
+    "derivation": "theme: #ageGateYes:hover bg; forest 11.88:1"
+   },
+   "--wru-cream-50": {
+    "value": "#f5f4f1",
+    "derivation": "measured core"
+   },
+   "--wru-mist-50": {
+    "value": "#f2f5ee",
+    "derivation": "measured (top-bar icons)"
+   },
+   "--wru-haze-100": {
+    "value": "#eff2eb",
+    "derivation": "mix(#f5f4f1, #5dbc5d, 4%); forest text 12.30:1"
+   },
+   "--wru-haze-200": {
+    "value": "#e9f0e5",
+    "derivation": "mix(#f5f4f1, #5dbc5d, 8%); forest text 11.94:1"
+   },
+   "--wru-haze-300": {
+    "value": "#ddebd9",
+    "derivation": "mix(#f5f4f1, #5dbc5d, 16%); forest text 11.25:1"
+   },
+   "--wru-cream-300": {
+    "value": "#d5d1c4",
+    "derivation": "theme: btn-light gradient end"
+   },
+   "--wru-glow-leaf-12": {
+    "value": "rgba(93,188,93,.12)",
+    "derivation": "theme: #ageGateNo:hover bg"
+   },
+   "--wru-glow-leaf-35": {
+    "value": "rgba(93,188,93,.35)",
+    "derivation": "theme: age-gate divider"
+   },
+   "--wru-glow-leaf-65": {
+    "value": "rgba(93,188,93,.65)",
+    "derivation": "theme: age-gate focus ring"
+   },
+   "--wru-glass-forest": {
+    "value": "rgba(32,48,34,.88)",
+    "derivation": "theme: age-gate backdrop (+ backdrop-filter: blur(8px))"
+   },
+   "--wru-glass-white-06": {
+    "value": "hsla(0,0%,100%,.06)",
+    "derivation": "theme: age-gate location item"
+   },
+   "--wru-glass-white-10": {
+    "value": "hsla(0,0%,100%,.10)",
+    "derivation": "theme: age-gate item border/hover"
+   },
+   "--wru-dusk-peach": {
+    "value": "#ffccaa",
+    "derivation": "LAX illustration dominant (pix.mjs); forest text 9.60:1"
+   },
+   "--wru-dusk-mint": {
+    "value": "#aaccbb",
+    "derivation": "San Pedro illustration dominant; forest text 8.00:1"
+   },
+   "--wru-grad-forest-glass": {
+    "value": "linear-gradient(165deg,#203022,#304833 55%,#203022)",
+    "derivation": "theme: age-gate surface"
+   },
+   "--wru-grad-forest-deep": {
+    "value": "linear-gradient(145deg,#203022,#010201)",
+    "derivation": "theme: btn-primary.gradient"
+   },
+   "--wru-grad-leaf": {
+    "value": "linear-gradient(145deg,#5dbc5d,#3c913c)",
+    "derivation": "theme: btn-secondary.gradient"
+   },
+   "--wru-grad-cream": {
+    "value": "linear-gradient(145deg,#f5f4f1,#ffffff)",
+    "derivation": "measured: light sections"
+   },
+   "--wru-grad-haze": {
+    "value": "linear-gradient(180deg,#f5f4f1,#e9f0e5 60%,#ddebd9)",
+    "derivation": "proposed from haze tints"
+   },
+   "--wru-grad-dusk": {
+    "value": "linear-gradient(160deg,#ffccaa,#f5f4f1 45%,#aaccbb)",
+    "derivation": "proposed from the two location illustrations’ dominant colours"
+   },
+   "--wru-bloom-leaf": {
+    "value": "radial-gradient(closest-side,rgba(93,188,93,.35),rgba(93,188,93,0))",
+    "derivation": "proposed glow from leaf + theme alpha .35"
+   },
+   "--wru-shadow-soft": {
+    "value": "0 2px 4px rgba(0,0,0,.075)",
+    "derivation": "measured card shadow"
+   },
+   "--wru-shadow-float": {
+    "value": "0 8px 16px rgba(0,0,0,.15)",
+    "derivation": "measured mood-card shadow"
+   },
+   "--wru-shadow-forest-lift": {
+    "value": "0 24px 48px -12px rgba(16,24,17,.45)",
+    "derivation": "proposed: forest-950 tinted lift for protruding layers"
+   },
+   "--wru-radius-card": {
+    "value": "9px",
+    "derivation": "measured"
+   },
+   "--wru-radius-pill": {
+    "value": "30px",
+    "derivation": "measured (age gate uses 999px)"
+   },
+   "--wru-radius-glass": {
+    "value": "1rem",
+    "derivation": "theme: age-gate surface"
+   }
+  }
+ }
+}

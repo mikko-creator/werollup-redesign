@@ -1,0 +1,20 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Macro photograph of the serrated edge of a fresh cannabis fan leaf with tiny dew drops, backlit by soft leaf-green light, pale cream mist drifting behind, deep forest-green shadows, shallow depth of field, ethereal and calm, photographic realism, no text, no logo, no people",
+  "input": {
+    "aspect_ratio": "4:3",
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a1334b-b587-7c31-a1c4-fd3004e4564d",
+  "seed": 4158450763,
+  "width": 2368,
+  "height": 1792,
+  "contentType": "image/jpeg",
+  "bytes": 703745,
+  "sha256": "5cc9bb5e7a65b620aa0dc8c8a649b5fa6175ff7da7e9f9717b15b1e204b4cdcb",
+  "file": "tmp/panel/b/gen/g4-leaf-dew.jpg",
+  "generatedAt": "2026-10-13T03:26:12.884Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

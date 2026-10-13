@@ -1,0 +1,13 @@
+{
+  "note": "Root-absolute JS string literals that tools/make-pages-preview.mjs may prefix, each measured on a real build (the tool stops on any literal not listed here). A trailing * matches by prefix.",
+  "literals": [
+    "/location/san-pedro/shop/menu/",
+    "/location/san-pedro/shop/",
+    "/location/san-pedro/shop"
+  ],
+  "measured": {
+    "/location/san-pedro/shop/menu/": "dist/404.html inline Jane boot: the pathname test for San Pedro menu paths (stub build 4a43f879, 2026-10-13)",
+    "/location/san-pedro/shop/": "dist/404.html inline Jane boot: the same-origin fetch of the shop page whose Jane head block it inserts (stub build 4a43f879, 2026-10-13)",
+    "/location/san-pedro/shop": "the Jane runtime config partnerHostedPath in <script id=\"jane_frameless_embed_runtime_config\"> (untyped script) on the 9 San Pedro shop pages. PREVIEW ONLY: prefixed so Jane can match its route under the Pages subpath; dist/ keeps it byte-identical (build-check embed gate). Whether Jane renders off werollup.com at all is UNVERIFIED (OPEN-DECISIONS B13)."
+  }
+}

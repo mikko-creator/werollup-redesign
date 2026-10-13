@@ -1,0 +1,20 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Macro still-life photograph of a single hand-rolled cannabis pre-roll cone made of plain white paper with a neatly twisted tip and ground green flower visible at the open end, lying flat and diagonal on a pale frosted stone surface, soft leaf-green rim light, deep forest-green background with gentle bokeh, shallow depth of field, quiet and minimal, no glass, no cup, no smoke, no flame, no ash, no text, no logo, no printing, no people, no hands",
+  "input": {
+    "aspect_ratio": "3:4",
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a13351-f7b6-7070-a2e0-2eb8dcf49842",
+  "seed": 1373954519,
+  "width": 1792,
+  "height": 2368,
+  "contentType": "image/jpeg",
+  "bytes": 488737,
+  "sha256": "1ba81f3ad57633ddfb35d03c516daa65317adabffe61663f703d4ab57adeb3f6",
+  "file": "tmp/panel/b/gen/g8-preroll-flat.jpg",
+  "generatedAt": "2026-10-13T03:33:04.574Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

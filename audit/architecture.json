@@ -1,0 +1,173 @@
+{
+  "schema": "site-reforge/architecture@1",
+  "generated": "2026-10-13T01:46:48.373Z",
+  "origin": "https://werollup.com",
+  "pageTypes": {
+    "home": 1,
+    "page": 32,
+    "form": 1,
+    "contact": 1,
+    "article": 2,
+    "commerce": 54
+  },
+  "urlDepthHistogram": {
+    "0": 1,
+    "1": 9,
+    "2": 25,
+    "3": 48,
+    "5": 8
+  },
+  "primaryNav": [
+    {
+      "label": "Daily Deals",
+      "onPages": 91
+    },
+    {
+      "label": "Delivery",
+      "onPages": 91
+    },
+    {
+      "label": "Contact",
+      "onPages": 91
+    },
+    {
+      "label": "Locations",
+      "onPages": 91
+    },
+    {
+      "label": "LAX - Culver City",
+      "onPages": 91
+    },
+    {
+      "label": "San Pedro - Palos Verdes",
+      "onPages": 91
+    },
+    {
+      "label": "Products",
+      "onPages": 91
+    },
+    {
+      "label": "Best Selling",
+      "onPages": 91
+    },
+    {
+      "label": "Order Flower",
+      "onPages": 91
+    },
+    {
+      "label": "Order Pre-Rolls",
+      "onPages": 91
+    },
+    {
+      "label": "Order Edibles & Gummies",
+      "onPages": 91
+    },
+    {
+      "label": "Order Concentrates",
+      "onPages": 91
+    },
+    {
+      "label": "Order Topicals",
+      "onPages": 91
+    },
+    {
+      "label": "Education",
+      "onPages": 91
+    },
+    {
+      "label": "Flower",
+      "onPages": 91
+    },
+    {
+      "label": "Pre-Rolls",
+      "onPages": 91
+    },
+    {
+      "label": "Vaporizers & Cartridges",
+      "onPages": 91
+    },
+    {
+      "label": "Edibles",
+      "onPages": 91
+    },
+    {
+      "label": "Concentrates",
+      "onPages": 91
+    },
+    {
+      "label": "Topicals",
+      "onPages": 91
+    },
+    {
+      "label": "Cannabis 101",
+      "onPages": 91
+    },
+    {
+      "label": "Recreational & Medicinal",
+      "onPages": 91
+    },
+    {
+      "label": "Order Now",
+      "onPages": 91
+    },
+    {
+      "label": "Order Vaporizers & Cartridges",
+      "onPages": 61
+    }
+  ],
+  "globalFooterCandidates": [],
+  "formsByAction": [
+    {
+      "action": "(same page) [get]",
+      "pages": [
+        "https://werollup.com/"
+      ],
+      "fields": [
+        "zipcode"
+      ]
+    },
+    {
+      "action": "https://werollup.com/ [get]",
+      "pages": [
+        "https://werollup.com/author/werollupadmin"
+      ],
+      "fields": [
+        "s",
+        "submit"
+      ]
+    },
+    {
+      "action": "/contact/ [post]",
+      "pages": [
+        "https://werollup.com/contact"
+      ],
+      "fields": [
+        "input_1",
+        "input_2",
+        "input_3",
+        "submit",
+        "input_4"
+      ]
+    }
+  ],
+  "orphanPages": [
+    "https://werollup.com/accessibility-statement",
+    "https://werollup.com/author/werollupadmin",
+    "https://werollup.com/education",
+    "https://werollup.com/location-pagetype/cannabis-menu-page",
+    "https://werollup.com/location-pagetype/primary-location",
+    "https://werollup.com/reviews/greg-s",
+    "https://werollup.com/reviews/james",
+    "https://werollup.com/reviews/jennifer",
+    "https://werollup.com/reviews/patricia-h",
+    "https://werollup.com/reviews/thomas-h",
+    "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup",
+    "https://werollup.com/service-area/lax/lax-weed-delivery",
+    "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+    "https://werollup.com/service-area/san-pedro/carson-ca",
+    "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca",
+    "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery",
+    "https://werollup.com/service-area/san-pedro/wilmington-ca",
+    "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery"
+  ]
+}

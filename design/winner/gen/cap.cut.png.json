@@ -1,0 +1,21 @@
+{
+ "model": "fal-ai/birefnet/v2",
+ "input": {
+  "image_url": "<data uri of 7ed18521-1-1.webp>",
+  "model": "General Use (Heavy)",
+  "operating_resolution": "2048x2048",
+  "output_format": "png"
+ },
+ "request_id": "01a1334b-b764-7920-bd07-7585cc7422e0",
+ "output": {
+  "image": {
+   "url": "https://v3b.fal.media/files/b/0aae2a14/NrUHzL6nuP6kp7uV6417r_SLFkrYB6.png",
+   "content_type": "image/png",
+   "file_name": "NrUHzL6nuP6kp7uV6417r_SLFkrYB6.png",
+   "file_size": null,
+   "width": 1920,
+   "height": 1920
+  },
+  "mask_image": null
+ }
+}

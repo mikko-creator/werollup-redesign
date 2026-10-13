@@ -1,0 +1,30 @@
+/* glass.css - FOUNDATION. DESIGN-SPEC 4.1: glass ONLY on the closed list G1-G5, never nested (R-13), at most 3 live
+   blurs at load. Light-box plates are static fills with no backdrop-filter (D-7). The header frosts on ::before, not
+   on the element that contains the mega panel (a backdrop-filter on a parent blinds its dropdowns). */
+
+/* G1 hero pane (the first hero tile; templates may reuse .glass-pane for the store-page hero pane) */
+.glass-pane { position: relative; background: var(--glass-pane); -webkit-backdrop-filter: blur(16px) saturate(125%); backdrop-filter: blur(16px) saturate(125%);
+  border: 1px solid var(--white-13); border-radius: var(--r-l); box-shadow: inset 0 1px 0 var(--white-14), 0 40px 90px -40px var(--shadow-black-80); }
+.glass-pane::before { content: ""; position: absolute; left: 28px; right: 28px; top: -1px; height: 1px; background: linear-gradient(90deg, var(--transparent), var(--leaf), var(--transparent)); opacity: .8; }
+
+/* G2 header, scrolled only: at scroll 0 the navbar is opaque forest-950 with no filter (R-11) */
+.navbar::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--forest-950); transition: background-color var(--t-menu) ease; }
+.is-scrolled .navbar::before { background: var(--night-78); -webkit-backdrop-filter: blur(14px) saturate(120%); backdrop-filter: blur(14px) saturate(120%); }
+.is-scrolled .navbar { box-shadow: 0 1px 0 var(--glow-35); }
+
+/* G3 mega panel: near-opaque so no hero glyph reads through (R-19) */
+.mega { background: var(--night-97); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); }
+
+/* G4 menu-sheet scrim (the sheet itself is opaque) */
+.sheet-scrim { background: var(--night-60); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+
+/* G5 chooser and gate backdrops (the surfaces are opaque) */
+.dialog__backdrop, .gate__backdrop { background: var(--forest-88); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass-pane { background: var(--night-90); }
+  .is-scrolled .navbar::before { background: var(--night-96); }
+  .mega { background: var(--forest-950); }
+  .sheet-scrim { background: var(--night-80); }
+  .dialog__backdrop, .gate__backdrop { background: var(--forest-96); }
+}

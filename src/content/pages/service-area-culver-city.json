@@ -1,0 +1,134 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "service-area-town",
+ "path": "/service-area/culver-city/",
+ "slug": "service-area-culver-city",
+ "sourceUrl": "https://werollup.com/service-area/culver-city",
+ "rawFile": "audit/raw/service-area-culver-city.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Culver City – We Roll Up",
+ "metaDescription": "Building on our legacy as San Pedro’s first licensed cannabis dispensary werollup.com, We Roll Up LA proudly brings its top‑tier service to the LAX area",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/service-area/culver-city/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Culver City",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Culver City",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Culver City",
+      "text": "Culver City"
+     },
+     "image": {
+      "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "San Pedro’s First Licensed Cannabis Dispensary, Now Serving the LAX Area",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "San Pedro’s First Licensed Cannabis Dispensary, Now Serving the LAX Area",
+     "text": "San Pedro’s First Licensed Cannabis Dispensary, Now Serving the LAX Area"
+    },
+    {
+     "type": "paragraph",
+     "html": "Building on our legacy as <a href=\"/san-pedro/\">San Pedro’s</a> first licensed cannabis dispensary werollup.com, <a href=\"/\">We Roll Up LA</a> proudly brings its top‑tier service to the LAX area, serving Culver City, Westchester, Playa Vista, El Segundo and the neighborhoods around Los Angeles International Airport (LAX) werollup.com. Whether you’re a local resident, a traveler landing at LAX or a medicinal patient, our mission is to provide a secure, comfortable and welcoming environment for everyone werollup.com.",
+     "text": "Building on our legacy as San Pedro’s first licensed cannabis dispensary werollup.com, We Roll Up LA proudly brings its top‑tier service to the LAX area, serving Culver City, Westchester, Playa Vista, El Segundo and the neighborhoods around Los Angeles International Airport (LAX) werollup.com. Whether you’re a local resident, a traveler landing at LAX or a medicinal patient, our mission is to provide a secure, comfortable and welcoming environment for everyone werollup.com."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Premium Cannabis Products Near LAX and Culver City",
+     "text": "Premium Cannabis Products Near LAX and Culver City"
+    },
+    {
+     "type": "paragraph",
+     "html": "Our LAX location features a hand‑picked selection of premium cannabis products—exceptional smokable <a href=\"/flower/\">flower</a>, top‑shelf pre‑rolls, small‑batch rosin, lab‑tested vapes, potent concentrates, delicious gummies and edibles, and soothing topicals werollup.com. We partner with boutique cultivators so every product meets our rigorous standards for flavor, potency and purity. Looking for same‑day weed delivery near LAX or cannabis delivery in Culver City? We’ve got you covered.",
+     "text": "Our LAX location features a hand‑picked selection of premium cannabis products—exceptional smokable flower, top‑shelf pre‑rolls, small‑batch rosin, lab‑tested vapes, potent concentrates, delicious gummies and edibles, and soothing topicals werollup.com. We partner with boutique cultivators so every product meets our rigorous standards for flavor, potency and purity. Looking for same‑day weed delivery near LAX or cannabis delivery in Culver City? We’ve got you covered."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Knowledgeable Team and Convenient Cannabis Services",
+     "text": "Knowledgeable Team and Convenient Cannabis Services"
+    },
+    {
+     "type": "paragraph",
+     "html": "Seven days a week, our knowledgeable multilingual team guides you through our menu and recommends strains that suit your needs werollup.com. We elevate your quality of life with online ordering, curbside pickup and fast, discreet <a href=\"/culver-city/culver-city-delivery-and-pickup/\">weed delivery</a> near Los Angeles International Airport werollup.com. Whether you’re a first‑timer or a seasoned connoisseur, we’re here to help—in English or Spanish werollup.com.",
+     "text": "Seven days a week, our knowledgeable multilingual team guides you through our menu and recommends strains that suit your needs werollup.com. We elevate your quality of life with online ordering, curbside pickup and fast, discreet weed delivery near Los Angeles International Airport werollup.com. Whether you’re a first‑timer or a seasoned connoisseur, we’re here to help—in English or Spanish werollup.com."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "LAX Community Hub",
+     "text": "LAX Community Hub"
+    },
+    {
+     "type": "paragraph",
+     "html": "At We Roll Up LA, we’re more than a delivery service—we’re a community hub. We bring people together through a supportive atmosphere and quality products that enrich socialization, provide medicinal relief and suit every palate werollup.com. Whether you’re staying near LAX, working in the Westchester business district or exploring the beaches of Playa del Rey, We Roll Up LA is your trusted partner for premium cannabis delivery in the<a href=\"/service-area/lax/\"> LAX area</a>. Order online or visit our LAX storefront—our team is ready to roll up and serve you.",
+     "text": "At We Roll Up LA, we’re more than a delivery service—we’re a community hub. We bring people together through a supportive atmosphere and quality products that enrich socialization, provide medicinal relief and suit every palate werollup.com. Whether you’re staying near LAX, working in the Westchester business district or exploring the beaches of Playa del Rey, We Roll Up LA is your trusted partner for premium cannabis delivery in the LAX area. Order online or visit our LAX storefront—our team is ready to roll up and serve you."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/culver-city/"
+ ],
+ "imagesUsed": [
+  "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp"
+ ]
+}

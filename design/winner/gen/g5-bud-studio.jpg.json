@@ -1,0 +1,26 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio macro photograph of a single dense cured cannabis bud with frosted trichomes and a few orange pistils, isolated and centered on a plain flat dark charcoal background, soft even light with a subtle green rim light, sharp focus across the whole bud, generous empty space around it, no text, no logo, no people",
+  "input": {
+    "aspect_ratio": "1:1",
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a1334b-b61d-7e32-931f-3cc921288b82",
+  "seed": 1249413863,
+  "width": 2048,
+  "height": 2048,
+  "contentType": "image/jpeg",
+  "bytes": 1086683,
+  "sha256": "927d17eabe2fcd5dd7c3a4fd8435060bee8689f557f622754999261a768391f9",
+  "file": "tmp/panel/b/gen/g5-bud-studio.jpg",
+  "generatedAt": "2026-10-13T03:26:12.979Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1334b-e245-73b2-845c-fcd60e04e687",
+    "file": "tmp/panel/b/gen/g5-bud-studio.cut.png",
+    "bytes": 2590673
+  }
+}

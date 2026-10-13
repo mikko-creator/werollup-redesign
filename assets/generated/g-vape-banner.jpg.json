@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "G-VAPE-BANNER",
+  "file": "assets/generated/g-vape-banner.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide banner photograph: a single plain unbranded clear glass oil cartridge, a slim smooth blank glass cylinder with golden amber oil, a plain metal mouthpiece and a plain metal base, lying on pale cream stone in the right third of the frame with calm empty stone on the left, soft leaf shadows, a faint wisp of vapour, green bokeh, photographic; no device brand, no label, no print, no engraving, no lettering, no numbers, no hands, no people, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+  "input": {
+    "aspect_ratio": "21:9",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 2482812792,
+  "requestId": "01a133e3-e6da-73b3-8c2d-f3ed62f02cdf",
+  "cutout": null,
+  "width": 3136,
+  "height": 1344,
+  "sha256": "926fa75ea6b006c911fafa0d0cfca300d7f7ad329cec07fc31b428c817031073",
+  "raw": "tmp/img/raw/G-VAPE-BANNER.1791871963683.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-10-13T06:12:45.462Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "an unbranded glass cartridge with amber oil, plain silver mouthpiece and gold base, standing on a stone slab with leaves, a wisp of vapour and green bokeh; no glyphs, marks or print at 300%; no hands or people",
+    "method": "whole frame (new-attempt2.png) + four 100% tiles (rv-6.png) + the cartridge at 100% (new-attempt2-zoom.png) and 300% (print-zoom.png)",
+    "by": "IMAGERY (WF3b)",
+    "date": "2026-10-13"
+  }
+}

@@ -1,0 +1,139 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "education",
+ "path": "/education/recreational-medicinal/",
+ "slug": "education-recreational-medicinal",
+ "sourceUrl": "https://werollup.com/education/recreational-medicinal",
+ "rawFile": "audit/raw/education-recreational-medicinal.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Recreational & Medicinal – We Roll Up",
+ "metaDescription": "The differences between medical and recreational cannabis are subtle. Just because you are a medicinal marijuana patient doesn’t mean you can’t enjoy the",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/education/recreational-medicinal/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Recreational & Medicinal",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Recreational & Medicinal",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Recreational &amp; Medicinal",
+      "text": "Recreational & Medicinal"
+     },
+     "image": {
+      "ref": "assets/source/refetch-cannabis-buds-mason-jars.webp",
+      "src": "https://werollup.com/media/cannabis-buds-mason-jars.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1280,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Recreational Weed vs Medical Weed",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Recreational Weed vs Medical Weed",
+     "text": "Recreational Weed vs Medical Weed"
+    },
+    {
+     "type": "paragraph",
+     "html": "The differences between medical and recreational cannabis are subtle. Just because you are a medicinal marijuana patient doesn’t mean you can’t enjoy the experience. While you might not be an MMJ cardholder, you can benefit from curative properties. However, qualifying for the card does provide perks, such as lower costs, access to higher potency, and the ability to purchase larger quantities.",
+     "text": "The differences between medical and recreational cannabis are subtle. Just because you are a medicinal marijuana patient doesn’t mean you can’t enjoy the experience. While you might not be an MMJ cardholder, you can benefit from curative properties. However, qualifying for the card does provide perks, such as lower costs, access to higher potency, and the ability to purchase larger quantities."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Get Medical Cannabis from Us",
+     "text": "Get Medical Cannabis from Us"
+    },
+    {
+     "type": "paragraph",
+     "html": "<a href=\"/\">To shop We Roll Up</a> as a medicinal cannabis patient, you need a California MMJ card. Our home state does not include out-of-state reciprocity. We invite adults 21+ years of age with valid government-issued ID from anywhere across the country to choose from our wide selection of recreational weed. We are extremely proud of our distinction as the first legal and licensed cannabis dispensary in San Pedro.",
+     "text": "To shop We Roll Up as a medicinal cannabis patient, you need a California MMJ card. Our home state does not include out-of-state reciprocity. We invite adults 21+ years of age with valid government-issued ID from anywhere across the country to choose from our wide selection of recreational weed. We are extremely proud of our distinction as the first legal and licensed cannabis dispensary in San Pedro."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h2",
+     "tag": "h3",
+     "html": "Recreational Cannabis from We Roll Up",
+     "text": "Recreational Cannabis from We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "We Roll Up is built around acceptance. We welcome all walks of life, appreciate your individual concerns, and strive to create a perfectly comfortable, enjoyable, and secure atmosphere. Our staff is extremely knowledgeable, friendly, love to talk about cannabis, and includes Spanish-speaking employees. Whether for recreational or medicinal benefits, we offer exceptional quality of <a href=\"/products/flower/\">flower</a>, pre-rolls, concentrates, vapes, topicals, and edibles. Purchase in-store or order online. Save time with in-store or curbside pickup and watch for delivery services coming soon!",
+     "text": "We Roll Up is built around acceptance. We welcome all walks of life, appreciate your individual concerns, and strive to create a perfectly comfortable, enjoyable, and secure atmosphere. Our staff is extremely knowledgeable, friendly, love to talk about cannabis, and includes Spanish-speaking employees. Whether for recreational or medicinal benefits, we offer exceptional quality of flower, pre-rolls, concentrates, vapes, topicals, and edibles. Purchase in-store or order online. Save time with in-store or curbside pickup and watch for delivery services coming soon!"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Our cannabis selection is sure to suit your medicinal &amp; recreational needs!",
+     "text": "Our cannabis selection is sure to suit your medicinal & recreational needs!"
+    },
+    {
+     "type": "buttons",
+     "items": [
+      {
+       "label": "Shop Now",
+       "text": "Shop Now",
+       "href": "/shop/",
+       "variant": "secondary",
+       "activeLocation": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-cannabis-buds-mason-jars.webp",
+  "src": "https://werollup.com/media/cannabis-buds-mason-jars.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/refetch-cannabis-buds-mason-jars.webp"
+ ]
+}

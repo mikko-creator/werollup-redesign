@@ -1,0 +1,75 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:robots",
+      "target": "http://localhost:55540/robots.txt",
+      "reason": "refused-previously: localhost is in the scan block ledger (2026-10-12T00:00:00Z)",
+      "extra": null,
+      "at": "2026-10-13T01:44:31.418Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://localhost:55540/",
+      "reason": "refused-previously: localhost is in the scan block ledger (2026-10-12T00:00:00Z)",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:31.419Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://localhost:55540/dead1",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:31.815Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://localhost:55540/dead2",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:31.827Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://localhost:55540/dead3",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:31.843Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://localhost:55540/dead4",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:31.859Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://localhost:55540/dead5",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:31.874Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://localhost:55540/dead6",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:31.890Z"
+    }
+  ]
+}

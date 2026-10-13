@@ -1,0 +1,10 @@
+{
+  "schema": "site-reforge/scan-blocked-hosts@1",
+  "hosts": {
+    "127.0.0.1": {
+      "host": "127.0.0.1",
+      "ts": "2026-10-13T01:44:28.068Z",
+      "reason": "sr-crawl (local) --stop-on-403: HTTP 403 at http://127.0.0.1:55540/c. The run stopped at the first refusal. Remove this entry only when the owner has allowlisted us."
+    }
+  }
+}

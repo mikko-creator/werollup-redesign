@@ -1,0 +1,222 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "shop",
+ "path": "/location/culver-city/shop/",
+ "slug": "location-culver-city-shop",
+ "sourceUrl": "https://werollup.com/location/culver-city/shop",
+ "rawFile": "audit/raw/location-culver-city-shop.html",
+ "wpTemplate": "single-location",
+ "store": "culver-city",
+ "menuFamily": "lax-culver-city",
+ "subheader": "shopping-strip",
+ "title": "Shop LAX – Culver City – We Roll Up",
+ "metaDescription": "Shop LAX - Culver City",
+ "metaDescriptionFrom": "h1",
+ "canonical": "https://werollup.com/location/culver-city/shop/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Shop LAX - Culver City",
+ "breadcrumbs": [
+  {
+   "label": "Home",
+   "href": "/",
+   "current": false
+  },
+  {
+   "label": "Locations",
+   "href": "/location/culver-city/shop/",
+   "current": false
+  },
+  {
+   "label": "LAX - Culver City",
+   "href": "/location/culver-city/",
+   "current": false
+  },
+  {
+   "label": "Shop LAX - Culver City",
+   "href": null,
+   "current": true
+  }
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Shop LAX - Culver City",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Shop LAX - Culver City",
+      "text": "Shop LAX - Culver City"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "embed",
+   "heading": null,
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "embed",
+     "provider": "weedmaps",
+     "html": "<div style=\"min-height:100vh\"><script src=\"https://werolluplax.wm.store/static/js/embed.js\"></script></div>"
+    }
+   ]
+  }
+ ],
+ "embed": {
+  "provider": "weedmaps",
+  "head": "",
+  "body": "<div style=\"min-height:100vh\"><script src=\"https://werolluplax.wm.store/static/js/embed.js\"></script></div>"
+ },
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-618f1e21.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-3cc637b8.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-cbf8e8a7.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-7d664180.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-9c7f12e1.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-5aef42ce.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-b916ad9e.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-d58f81ae.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-ab85007d.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-6cffac32.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-fc9b33e5.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3D710-labs-26page-3D1.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Ddime-26page-3D1.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Delusive-26page-3D1.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dteds-budz-26page-3D1.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dtraditional-26page-3D1.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dwizard-trees-26page-3D1.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  },
+  {
+   "query": "?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+   "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-page-3D1-26sortBy-3Dmost_popular-locationId-10599.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/"
+  }
+ ],
+ "aliases": [
+  "/shop-playa-vista/?filters%5Broot_types%5D%5B%5D=vape",
+  "/shop/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

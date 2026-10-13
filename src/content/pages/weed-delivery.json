@@ -1,0 +1,353 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "delivery",
+ "path": "/weed-delivery/",
+ "slug": "weed-delivery",
+ "sourceUrl": "https://werollup.com/weed-delivery",
+ "rawFile": "audit/raw/weed-delivery.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Weed Delivery – We Roll Up",
+ "metaDescription": "Getting your favorite cannabis products should be convenient, straightforward, and stress-free.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/weed-delivery/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Weed Delivery",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Weed Delivery",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Weed Delivery",
+      "text": "Weed Delivery"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "split",
+   "heading": "Convenient delivery to your door in San Pedro and Surrounding Communities",
+   "level": 2,
+   "sourceBg": "dark",
+   "blocks": [
+    {
+     "type": "split",
+     "imageSide": "right",
+     "image": {
+      "ref": "assets/source/a28ecfaf-werollup-san-pedro-storefront-classic-car-rear-gallery.webp",
+      "src": "https://werollup.com/media/werollup-san-pedro-storefront-classic-car-rear-gallery.webp",
+      "alt": "We Roll Up image",
+      "width": 1200,
+      "height": 1599,
+      "role": "split"
+     },
+     "imageLabel": "We Roll Up image",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 2,
+       "look": null,
+       "tag": "h2",
+       "html": "Convenient delivery to your door in San Pedro and Surrounding Communities",
+       "text": "Convenient delivery to your door in San Pedro and Surrounding Communities"
+      },
+      {
+       "type": "paragraph",
+       "html": "Getting your favorite cannabis products should be convenient, straightforward, and stress-free. At <a href=\"/\">We Roll Up</a>, we understand that not everyone has the time to visit a physical dispensary, which is why our weed delivery service brings the dispensary experience directly to your door. As San Pedro’s first licensed cannabis dispensary, we have built our reputation on accessibility and quality, and our delivery service is a natural extension of that commitment. Whether you are a recreational user looking for a relaxing evening or a medical patient seeking consistent relief, our delivery option ensures you never have to go without the products you depend on.",
+       "text": "Getting your favorite cannabis products should be convenient, straightforward, and stress-free. At We Roll Up, we understand that not everyone has the time to visit a physical dispensary, which is why our weed delivery service brings the dispensary experience directly to your door. As San Pedro’s first licensed cannabis dispensary, we have built our reputation on accessibility and quality, and our delivery service is a natural extension of that commitment. Whether you are a recreational user looking for a relaxing evening or a medical patient seeking consistent relief, our delivery option ensures you never have to go without the products you depend on."
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Order Now",
+         "text": "Order Now",
+         "href": "/location/culver-city/shop/",
+         "variant": "light",
+         "chooser": true,
+         "laxUrl": "/location/culver-city/shop/",
+         "sanpedroUrl": "/location/san-pedro/shop/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "card-grid",
+   "heading": "How Our Delivery Process Works",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "card-grid",
+     "intro": [
+      {
+       "type": "heading",
+       "level": 2,
+       "look": "h1",
+       "tag": "h2",
+       "html": "How Our Delivery Process Works",
+       "text": "How Our Delivery Process Works"
+      }
+     ],
+     "cards": [
+      {
+       "tone": "secondary",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": 3,
+         "look": "h2",
+         "tag": "h3",
+         "html": "Step 1: Browse &amp; Order",
+         "text": "Step 1: Browse & Order"
+        },
+        {
+         "type": "paragraph",
+         "html": "Explore our extensive online menu featuring smokable flower, pre-rolls, vapes, gummies and edibles, concentrates, and topicals. Every listing includes detailed strain, potency, terpene, and effects information so you can shop with confidence — just like getting guidance from our in-store team.",
+         "text": "Explore our extensive online menu featuring smokable flower, pre-rolls, vapes, gummies and edibles, concentrates, and topicals. Every listing includes detailed strain, potency, terpene, and effects information so you can shop with confidence — just like getting guidance from our in-store team."
+        }
+       ]
+      },
+      {
+       "tone": "light",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": 3,
+         "look": "h2",
+         "tag": "h3",
+         "html": "Step 2: Verification &amp; Fulfillment",
+         "text": "Step 2: Verification & Fulfillment"
+        },
+        {
+         "type": "paragraph",
+         "html": "Complete your order through our secure online platform. We verify your age and ID in compliance with California state regulations, then carefully package your order and dispatch it with a driver who follows strict protocols to maintain product integrity and security in transit.",
+         "text": "Complete your order through our secure online platform. We verify your age and ID in compliance with California state regulations, then carefully package your order and dispatch it with a driver who follows strict protocols to maintain product integrity and security in transit."
+        }
+       ]
+      },
+      {
+       "tone": "dark",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": 3,
+         "look": "h2",
+         "tag": "h3",
+         "html": "Step 3: Receive Your Delivery",
+         "text": "Step 3: Receive Your Delivery"
+        },
+        {
+         "type": "paragraph",
+         "html": "When your order arrives, simply present a valid government-issued ID confirming you are 21 or older for recreational purchases, or a valid medical marijuana identification card for medicinal orders.",
+         "text": "When your order arrives, simply present a valid government-issued ID confirming you are 21 or older for recreational purchases, or a valid medical marijuana identification card for medicinal orders."
+        }
+       ]
+      }
+     ],
+     "outro": []
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "accordion",
+   "heading": null,
+   "level": null,
+   "sourceBg": "black",
+   "blocks": [
+    {
+     "type": "accordion",
+     "items": [
+      {
+       "id": "rpb-accordion-item-0-collapse",
+       "title": "What You Can Order for Delivery",
+       "text": "What You Can Order for Delivery",
+       "level": 2,
+       "open": true,
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "Our delivery menu mirrors the comprehensive selection available at our San Pedro storefront. We believe that choosing delivery should never mean compromising on variety or quality. Our hand-picked selection of the finest cannabis products at affordable prices spans every major product category, giving you access to hundreds of options from trusted brands and cultivators. We carry products suitable for first-time users who want a gentle introduction as well as experienced connoisseurs seeking potent, premium-grade options.",
+         "text": "Our delivery menu mirrors the comprehensive selection available at our San Pedro storefront. We believe that choosing delivery should never mean compromising on variety or quality. Our hand-picked selection of the finest cannabis products at affordable prices spans every major product category, giving you access to hundreds of options from trusted brands and cultivators. We carry products suitable for first-time users who want a gentle introduction as well as experienced connoisseurs seeking potent, premium-grade options."
+        },
+        {
+         "type": "list",
+         "ordered": false,
+         "items": [
+          {
+           "html": "<a href=\"/products/flower/\"><strong>Flower</strong></a> — Our curated selection of smokable flower includes indica, sativa, and hybrid strains sourced from top California growers, with a range of THC and CBD potencies to match every preference",
+           "text": "Flower — Our curated selection of smokable flower includes indica, sativa, and hybrid strains sourced from top California growers, with a range of THC and CBD potencies to match every preference"
+          },
+          {
+           "html": "<a href=\"/products/pre-rolls/\"><strong>Pre-Rolls</strong></a> — Ready-to-enjoy joints and blunts available in singles, multipacks, and infused varieties for those who want convenience without sacrificing quality",
+           "text": "Pre-Rolls — Ready-to-enjoy joints and blunts available in singles, multipacks, and infused varieties for those who want convenience without sacrificing quality"
+          },
+          {
+           "html": "<a href=\"/products/vaporizers-cartridges/\"><strong>Vaporizers</strong> </a>— Disposable pens, cartridges, and pod systems featuring distillate, live resin, and full-spectrum oil options",
+           "text": "Vaporizers — Disposable pens, cartridges, and pod systems featuring distillate, live resin, and full-spectrum oil options"
+          },
+          {
+           "html": "<a href=\"/products/edibles/\"><strong>Edibles</strong></a> — Gummies, chocolates, baked goods, beverages, and other infused treats with precisely dosed THC and CBD for predictable effects",
+           "text": "Edibles — Gummies, chocolates, baked goods, beverages, and other infused treats with precisely dosed THC and CBD for predictable effects"
+          },
+          {
+           "html": "<a href=\"/products/concentrates/\"><strong>Concentrates</strong></a> — Wax, shatter, live resin, rosin, diamonds, and other extraction formats for users seeking elevated potency",
+           "text": "Concentrates — Wax, shatter, live resin, rosin, diamonds, and other extraction formats for users seeking elevated potency"
+          },
+          {
+           "html": "<a href=\"/products/topicals/\"><strong>Topicals</strong></a> — Creams, balms, lotions, and patches designed for localized relief without psychoactive effects",
+           "text": "Topicals — Creams, balms, lotions, and patches designed for localized relief without psychoactive effects"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "rpb-accordion-item-1-collapse",
+       "title": "Serving a Wide Range of Communities",
+       "text": "Serving a Wide Range of Communities",
+       "level": 2,
+       "open": false,
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "One of the aspects that sets our delivery service apart is the geographic reach we provide across the South Bay and greater <a href=\"/service-area/lax/\">Los Angeles</a> area. Residents searching for weed products near me or dispensary deals near me throughout Torrance, Harbor City, Lomita, and Wilmington can count on reliable service from a licensed, community-oriented dispensary. We function as part of the local society and are proudly serving <a href=\"/service-area/san-pedro/\">San Pedro and the surrounding areas</a>, treating every delivery with the same care and attention we bring to in-store interactions.",
+         "text": "One of the aspects that sets our delivery service apart is the geographic reach we provide across the South Bay and greater Los Angeles area. Residents searching for weed products near me or dispensary deals near me throughout Torrance, Harbor City, Lomita, and Wilmington can count on reliable service from a licensed, community-oriented dispensary. We function as part of the local society and are proudly serving San Pedro and the surrounding areas, treating every delivery with the same care and attention we bring to in-store interactions."
+        },
+        {
+         "type": "paragraph",
+         "html": "We also recognize that different neighborhoods have different needs. Medical patients in Rancho Palos Verdes or Palos Verdes Estates may rely on consistent delivery schedules for their wellness routines, while recreational customers in Culver City might order ahead for social gatherings or weekend relaxation. Rolling Hills and Rolling Hills Estates residents benefit from the privacy and discretion that home delivery naturally provides. Regardless of where you are located within our service area, our team treats every customer with respect and professionalism.",
+         "text": "We also recognize that different neighborhoods have different needs. Medical patients in Rancho Palos Verdes or Palos Verdes Estates may rely on consistent delivery schedules for their wellness routines, while recreational customers in Culver City might order ahead for social gatherings or weekend relaxation. Rolling Hills and Rolling Hills Estates residents benefit from the privacy and discretion that home delivery naturally provides. Regardless of where you are located within our service area, our team treats every customer with respect and professionalism."
+        }
+       ]
+      },
+      {
+       "id": "rpb-accordion-item-2-collapse",
+       "title": "Why Licensed Delivery Matters",
+       "text": "Why Licensed Delivery Matters",
+       "level": 2,
+       "open": false,
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "California’s regulated cannabis market exists to protect consumers, and choosing a licensed delivery service is one of the most important decisions you can make as a buyer. Licensed dispensaries like We Roll Up are required to source products that have undergone rigorous third-party laboratory testing for potency, pesticides, heavy metals, microbials, and residual solvents. Every item that leaves our facility carries a certificate of analysis confirming it meets state safety standards. Unlicensed delivery services operate outside of these regulatory frameworks, meaning there is no guarantee about what you are actually consuming.",
+         "text": "California’s regulated cannabis market exists to protect consumers, and choosing a licensed delivery service is one of the most important decisions you can make as a buyer. Licensed dispensaries like We Roll Up are required to source products that have undergone rigorous third-party laboratory testing for potency, pesticides, heavy metals, microbials, and residual solvents. Every item that leaves our facility carries a certificate of analysis confirming it meets state safety standards. Unlicensed delivery services operate outside of these regulatory frameworks, meaning there is no guarantee about what you are actually consuming."
+        },
+        {
+         "type": "paragraph",
+         "html": "Beyond product safety, licensed delivery also means that your purchase supports legal commerce and tax revenue that flows back into local communities. California collected over five billion dollars in cannabis tax revenue in the years following legalization, funding public health programs, education, and community reinvestment initiatives. When you order from a licensed operation, you are contributing to that ecosystem rather than supporting an unregulated market.",
+         "text": "Beyond product safety, licensed delivery also means that your purchase supports legal commerce and tax revenue that flows back into local communities. California collected over five billion dollars in cannabis tax revenue in the years following legalization, funding public health programs, education, and community reinvestment initiatives. When you order from a licensed operation, you are contributing to that ecosystem rather than supporting an unregulated market."
+        }
+       ]
+      },
+      {
+       "id": "rpb-accordion-item-3-collapse",
+       "title": "Tips for a Great Delivery Experience",
+       "text": "Tips for a Great Delivery Experience",
+       "level": 2,
+       "open": false,
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "To make the most of your weed delivery order, we recommend taking a few simple steps before placing your request. First, have your valid identification ready so the verification process is quick and effortless when your driver arrives. Second, take time to read product descriptions carefully. Our team has included strain-specific information, recommended use cases, and dosage guidance to help you find the right fit. If you are exploring cannabis products for the first time, starting with lower-potency options is always a wise approach.",
+         "text": "To make the most of your weed delivery order, we recommend taking a few simple steps before placing your request. First, have your valid identification ready so the verification process is quick and effortless when your driver arrives. Second, take time to read product descriptions carefully. Our team has included strain-specific information, recommended use cases, and dosage guidance to help you find the right fit. If you are exploring cannabis products for the first time, starting with lower-potency options is always a wise approach."
+        },
+        {
+         "type": "list",
+         "ordered": true,
+         "items": [
+          {
+           "html": "<strong>Browse the full menu</strong> before ordering to discover new products and take advantage of dispensary deals near me",
+           "text": "Browse the full menu before ordering to discover new products and take advantage of dispensary deals near me"
+          },
+          {
+           "html": "<strong>Check delivery windows</strong> to select a time that works with your schedule",
+           "text": "Check delivery windows to select a time that works with your schedule"
+          },
+          {
+           "html": "<strong>Ask questions</strong> by contacting our team if you need guidance on strains, effects, or product categories",
+           "text": "Ask questions by contacting our team if you need guidance on strains, effects, or product categories"
+          },
+          {
+           "html": "<strong>Plan ahead</strong> for events or weekends when demand may be higher",
+           "text": "Plan ahead for events or weekends when demand may be higher"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "rpb-accordion-item-4-collapse",
+       "title": "A Delivery Service Built on Community Values",
+       "text": "A Delivery Service Built on Community Values",
+       "level": 2,
+       "open": false,
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "At We Roll Up, we are more than a dispensary. We are a community hub that brings people together through quality cannabis products and genuine human connection. We speak Spanish and always have a Spanish-speaking member of our team onsite and available to assist with delivery inquiries. Our doors are open seven days per week, and our delivery service extends that availability to customers who prefer receiving their orders at home. Recreational users, medical patients, novices, and connoisseurs are all warmly welcome.",
+         "text": "At We Roll Up, we are more than a dispensary. We are a community hub that brings people together through quality cannabis products and genuine human connection. We speak Spanish and always have a Spanish-speaking member of our team onsite and available to assist with delivery inquiries. Our doors are open seven days per week, and our delivery service extends that availability to customers who prefer receiving their orders at home. Recreational users, medical patients, novices, and connoisseurs are all warmly welcome."
+        },
+        {
+         "type": "paragraph",
+         "html": "Finding your perfect strain is our mission. Whether you visit us in San Pedro or place a delivery order from anywhere within our service area, we are committed to elevating your quality of life through safe, legal, and affordable access to the best cannabis products California has to offer. Let us welcome you and guide you through a positive and rewarding experience, delivered right to your doorstep.",
+         "text": "Finding your perfect strain is our mission. Whether you visit us in San Pedro or place a delivery order from anywhere within our service area, we are committed to elevating your quality of life through safe, legal, and affordable access to the best cannabis products California has to offer. Let us welcome you and guide you through a positive and rewarding experience, delivered right to your doorstep."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/a28ecfaf-werollup-san-pedro-storefront-classic-car-rear-gallery.webp",
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

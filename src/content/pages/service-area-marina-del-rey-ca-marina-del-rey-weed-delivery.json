@@ -1,0 +1,200 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "service-area-town",
+ "path": "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+ "slug": "service-area-marina-del-rey-ca-marina-del-rey-weed-delivery",
+ "sourceUrl": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+ "rawFile": "audit/raw/service-area-marina-del-rey-ca-marina-del-rey-weed-delivery.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Marina del Rey Weed Delivery – We Roll Up",
+ "metaDescription": "A canal-lined neighborhood with waterfront condos, marina slips, and beach-adjacent apartments has its own rhythm, and cannabis delivery here has to match",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Marina del Rey Weed Delivery",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Marina del Rey Weed Delivery",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Marina del Rey Weed Delivery",
+      "text": "Marina del Rey Weed Delivery"
+     },
+     "image": {
+      "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Stage One: Browsing and Building Your Order",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "paragraph",
+     "html": "A canal-lined neighborhood with waterfront condos, marina slips, and beach-adjacent apartments has its own rhythm, and cannabis delivery here has to match it. <a href=\"/service-area/marina-del-rey-ca/\">Marina del Rey</a> residents range from boat owners and weekend visitors to long-term renters and remote workers, and the way they shop reflects that variety. We built our delivery service to fit into busy days, quiet evenings, and everything in between.",
+     "text": "A canal-lined neighborhood with waterfront condos, marina slips, and beach-adjacent apartments has its own rhythm, and cannabis delivery here has to match it. Marina del Rey residents range from boat owners and weekend visitors to long-term renters and remote workers, and the way they shop reflects that variety. We built our delivery service to fit into busy days, quiet evenings, and everything in between."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Stage One: Browsing and Building Your Order",
+     "text": "Stage One: Browsing and Building Your Order"
+    },
+    {
+     "type": "paragraph",
+     "html": "Everything starts with the menu. When you open our online catalog, you see live inventory pulled directly from our shelves, so what you add to your cart is genuinely available. Each listing includes the strain name, cannabinoid percentages, the producer, and the product format. This lets you compare a high-THC concentrate against a balanced gummy or a low-dose beverage without guesswork.",
+     "text": "Everything starts with the menu. When you open our online catalog, you see live inventory pulled directly from our shelves, so what you add to your cart is genuinely available. Each listing includes the strain name, cannabinoid percentages, the producer, and the product format. This lets you compare a high-THC concentrate against a balanced gummy or a low-dose beverage without guesswork."
+    },
+    {
+     "type": "paragraph",
+     "html": "As San Pedro’s first licensed cannabis dispensary, We Roll Up brings that same vetted selection to Marina del Rey through delivery. We sort products by category and effect so you can narrow choices quickly. If you are unsure where to begin, our staff is reachable to talk through options, and there is always a Spanish-speaking team member available to help. We want your first selection to feel as informed as your tenth.",
+     "text": "As San Pedro’s first licensed cannabis dispensary, We Roll Up brings that same vetted selection to Marina del Rey through delivery. We sort products by category and effect so you can narrow choices quickly. If you are unsure where to begin, our staff is reachable to talk through options, and there is always a Spanish-speaking team member available to help. We want your first selection to feel as informed as your tenth."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Stage Two: Verification and Order Confirmation",
+     "text": "Stage Two: Verification and Order Confirmation"
+    },
+    {
+     "type": "paragraph",
+     "html": "California law requires age verification for every cannabis purchase, and delivery is no exception. After you place your order, we confirm that you are at least 21 for recreational purchases or hold valid medical documentation. Our driver will check a government-issued ID again at the door, matching it to the order on file. This protects you, protects the community, and keeps us fully compliant.",
+     "text": "California law requires age verification for every cannabis purchase, and delivery is no exception. After you place your order, we confirm that you are at least 21 for recreational purchases or hold valid medical documentation. Our driver will check a government-issued ID again at the door, matching it to the order on file. This protects you, protects the community, and keeps us fully compliant."
+    },
+    {
+     "type": "paragraph",
+     "html": "Once verified, your order is packaged in a sealed, tamper-evident bag and dispatched. We track each delivery from the moment it leaves the store until it reaches your address. That chain of custody matters in a coastal area where addresses include canal-front homes, gated complexes, and marina parking. Clear delivery notes from you help our drivers find the right entrance without delay.",
+     "text": "Once verified, your order is packaged in a sealed, tamper-evident bag and dispatched. We track each delivery from the moment it leaves the store until it reaches your address. That chain of custody matters in a coastal area where addresses include canal-front homes, gated complexes, and marina parking. Clear delivery notes from you help our drivers find the right entrance without delay."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Stage Three: What You Can Have Delivered",
+     "text": "Stage Three: What You Can Have Delivered"
+    },
+    {
+     "type": "paragraph",
+     "html": "Our hand-picked selection covers the full spectrum of cannabis formats, and nearly all of it is eligible for delivery. We focus on quality at affordable prices, sourcing from producers whose lab results we trust.",
+     "text": "Our hand-picked selection covers the full spectrum of cannabis formats, and nearly all of it is eligible for delivery. We focus on quality at affordable prices, sourcing from producers whose lab results we trust."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong><a href=\"/products/flower/\">Smokable flower</a>:</strong> Indica, sativa, and hybrid strains in a range of potencies for those who prefer the traditional experience.",
+       "text": "Smokable flower: Indica, sativa, and hybrid strains in a range of potencies for those who prefer the traditional experience."
+      },
+      {
+       "html": "<strong><a href=\"/products/pre-rolls/\">Pre-rolls</a>:</strong> Single joints and multi-packs, including infused options for a stronger effect.",
+       "text": "Pre-rolls: Single joints and multi-packs, including infused options for a stronger effect."
+      },
+      {
+       "html": "<strong><a href=\"/products/vaporizers-cartridges/\">Vapes</a>:</strong> Cartridges and disposables across many strains and oil types, ideal for discreet, portable use.",
+       "text": "Vapes: Cartridges and disposables across many strains and oil types, ideal for discreet, portable use."
+      },
+      {
+       "html": "<strong><a href=\"/products/edibles/\">Gummies and edibles</a>:</strong> Precisely dosed treats for predictable, long-lasting effects without smoke.",
+       "text": "Gummies and edibles: Precisely dosed treats for predictable, long-lasting effects without smoke."
+      },
+      {
+       "html": "<strong><a href=\"/products/concentrates/\">Concentrates</a>:</strong> Potent extracts for experienced users who want maximum strength.",
+       "text": "Concentrates: Potent extracts for experienced users who want maximum strength."
+      },
+      {
+       "html": "<strong><a href=\"/products/topicals/\">Topicals</a>:</strong> Soothing balms and lotions for localized relief without intoxication.",
+       "text": "Topicals: Soothing balms and lotions for localized relief without intoxication."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Stage Four: Receiving and Enjoying Your Delivery",
+     "text": "Stage Four: Receiving and Enjoying Your Delivery"
+    },
+    {
+     "type": "paragraph",
+     "html": "When the driver arrives, the handoff is quick and straightforward. You confirm your identity, review your items, and complete the transaction. We keep things low-key and respectful, understanding that discretion matters whether you live in a quiet residential block or a busy waterfront building. After delivery, your products are yours to enjoy on your schedule.",
+     "text": "When the driver arrives, the handoff is quick and straightforward. You confirm your identity, review your items, and complete the transaction. We keep things low-key and respectful, understanding that discretion matters whether you live in a quiet residential block or a busy waterfront building. After delivery, your products are yours to enjoy on your schedule."
+    },
+    {
+     "type": "paragraph",
+     "html": "We also offer in-store pickup and curbside pickup for anyone who prefers to grab an order on the way home or while running errands nearby. These options pair well with delivery, giving you flexibility depending on your day. Recreational users, medical patients, novices, and connoisseurs all use these services in different ways, and we designed each path to be simple.",
+     "text": "We also offer in-store pickup and curbside pickup for anyone who prefers to grab an order on the way home or while running errands nearby. These options pair well with delivery, giving you flexibility depending on your day. Recreational users, medical patients, novices, and connoisseurs all use these services in different ways, and we designed each path to be simple."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Who Relies on Marina del Rey Delivery",
+     "text": "Who Relies on Marina del Rey Delivery"
+    },
+    {
+     "type": "paragraph",
+     "html": "Delivery solves real problems. A medical patient managing chronic discomfort may find it difficult to travel, so having topicals or low-dose edibles brought to the door preserves both comfort and dignity. A visitor staying in a short-term rental near the marina can restock without renting a car or navigating unfamiliar streets. Remote workers wrapping up a long day often prefer a delivery over a trip out, and weekend hosts plan ahead by ordering ahead of guests arriving.",
+     "text": "Delivery solves real problems. A medical patient managing chronic discomfort may find it difficult to travel, so having topicals or low-dose edibles brought to the door preserves both comfort and dignity. A visitor staying in a short-term rental near the marina can restock without renting a car or navigating unfamiliar streets. Remote workers wrapping up a long day often prefer a delivery over a trip out, and weekend hosts plan ahead by ordering ahead of guests arriving."
+    },
+    {
+     "type": "paragraph",
+     "html": "We proudly serve Marina del Rey and the surrounding communities across California, extending the same welcoming, knowledgeable service that defines our storefront. Finding your perfect strain is our mission, and bringing it to you is simply part of how we do that. Whether you are exploring cannabis for the first time or have a favorite you already know, <a href=\"/\">We Roll Up is ready</a> to deliver a positive, rewarding experience straight to your address.",
+     "text": "We proudly serve Marina del Rey and the surrounding communities across California, extending the same welcoming, knowledgeable service that defines our storefront. Finding your perfect strain is our mission, and bringing it to you is simply part of how we do that. Whether you are exploring cannabis for the first time or have a favorite you already know, We Roll Up is ready to deliver a positive, rewarding experience straight to your address."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "src": "https://werollup.com/media/werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/085a05d4-werollup-trop-cherry-bag-prerolls-coffee-table-book-hero.webp"
+ ]
+}

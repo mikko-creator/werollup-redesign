@@ -1,0 +1,1044 @@
+{
+ "schema": "werollup/chrome@1",
+ "source": "audit/raw/index.html (global chrome); menu families proven identical on every page of the family; shopping strips from audit/raw/location-<store>.html",
+ "topBar": {
+  "select": {
+   "name": "currently-shopping",
+   "id": "currently-shopping",
+   "options": [
+    {
+     "label": "Select a Location",
+     "value": "",
+     "slug": null,
+     "address": null,
+     "hours": null,
+     "menuUrl": null,
+     "directionsUrl": null
+    },
+    {
+     "label": "LAX - Culver City",
+     "value": "/location/culver-city/",
+     "slug": "culver-city",
+     "address": "11834 Jefferson Boulevard",
+     "hours": "Open: 10:00 AM - 10:00 PM",
+     "menuUrl": "/location/culver-city/shop/",
+     "directionsUrl": "https://www.google.com/maps?cid=376465196010288395"
+    },
+    {
+     "label": "San Pedro - Palos Verdes",
+     "value": "/location/san-pedro/",
+     "slug": "san-pedro",
+     "address": "1705 S Gaffey Street",
+     "hours": "Open: 10:00 AM - 10:00 PM",
+     "menuUrl": "/location/san-pedro/shop/",
+     "directionsUrl": "https://www.google.com/maps?cid=5006542390870460260"
+    }
+   ]
+  },
+  "details": {
+   "addressId": "locationAddress",
+   "hoursId": "locationHours"
+  },
+  "hoursFallback": "Hours Not Available",
+  "hoursFallbackEvidence": "assets/js/4c0935fa-main.js module 343: getAttribute(\"data-hours\")||\"Hours Not Available\" (JS-only string; UNDERSTAND-REVIEW X1)",
+  "socials": [
+   {
+    "label": "Instagram",
+    "ariaLabel": null,
+    "href": "https://www.instagram.com/we.roll.up/?hl=en",
+    "target": "_blank",
+    "rel": null,
+    "icon": "instagram",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": "Google",
+    "ariaLabel": null,
+    "href": "https://www.google.com/maps?cid=5006542390870460260",
+    "target": "_blank",
+    "rel": null,
+    "icon": "google",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": "Yelp",
+    "ariaLabel": null,
+    "href": "https://www.yelp.com/biz/we-roll-up-los-angeles-4",
+    "target": "_blank",
+    "rel": null,
+    "icon": "yelp",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": "Weedmaps",
+    "ariaLabel": null,
+    "href": "https://weedmaps.com/dispensaries/the-green-co-dispensary-inc",
+    "target": "_blank",
+    "rel": null,
+    "icon": "cannabis",
+    "imageUrl": null,
+    "imageAlt": null
+   }
+  ]
+ },
+ "header": {
+  "navLabel": "Primary menu",
+  "logo": {
+   "image": {
+    "ref": "assets/source/8f87827f-logo-white-x.png",
+    "src": "https://werollup.com/media/logo-white-x.png",
+    "alt": "We Roll Up Logo",
+    "width": 400,
+    "height": 71,
+    "role": "logo"
+   },
+   "href": "/",
+   "displayWidth": 150,
+   "displayHeight": 71
+  },
+  "quickMenu": [
+   {
+    "label": "Daily Deals",
+    "href": "/about-us/daily-deals/"
+   },
+   {
+    "label": "Delivery",
+    "href": "/weed-delivery/"
+   },
+   {
+    "label": "Contact",
+    "href": "/contact/"
+   }
+  ],
+  "toggleLabel": "Toggle navigation",
+  "orderNow": {
+   "label": "Order Now",
+   "href": "/location/culver-city/shop/",
+   "laxUrl": "/location/culver-city/shop/",
+   "sanpedroUrl": "/location/san-pedro/shop/",
+   "icon": "store"
+  }
+ },
+ "nav": {
+  "primary": [
+   {
+    "label": "Locations",
+    "href": null,
+    "children": [
+     {
+      "label": "LAX - Culver City",
+      "href": "/location/culver-city/"
+     },
+     {
+      "label": "San Pedro - Palos Verdes",
+      "href": "/location/san-pedro/"
+     }
+    ]
+   },
+   {
+    "label": "Products",
+    "href": null,
+    "children": [
+     {
+      "label": "San Pedro",
+      "href": null,
+      "children": [
+       {
+        "label": "Best Selling",
+        "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling"
+       },
+       {
+        "label": "Order Flower",
+        "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower"
+       },
+       {
+        "label": "Order Pre-Rolls",
+        "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll"
+       },
+       {
+        "label": "Order Vaporizers & Cartridges",
+        "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape"
+       },
+       {
+        "label": "Order Edibles & Gummies",
+        "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible"
+       },
+       {
+        "label": "Order Concentrates",
+        "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract"
+       },
+       {
+        "label": "Order Topicals",
+        "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical"
+       }
+      ]
+     },
+     {
+      "label": "LAX",
+      "href": null,
+      "children": [
+       {
+        "label": "Best Selling",
+        "href": "/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599"
+       },
+       {
+        "label": "Order Flower",
+        "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+       },
+       {
+        "label": "Order Pre-Rolls",
+        "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+       },
+       {
+        "label": "Order Vaporizers & Cartridges",
+        "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+       },
+       {
+        "label": "Order Edibles & Gummies",
+        "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+       },
+       {
+        "label": "Order Concentrates",
+        "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+       },
+       {
+        "label": "Order Topicals",
+        "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Education",
+    "href": null,
+    "children": [
+     {
+      "label": "Flower",
+      "href": "/products/flower/"
+     },
+     {
+      "label": "Pre-Rolls",
+      "href": "/products/pre-rolls/"
+     },
+     {
+      "label": "Vaporizers & Cartridges",
+      "href": "/products/vaporizers-cartridges/"
+     },
+     {
+      "label": "Edibles",
+      "href": "/products/edibles/"
+     },
+     {
+      "label": "Concentrates",
+      "href": "/products/concentrates/"
+     },
+     {
+      "label": "Topicals",
+      "href": "/products/topicals/"
+     },
+     {
+      "label": "Cannabis 101",
+      "href": "/education/cannabis-101/"
+     },
+     {
+      "label": "Recreational & Medicinal",
+      "href": "/education/recreational-medicinal/"
+     }
+    ]
+   },
+   {
+    "label": "About",
+    "href": "/about-us/"
+   },
+   {
+    "label": "Daily Deals",
+    "href": "/about-us/daily-deals/"
+   },
+   {
+    "label": "Contact",
+    "href": "/contact/"
+   }
+  ],
+  "laxCulverCity": [
+   {
+    "label": "Locations",
+    "href": null,
+    "children": [
+     {
+      "label": "LAX - Culver City",
+      "href": "/location/culver-city/"
+     },
+     {
+      "label": "San Pedro - Palos Verdes",
+      "href": "/location/san-pedro/"
+     }
+    ]
+   },
+   {
+    "label": "Products",
+    "href": null,
+    "children": [
+     {
+      "label": "Best Selling",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599"
+     },
+     {
+      "label": "Order Flower",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+     },
+     {
+      "label": "Order Pre-Rolls",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+     },
+     {
+      "label": "Order Vaporizers & Cartridges",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+     },
+     {
+      "label": "Order Edibles & Gummies",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+     },
+     {
+      "label": "Order Concentrates",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+     },
+     {
+      "label": "Order Topicals",
+      "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599"
+     }
+    ]
+   },
+   {
+    "label": "Education",
+    "href": null,
+    "children": [
+     {
+      "label": "Concentrates",
+      "href": "/products/concentrates/"
+     },
+     {
+      "label": "Edibles",
+      "href": "/products/edibles/"
+     },
+     {
+      "label": "Flower",
+      "href": "/products/flower/"
+     },
+     {
+      "label": "Pre-Rolls",
+      "href": "/products/pre-rolls/"
+     },
+     {
+      "label": "Topicals",
+      "href": "/products/topicals/"
+     },
+     {
+      "label": "Vaporizers & Cartridges",
+      "href": "/products/vaporizers-cartridges/"
+     },
+     {
+      "label": "Cannabis 101",
+      "href": "/education/cannabis-101/"
+     },
+     {
+      "label": "Recreational & Medicinal",
+      "href": "/education/recreational-medicinal/"
+     }
+    ]
+   },
+   {
+    "label": "About Us",
+    "href": "/about-us/"
+   },
+   {
+    "label": "Daily Deals",
+    "href": "/about-us/daily-deals/"
+   },
+   {
+    "label": "Contact",
+    "href": "/contact/"
+   }
+  ],
+  "sanPedro": [
+   {
+    "label": "Locations",
+    "href": null,
+    "children": [
+     {
+      "label": "LAX - Culver City",
+      "href": "/location/culver-city/"
+     },
+     {
+      "label": "San Pedro - Palos Verdes",
+      "href": "/location/san-pedro/"
+     }
+    ]
+   },
+   {
+    "label": "Products",
+    "href": null,
+    "children": [
+     {
+      "label": "Best Selling",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling"
+     },
+     {
+      "label": "Order Flower",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower"
+     },
+     {
+      "label": "Order Pre-Rolls",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll"
+     },
+     {
+      "label": "Order Vapes & Cartridges",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape"
+     },
+     {
+      "label": "Order Edibles & Gummies",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible"
+     },
+     {
+      "label": "Order Concentrates",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract"
+     },
+     {
+      "label": "Order Topicals",
+      "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical"
+     }
+    ]
+   },
+   {
+    "label": "Education",
+    "href": null,
+    "children": [
+     {
+      "label": "Cannabis 101",
+      "href": "/education/cannabis-101/"
+     },
+     {
+      "label": "Recreational & Medicinal",
+      "href": "/education/recreational-medicinal/"
+     },
+     {
+      "label": "Concentrates",
+      "href": "/products/concentrates/"
+     },
+     {
+      "label": "Edibles",
+      "href": "/products/edibles/"
+     },
+     {
+      "label": "Flower",
+      "href": "/products/flower/"
+     },
+     {
+      "label": "Pre-Rolls",
+      "href": "/products/pre-rolls/"
+     },
+     {
+      "label": "Topicals",
+      "href": "/products/topicals/"
+     },
+     {
+      "label": "Vaporizers & Cartridges",
+      "href": "/products/vaporizers-cartridges/"
+     }
+    ]
+   },
+   {
+    "label": "About Us",
+    "href": "/about-us/"
+   },
+   {
+    "label": "Daily Deals",
+    "href": "/about-us/daily-deals/"
+   },
+   {
+    "label": "Contact",
+    "href": "/contact/"
+   }
+  ]
+ },
+ "marquee": {
+  "items": [
+   {
+    "icon": "map-marker-alt",
+    "text": "Welcome to We Roll Up…"
+   },
+   {
+    "icon": "star",
+    "text": "We Roll Up Rosin Club + Buy any 5 rosin products + Get 25% Off"
+   }
+  ]
+ },
+ "shoppingStrip": {
+  "culver-city": {
+   "lead": "You're shopping",
+   "store": "LAX - Culver City",
+   "buttons": [
+    {
+     "label": "Directions",
+     "text": "Directions",
+     "href": "https://www.google.com/maps?cid=376465196010288395",
+     "variant": "primary",
+     "size": "sm",
+     "target": "_blank",
+     "rel": "nofollow"
+    },
+    {
+     "label": "Review Us",
+     "text": "Review Us",
+     "href": "https://search.google.com/local/writereview?placeid=ChIJAfFmFwCxwoARC7V95hl5OQU",
+     "variant": "primary",
+     "size": "sm",
+     "target": "_blank",
+     "rel": "nofollow"
+    },
+    {
+     "label": "Call Now",
+     "text": "Call Now",
+     "href": "tel:+18887776655",
+     "variant": "secondary",
+     "size": "sm"
+    }
+   ]
+  },
+  "san-pedro": {
+   "lead": "You're shopping",
+   "store": "San Pedro - Palos Verdes",
+   "buttons": [
+    {
+     "label": "Directions",
+     "text": "Directions",
+     "href": "https://www.google.com/maps?cid=5006542390870460260",
+     "variant": "primary",
+     "size": "sm",
+     "target": "_blank",
+     "rel": "nofollow"
+    },
+    {
+     "label": "Review Us",
+     "text": "Review Us",
+     "href": "https://www.google.com/search?hl=en-US&gl=us&q=We+Roll+Up,+1705+S+Gaffey+St,+San+Pedro,+CA+90731&ludocid=5006542390870460260&lsig=AB86z5W0PW8o5oD0v0X_fMdgOIro#lrd=0x80dd371d9ba6c7d7:0x457acfc758c4c764,3",
+     "variant": "primary",
+     "size": "sm",
+     "target": "_blank",
+     "rel": "nofollow"
+    },
+    {
+     "label": "Call Now",
+     "text": "Call Now",
+     "href": "tel:+14242645423",
+     "variant": "secondary",
+     "size": "sm"
+    }
+   ]
+  }
+ },
+ "offcanvas": {
+  "ariaLabel": "Offcanvas menu",
+  "logo": {
+   "image": {
+    "ref": "assets/source/8f87827f-logo-white-x.png",
+    "src": "https://werollup.com/media/logo-white-x.png",
+    "alt": "We Roll Up",
+    "width": 400,
+    "height": 71,
+    "role": "logo"
+   },
+   "href": "/"
+  },
+  "socials": [
+   {
+    "label": "Instagram",
+    "ariaLabel": null,
+    "href": "https://www.instagram.com/we.roll.up/?hl=en",
+    "target": "_blank",
+    "rel": null,
+    "icon": "instagram",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": "Google",
+    "ariaLabel": null,
+    "href": "https://www.google.com/maps?cid=5006542390870460260",
+    "target": "_blank",
+    "rel": null,
+    "icon": "google",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": "Yelp",
+    "ariaLabel": null,
+    "href": "https://www.yelp.com/biz/we-roll-up-los-angeles-4",
+    "target": "_blank",
+    "rel": null,
+    "icon": "yelp",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": "Weedmaps",
+    "ariaLabel": null,
+    "href": "https://weedmaps.com/dispensaries/the-green-co-dispensary-inc",
+    "target": "_blank",
+    "rel": null,
+    "icon": "cannabis",
+    "imageUrl": null,
+    "imageAlt": null
+   }
+  ],
+  "closeLabel": "Close menu",
+  "navLabel": "Mobile navigation",
+  "orderNow": {
+   "label": "Order Now",
+   "ariaLabel": "Order Now",
+   "href": "/location/culver-city/shop/",
+   "laxUrl": "/location/culver-city/shop/",
+   "sanpedroUrl": "/location/san-pedro/shop/"
+  }
+ },
+ "footer": {
+  "logo": {
+   "image": {
+    "ref": "assets/source/8f87827f-logo-white-x.png",
+    "src": "https://werollup.com/media/logo-white-x.png",
+    "alt": "We Roll UpLogo",
+    "width": 400,
+    "height": 71,
+    "role": "logo"
+   }
+  },
+  "stores": [
+   {
+    "name": "San Pedro - Palos Verdes",
+    "address": "1705 S Gaffey Street, San Pedro, CA 90731",
+    "phone": {
+     "display": "424 264 5423",
+     "href": "tel:+1424 264 5423"
+    }
+   },
+   {
+    "name": "LAX - Culver City",
+    "address": "11834 Jefferson Boulevard, Culver City, CA 11834",
+    "phone": {
+     "display": "888-777-6655",
+     "href": "tel:+1888-777-6655"
+    }
+   }
+  ],
+  "socials": [
+   {
+    "label": null,
+    "ariaLabel": "Instagram Link",
+    "href": "https://www.instagram.com/we.roll.up/?hl=en",
+    "target": "_blank",
+    "rel": null,
+    "icon": "instagram",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": null,
+    "ariaLabel": "Google Link",
+    "href": "https://www.google.com/maps?cid=5006542390870460260",
+    "target": "_blank",
+    "rel": null,
+    "icon": "google",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": null,
+    "ariaLabel": "Yelp Link",
+    "href": "https://www.yelp.com/biz/we-roll-up-los-angeles-4",
+    "target": "_blank",
+    "rel": null,
+    "icon": "yelp",
+    "imageUrl": null,
+    "imageAlt": null
+   },
+   {
+    "label": null,
+    "ariaLabel": null,
+    "href": "https://weedmaps.com/dispensaries/the-green-co-dispensary-inc",
+    "target": "_blank",
+    "rel": "noopener",
+    "icon": null,
+    "imageUrl": "/media/weedmaps-white-e1666707377331.png",
+    "imageAlt": "weedmaps logo",
+    "image": {
+     "ref": "assets/source/3329990b-weedmaps-white-e1666707377331.png",
+     "src": "/media/weedmaps-white-e1666707377331.png",
+     "alt": "weedmaps logo",
+     "width": 273,
+     "height": 149,
+     "role": "footer-logo"
+    }
+   }
+  ],
+  "quickLinksTitle": "Quick Links",
+  "quickLinks": [
+   {
+    "label": "Home",
+    "href": "/"
+   },
+   {
+    "label": "Shop LAX - Culver City",
+    "href": "/location/culver-city/shop/",
+    "activeLocation": true
+   },
+   {
+    "label": "Shop San Pedro - Palos Verdes",
+    "href": "/location/san-pedro/shop/"
+   },
+   {
+    "label": "Daily Deals",
+    "href": "/about-us/daily-deals/"
+   },
+   {
+    "label": "LAX - Culver City",
+    "href": "/location/culver-city/"
+   },
+   {
+    "label": "San Pedro - Palos Verdes",
+    "href": "/location/san-pedro/"
+   },
+   {
+    "label": "About Us",
+    "href": "/about-us/"
+   },
+   {
+    "label": "Cannabis License: C10-0000854-LIC",
+    "href": "/home/"
+   }
+  ],
+  "licence": {
+   "label": "Cannabis License: C10-0000854-LIC",
+   "href": "/home/"
+  },
+  "copyright": "© 2026 We Roll Up All rights reserved.",
+  "separator": "|",
+  "privacy": {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy/",
+   "title": "Privacy Policy"
+  }
+ },
+ "locationChooser": {
+  "closeLabel": "Close location chooser",
+  "closeGlyph": "×",
+  "eyebrow": "Choose Your Location",
+  "title": "Where would you like to shop?",
+  "description": "Select a store to continue to the right menu, deals, or delivery page.",
+  "cards": [
+   {
+    "key": "lax",
+    "href": "/location/culver-city/shop/",
+    "image": {
+     "ref": "assets/source/dd2e2c2b-LAX_-Culver-City-2.webp",
+     "src": "https://werollup.com/media/LAX_-Culver-City-2.webp",
+     "alt": "",
+     "width": 600,
+     "height": 569,
+     "role": "chooser"
+    },
+    "name": "LAX - Culver City",
+    "address": "11834 Jefferson Boulevard, Culver City, CA 11834",
+    "cta": "Select Location"
+   },
+   {
+    "key": "sanpedro",
+    "href": "/location/san-pedro/shop/",
+    "image": {
+     "ref": "assets/source/f06599a5-San-Pedro_-Palos-Verdes-1.webp",
+     "src": "https://werollup.com/media/San-Pedro_-Palos-Verdes-1.webp",
+     "alt": "",
+     "width": 600,
+     "height": 531,
+     "role": "chooser"
+    },
+    "name": "San Pedro - Palos Verdes",
+    "address": "1705 S Gaffey Street, San Pedro, CA 90731",
+    "cta": "Select Location"
+   }
+  ]
+ },
+ "ageGate": {
+  "ariaLabel": "Age Gate",
+  "background": {
+   "ref": "assets/source/25e314b3-werollup-san-pedro-storefront-classic-car-side-hero-1.webp",
+   "src": "https://werollup.com/media/werollup-san-pedro-storefront-classic-car-side-hero-1.webp",
+   "alt": "",
+   "width": 1920,
+   "height": 1439,
+   "role": "age-gate"
+  },
+  "title": "Verify Your Age",
+  "question": "Are you over the age of 21?",
+  "denied": "We're sorry, but you do not meet the required age to enter this website.",
+  "yes": "Yes, I'm 21+",
+  "no": "No, I'm Under 21",
+  "storeHeading": "Choose your location",
+  "stores": [
+   {
+    "name": "LAX - Culver City",
+    "nameTag": "h6",
+    "address": "11834 Jefferson Boulevard",
+    "href": "/location/culver-city/",
+    "cta": "Shop here"
+   },
+   {
+    "name": "San Pedro - Palos Verdes",
+    "nameTag": "h6",
+    "address": "1705 S Gaffey Street",
+    "href": "/location/san-pedro/",
+    "cta": "Shop here"
+   }
+  ],
+  "rule": {
+   "storageKey": "agePass_v2",
+   "passValue": "true",
+   "passIf": [
+    "localStorage agePass_v2 === \"true\"",
+    "sessionStorage agePass_v2 === \"true\"",
+    "cookie agePass_v2=true"
+   ],
+   "onPass": "localStorage agePass_v2=true + cookie \"agePass_v2=true; max-age=31536000; path=/; SameSite=Lax\" (+ \"; Secure\" on https)",
+   "source": "BUILD-CONTRACT 4.4, OPEN-DECISIONS A6"
+  }
+ },
+ "reviews": {
+  "heading": "Our Reviews",
+  "headingLook": "h1",
+  "subheading": "What our customers are saying",
+  "subheadingLook": "h3",
+  "splide": {
+   "type": "loop",
+   "pagination": false,
+   "arrows": "slider",
+   "autoplay": true,
+   "perPage": 4,
+   "breakpoints": {
+    "575": {
+     "perPage": 1,
+     "padding": "0"
+    },
+    "767": {
+     "perPage": 2
+    },
+    "991": {
+     "perPage": 2
+    },
+    "1199": {
+     "perPage": 3
+    }
+   },
+   "gap": 0,
+   "perMove": 1,
+   "cover": true,
+   "speed": 500
+  },
+  "items": [
+   {
+    "name": "Jennifer",
+    "html": "Awesome staff, friendly and knowledgeable. Welcomed from the moment you check in. Need more stars! Recommend to everyone.<br> First time discount! Head here for quality products and FANTASTIC service.",
+    "text": "Awesome staff, friendly and knowledgeable. Welcomed from the moment you check in. Need more stars! Recommend to everyone. First time discount! Head here for quality products and FANTASTIC service.",
+    "stars": 5
+   },
+   {
+    "name": "Patricia H",
+    "html": "I went in for the first time today. Perfect. Every tender was so nice and the guy that helped me pick out my stuff was so helpful and made sure I was really taken care of. I love that this new local place opened up and is awesome. I will definitely be making this my new first stop shop.",
+    "text": "I went in for the first time today. Perfect. Every tender was so nice and the guy that helped me pick out my stuff was so helpful and made sure I was really taken care of. I love that this new local place opened up and is awesome. I will definitely be making this my new first stop shop.",
+    "stars": 5
+   },
+   {
+    "name": "Thomas H",
+    "html": "This place is amazing! Awesome service, the guys here take care of me!! Real blessing to this town! Awesome to see a legal dispensary in San Pedro! Come see David he’ll take care of you!",
+    "text": "This place is amazing! Awesome service, the guys here take care of me!! Real blessing to this town! Awesome to see a legal dispensary in San Pedro! Come see David he’ll take care of you!",
+    "stars": 5
+   },
+   {
+    "name": "James",
+    "html": "Great staff. They inform you on deals and are very friendly and efficient. Love this place.",
+    "text": "Great staff. They inform you on deals and are very friendly and efficient. Love this place.",
+    "stars": 5
+   },
+   {
+    "name": "Greg S",
+    "html": "I finally made it in here and man its rad! Super chill spot with a cool vibe, good product and budtenders who know their stuff. Stoked that there is a legal shop in Pedro now. Will for sure be going back.",
+    "text": "I finally made it in here and man its rad! Super chill spot with a cool vibe, good product and budtenders who know their stuff. Stoked that there is a legal shop in Pedro now. Will for sure be going back.",
+    "stars": 5
+   }
+  ],
+  "ctas": [
+   {
+    "label": "Explore All Reviews",
+    "text": "Explore All Reviews",
+    "href": "https://www.google.com/search?hl=en-US&gl=us&q=We+Roll+Up,+1705+S+Gaffey+St,+San+Pedro,+CA+90731&ludocid=5006542390870460260&lsig=AB86z5W0PW8o5oD0v0X_fMdgOIro",
+    "variant": "accent",
+    "target": "_blank"
+   },
+   {
+    "label": "Leave a Review",
+    "text": "Leave a Review",
+    "href": "https://www.google.com/search?hl=en-US&gl=us&q=We+Roll+Up,+1705+S+Gaffey+St,+San+Pedro,+CA+90731&ludocid=5006542390870460260&lsig=AB86z5W0PW8o5oD0v0X_fMdgOIro#lrd=0x80dd371d9ba6c7d7:0x457acfc758c4c764,3",
+    "variant": "accent",
+    "transparent": true,
+    "target": "_blank",
+    "icon": "edit"
+   },
+   {
+    "label": "Explore All Reviews - LAX",
+    "text": "Explore All Reviews - LAX",
+    "href": "https://www.google.com/search?q=werollup+lax&num=10&sca_esv=27b04becbc364c98&biw=1440&bih=729&sxsrf=ANbL-n7mnamK3oXg5x_Domzt9E0V05cx-A%3A1776100748156&ei=jCXdacKWCb7Z5NoPw_Pl2QQ&ved=0ahUKEwjCjLfxquuTAxW-LFkFHcN5OUsQ4dUDCBE&uact=5&oq=werollup+lax&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlcm9sbHVwIGxheDINEC4YgAQYDRjHARivATILEAAYgAQYigUYhgMyCBAAGIAEGKIEMggQABiJBRiiBDIFEAAY7wUyCBAAGIAEGKIEMhwQLhiABBgNGMcBGK8BGJcFGNwEGN4EGOAE2AEBSJ4GUJwCWIQFcAF4AZABAJgBgQGgAdYDqgEDMS4zuAEDyAEA-AEBmAIEoALeAsICChAAGEcY1gQYsAPCAgcQABiABBgNwgIJEAAYgAQYDRgKmAMAiAYBkAYIugYGCAEQARgUkgcDMS4zoAfUGbIHAzAuM7gH3ALCBwMwLjTIBwaACAE&sclient=gws-wiz-serp#lrd=0x80c2b1001766f101:0x5397919e67db50b,1,,,,",
+    "variant": "accent",
+    "target": "_blank"
+   },
+   {
+    "label": "Leave a Review - LAX",
+    "text": "Leave a Review - LAX",
+    "href": "https://search.google.com/local/writereview?placeid=ChIJAfFmFwCxwoARC7V95hl5OQU",
+    "variant": "accent",
+    "transparent": true,
+    "target": "_blank",
+    "icon": "edit"
+   }
+  ]
+ },
+ "zipFinder": {
+  "sanPedro": [
+   "90254",
+   "90277",
+   "90275",
+   "90732",
+   "90274",
+   "90505",
+   "90503",
+   "90501",
+   "90502",
+   "90745",
+   "90717",
+   "90710",
+   "90744",
+   "90731",
+   "90822",
+   "",
+   "90813",
+   "90806",
+   "90755",
+   "90810",
+   "90502",
+   "90501"
+  ],
+  "culverCity": [
+   "90402",
+   "90403",
+   "90401",
+   "90404",
+   "90405",
+   "90291",
+   "90292",
+   "90094",
+   "90066",
+   "90293",
+   "90245",
+   "90266",
+   "90254",
+   "90503",
+   "90278",
+   "90504",
+   "90506",
+   "90260",
+   "90250",
+   "90304",
+   "90301",
+   "90302",
+   "90304",
+   "90303",
+   "90305",
+   "90047",
+   "90043",
+   "90094",
+   "90230",
+   "90066",
+   "90056",
+   "90062",
+   "90018",
+   "90016",
+   "90232",
+   "90034",
+   "90066",
+   "90034",
+   "90232",
+   "90008",
+   "90014",
+   "90015",
+   "90019",
+   "90211",
+   "90095",
+   "90024",
+   "90048",
+   "90069",
+   "90036",
+   "90019",
+   "90007",
+   "90210",
+   "90077",
+   "90071"
+  ],
+  "order": [
+   "sanPedro",
+   "culverCity"
+  ],
+  "rows": {
+   "sanPedro": "location1",
+   "culverCity": "location2"
+  },
+  "strings": {
+   "invalid": "Please enter a valid zip code."
+  },
+  "minLength": 5,
+  "behaviour": "zip.length < minLength -> show strings.invalid after the input; else the first array containing the value wins (sanPedro first: 90254 and 90503 are in both); a match shows that row inside the results step; no match shows the empty step. \"Search Again\" resets. No request, no redirect.",
+  "evidence": "audit/raw/index.html inline script (lines 927-1005), printed on all 91 pages"
+ },
+ "breadcrumbs": {
+  "where": "the shopping-strip pages only (subheader \"shopping-strip\": 14 paths); the 40 marquee pages have none",
+  "source": "nav[aria-label=breadcrumb] inside #site-topbar (schema.org BreadcrumbList microdata in the source)",
+  "perPage": "page.breadcrumbs = [{ label, href | null, current }], verbatim, in order",
+  "rule": [
+   "Home -> /",
+   "Locations -> the current store page or its shop (source defect COMMERCE D-2, kept as the source has it)",
+   "<store name> -> /location/<store>/ (only when the current page is below the store page)",
+   "<current page title> (current: no link)"
+  ],
+  "paths": [
+   "/location-pagetype/cannabis-menu-page/",
+   "/location-pagetype/primary-location/",
+   "/location/culver-city/",
+   "/location/culver-city/shop/",
+   "/location/san-pedro/",
+   "/location/san-pedro/shop/",
+   "/location/san-pedro/shop/menu/edible/",
+   "/location/san-pedro/shop/menu/extract/",
+   "/location/san-pedro/shop/menu/flower/",
+   "/location/san-pedro/shop/menu/gear/",
+   "/location/san-pedro/shop/menu/jane-gold/",
+   "/location/san-pedro/shop/menu/pre-roll/",
+   "/location/san-pedro/shop/menu/topical/",
+   "/location/san-pedro/shop/menu/vape/"
+  ]
+ },
+ "navFamilyCounts": {
+  "primary": 40,
+  "laxCulverCity": 3,
+  "sanPedro": 11
+ }
+}

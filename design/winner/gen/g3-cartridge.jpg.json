@@ -1,0 +1,20 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Calm product photograph of a plain unbranded clear glass oil cartridge with amber golden oil, standing upright slightly right of center, a faint translucent wisp of vapour rising above it, dark forest-green background with soft green bokeh, gentle cream rim light, minimal, no text, no logo, no label, no printing, no people, no hands",
+  "input": {
+    "aspect_ratio": "4:3",
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a1334b-b50f-7422-bfa0-5cc6ee1d1182",
+  "seed": 1345624524,
+  "width": 2368,
+  "height": 1792,
+  "contentType": "image/jpeg",
+  "bytes": 509704,
+  "sha256": "782c38fdf65f08e7fee33dcbf3bb59eb3f5794768932d14e7f1a50e194424ff7",
+  "file": "tmp/panel/b/gen/g3-cartridge.jpg",
+  "generatedAt": "2026-10-13T03:26:15.810Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

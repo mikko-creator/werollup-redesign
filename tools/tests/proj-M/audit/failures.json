@@ -1,0 +1,12 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "assets:image",
+      "target": "MARKER-FAILURE",
+      "reason": "test",
+      "extra": null,
+      "at": "MID-RUN"
+    }
+  ]
+}

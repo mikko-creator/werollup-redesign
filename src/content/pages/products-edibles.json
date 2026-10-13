@@ -1,0 +1,141 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "product-category",
+ "path": "/products/edibles/",
+ "slug": "products-edibles",
+ "sourceUrl": "https://werollup.com/products/edibles",
+ "rawFile": "audit/raw/products-edibles.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Edibles – We Roll Up",
+ "metaDescription": "Chocolate chip, sour cherry, blue raspberry, milk chocolate, strawberry-cheesecake and lemon-ginger are just a few of the flavors of edibles you’ll find at",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/products/edibles/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Edibles",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Edibles",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Edibles",
+      "text": "Edibles"
+     },
+     "image": {
+      "ref": "assets/source/refetch-kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp",
+      "src": "https://werollup.com/media/kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1045,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Edibles Offered At We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Edibles Offered At We Roll Up",
+     "text": "Edibles Offered At We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "Chocolate chip, sour cherry, blue raspberry, milk chocolate, strawberry-cheesecake and lemon-ginger are just a few of the flavors of edibles<a href=\"/\"> you’ll find at We Roll Up</a>. Our selection includes gummies, breath strips, drink mixes, candies, chocolates, baked goods, mints and more, offered in sativas, hybrids, indicas and CBD. From intoxicating to curative properties, recreational to medicinal benefits, our menu is all about exceptional quality without a high price tag.",
+     "text": "Chocolate chip, sour cherry, blue raspberry, milk chocolate, strawberry-cheesecake and lemon-ginger are just a few of the flavors of edibles you’ll find at We Roll Up. Our selection includes gummies, breath strips, drink mixes, candies, chocolates, baked goods, mints and more, offered in sativas, hybrids, indicas and CBD. From intoxicating to curative properties, recreational to medicinal benefits, our menu is all about exceptional quality without a high price tag."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Cannabis Edibles from We Roll Up",
+     "text": "Cannabis Edibles from We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "When consuming edibles, the digestive system and liver metabolizes the cannabinoids into a more potent form for more intense and significantly longer lasting effects. Because it can take anywhere from 30 to 90 minutes for the effects to fully set in, we advise beginning with the minimum dose to appreciate potency and wait for effects to be realized before taking more. “Start low and go slow.”",
+     "text": "When consuming edibles, the digestive system and liver metabolizes the cannabinoids into a more potent form for more intense and significantly longer lasting effects. Because it can take anywhere from 30 to 90 minutes for the effects to fully set in, we advise beginning with the minimum dose to appreciate potency and wait for effects to be realized before taking more. “Start low and go slow.”"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h2",
+     "tag": "h3",
+     "html": "Enjoy Our Edibles Today",
+     "text": "Enjoy Our Edibles Today"
+    },
+    {
+     "type": "paragraph",
+     "html": "Stepping inside We Roll Up opens up a wonderful world of cannabis edibles. Our broad range of options fulfills every need, preference, tolerance level and objective. The combination of our welcoming atmosphere and friendly staff invites questions and information sharing. We’re always happy to help you navigate <a href=\"/products/\">our products</a>. We are the first legal, licensed cannabis dispensary in San Pedro and continue to elevate standards of customer care. Take advantage of online ordering, curbside pickup and in-store pickup. Watch for the availability of delivery coming soon!",
+     "text": "Stepping inside We Roll Up opens up a wonderful world of cannabis edibles. Our broad range of options fulfills every need, preference, tolerance level and objective. The combination of our welcoming atmosphere and friendly staff invites questions and information sharing. We’re always happy to help you navigate our products. We are the first legal, licensed cannabis dispensary in San Pedro and continue to elevate standards of customer care. Take advantage of online ordering, curbside pickup and in-store pickup. Watch for the availability of delivery coming soon!"
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Our selection of edibles is sure to satisfy your sweet tooth!",
+     "text": "Our selection of edibles is sure to satisfy your sweet tooth!"
+    },
+    {
+     "type": "buttons",
+     "items": [
+      {
+       "label": "Shop Now",
+       "text": "Shop Now",
+       "href": "/shop/",
+       "variant": "secondary",
+       "activeLocation": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp",
+  "src": "https://werollup.com/media/kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/edibles-gummies/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-kiva-lost-farm-cannabis-edibles-playing-cards-hero-e1778532668119.webp"
+ ]
+}

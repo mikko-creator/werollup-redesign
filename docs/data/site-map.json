@@ -1,0 +1,4785 @@
+{
+ "schema": "werollup-reforge/site-map@1",
+ "generated": "2026-10-13T02:43:51.207Z",
+ "source": "files on disk only (audit/*, audit/raw/*, assets/js/*); no network requests",
+ "origin": "https://werollup.com",
+ "counts": {
+  "records": 92,
+  "pages200": 91,
+  "dead": 1,
+  "aliases": 14,
+  "shopBases": 2,
+  "shopVariants": 45
+ },
+ "trailingSlash": {
+  "rule": "Every non-root page URL without a trailing slash answers 301 to the same URL with a trailing slash (query string kept).",
+  "evidence": "audit/site-inventory.json pages[].redirectChain (every non-root 200 record; the root has no chain, the 404 record has none)",
+  "count": 90
+ },
+ "pages": [
+  {
+   "path": "/",
+   "url": "https://werollup.com/",
+   "status": 200,
+   "type": "home",
+   "template": "template-homepage",
+   "postType": "page",
+   "wpId": "page-id-61809",
+   "wpParent": null,
+   "title": "We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop Our Weed Products"
+   ],
+   "inSitemap": "unverified (seeded as crawl target)",
+   "inbound": 90,
+   "orphan": false,
+   "parent": null,
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/home"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "index.html"
+  },
+  {
+   "path": "/about-us",
+   "url": "https://werollup.com/about-us",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60815",
+   "wpParent": null,
+   "title": "About Us – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/about-us/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "About Us"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "about-us.html"
+  },
+  {
+   "path": "/about-us/daily-deals",
+   "url": "https://werollup.com/about-us/daily-deals",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60816",
+   "wpParent": {
+    "id": "60815",
+    "url": "/about-us"
+   },
+   "title": "Daily Deals – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/about-us/daily-deals/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Daily Deals"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/about-us",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/daily-deals"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "about-us-daily-deals.html"
+  },
+  {
+   "path": "/accessibility-statement",
+   "url": "https://werollup.com/accessibility-statement",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-58875",
+   "wpParent": null,
+   "title": "Accessibility Statement – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/accessibility-statement/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Accessibility Statement",
+    "Accessibility conformance status"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "accessibility-statement.html"
+  },
+  {
+   "path": "/author/werollupadmin",
+   "url": "https://werollup.com/author/werollupadmin",
+   "status": 200,
+   "type": "form",
+   "template": "author",
+   "postType": "author-archive",
+   "wpId": "author-1",
+   "wpParent": null,
+   "title": "admin – We Roll Up",
+   "description": "",
+   "canonical": "",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Author: admin"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "author-werollupadmin.html"
+  },
+  {
+   "path": "/contact",
+   "url": "https://werollup.com/contact",
+   "status": 200,
+   "type": "contact",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-61629",
+   "wpParent": null,
+   "title": "Contact – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/contact/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Contact"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "contact.html"
+  },
+  {
+   "path": "/education",
+   "url": "https://werollup.com/education",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61775",
+   "wpParent": null,
+   "title": "Education – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/education/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Education"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "education.html"
+  },
+  {
+   "path": "/education/cannabis-101",
+   "url": "https://werollup.com/education/cannabis-101",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60823",
+   "wpParent": {
+    "id": "61775",
+    "url": "/education"
+   },
+   "title": "Cannabis 101 – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/education/cannabis-101/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Cannabis 101"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/education",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "education-cannabis-101.html"
+  },
+  {
+   "path": "/education/recreational-medicinal",
+   "url": "https://werollup.com/education/recreational-medicinal",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60824",
+   "wpParent": {
+    "id": "61775",
+    "url": "/education"
+   },
+   "title": "Recreational & Medicinal – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/education/recreational-medicinal/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Recreational & Medicinal"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/education",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "education-recreational-medicinal.html"
+  },
+  {
+   "path": "/lax-menu",
+   "url": "https://werollup.com/lax-menu",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-61558",
+   "wpParent": null,
+   "title": "Shop LAX – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/lax-menu/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX"
+   ],
+   "inSitemap": true,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "lax-menu.html"
+  },
+  {
+   "path": "/location-pagetype/cannabis-menu-page",
+   "url": "https://werollup.com/location-pagetype/cannabis-menu-page",
+   "status": 200,
+   "type": "page",
+   "template": "taxonomy-location-pagetype",
+   "postType": "taxonomy-archive:location-pagetype",
+   "wpId": "term-49",
+   "wpParent": null,
+   "title": "Cannabis Menu Page – We Roll Up",
+   "description": "",
+   "canonical": "",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Page Type: Cannabis Menu Page"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-pagetype-cannabis-menu-page.html"
+  },
+  {
+   "path": "/location-pagetype/primary-location",
+   "url": "https://werollup.com/location-pagetype/primary-location",
+   "status": 200,
+   "type": "page",
+   "template": "taxonomy-location-pagetype",
+   "postType": "taxonomy-archive:location-pagetype",
+   "wpId": "term-58",
+   "wpParent": null,
+   "title": "Primary Location – We Roll Up",
+   "description": "",
+   "canonical": "",
+   "robots": "max-image-preview:large",
+   "h1": [],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-pagetype-primary-location.html"
+  },
+  {
+   "path": "/location/culver-city",
+   "url": "https://werollup.com/location/culver-city",
+   "status": 200,
+   "type": "article",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61546",
+   "wpParent": null,
+   "title": "LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/",
+   "robots": "max-image-preview:large",
+   "h1": [],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city.html"
+  },
+  {
+   "path": "/location/culver-city/shop",
+   "url": "https://werollup.com/location/culver-city/shop",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/location/culver-city",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/shop-playa-vista?filters%5Broot_types%5D%5B%5D=vape",
+    "/shop"
+   ],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-618f1e21.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-3cc637b8.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 60,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-cbf8e8a7.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-7d664180.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 60,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-9c7f12e1.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 60,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-5aef42ce.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-b916ad9e.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 60,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-d58f81ae.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 60,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-ab85007d.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-6cffac32.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 60,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-fc9b33e5.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3D710-labs-26page-3D1.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Ddime-26page-3D1.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Delusive-26page-3D1.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dteds-budz-26page-3D1.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dtraditional-26page-3D1.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dwizard-trees-26page-3D1.html"
+  },
+  {
+   "path": "/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+   "url": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+   "status": 200,
+   "type": "commerce",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-61854",
+   "wpParent": null,
+   "title": "Shop LAX – Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop LAX - Culver City"
+   ],
+   "inSitemap": false,
+   "inbound": 60,
+   "orphan": false,
+   "parent": "/location/culver-city/shop",
+   "shopRouteOf": "/location/culver-city/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-lax-culver-city-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-culver-city-shop-store_path-2F-store_query-page-3D1-26sortBy-3Dmost_popular-locationId-10599.html"
+  },
+  {
+   "path": "/location/san-pedro",
+   "url": "https://werollup.com/location/san-pedro",
+   "status": 200,
+   "type": "article",
+   "template": "single-location",
+   "postType": "location",
+   "wpId": "postid-58921",
+   "wpParent": null,
+   "title": "San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/",
+   "robots": "max-image-preview:large",
+   "h1": [],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/san-pedro"
+   ],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro.html"
+  },
+  {
+   "path": "/location/san-pedro/shop",
+   "url": "https://werollup.com/location/san-pedro/shop",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/location/san-pedro",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/edible",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/edible",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/edible/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-edible.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/extract",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/extract",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/extract/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-extract.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/flower",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/flower",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/flower/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-flower.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/gear",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/gear",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/gear/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-gear.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/jane-gold",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/jane-gold",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/jane-gold/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-jane-gold.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/pre-roll",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/pre-roll",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/pre-roll/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-pre-roll.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/topical",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/topical",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/topical/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-topical.html"
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/vape",
+   "url": "https://werollup.com/location/san-pedro/shop/menu/vape",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/vape/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-menu-vape.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-710-20Labs.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-Alien-20Labs.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-PlugPlay.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-ST-20IDES.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-WYLD.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Blissful.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Creative.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Energetic.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Hungry.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Pain-Free.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Relaxed.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Sleepy.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 69,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-best_selling.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 69,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-edible.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 69,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-extract.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 69,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-flower.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 69,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-pre-roll.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 69,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-topical.html"
+  },
+  {
+   "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape",
+   "url": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape",
+   "status": 200,
+   "type": "commerce",
+   "template": "page (no page-template-* body class)",
+   "postType": "page",
+   "wpId": "page-id-61855",
+   "wpParent": {
+    "id": "58921",
+    "url": "/location/san-pedro"
+   },
+   "title": "Shop San Pedro – Palos Verdes – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Shop San Pedro - Palos Verdes"
+   ],
+   "inSitemap": false,
+   "inbound": 29,
+   "orphan": false,
+   "parent": "/location/san-pedro/shop",
+   "shopRouteOf": "/location/san-pedro/shop",
+   "aliasesIn": [],
+   "headerMenu": "menu-san-pedro-menu",
+   "subHeader": "location-subheader (breadcrumbs + You’re shopping)",
+   "savedAs": "location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-vape.html"
+  },
+  {
+   "path": "/privacy-policy",
+   "url": "https://werollup.com/privacy-policy",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-58506",
+   "wpParent": null,
+   "title": "Privacy Policy – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/privacy-policy/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Privacy Policy",
+    "Welcome to our Privacy Policy"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "privacy-policy.html"
+  },
+  {
+   "path": "/products",
+   "url": "https://werollup.com/products",
+   "status": 200,
+   "type": "commerce",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61757",
+   "wpParent": null,
+   "title": "Products – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/products/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Products"
+   ],
+   "inSitemap": true,
+   "inbound": 5,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "products.html"
+  },
+  {
+   "path": "/products/concentrates",
+   "url": "https://werollup.com/products/concentrates",
+   "status": 200,
+   "type": "commerce",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60821",
+   "wpParent": {
+    "id": "61757",
+    "url": "/products"
+   },
+   "title": "Concentrates – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/products/concentrates/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Concentrates"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/products",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/concentrates"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "products-concentrates.html"
+  },
+  {
+   "path": "/products/edibles",
+   "url": "https://werollup.com/products/edibles",
+   "status": 200,
+   "type": "commerce",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60820",
+   "wpParent": {
+    "id": "61757",
+    "url": "/products"
+   },
+   "title": "Edibles – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/products/edibles/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Edibles"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/products",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/edibles-gummies"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "products-edibles.html"
+  },
+  {
+   "path": "/products/edibles-gummies",
+   "url": "https://werollup.com/products/edibles-gummies",
+   "status": 404,
+   "type": "dead-link",
+   "template": null,
+   "postType": null,
+   "wpId": null,
+   "wpParent": null,
+   "title": null,
+   "description": null,
+   "canonical": null,
+   "robots": null,
+   "h1": null,
+   "inSitemap": false,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/products",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": null,
+   "subHeader": null,
+   "savedAs": null
+  },
+  {
+   "path": "/products/flower",
+   "url": "https://werollup.com/products/flower",
+   "status": 200,
+   "type": "commerce",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60817",
+   "wpParent": {
+    "id": "61757",
+    "url": "/products"
+   },
+   "title": "Flower – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/products/flower/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Flower"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/products",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/flower"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "products-flower.html"
+  },
+  {
+   "path": "/products/pre-rolls",
+   "url": "https://werollup.com/products/pre-rolls",
+   "status": 200,
+   "type": "commerce",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60818",
+   "wpParent": {
+    "id": "61757",
+    "url": "/products"
+   },
+   "title": "Pre-Rolls – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/products/pre-rolls/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Pre-Rolls"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/products",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/pre-rolls"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "products-pre-rolls.html"
+  },
+  {
+   "path": "/products/topicals",
+   "url": "https://werollup.com/products/topicals",
+   "status": 200,
+   "type": "commerce",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60822",
+   "wpParent": {
+    "id": "61757",
+    "url": "/products"
+   },
+   "title": "Topicals – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/products/topicals/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Topicals"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/products",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/topicals"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "products-topicals.html"
+  },
+  {
+   "path": "/products/vaporizers-cartridges",
+   "url": "https://werollup.com/products/vaporizers-cartridges",
+   "status": 200,
+   "type": "commerce",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60819",
+   "wpParent": {
+    "id": "61757",
+    "url": "/products"
+   },
+   "title": "Vaporizers & Cartridges – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/products/vaporizers-cartridges/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Vaporizers & Cartridges"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/products",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/vaporizers-cartridges"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "products-vaporizers-cartridges.html"
+  },
+  {
+   "path": "/reviews/greg-s",
+   "url": "https://werollup.com/reviews/greg-s",
+   "status": 200,
+   "type": "page",
+   "template": "single-reviews",
+   "postType": "reviews",
+   "wpId": "postid-61054",
+   "wpParent": null,
+   "title": "Greg S – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/reviews/greg-s/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Greg S"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "reviews-greg-s.html"
+  },
+  {
+   "path": "/reviews/james",
+   "url": "https://werollup.com/reviews/james",
+   "status": 200,
+   "type": "page",
+   "template": "single-reviews",
+   "postType": "reviews",
+   "wpId": "postid-60956",
+   "wpParent": null,
+   "title": "James – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/reviews/james/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "James"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "reviews-james.html"
+  },
+  {
+   "path": "/reviews/jennifer",
+   "url": "https://werollup.com/reviews/jennifer",
+   "status": 200,
+   "type": "page",
+   "template": "single-reviews",
+   "postType": "reviews",
+   "wpId": "postid-61052",
+   "wpParent": null,
+   "title": "Jennifer – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/reviews/jennifer/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Jennifer"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "reviews-jennifer.html"
+  },
+  {
+   "path": "/reviews/patricia-h",
+   "url": "https://werollup.com/reviews/patricia-h",
+   "status": 200,
+   "type": "page",
+   "template": "single-reviews",
+   "postType": "reviews",
+   "wpId": "postid-61051",
+   "wpParent": null,
+   "title": "Patricia H – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/reviews/patricia-h/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Patricia H"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "reviews-patricia-h.html"
+  },
+  {
+   "path": "/reviews/thomas-h",
+   "url": "https://werollup.com/reviews/thomas-h",
+   "status": 200,
+   "type": "page",
+   "template": "single-reviews",
+   "postType": "reviews",
+   "wpId": "postid-61053",
+   "wpParent": null,
+   "title": "Thomas H – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/reviews/thomas-h/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Thomas H"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "reviews-thomas-h.html"
+  },
+  {
+   "path": "/service-area",
+   "url": "https://werollup.com/service-area",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61758",
+   "wpParent": null,
+   "title": "Service Area – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Service Area"
+   ],
+   "inSitemap": true,
+   "inbound": 2,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area.html"
+  },
+  {
+   "path": "/service-area/culver-city",
+   "url": "https://werollup.com/service-area/culver-city",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-61623",
+   "wpParent": {
+    "id": "61758",
+    "url": "/service-area"
+   },
+   "title": "Culver City – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/culver-city/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Culver City"
+   ],
+   "inSitemap": true,
+   "inbound": 2,
+   "orphan": false,
+   "parent": "/service-area",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/culver-city"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-culver-city.html"
+  },
+  {
+   "path": "/service-area/culver-city/culver-city-delivery-and-pickup",
+   "url": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61729",
+   "wpParent": {
+    "id": "61623",
+    "url": "/service-area/culver-city"
+   },
+   "title": "Culver City Delivery and Pickup – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Culver City Delivery and Pickup"
+   ],
+   "inSitemap": true,
+   "inbound": 1,
+   "orphan": true,
+   "parent": "/service-area/culver-city",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/culver-city/culver-city-delivery-and-pickup"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-culver-city-culver-city-delivery-and-pickup.html"
+  },
+  {
+   "path": "/service-area/lax",
+   "url": "https://werollup.com/service-area/lax",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61721",
+   "wpParent": {
+    "id": "61758",
+    "url": "/service-area"
+   },
+   "title": "LAX – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/lax/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "LAX"
+   ],
+   "inSitemap": true,
+   "inbound": 9,
+   "orphan": false,
+   "parent": "/service-area",
+   "shopRouteOf": null,
+   "aliasesIn": [
+    "/lax"
+   ],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-lax.html"
+  },
+  {
+   "path": "/service-area/lax/lax-weed-delivery",
+   "url": "https://werollup.com/service-area/lax/lax-weed-delivery",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61733",
+   "wpParent": {
+    "id": "61721",
+    "url": "/service-area/lax"
+   },
+   "title": "LAX Weed Delivery – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "LAX Weed Delivery"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/service-area/lax",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-lax-lax-weed-delivery.html"
+  },
+  {
+   "path": "/service-area/marina-del-rey-ca",
+   "url": "https://werollup.com/service-area/marina-del-rey-ca",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61768",
+   "wpParent": {
+    "id": "61758",
+    "url": "/service-area"
+   },
+   "title": "Marina del Rey, CA – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/marina-del-rey-ca/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Marina del Rey, CA"
+   ],
+   "inSitemap": true,
+   "inbound": 2,
+   "orphan": false,
+   "parent": "/service-area",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-marina-del-rey-ca.html"
+  },
+  {
+   "path": "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+   "url": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61731",
+   "wpParent": {
+    "id": "61768",
+    "url": "/service-area/marina-del-rey-ca"
+   },
+   "title": "Marina del Rey Weed Delivery – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Marina del Rey Weed Delivery"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/service-area/marina-del-rey-ca",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-marina-del-rey-ca-marina-del-rey-weed-delivery.html"
+  },
+  {
+   "path": "/service-area/playa-vista-ca",
+   "url": "https://werollup.com/service-area/playa-vista-ca",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61784",
+   "wpParent": {
+    "id": "61758",
+    "url": "/service-area"
+   },
+   "title": "Playa Vista, CA – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/playa-vista-ca/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Playa Vista, CA"
+   ],
+   "inSitemap": true,
+   "inbound": 2,
+   "orphan": false,
+   "parent": "/service-area",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-playa-vista-ca.html"
+  },
+  {
+   "path": "/service-area/playa-vista-ca/playa-vista-weed-delivery",
+   "url": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61727",
+   "wpParent": {
+    "id": "61784",
+    "url": "/service-area/playa-vista-ca"
+   },
+   "title": "Playa Vista Weed Delivery – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Playa Vista Weed Delivery"
+   ],
+   "inSitemap": true,
+   "inbound": 1,
+   "orphan": false,
+   "parent": "/service-area/playa-vista-ca",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-playa-vista-ca-playa-vista-weed-delivery.html"
+  },
+  {
+   "path": "/service-area/san-pedro",
+   "url": "https://werollup.com/service-area/san-pedro",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-60812",
+   "wpParent": {
+    "id": "61758",
+    "url": "/service-area"
+   },
+   "title": "San Pedro – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/san-pedro/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "San Pedro"
+   ],
+   "inSitemap": true,
+   "inbound": 15,
+   "orphan": false,
+   "parent": "/service-area",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-san-pedro.html"
+  },
+  {
+   "path": "/service-area/san-pedro/carson-ca",
+   "url": "https://werollup.com/service-area/san-pedro/carson-ca",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-62497",
+   "wpParent": {
+    "id": "60812",
+    "url": "/service-area/san-pedro"
+   },
+   "title": "Carson, CA – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/san-pedro/carson-ca/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Carson, CA"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/service-area/san-pedro",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-san-pedro-carson-ca.html"
+  },
+  {
+   "path": "/service-area/san-pedro/rancho-palos-verdes-ca",
+   "url": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-62498",
+   "wpParent": {
+    "id": "60812",
+    "url": "/service-area/san-pedro"
+   },
+   "title": "Rancho Palos Verdes, CA – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Rancho Palos Verdes, CA"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/service-area/san-pedro",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-san-pedro-rancho-palos-verdes-ca.html"
+  },
+  {
+   "path": "/service-area/san-pedro/san-pedro-weed-delivery",
+   "url": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61772",
+   "wpParent": {
+    "id": "60812",
+    "url": "/service-area/san-pedro"
+   },
+   "title": "San Pedro – Palos Verdes Weed Delivery – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "San Pedro - Palos Verdes Weed Delivery"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/service-area/san-pedro",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-san-pedro-san-pedro-weed-delivery.html"
+  },
+  {
+   "path": "/service-area/san-pedro/wilmington-ca",
+   "url": "https://werollup.com/service-area/san-pedro/wilmington-ca",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-62496",
+   "wpParent": {
+    "id": "60812",
+    "url": "/service-area/san-pedro"
+   },
+   "title": "Wilmington, CA – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/san-pedro/wilmington-ca/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Wilmington, CA"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/service-area/san-pedro",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-san-pedro-wilmington-ca.html"
+  },
+  {
+   "path": "/service-area/westchester-ca",
+   "url": "https://werollup.com/service-area/westchester-ca",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61771",
+   "wpParent": {
+    "id": "61758",
+    "url": "/service-area"
+   },
+   "title": "Westchester, CA – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/westchester-ca/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Westchester, CA"
+   ],
+   "inSitemap": true,
+   "inbound": 2,
+   "orphan": false,
+   "parent": "/service-area",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-westchester-ca.html"
+  },
+  {
+   "path": "/service-area/westchester-ca/westchester-weed-delivery",
+   "url": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery",
+   "status": 200,
+   "type": "page",
+   "template": "default",
+   "postType": "page",
+   "wpId": "page-id-61735",
+   "wpParent": {
+    "id": "61771",
+    "url": "/service-area/westchester-ca"
+   },
+   "title": "Westchester Weed Delivery – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Westchester Weed Delivery"
+   ],
+   "inSitemap": true,
+   "inbound": 0,
+   "orphan": true,
+   "parent": "/service-area/westchester-ca",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "service-area-westchester-ca-westchester-weed-delivery.html"
+  },
+  {
+   "path": "/weed-delivery",
+   "url": "https://werollup.com/weed-delivery",
+   "status": 200,
+   "type": "page",
+   "template": "template-flexible",
+   "postType": "page",
+   "wpId": "page-id-61759",
+   "wpParent": null,
+   "title": "Weed Delivery – We Roll Up",
+   "description": "",
+   "canonical": "https://werollup.com/weed-delivery/",
+   "robots": "max-image-preview:large",
+   "h1": [
+    "Weed Delivery"
+   ],
+   "inSitemap": true,
+   "inbound": 90,
+   "orphan": false,
+   "parent": "/",
+   "shopRouteOf": null,
+   "aliasesIn": [],
+   "headerMenu": "menu-primary-navigation",
+   "subHeader": "promo-marquee",
+   "savedAs": "weed-delivery.html"
+  }
+ ],
+ "aliases": [
+  {
+   "from": "/home",
+   "to": "/",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 91,
+   "evidence": "audit/site-inventory.json pages[url=/].aliases"
+  },
+  {
+   "from": "/daily-deals",
+   "to": "/about-us/daily-deals",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 1,
+   "evidence": "audit/site-inventory.json pages[url=/about-us/daily-deals].aliases"
+  },
+  {
+   "from": "/shop-playa-vista?filters%5Broot_types%5D%5B%5D=vape",
+   "to": "/location/culver-city/shop",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 40,
+   "evidence": "audit/site-inventory.json pages[url=/location/culver-city/shop].aliases"
+  },
+  {
+   "from": "/shop",
+   "to": "/location/culver-city/shop",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 8,
+   "evidence": "audit/site-inventory.json pages[url=/location/culver-city/shop].aliases"
+  },
+  {
+   "from": "/san-pedro",
+   "to": "/location/san-pedro",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 2,
+   "evidence": "audit/site-inventory.json pages[url=/location/san-pedro].aliases"
+  },
+  {
+   "from": "/concentrates",
+   "to": "/products/concentrates",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 1,
+   "evidence": "audit/site-inventory.json pages[url=/products/concentrates].aliases"
+  },
+  {
+   "from": "/edibles-gummies",
+   "to": "/products/edibles",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 1,
+   "evidence": "audit/site-inventory.json pages[url=/products/edibles].aliases"
+  },
+  {
+   "from": "/flower",
+   "to": "/products/flower",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 2,
+   "evidence": "audit/site-inventory.json pages[url=/products/flower].aliases"
+  },
+  {
+   "from": "/pre-rolls",
+   "to": "/products/pre-rolls",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 2,
+   "evidence": "audit/site-inventory.json pages[url=/products/pre-rolls].aliases"
+  },
+  {
+   "from": "/topicals",
+   "to": "/products/topicals",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 1,
+   "evidence": "audit/site-inventory.json pages[url=/products/topicals].aliases"
+  },
+  {
+   "from": "/vaporizers-cartridges",
+   "to": "/products/vaporizers-cartridges",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 2,
+   "evidence": "audit/site-inventory.json pages[url=/products/vaporizers-cartridges].aliases"
+  },
+  {
+   "from": "/culver-city",
+   "to": "/service-area/culver-city",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 1,
+   "evidence": "audit/site-inventory.json pages[url=/service-area/culver-city].aliases"
+  },
+  {
+   "from": "/culver-city/culver-city-delivery-and-pickup",
+   "to": "/service-area/culver-city/culver-city-delivery-and-pickup",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 1,
+   "evidence": "audit/site-inventory.json pages[url=/service-area/culver-city/culver-city-delivery-and-pickup].aliases"
+  },
+  {
+   "from": "/lax",
+   "to": "/service-area/lax",
+   "status": "redirect (alias status code not recorded by the crawler: UNVERIFIED)",
+   "linkedFrom": 1,
+   "evidence": "audit/site-inventory.json pages[url=/service-area/lax].aliases"
+  }
+ ],
+ "nav": {
+  "topBar": {
+   "element": "section#topLevelNav (sticky-top) > div#headless-top-bar",
+   "pages": 91,
+   "identicalOnAllPages": true,
+   "storeIcon": "i.fas.fa-store (aria-hidden)",
+   "locationSelect": {
+    "id": "currently-shopping",
+    "name": "currently-shopping",
+    "options": [
+     {
+      "label": "Select a Location",
+      "value": "",
+      "slug": null,
+      "address": null,
+      "hours": null,
+      "menuUrl": null,
+      "directionsUrl": null,
+      "selected": false
+     },
+     {
+      "label": "LAX - Culver City",
+      "value": "https://werollup.com/location/culver-city/",
+      "slug": "culver-city",
+      "address": "11834 Jefferson Boulevard",
+      "hours": "Open: 10:00 AM - 10:00 PM",
+      "menuUrl": "https://werollup.com/location/culver-city/shop/",
+      "directionsUrl": "https://www.google.com/maps?cid=376465196010288395",
+      "selected": false
+     },
+     {
+      "label": "San Pedro - Palos Verdes",
+      "value": "https://werollup.com/location/san-pedro/",
+      "slug": "san-pedro",
+      "address": "1705 S Gaffey Street",
+      "hours": "Open: 10:00 AM - 10:00 PM",
+      "menuUrl": "https://werollup.com/location/san-pedro/shop",
+      "directionsUrl": "https://www.google.com/maps?cid=5006542390870460260",
+      "selected": false
+     }
+    ]
+   },
+   "activeLocationDetails": {
+    "element": "div#activeLocationDetails > span#locationAddress + span#locationHours",
+    "initialContent": "empty; filled by main.js from the selected option data-address / data-hours (\"Hours Not Available\" when data-hours is empty)"
+   },
+   "social": [
+    {
+     "label": "Instagram",
+     "href": "https://www.instagram.com/we.roll.up/?hl=en",
+     "icon": "fab fa-instagram"
+    },
+    {
+     "label": "Google",
+     "href": "https://www.google.com/maps?cid=5006542390870460260",
+     "icon": "fab fa-google"
+    },
+    {
+     "label": "Yelp",
+     "href": "https://www.yelp.com/biz/we-roll-up-los-angeles-4",
+     "icon": "fab fa-yelp"
+    },
+    {
+     "label": "Weedmaps",
+     "href": "https://weedmaps.com/dispensaries/the-green-co-dispensary-inc",
+     "icon": "far fa-cannabis"
+    }
+   ],
+   "socialNote": "Labels are visually-hidden spans; the group is hidden below md (d-none d-md-flex). The Google link is the San Pedro map CID on every page.",
+   "evidence": "audit/raw/index.html lines 105-142"
+  },
+  "main": {
+   "element": "nav#site-navigation.navbar (inside #topLevelNav)",
+   "logo": {
+    "src": "/media/logo-white-x.png",
+    "alt": "We Roll Up Logo",
+    "width": 150,
+    "height": 71,
+    "href": "https://werollup.com"
+   },
+   "quickMenu": {
+    "id": "menu-quick-menu",
+    "visibility": "d-none d-xl-block",
+    "items": [
+     {
+      "label": "Daily Deals",
+      "href": "https://werollup.com/about-us/daily-deals/",
+      "cls": "menu-item-object-page menu-item-62037"
+     },
+     {
+      "label": "Delivery",
+      "href": "https://werollup.com/weed-delivery/",
+      "cls": "menu-item-object-page menu-item-61806"
+     },
+     {
+      "label": "Contact",
+      "href": "https://werollup.com/contact/",
+      "cls": "menu-item-object-page menu-item-61804"
+     }
+    ],
+    "pages": 91
+   },
+   "primaryMenus": [
+    {
+     "menuId": "menu-primary-navigation",
+     "pageCount": 40,
+     "nonVariantPages": [
+      "/",
+      "/about-us",
+      "/about-us/daily-deals",
+      "/accessibility-statement",
+      "/author/werollupadmin",
+      "/contact",
+      "/education",
+      "/education/cannabis-101",
+      "/education/recreational-medicinal",
+      "/lax-menu",
+      "/privacy-policy",
+      "/products",
+      "/products/concentrates",
+      "/products/edibles",
+      "/products/flower",
+      "/products/pre-rolls",
+      "/products/topicals",
+      "/products/vaporizers-cartridges",
+      "/reviews/greg-s",
+      "/reviews/james",
+      "/reviews/jennifer",
+      "/reviews/patricia-h",
+      "/reviews/thomas-h",
+      "/service-area",
+      "/service-area/culver-city",
+      "/service-area/culver-city/culver-city-delivery-and-pickup",
+      "/service-area/lax",
+      "/service-area/lax/lax-weed-delivery",
+      "/service-area/marina-del-rey-ca",
+      "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+      "/service-area/playa-vista-ca",
+      "/service-area/playa-vista-ca/playa-vista-weed-delivery",
+      "/service-area/san-pedro",
+      "/service-area/san-pedro/carson-ca",
+      "/service-area/san-pedro/rancho-palos-verdes-ca",
+      "/service-area/san-pedro/san-pedro-weed-delivery",
+      "/service-area/san-pedro/wilmington-ca",
+      "/service-area/westchester-ca",
+      "/service-area/westchester-ca/westchester-weed-delivery",
+      "/weed-delivery"
+     ],
+     "tree": [
+      {
+       "label": "Locations",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-61627",
+       "children": [
+        {
+         "label": "LAX - Culver City",
+         "href": "/location/culver-city",
+         "cls": "menu-item-object-custom menu-item-62080"
+        },
+        {
+         "label": "San Pedro - Palos Verdes",
+         "href": "/location/san-pedro",
+         "cls": "menu-item-object-custom menu-item-62079"
+        }
+       ]
+      },
+      {
+       "label": "Products",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-61081",
+       "children": [
+        {
+         "label": "San Pedro",
+         "href": "#",
+         "cls": "menu-item-object-custom menu-item-61650",
+         "children": [
+          {
+           "label": "Best Selling",
+           "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+           "cls": "menu-item-object-custom menu-item-61485"
+          },
+          {
+           "label": "Order Flower",
+           "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+           "cls": "menu-item-object-custom menu-item-61479"
+          },
+          {
+           "label": "Order Pre-Rolls",
+           "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+           "cls": "menu-item-object-custom menu-item-61480"
+          },
+          {
+           "label": "Order Vaporizers & Cartridges",
+           "href": "/shop-playa-vista/?filters%5Broot_types%5D%5B%5D=vape",
+           "cls": "menu-item-object-custom menu-item-61481"
+          },
+          {
+           "label": "Order Edibles & Gummies",
+           "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+           "cls": "menu-item-object-custom menu-item-61482"
+          },
+          {
+           "label": "Order Concentrates",
+           "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+           "cls": "menu-item-object-custom menu-item-61483"
+          },
+          {
+           "label": "Order Topicals",
+           "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+           "cls": "menu-item-object-custom menu-item-61484"
+          }
+         ]
+        },
+        {
+         "label": "LAX",
+         "href": "#",
+         "cls": "menu-item-object-custom menu-item-61651",
+         "children": [
+          {
+           "label": "Best Selling",
+           "href": "/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+           "cls": "menu-item-object-custom menu-item-61652"
+          },
+          {
+           "label": "Order Flower",
+           "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+           "cls": "menu-item-object-custom menu-item-61653"
+          },
+          {
+           "label": "Order Pre-Rolls",
+           "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+           "cls": "menu-item-object-custom menu-item-61654"
+          },
+          {
+           "label": "Order Vaporizers & Cartridges",
+           "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+           "cls": "menu-item-object-custom menu-item-61655"
+          },
+          {
+           "label": "Order Edibles & Gummies",
+           "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+           "cls": "menu-item-object-custom menu-item-61656"
+          },
+          {
+           "label": "Order Concentrates",
+           "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+           "cls": "menu-item-object-custom menu-item-61657"
+          },
+          {
+           "label": "Order Topicals",
+           "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+           "cls": "menu-item-object-custom menu-item-61658"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "label": "Education",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-61082",
+       "children": [
+        {
+         "label": "Flower",
+         "href": "https://werollup.com/products/flower/",
+         "cls": "menu-item-object-page menu-item-60827"
+        },
+        {
+         "label": "Pre-Rolls",
+         "href": "https://werollup.com/products/pre-rolls/",
+         "cls": "menu-item-object-page menu-item-60828"
+        },
+        {
+         "label": "Vaporizers & Cartridges",
+         "href": "https://werollup.com/products/vaporizers-cartridges/",
+         "cls": "menu-item-object-page menu-item-60829"
+        },
+        {
+         "label": "Edibles",
+         "href": "https://werollup.com/products/edibles/",
+         "cls": "menu-item-object-page menu-item-60830"
+        },
+        {
+         "label": "Concentrates",
+         "href": "https://werollup.com/products/concentrates/",
+         "cls": "menu-item-object-page menu-item-60831"
+        },
+        {
+         "label": "Topicals",
+         "href": "https://werollup.com/products/topicals/",
+         "cls": "menu-item-object-page menu-item-60832"
+        },
+        {
+         "label": "Cannabis 101",
+         "href": "https://werollup.com/education/cannabis-101/",
+         "cls": "menu-item-object-page menu-item-60834"
+        },
+        {
+         "label": "Recreational & Medicinal",
+         "href": "https://werollup.com/education/recreational-medicinal/",
+         "cls": "menu-item-object-page menu-item-60835"
+        }
+       ]
+      },
+      {
+       "label": "About",
+       "href": "https://werollup.com/about-us/",
+       "cls": "menu-item-object-page menu-item-60836"
+      },
+      {
+       "label": "Daily Deals",
+       "href": "https://werollup.com/about-us/daily-deals/",
+       "cls": "menu-item-object-page menu-item-62074"
+      },
+      {
+       "label": "Contact",
+       "href": "https://werollup.com/contact/",
+       "cls": "menu-item-object-page menu-item-61649"
+      }
+     ]
+    },
+    {
+     "menuId": "menu-lax-culver-city-menu",
+     "pageCount": 21,
+     "nonVariantPages": [
+      "/location-pagetype/cannabis-menu-page",
+      "/location/culver-city",
+      "/location/culver-city/shop"
+     ],
+     "tree": [
+      {
+       "label": "Locations",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-62000",
+       "children": [
+        {
+         "label": "LAX - Culver City",
+         "href": "/location/culver-city",
+         "cls": "menu-item-object-custom menu-item-62076"
+        },
+        {
+         "label": "San Pedro - Palos Verdes",
+         "href": "/location/san-pedro",
+         "cls": "menu-item-object-custom menu-item-62075"
+        }
+       ]
+      },
+      {
+       "label": "Products",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-62003",
+       "children": [
+        {
+         "label": "Best Selling",
+         "href": "/location/culver-city/shop/?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+         "cls": "menu-item-object-custom menu-item-62027"
+        },
+        {
+         "label": "Order Flower",
+         "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+         "cls": "menu-item-object-custom menu-item-62028"
+        },
+        {
+         "label": "Order Pre-Rolls",
+         "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+         "cls": "menu-item-object-custom menu-item-62029"
+        },
+        {
+         "label": "Order Vaporizers & Cartridges",
+         "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+         "cls": "menu-item-object-custom menu-item-62030"
+        },
+        {
+         "label": "Order Edibles & Gummies",
+         "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+         "cls": "menu-item-object-custom menu-item-62031"
+        },
+        {
+         "label": "Order Concentrates",
+         "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+         "cls": "menu-item-object-custom menu-item-62032"
+        },
+        {
+         "label": "Order Topicals",
+         "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+         "cls": "menu-item-object-custom menu-item-62033"
+        }
+       ]
+      },
+      {
+       "label": "Education",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-62005",
+       "children": [
+        {
+         "label": "Concentrates",
+         "href": "https://werollup.com/products/concentrates/",
+         "cls": "menu-item-object-page menu-item-62008"
+        },
+        {
+         "label": "Edibles",
+         "href": "https://werollup.com/products/edibles/",
+         "cls": "menu-item-object-page menu-item-62009"
+        },
+        {
+         "label": "Flower",
+         "href": "https://werollup.com/products/flower/",
+         "cls": "menu-item-object-page menu-item-62010"
+        },
+        {
+         "label": "Pre-Rolls",
+         "href": "https://werollup.com/products/pre-rolls/",
+         "cls": "menu-item-object-page menu-item-62011"
+        },
+        {
+         "label": "Topicals",
+         "href": "https://werollup.com/products/topicals/",
+         "cls": "menu-item-object-page menu-item-62012"
+        },
+        {
+         "label": "Vaporizers & Cartridges",
+         "href": "https://werollup.com/products/vaporizers-cartridges/",
+         "cls": "menu-item-object-page menu-item-62013"
+        },
+        {
+         "label": "Cannabis 101",
+         "href": "https://werollup.com/education/cannabis-101/",
+         "cls": "menu-item-object-page menu-item-62006"
+        },
+        {
+         "label": "Recreational & Medicinal",
+         "href": "https://werollup.com/education/recreational-medicinal/",
+         "cls": "menu-item-object-page menu-item-62007"
+        }
+       ]
+      },
+      {
+       "label": "About Us",
+       "href": "https://werollup.com/about-us/",
+       "cls": "menu-item-object-page menu-item-62022"
+      },
+      {
+       "label": "Daily Deals",
+       "href": "https://werollup.com/about-us/daily-deals/",
+       "cls": "menu-item-object-page menu-item-62072"
+      },
+      {
+       "label": "Contact",
+       "href": "https://werollup.com/contact/",
+       "cls": "menu-item-object-page menu-item-62026"
+      }
+     ]
+    },
+    {
+     "menuId": "menu-san-pedro-menu",
+     "pageCount": 30,
+     "nonVariantPages": [
+      "/location-pagetype/primary-location",
+      "/location/san-pedro",
+      "/location/san-pedro/shop"
+     ],
+     "tree": [
+      {
+       "label": "Locations",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-61973",
+       "children": [
+        {
+         "label": "LAX - Culver City",
+         "href": "/location/culver-city",
+         "cls": "menu-item-object-custom menu-item-62078"
+        },
+        {
+         "label": "San Pedro - Palos Verdes",
+         "href": "/location/san-pedro",
+         "cls": "menu-item-object-custom menu-item-62077"
+        }
+       ]
+      },
+      {
+       "label": "Products",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-61976",
+       "children": [
+        {
+         "label": "Best Selling",
+         "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+         "cls": "menu-item-object-custom menu-item-61977"
+        },
+        {
+         "label": "Order Flower",
+         "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+         "cls": "menu-item-object-custom menu-item-61978"
+        },
+        {
+         "label": "Order Pre-Rolls",
+         "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+         "cls": "menu-item-object-custom menu-item-61979"
+        },
+        {
+         "label": "Order Vapes & Cartridges",
+         "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape",
+         "cls": "menu-item-object-custom menu-item-61980"
+        },
+        {
+         "label": "Order Edibles & Gummies",
+         "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+         "cls": "menu-item-object-custom menu-item-61981"
+        },
+        {
+         "label": "Order Concentrates",
+         "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+         "cls": "menu-item-object-custom menu-item-61982"
+        },
+        {
+         "label": "Order Topicals",
+         "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+         "cls": "menu-item-object-custom menu-item-61983"
+        }
+       ]
+      },
+      {
+       "label": "Education",
+       "href": "#",
+       "cls": "menu-item-object-custom menu-item-61985",
+       "children": [
+        {
+         "label": "Cannabis 101",
+         "href": "https://werollup.com/education/cannabis-101/",
+         "cls": "menu-item-object-page menu-item-61986"
+        },
+        {
+         "label": "Recreational & Medicinal",
+         "href": "https://werollup.com/education/recreational-medicinal/",
+         "cls": "menu-item-object-page menu-item-61987"
+        },
+        {
+         "label": "Concentrates",
+         "href": "https://werollup.com/products/concentrates/",
+         "cls": "menu-item-object-page menu-item-61988"
+        },
+        {
+         "label": "Edibles",
+         "href": "https://werollup.com/products/edibles/",
+         "cls": "menu-item-object-page menu-item-61989"
+        },
+        {
+         "label": "Flower",
+         "href": "https://werollup.com/products/flower/",
+         "cls": "menu-item-object-page menu-item-61990"
+        },
+        {
+         "label": "Pre-Rolls",
+         "href": "https://werollup.com/products/pre-rolls/",
+         "cls": "menu-item-object-page menu-item-61991"
+        },
+        {
+         "label": "Topicals",
+         "href": "https://werollup.com/products/topicals/",
+         "cls": "menu-item-object-page menu-item-61992"
+        },
+        {
+         "label": "Vaporizers & Cartridges",
+         "href": "https://werollup.com/products/vaporizers-cartridges/",
+         "cls": "menu-item-object-page menu-item-61993"
+        }
+       ]
+      },
+      {
+       "label": "About Us",
+       "href": "https://werollup.com/about-us/",
+       "cls": "menu-item-object-page menu-item-61994"
+      },
+      {
+       "label": "Daily Deals",
+       "href": "https://werollup.com/about-us/daily-deals/",
+       "cls": "menu-item-object-page menu-item-62073"
+      },
+      {
+       "label": "Contact",
+       "href": "https://werollup.com/contact/",
+       "cls": "menu-item-object-page menu-item-61999"
+      }
+     ]
+    }
+   ],
+   "orderNowCta": {
+    "label": "Order Now",
+    "classes": "cta-item active-location-menu js-selected-location-menu btn btn-secondary",
+    "href": "https://werollup.com/location/culver-city/shop/",
+    "dataLaxUrl": "https://werollup.com/location/culver-city/shop/",
+    "dataSanpedroUrl": "https://werollup.com/location/san-pedro/shop/",
+    "pages": 91,
+    "behaviour": "see components[order-now-resolver]"
+   },
+   "hamburger": {
+    "element": "button.navbar-toggler[data-bs-toggle=offcanvas][data-bs-target=#defaultOffcanvas]",
+    "ariaLabel": "Toggle navigation"
+   },
+   "evidence": "audit/raw/index.html lines 145-247; location variants audit/raw/location-culver-city.html, audit/raw/location-san-pedro.html"
+  },
+  "subHeader": {
+   "promoMarquee": {
+    "element": "div#site-topbar > div#scroll-text.marquee-content > div.text-block",
+    "text": "Welcome to We Roll Up… We Roll Up Rosin Club + Buy any 5 rosin products + Get 25% Off",
+    "pages": 40,
+    "evidence": "audit/raw/index.html lines 248-256"
+   },
+   "locationSubheader": {
+    "element": "div#site-topbar (location template): breadcrumbs + \"You’re shopping <store>\" + Directions / Review Us / Call Now buttons",
+    "pages": 51,
+    "evidence": "audit/raw/location-san-pedro.html (location-breadcrumbs.blade.php, location-youre-shopping-button.blade.php)"
+   }
+  },
+  "offcanvas": {
+   "element": "div.offcanvas.offcanvas-start#defaultOffcanvas",
+   "ariaLabel": "Offcanvas menu",
+   "contents": [
+    "logo /media/logo-white-x.png alt \"We Roll Up\"",
+    "social icons (same 4)",
+    "close button aria-label \"Close menu\"",
+    "nav.offcanvas-nav aria-label \"Mobile navigation\" holding the SAME menu as the header (id suffixed -1)",
+    "sticky Order Now button (btn-primary, js-selected-location-menu)"
+   ],
+   "menuVariants": [
+    {
+     "menuId": "menu-primary-navigation-1",
+     "pageCount": 40
+    },
+    {
+     "menuId": "menu-lax-culver-city-menu-1",
+     "pageCount": 21
+    },
+    {
+     "menuId": "menu-san-pedro-menu-1",
+     "pageCount": 30
+    }
+   ],
+   "evidence": "audit/raw/index.html lines 258-328"
+  },
+  "footer": {
+   "element": "div.site-footer.background-black",
+   "pages": 91,
+   "identicalOnAllPages": true,
+   "logo": {
+    "src": "https://werollup.com/media/logo-white-x.png",
+    "alt": "We Roll UpLogo"
+   },
+   "locations": [
+    {
+     "heading": "San Pedro - Palos Verdes",
+     "address": "1705 S Gaffey Street, San Pedro, CA 90731",
+     "phoneText": "424 264 5423",
+     "phoneHref": "tel:+1424 264 5423"
+    },
+    {
+     "heading": "LAX - Culver City",
+     "address": "11834 Jefferson Boulevard,  Culver City,  CA 11834",
+     "phoneText": "888-777-6655",
+     "phoneHref": "tel:+1888-777-6655"
+    }
+   ],
+   "social": [
+    "Instagram (aria-label \"Instagram Link\")",
+    "Google (aria-label \"Google Link\")",
+    "Yelp (aria-label \"Yelp Link\")",
+    "Weedmaps image link /media/weedmaps-white-e1666707377331.png alt \"weedmaps logo\""
+   ],
+   "quickLinks": {
+    "heading": "Quick Links",
+    "menuId": "menu-footer-second-menu",
+    "items": [
+     {
+      "label": "Home",
+      "href": "https://werollup.com/",
+      "cls": "menu-item-object-page current-menu-item menu-item-62038"
+     },
+     {
+      "label": "Shop LAX - Culver City",
+      "href": "/location/culver-city/shop/",
+      "cls": "active-location-menu menu-item-object-custom menu-item-62041"
+     },
+     {
+      "label": "Shop San Pedro - Palos Verdes",
+      "href": "/location/san-pedro/shop/",
+      "cls": "menu-item-object-custom menu-item-62057"
+     },
+     {
+      "label": "Daily Deals",
+      "href": "https://werollup.com/about-us/daily-deals/",
+      "cls": "menu-item-object-page menu-item-60999"
+     },
+     {
+      "label": "LAX - Culver City",
+      "href": "https://werollup.com/location/culver-city/",
+      "cls": "menu-item-object-location menu-item-62039"
+     },
+     {
+      "label": "San Pedro - Palos Verdes",
+      "href": "https://werollup.com/location/san-pedro/",
+      "cls": "menu-item-object-location menu-item-62040"
+     },
+     {
+      "label": "About Us",
+      "href": "https://werollup.com/about-us/",
+      "cls": "menu-item-object-page menu-item-61023"
+     },
+     {
+      "label": "Cannabis License: C10-0000854-LIC",
+      "href": "/home",
+      "cls": "menu-item-object-custom menu-item-61227"
+     }
+    ]
+   },
+   "copyright": "© 2026 We Roll Up All rights reserved.",
+   "agencyCredit": {
+    "text": "Designed by Range Marketing",
+    "href": "https://rangemarketing.com/",
+    "title": "Website Designed by Range Marketing",
+    "recommendation": "strip (PLAN D5)"
+   },
+   "privacyLink": {
+    "text": "Privacy Policy",
+    "href": "/privacy-policy"
+   },
+   "licenceLine": {
+    "text": "Cannabis License: C10-0000854-LIC",
+    "href": "/home",
+    "note": "a footer menu item pointing at the /home alias of /"
+   },
+   "evidence": "audit/raw/index.html lines 735-830"
+  },
+  "breadcrumbs": {
+   "pages": 51,
+   "template": "location template only (single-location, Jane shop page, location-pagetype archives)",
+   "markup": "nav[aria-label=breadcrumb] ol.breadcrumb with schema.org BreadcrumbList microdata",
+   "examples": [
+    {
+     "page": "/location/san-pedro",
+     "crumbs": [
+      [
+       "Home",
+       "https://werollup.com"
+      ],
+      [
+       "Locations",
+       "https://werollup.com/location/san-pedro/"
+      ],
+      [
+       "San Pedro - Palos Verdes",
+       "(current)"
+      ]
+     ]
+    },
+    {
+     "page": "/location/culver-city/shop",
+     "crumbs": [
+      [
+       "Home",
+       "https://werollup.com"
+      ],
+      [
+       "Locations",
+       "https://werollup.com/location/culver-city/shop/"
+      ],
+      [
+       "LAX - Culver City",
+       "https://werollup.com/location/culver-city/"
+      ],
+      [
+       "Shop LAX - Culver City",
+       "(current)"
+      ]
+     ]
+    }
+   ],
+   "defect": "The \"Locations\" crumb links to the current store page or the current shop, not to a locations index (none exists).",
+   "evidence": "audit/raw/location-san-pedro.html, audit/raw/location-culver-city-shop.html (location-breadcrumbs.blade.php)"
+  }
+ },
+ "shopRouteProof": {
+  "method": "For each variant: raw HTML with canonical, overrides.css/js ?v= cache-buster, menu-state classes (current-menu-item/-ancestor/-parent, active, aria-current) and the randomised hero data-bgimage removed; lines sorted (neutralises the per-request random review order); sha256 compared with the base page. Main-region text hash compared separately.",
+  "positiveControl": "Before the menu-state classes were normalised, the 14 variants that are themselves menu targets hashed DIFFERENT from the base; the comparison can fire.",
+  "result": {
+   "/location/culver-city/shop": {
+    "variants": 18,
+    "identical": 18,
+    "mainTextIdentical": 18
+   },
+   "/location/san-pedro/shop": {
+    "variants": 27,
+    "identical": 27,
+    "mainTextIdentical": 27
+   }
+  },
+  "serverDifferences": [
+   "canonical (San Pedro variants self-canonical incl. query or /menu/ path; Culver City variants canonical = base)",
+   "overrides.css ?v= timestamp",
+   "menu-state classes when the variant URL is itself a menu item",
+   "hero background image chosen at random per request (champagne-bar or trop-cherry)",
+   "customer-review slide order shuffled per request"
+  ],
+  "clientRouting": {
+   "/location/san-pedro/shop": "Jane Boost frameless embed reads location.pathname/search under partnerHostedPath \"/location/san-pedro/shop\" (storeId 4281, embedConfigId 989); /shop/menu/<cat> and ?filters[...] are Jane routes",
+   "/location/culver-city/shop": "Weedmaps WM Store embed (werolluplax.wm.store/static/js/embed.js) reads store_path / store_query / locationId=10599"
+  },
+  "perVariant": [
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 60
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 60
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 60
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 60
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 60
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 60
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+    "shopRouteOf": "/location/culver-city/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/culver-city/shop/",
+    "inbound": 60
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/edible",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/edible/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/extract",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/extract/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/flower",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/flower/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/gear",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/gear/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/jane-gold",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/jane-gold/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/pre-roll",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/pre-roll/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/topical",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/topical/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop/menu/vape",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/menu/vape/",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy",
+    "inbound": 1
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling",
+    "inbound": 69
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible",
+    "inbound": 69
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+    "inbound": 69
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower",
+    "inbound": 69
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll",
+    "inbound": 69
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical",
+    "inbound": 69
+   },
+   {
+    "path": "/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape",
+    "shopRouteOf": "/location/san-pedro/shop",
+    "identicalNormalisedHtml": true,
+    "identicalMainText": true,
+    "canonical": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape",
+    "inbound": 29
+   }
+  ]
+ },
+ "gates": {
+  "ageGate": {
+   "element": "div.modal.age-gate-modal#ageGateModal (Bootstrap modal, role=dialog, aria-label \"Age Gate\", inline background image /media/werollup-san-pedro-storefront-classic-car-side-hero-1.webp)",
+   "pages": 91,
+   "copy": {
+    "title": "Verify Your Age",
+    "question": "Are you over the age of 21?",
+    "yes": "Yes, I'm 21+",
+    "no": "No, I'm Under 21",
+    "denied": "We're sorry, but you do not meet the required age to enter this website.",
+    "locationHeading": "Choose your location",
+    "locationLink": "Shop here"
+   },
+   "storeChoices": [
+    {
+     "name": "LAX - Culver City",
+     "line": "11834 Jefferson Boulevard",
+     "href": "https://werollup.com/location/culver-city/"
+    },
+    {
+     "name": "San Pedro - Palos Verdes ",
+     "line": "1705 S Gaffey Street",
+     "href": "https://werollup.com/location/san-pedro/"
+    }
+   ],
+   "preRender": "body has class age-gate-active; #mainContent has class hidden-content (visibility:hidden; opacity:0) and aria-hidden=true; head style sets body{overflow:hidden}",
+   "passCheck": "Script 1 (DOMContentLoaded): pass if localStorage.agePass_v2==='true' OR sessionStorage.agePass_v2==='true' OR cookie agePass_v2=true -> remove age-gate-active, add age-verified, reveal #mainContent (aria-hidden=false), body overflow/height auto. Script 2 (DOMContentLoaded, STORAGE_MODE='local'): hides #locationGateWrapper; if localStorage pass -> reveal and re-set the cookie when missing; else jQuery('#ageGateModal').modal({backdrop:'static',keyboard:false}).modal('show').",
+   "yes": "#ageGateYes click: #locationGateWrapper display:block, the Yes button opacity 0.33, #ageGateNo display:none. Yes alone does NOT set the pass.",
+   "no": "#ageGateNo click: hide .age-gate-main-body, show .age-gate-denied-body, hide the modal footer. No redirect, nothing stored.",
+   "storeChoice": "click on .location-select-btn inside #locationGate: preventDefault; localStorage.agePass_v2='true'; cookie agePass_v2=true; path=/; max-age=31536000; SameSite=Lax (+ Secure on https); modal('hide'); after 50 ms location.href = the link href (the store page /location/<store>/, not the shop).",
+   "doesNotSet": "The age gate does not set the selected_location cookie; the store page sets it on load (path match in main.js).",
+   "edgeCase": "A visitor whose cookie or sessionStorage holds the pass but whose localStorage does not: script 1 reveals the page, then script 2 still opens the modal because it checks localStorage only. UNVERIFIED in a browser.",
+   "evidence": "audit/raw/index.html lines 1008-1160 (inline scripts identical on all 91 pages: tmp/understand/arch inline-script census)"
+  },
+  "locationChooserModal": {
+   "element": "div.location-chooser-modal#locationChooserModal (role=dialog, aria-modal=true, aria-hidden=true), not a Bootstrap modal",
+   "pages": 91,
+   "copy": {
+    "eyebrow": "Choose Your Location",
+    "title": "Where would you like to shop?",
+    "description": "Select a store to continue to the right menu, deals, or delivery page.",
+    "cardButton": "Select Location",
+    "closeAriaLabel": "Close location chooser"
+   },
+   "cards": [
+    {
+     "key": "lax",
+     "name": "LAX - Culver City",
+     "address": "11834 Jefferson Boulevard,  Culver City, CA 11834",
+     "defaultHref": "https://werollup.com/location/culver-city/shop/",
+     "image": "https://werollup.com/media/LAX_-Culver-City-2.webp (data-bgimage, lazy)"
+    },
+    {
+     "key": "sanpedro",
+     "name": "San Pedro - Palos Verdes",
+     "address": "1705 S Gaffey Street, San Pedro, CA 90731",
+     "defaultHref": "https://werollup.com/location/san-pedro/shop/",
+     "image": "https://werollup.com/media/San-Pedro_-Palos-Verdes-1.webp (data-bgimage, lazy)"
+    }
+   ],
+   "open": "Any .js-location-chooser click (preventDefault) opens it with the card hrefs rewritten from the trigger's data-lax-url / data-sanpedro-url (both attributes required). A .js-selected-location-menu click opens it only when no store can be resolved.",
+   "close": "close button, Escape, click on the backdrop (the modal element itself); focus is trapped (Tab / Shift+Tab cycle) and returned to the trigger; body gets class location-chooser-open while open; modal gets class is-open.",
+   "evidence": "audit/raw/index.html lines 833-907; assets/js/4c0935fa-main.js offset ~310400-312600 (Jl.init)"
+  }
+ },
+ "components": [
+  {
+   "id": "location-switcher",
+   "name": "Top-bar store select (#currently-shopping)",
+   "pages": "91 (all)",
+   "mechanism": "main.js module 343. Runs only if a test cookie can be written, else hides the select. On change: if the option has a value, set cookie selected_location=<data-slug> (30 days, path=/), write data-address into #locationAddress and data-hours (or 'Hours Not Available') into #locationHours, set every .active-location-menu href to data-menu-url (+ data-deep-link when present) and display:inherit (display:none when no menu URL), set every .active-location-directions href to data-directions-url, then navigate to the option value (the store page). On load: the option whose value path equals or prefixes location.pathname is selected (and the cookie set); otherwise the option whose data-slug equals the selected_location cookie is selected. No localStorage is used.",
+   "storage": {
+    "cookie": "selected_location = culver-city | san-pedro (30 days, path=/)"
+   },
+   "evidence": "assets/js/4c0935fa-main.js offset 13829-16000; audit/raw/index.html lines 110-130"
+  },
+  {
+   "id": "order-now-resolver",
+   "name": "Order Now buttons (.js-selected-location-menu)",
+   "pages": "91 (header CTA + off-canvas sticky CTA)",
+   "mechanism": "Click: preventDefault; target = selected option's data-menu-url (+data-deep-link) when the select has a value; else cookie selected_location 'culver-city'/'lax' -> data-lax-url, 'san-pedro'/'sanpedro' -> data-sanpedro-url; navigate when resolved, else open #locationChooserModal. Static href (no JS) = https://werollup.com/location/culver-city/shop/.",
+   "evidence": "assets/js/4c0935fa-main.js offset ~311300-312000"
+  },
+  {
+   "id": "location-chooser-triggers",
+   "name": "In-content CTAs with .js-location-chooser",
+   "pages": "/ (6 buttons), /weed-delivery (1: Order Now)",
+   "mechanism": "Always open the location chooser modal on click (even when a store is selected); card hrefs come from the button's data-lax-url / data-sanpedro-url. Home buttons: hero 'Order Now' (lax /location/culver-city/shop/, sanpedro /location/san-pedro/shop/), hero 'See Deals' (both /about-us/daily-deals/), 'Delivery' (both /weed-delivery/), and three body buttons 'Order Now' / 'Shop Now' / 'Order Now' with href /shop and the two shop URLs. Static hrefs (no JS) are the a[href] values; /shop is an alias of the Culver City shop.",
+   "evidence": "audit/raw/index.html lines 346, 365, 442, 520, 591; audit/raw/weed-delivery.html"
+  },
+  {
+   "id": "promo-ticker",
+   "name": "Promo marquee (#scroll-text)",
+   "pages": "40 (every non-location page)",
+   "mechanism": "Static markup div#scroll-text.marquee-content > div.text-block; no script references it (main.js has 0 'marquee' / 'scroll-text' hits), so any motion is CSS-only (see src/styles/motion.css / audit/motion-inventory.json; not analysed by this lane). Text: 'Welcome to We Roll Up… We Roll Up Rosin Club + Buy any 5 rosin products + Get 25% Off' with map-marker and star icons.",
+   "evidence": "audit/raw/index.html lines 248-256; grep of assets/js/4c0935fa-main.js"
+  },
+  {
+   "id": "location-subheader",
+   "name": "Location sub-header (breadcrumbs + You're shopping)",
+   "pages": "51 (location template)",
+   "mechanism": "Static: breadcrumbs (BreadcrumbList microdata) + 'You're shopping <store>' + buttons Directions (Google Maps CID, rel=nofollow) / Review Us (Google review link) / Call Now (tel). A 'View Other Locations' link is commented out in the source. data-aos fade-up / fade-down.",
+   "evidence": "audit/raw/location-san-pedro.html, audit/raw/location-culver-city.html"
+  },
+  {
+   "id": "home-hero-cards",
+   "name": "Home hero cards (2 column-content tiles)",
+   "pages": "/",
+   "mechanism": "Two rounded tiles with lazy background images (data-bgimage via IntersectionObserver): 'Shop Our Weed Products' (H1, buttons 'Order Now' + 'See Deals', both js-location-chooser) and 'Delivery' (H2, button 'Delivery', js-location-chooser with both URLs /weed-delivery/). Hero image preloaded in <head>: /media/werollup-san-pedro-storefront-classic-car-side-hero.webp.",
+   "evidence": "audit/raw/index.html lines 333-362"
+  },
+  {
+   "id": "home-location-cards",
+   "name": "Home store cards (get-locations)",
+   "pages": "/",
+   "mechanism": "Static: two cards (San Pedro - Palos Verdes, LAX - Culver City) with inline background image, address lines and 'Shop now' button to the store's shop (no trailing slash). data-aos fade-in.",
+   "evidence": "audit/raw/index.html lines 364-410"
+  },
+  {
+   "id": "simple-content",
+   "name": "Half-width text + image blocks (rpb-simple-content)",
+   "pages": "/ (3), /weed-delivery",
+   "mechanism": "Static two-column section, image as lazy background (data-bgimage).",
+   "evidence": "audit/raw/index.html lines 413-430, 506-528"
+  },
+  {
+   "id": "accordion",
+   "name": "Accordion (#rpb-accordion)",
+   "pages": "/ (2 items), /weed-delivery (5 items)",
+   "mechanism": "Bootstrap 5 collapse: button.accordion-button[data-bs-toggle=collapse][data-bs-target=#rpb-accordion-item-N-collapse][aria-expanded][aria-controls]; panels .accordion-collapse.collapse with data-bs-parent=#rpb-accordion (one open at a time); item 0 open by default (class show). The header wrapper is div.h2 and the button contains an <h2>. data-accordion-title attribute shows a double-escaped ampersand ('&amp;amp;amp;').",
+   "evidence": "audit/raw/index.html lines 431-500"
+  },
+  {
+   "id": "zip-delivery-finder",
+   "name": "ZIP-code delivery finder",
+   "pages": "markup on / only; the script is printed on all 91 pages",
+   "mechanism": "form#zipSearchForm submit: preventDefault; remove .zipcode-error; hide .zcs-hidden-step; if the value is shorter than 5 characters show #zcs1 and append 'Please enter a valid zip code.'; else client-side lookup in two hard-coded arrays: location1zips (22 entries incl. an empty string and duplicates) -> show #location1 (San Pedro); otherwise show #zcs-empty and test location2zips (54 entries incl. duplicates) -> hide #zcs-empty and show #location2 (labelled 'Playa Vista', links /location/culver-city/). First match wins (90254 and 90503 are in both lists -> San Pedro). No request, no redirect, no data file. '.zcs-go-back' (Search Again) resets the steps. console.log calls left in.",
+   "data": {
+    "location1zips": [
+     "90254",
+     "90277",
+     "90275",
+     "90732",
+     "90274",
+     "90505",
+     "90503",
+     "90501",
+     "90502",
+     "90745",
+     "90717",
+     "90710",
+     "90744",
+     "90731",
+     "90822",
+     "",
+     "90813",
+     "90806",
+     "90755",
+     "90810",
+     "90502",
+     "90501"
+    ],
+    "location2zips": [
+     "90402",
+     "90403",
+     "90401",
+     "90404",
+     "90405",
+     "90291",
+     "90292",
+     "90094",
+     "90066",
+     "90293",
+     "90245",
+     "90266",
+     "90254",
+     "90503",
+     "90278",
+     "90504",
+     "90506",
+     "90260",
+     "90250",
+     "90304",
+     "90301",
+     "90302",
+     "90304",
+     "90303",
+     "90305",
+     "90047",
+     "90043",
+     "90094",
+     "90230",
+     "90066",
+     "90056",
+     "90062",
+     "90018",
+     "90016",
+     "90232",
+     "90034",
+     "90066",
+     "90034",
+     "90232",
+     "90008",
+     "90014",
+     "90015",
+     "90019",
+     "90211",
+     "90095",
+     "90024",
+     "90048",
+     "90069",
+     "90036",
+     "90019",
+     "90007",
+     "90210",
+     "90077",
+     "90071"
+    ]
+   },
+   "copy": {
+    "title": "Your Delivery Location",
+    "emptyTitle": "No Locations Found",
+    "emptyBody": "We’re sorry! We couldn’t find any locations matching the zip code you entered. Please try another search, and to be safe feel free to call us at 424 264 5423 to confirm if we have options for your area or not.",
+    "resultTitle": "Awesome! We deliver to you. Fast!",
+    "resultLead": "Please order from this menu:",
+    "location1": "Location: San Pedro / Delivery / Delivery Menu -> /location/san-pedro/shop/",
+    "location2": "Location: Playa Vista / Delivery / Delivery Menu -> /location/culver-city/shop/",
+    "again": "Search Again",
+    "input": "Enter Your Zip Code",
+    "button": "Find my Location"
+   },
+   "evidence": "audit/raw/index.html lines 539-589 (markup) and 927-1005 (script)"
+  },
+  {
+   "id": "customer-reviews-carousel",
+   "name": "Our Reviews carousel (rpb-customer-reviews)",
+   "pages": "91 (all, below main)",
+   "mechanism": "Splide (bundled in main.js) mounted on .customer-reviews-slider with the Intersection extension; options from data-splide: type loop, autoplay true, perPage 4 (1199:3, 991:2, 767:2, 575:1 padding 0), perMove 1, gap 0, arrows (custom prev/next buttons), pagination false, cover true, speed 500. Heading 'Our Reviews' + 'What our customers are saying'. Each slide: 5 star icons, review text, reviewer name. Server shuffles the slide order per request.",
+   "evidence": "audit/raw/location-san-pedro-shop.html lines 528-560; assets/js/4c0935fa-main.js offset ~318500; diff of shop variants"
+  },
+  {
+   "id": "location-hub-sections",
+   "name": "Store page sections (single-location)",
+   "pages": "/location/culver-city, /location/san-pedro",
+   "mechanism": "Hero with .h1 'Shop <store>' and Order Now (active-location-menu) / See Deals / Delivery buttons; 'Shop by Category' cards slider (rpb-cards bootstrap-cards-slider, rpb-flex-card-image, 'SHOP NOW' per category to the store's shop route); daily-deals list; feelings cards slider (overflow-slider, San Pedro links ?filters[feelings][]=...); brand logo slider (rpb-logo-slider, logos lazy via data-src on intersection). Sliders are Splide.",
+   "evidence": "audit/raw/location-san-pedro.html, audit/raw/location-culver-city.html"
+  },
+  {
+   "id": "daily-deals-list",
+   "name": "Daily deals list",
+   "pages": "/about-us/daily-deals, /location/culver-city, /location/san-pedro",
+   "mechanism": "Static markup (.daily-deals > .daily-deals-list > .single-deal-icon + .single-deal-description); no script found that highlights the current day (no inline script on these pages beyond the global ones; main.js has no 'daily-deals' reference). Copy is owned by the CONTENT lane.",
+   "evidence": "audit/raw/about-us-daily-deals.html; inline-script census"
+  },
+  {
+   "id": "shop-embed-jane",
+   "name": "Jane Boost menu (San Pedro)",
+   "pages": "28 (/location/san-pedro/shop + 27 variants)",
+   "mechanism": "Jane Menu plugin 1.4.7 header: window.___JANE___ runtimeConfig {embedConfigId 989, isFramelessEmbedMode true, showAgeGate false, storeId 4281, partnerHostedPath '/location/san-pedro/shop'}; module script https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js; #jane-app-settings and #jane-app-secrets JSON (vendor client tokens; do not copy into docs); mount <div id=\"app\" class=\"app\"></div> inside main; StackAdapt inline listener in the same header. robots.txt also lists /media/jane-menu/sitemap.xml.",
+   "evidence": "audit/raw/location-san-pedro-shop.html lines 84-231, 510"
+  },
+  {
+   "id": "shop-embed-weedmaps",
+   "name": "Weedmaps WM Store menu (Culver City)",
+   "pages": "20 (/location/culver-city/shop + 18 variants, /lax-menu)",
+   "mechanism": "<div style=\"min-height:100vh\"><script src=\"https://werolluplax.wm.store/static/js/embed.js\"></script></div> after an empty article; query params store_path / store_query / locationId=10599 are read client-side (UNVERIFIED: embed source not on disk).",
+   "evidence": "audit/raw/location-culver-city-shop.html line 365; audit/raw/lax-menu.html"
+  },
+  {
+   "id": "maps-embeds",
+   "name": "Google Maps iframes",
+   "pages": "/contact (2 maps: the San Pedro place 0x457acfc758c4c764 and a second We Roll Up place at 33.985,-118.402, presumably Culver City), /service-area/culver-city/culver-city-delivery-and-pickup (1 map)",
+   "mechanism": "Static iframes (maps/embed?pb=...), loading=lazy. The Culver City delivery page embeds the SAN PEDRO place (0x457acfc758c4c764, lat 33.7287 lng -118.2965).",
+   "evidence": "audit/raw/contact.html; audit/raw/service-area-culver-city-culver-city-delivery-and-pickup.html"
+  },
+  {
+   "id": "header-scroll-state",
+   "name": "Header scroll classes",
+   "pages": "91",
+   "mechanism": "main.js: #topLevelNav toggles trans-top / trans-scrolling at scrollTop>0; shrink-on-scroll (not present in markup) would toggle nav-shrink and py-3/py-2; .topbar-hide (not present) hides past 50px. #topLevelNav is Bootstrap sticky-top.",
+   "evidence": "assets/js/4c0935fa-main.js offset ~313000"
+  },
+  {
+   "id": "aos-reveal",
+   "name": "AOS scroll reveal",
+   "pages": "54 pages carry data-aos in the body: /, /location/culver-city, /location/san-pedro, both shops and their 45 variants, both location-pagetype archives, /products/flower, /service-area/san-pedro",
+   "mechanism": "AOS init {disable:'mobile', duration:750, once:true}; head critical CSS sets [data-aos^=fade]{opacity:0}.",
+   "evidence": "assets/js/4c0935fa-main.js offset ~310300; audit/raw/index.html line 33"
+  },
+  {
+   "id": "lazy-media",
+   "name": "Lazy images and backgrounds",
+   "pages": "91",
+   "mechanism": "IntersectionObserver: img.lazy (data-src -> src), div.lazy / section.lazy (data-bgimage/-bgsize/-bgposition/-bgrepeat -> inline style), .lazy-background (adds .visible), video.lazy, iframe.lazy.",
+   "evidence": "assets/js/4c0935fa-main.js offset ~324000"
+  },
+  {
+   "id": "heading-role-patch",
+   "name": "Heading role patch",
+   "pages": "91",
+   "mechanism": "main.js sets role=heading aria-level=1 on EVERY .h1, .h2, .h3, .h4, .h5 element (accessibility defect: all at level 1).",
+   "evidence": "assets/js/4c0935fa-main.js offset ~313500"
+  },
+  {
+   "id": "offcanvas-menu",
+   "name": "Off-canvas menu",
+   "pages": "91",
+   "mechanism": "Bootstrap 5 offcanvas (#defaultOffcanvas) opened by .navbar-toggler; dropdowns inside are Bootstrap dropdown toggles (href '#', data-bs-toggle=dropdown).",
+   "evidence": "audit/raw/index.html lines 258-328"
+  },
+  {
+   "id": "dead-code",
+   "name": "Scripts with no target",
+   "pages": "91",
+   "mechanism": "mySlides carousel (1500 ms rotation, inline script) and the .top-popup modal opener run on every page but no element with class mySlides or top-popup exists in any body; singleLocation module targets #locationGallery / #locationReviews / #locationPhotos, which exist on no page; #desktopToggler / #mobileToggler / #canvasX / #msoFullscreen / #shopFilter / #addRevewButton / #showFilters / #openLocationsModal handlers have no target (0 matching ids in any body). No back-to-top control exists in any page.",
+   "evidence": "body class/id census over audit/raw (0 hits for mySlides, top-popup, locationGallery, locationReviews, locationPhotos); audit/raw/index.html lines 918-927, 1162-1180"
+  }
+ ],
+ "forms": [
+  {
+   "id": "gform_1",
+   "page": "/contact",
+   "heading": "Contact Us Online (h3 on the page)",
+   "plugin": "Gravity Forms 2.10.5, legacy markup, form 1",
+   "action": "/contact/",
+   "method": "post",
+   "enctype": "multipart/form-data",
+   "novalidate": true,
+   "submission": "postback (hidden gform_submission_method=postback); no AJAX",
+   "fields": [
+    {
+     "name": "input_1",
+     "id": "input_1_1",
+     "type": "text",
+     "label": "Your Name",
+     "placeholder": "Your Name",
+     "required": true
+    },
+    {
+     "name": "input_2",
+     "id": "input_1_2",
+     "type": "tel",
+     "label": "Your Phone",
+     "placeholder": "Your Phone",
+     "required": false
+    },
+    {
+     "name": "input_3",
+     "id": "input_1_3",
+     "type": "email",
+     "label": "Your Email Address",
+     "placeholder": "Your Email Address",
+     "required": true
+    },
+    {
+     "name": "input_4",
+     "id": "input_1_4",
+     "type": "textarea",
+     "label": "Message",
+     "placeholder": "Message",
+     "required": true,
+     "rows": 10
+    },
+    {
+     "id": "input_1_5",
+     "type": "captcha",
+     "label": "CAPTCHA",
+     "widget": "Google reCAPTCHA (div.ginput_recaptcha with a public data-sitekey; api.js loaded with render=explicit)"
+    }
+   ],
+   "requiredMarker": "*",
+   "submit": "Send",
+   "hidden": [
+    "gform_submission_method=postback",
+    "gform_theme=legacy",
+    "gform_style_settings=[]",
+    "is_submit_1=1",
+    "gform_submit=1",
+    "gform_currency (encrypted)",
+    "gform_unique_id",
+    "state_1",
+    "gform_target_page_number_1=0",
+    "gform_source_page_number_1=1",
+    "gform_field_values"
+   ],
+   "consentText": "none in the markup",
+   "confirmationText": "UNVERIFIED (rendered server-side after a postback; not in the crawl)",
+   "honeypot": "gform_theme_config carries a honeypot version_hash; no honeypot field is in the static markup; whether it is enabled is UNVERIFIED",
+   "rebuildNote": "A static rebuild has no WordPress to receive the postback: the submission target is an operator decision.",
+   "evidence": "audit/raw/contact.html (gform_wrapper_1); audit/architecture.json formsByAction"
+  },
+  {
+   "id": "zipSearchForm",
+   "page": "/",
+   "fields": [
+    {
+     "name": "zipcode",
+     "id": "zipcode",
+     "type": "number",
+     "label": "Enter Your Zip Code (visually hidden)",
+     "placeholder": "Enter Your Zip Code",
+     "required": true
+    }
+   ],
+   "submit": "Find my Location",
+   "action": "none (submit is intercepted by jQuery; client-side lookup)",
+   "method": "GET by default if JS fails",
+   "evidence": "audit/raw/index.html line 580; see components[zip-delivery-finder]"
+  },
+  {
+   "id": "search-form",
+   "page": "/author/werollupadmin",
+   "action": "https://werollup.com/",
+   "method": "get",
+   "fields": [
+    {
+     "name": "s",
+     "type": "search",
+     "label": "Search for: (screen-reader-text)",
+     "placeholder": "Search …",
+     "required": true
+    }
+   ],
+   "submit": "Search",
+   "rebuildNote": "WordPress search (?s=) has no static equivalent; the crawler excluded ?s= URLs by pattern.",
+   "evidence": "audit/raw/author-werollupadmin.html"
+  }
+ ],
+ "thirdParty": [
+  {
+   "host": "www.googletagmanager.com",
+   "kind": "analytics (GA4 gtag G-148QKPF1CL + GTM container GTM-T4RHQDB, with noscript iframe)",
+   "pages": 91,
+   "recommendation": "strip (PLAN D5)",
+   "measured": [
+    {
+     "kind": "script",
+     "pageCount": 91,
+     "srcs": [
+      "https://www.googletagmanager.com/gtag/js?id=G-148QKPF1CL"
+     ]
+    },
+    {
+     "kind": "iframe",
+     "pageCount": 91,
+     "srcs": [
+      "https://www.googletagmanager.com/ns.html?id=GTM-T4RHQDB"
+     ]
+    },
+    {
+     "kind": "script(injected by inline)",
+     "pageCount": 91,
+     "srcs": [
+      "https://www.googletagmanager.com/gtm.js?id=",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-T4RHQDB"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "cdn.userway.org",
+   "kind": "accessibility overlay widget (data-account set on the script tag)",
+   "pages": 91,
+   "recommendation": "OPERATOR DECISION (PLAN D5, docs/OPEN-DECISIONS.md)",
+   "measured": [
+    {
+     "kind": "script",
+     "pageCount": 91,
+     "srcs": [
+      "https://cdn.userway.org/widget.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "boost-assets.iheartjane.com",
+   "kind": "Jane Boost menu runtime (module script) + window.___JANE___ config + app settings JSON",
+   "pages": 28,
+   "recommendation": "keep (functional menu, PLAN D4)",
+   "measured": [
+    {
+     "kind": "script",
+     "pageCount": 28,
+     "srcs": [
+      "https://boost-assets.iheartjane.com/assets/index-D8IbwKpn.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "tags.srv.stackadapt.com",
+   "kind": "ad attribution pixel injected by an inline script in the Jane header",
+   "pages": 28,
+   "recommendation": "strip the inline StackAdapt block (PLAN D5); keep the rest of the Jane header",
+   "measured": [
+    {
+     "kind": "script(injected by inline)",
+     "pageCount": 28,
+     "srcs": [
+      "https://tags.srv.stackadapt.com/events.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "remotepay.canpaydebit.com",
+   "kind": "payment SDK URL inside jane-app-settings JSON (loaded by the Jane runtime when needed; not a page-level tag)",
+   "pages": 28,
+   "recommendation": "keep implicitly with the Jane embed (no separate tag to remove)",
+   "measured": [
+    {
+     "kind": "script(injected by inline)",
+     "pageCount": 28,
+     "srcs": [
+      "https://remotepay.canpaydebit.com/cp-min.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "gateway.moneris.com",
+   "kind": "payment SDK URL inside jane-app-settings JSON",
+   "pages": 28,
+   "recommendation": "keep implicitly with the Jane embed",
+   "measured": [
+    {
+     "kind": "script(injected by inline)",
+     "pageCount": 28,
+     "srcs": [
+      "https://gateway.moneris.com/chkt/js/chkt_v1.00.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "web.squarecdn.com",
+   "kind": "payment SDK URL inside jane-app-settings JSON",
+   "pages": 28,
+   "recommendation": "keep implicitly with the Jane embed",
+   "measured": [
+    {
+     "kind": "script(injected by inline)",
+     "pageCount": 28,
+     "srcs": [
+      "https://web.squarecdn.com/v1/square.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "bloom-assets.iheartjane.com",
+   "kind": "Jane asset URL inside jane-app-settings JSON",
+   "pages": 28,
+   "recommendation": "keep implicitly with the Jane embed",
+   "measured": [
+    {
+     "kind": "script(injected by inline)",
+     "pageCount": 28,
+     "srcs": [
+      "https://bloom-assets.iheartjane.com/embedded-menu-row.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "werolluplax.wm.store",
+   "kind": "Weedmaps WM Store menu embed script",
+   "pages": 20,
+   "recommendation": "keep (functional menu, PLAN D4)",
+   "measured": [
+    {
+     "kind": "script",
+     "pageCount": 20,
+     "srcs": [
+      "https://werolluplax.wm.store/static/js/embed.js"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "www.google.com",
+   "kind": "Google Maps embed iframes (/contact x2, Culver City delivery page x1) and reCAPTCHA api.js (/contact)",
+   "pages": 2,
+   "recommendation": "keep the maps (functional); reCAPTCHA follows the contact-form decision",
+   "measured": [
+    {
+     "kind": "iframe",
+     "pageCount": 2,
+     "srcs": [
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6636.484110472229!2d-118.2951575242192!3d33.72855643475246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd371d9ba6c7d7%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931865189!5m2!1sen!2sus",
+      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13233.10497309785!2d-118.4020791!3d33.9854376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b1001766f101%3A0x5397919e67db50b!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931845806!5m2!1sen!2sus",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6493.361254341059!2d-118.29652592651573!3d33.7287311077142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1663356466437!5m2!1sen!2sus"
+     ]
+    },
+    {
+     "kind": "script",
+     "pageCount": 1,
+     "srcs": [
+      "https://www.google.com/recaptcha/api.js?hl=en&&ver=7.1.3#038;render=explicit"
+     ]
+    }
+   ]
+  },
+  {
+   "host": "s.w.org",
+   "kind": "WordPress emoji loader settings (wp-emoji-release via inline module)",
+   "pages": 91,
+   "recommendation": "strip (WordPress core, no function on a static site)",
+   "measured": []
+  },
+  {
+   "host": "rangemarketing.com",
+   "kind": "agency credit link in the footer (outbound link, not runtime)",
+   "pages": 91,
+   "recommendation": "strip (PLAN D5)",
+   "measured": []
+  }
+ ],
+ "seoAnomalies": [
+  {
+   "id": "og-image-malformed",
+   "pages": 91,
+   "detail": "og:image = https://werollup.comhttps://werollup.com/media/logo-white-x.png (og:image:width 400, height 71)",
+   "evidence": "audit/seo-inventory.json openGraph; audit/failures.json (asset fetch ENOTFOUND werollup.comhttps)"
+  },
+  {
+   "id": "og-sitewide-constants",
+   "pages": 91,
+   "detail": "og:url is 'https://werollup.com' and og:title is 'We Roll Up' on every page; no og:description, og:type or Twitter tags anywhere",
+   "evidence": "audit/seo-inventory.json"
+  },
+  {
+   "id": "no-meta-description",
+   "pages": 91,
+   "detail": "No page has a meta description",
+   "evidence": "audit/seo-inventory.json metaDescriptionLength = 0 on 91 of 91"
+  },
+  {
+   "id": "no-json-ld",
+   "pages": 91,
+   "detail": "No application/ld+json on any page (0 files). Structured data is microdata only: BreadcrumbList/ListItem on the 51 location-template pages and SiteNavigationElement on menu links.",
+   "evidence": "grep over audit/raw; audit/seo-inventory.json jsonLdTypes [] on 91"
+  },
+  {
+   "id": "robots-meta",
+   "pages": 91,
+   "detail": "Every page: robots 'max-image-preview:large'; no noindex anywhere, including the author archive, the two location-pagetype archives, the five review singles and 45 shop variants",
+   "evidence": "audit/seo-inventory.json metaRobots"
+  },
+  {
+   "id": "canonical-missing",
+   "pages": [
+    "/author/werollupadmin",
+    "/location-pagetype/cannabis-menu-page",
+    "/location-pagetype/primary-location"
+   ],
+   "detail": "No canonical link",
+   "evidence": "audit/seo-inventory.json canonical empty"
+  },
+  {
+   "id": "canonical-inconsistent-shop",
+   "pages": 45,
+   "detail": "The 27 San Pedro shop variants are self-canonical (query string or /shop/menu/<cat> kept); the 18 Culver City variants canonicalise to /location/culver-city/shop/",
+   "evidence": "docs/data/site-map.json shopRouteProof.perVariant"
+  },
+  {
+   "id": "h1-missing",
+   "pages": [
+    "/location/culver-city",
+    "/location/san-pedro",
+    "/location-pagetype/primary-location"
+   ],
+   "detail": "No <h1> element; the store pages style their hero title as class .h1 ('Shop LAX – Culver City', 'Shop San Pedro – Palos Verdes')",
+   "evidence": "audit/content-inventory.json h1 []; audit/raw/location-*.html"
+  },
+  {
+   "id": "h1-multiple",
+   "pages": [
+    "/accessibility-statement",
+    "/privacy-policy"
+   ],
+   "detail": "Two <h1> elements (page title + one in the body copy)",
+   "evidence": "audit/content-inventory.json h1"
+  },
+  {
+   "id": "home-title",
+   "pages": [
+    "/"
+   ],
+   "detail": "Home <title> is only 'We Roll Up' (10 chars); the other pages use '<Page> – We Roll Up'",
+   "evidence": "audit/seo-inventory.json"
+  },
+  {
+   "id": "duplicate-titles",
+   "pages": 45,
+   "detail": "Shop variants repeat their base title and H1 ('Shop LAX – Culver City – We Roll Up' x19, 'Shop San Pedro – Palos Verdes – We Roll Up' x28)",
+   "evidence": "audit/seo-inventory.json"
+  },
+  {
+   "id": "author-archive-exposed",
+   "pages": [
+    "/author/werollupadmin"
+   ],
+   "detail": "Author archive is in the WordPress users sitemap and indexable; title 'admin – We Roll Up', H1 'Author: admin'; exposes the login-style slug werollupadmin",
+   "evidence": "audit/site-inventory.json discovery.sitemapsFetched (wp-sitemap-users-1.xml); audit/seo-inventory.json"
+  },
+  {
+   "id": "no-hreflang",
+   "pages": 91,
+   "detail": "No hreflang; lang en-US everywhere",
+   "evidence": "audit/seo-inventory.json"
+  },
+  {
+   "id": "heading-aria",
+   "pages": 91,
+   "detail": "main.js assigns role=heading aria-level=1 to every .h1-.h5 element",
+   "evidence": "assets/js/4c0935fa-main.js"
+  },
+  {
+   "id": "logo-alt",
+   "pages": 91,
+   "detail": "Footer logo alt 'We Roll UpLogo' (missing space)",
+   "evidence": "audit/raw/index.html line 743"
+  }
+ ],
+ "deadLinks": [
+  {
+   "href": "https://werollup.com/products/edibles-gummies/",
+   "status": 404,
+   "anchor": "Edibles and Gummies",
+   "linkedFrom": [
+    "/service-area/san-pedro/san-pedro-weed-delivery"
+   ],
+   "note": "The alias /edibles-gummies (no /products/ prefix) does land on /products/edibles; this one does not.",
+   "evidence": "audit/failures.json; tmp/understand/arch/links.json"
+  },
+  {
+   "href": "https://werollup.com/wp-admin/post.php?post=60817&action=edit&classic-editor",
+   "status": "not crawled (robots.txt Disallow /wp-admin/; counts.blockedByRobots = 1); a WordPress admin edit link that needs a login",
+   "anchor": "Flower (aria-label “Flower” (Edit))",
+   "linkedFrom": [
+    "/products"
+   ],
+   "note": "Pasted admin link inside body copy ('Smokable Flower remains…'). post 60817 is /products/flower.",
+   "evidence": "audit/raw/products.html; audit/site-inventory.json counts"
+  },
+  {
+   "href": "/shop-playa-vista/?filters%5Broot_types%5D%5B%5D=vape",
+   "status": "redirect (alias) to /location/culver-city/shop/ with the query string dropped",
+   "anchor": "Order Vaporizers & Cartridges (Products > San Pedro)",
+   "linkedFrom": "40 pages (global header + off-canvas menu)",
+   "note": "Wrong store (a San Pedro submenu item lands on the Culver City menu) and the vape filter is lost.",
+   "evidence": "audit/site-inventory.json aliases of /location/culver-city/shop; tmp/understand/arch/menus.json"
+  },
+  {
+   "href": "/home",
+   "status": "redirect (alias of /)",
+   "anchor": "Cannabis License: C10-0000854-LIC",
+   "linkedFrom": "91 pages (footer Quick Links)",
+   "note": "Works through a redirect.",
+   "evidence": "audit/site-inventory.json aliases of /"
+  },
+  {
+   "href": "/shop",
+   "status": "redirect (alias of /location/culver-city/shop)",
+   "anchor": "Order Now / Shop Now (js-location-chooser buttons) and product-page links",
+   "linkedFrom": "8 pages",
+   "note": "With JS the home buttons open the chooser; without JS they land on the Culver City menu.",
+   "evidence": "tmp/understand/arch/links.json aliasLinkers"
+  },
+  {
+   "href": "other aliases",
+   "status": "redirect",
+   "anchor": "various",
+   "linkedFrom": "/products, /service-area, /service-area/culver-city, /service-area/culver-city/culver-city-delivery-and-pickup",
+   "note": "/pre-rolls, /vaporizers-cartridges, /edibles-gummies, /concentrates, /topicals, /flower, /san-pedro, /lax, /culver-city, /culver-city/culver-city-delivery-and-pickup, /daily-deals are linked in body copy and resolve only through redirects.",
+   "evidence": "tmp/understand/arch/links.json aliasLinkers"
+  },
+  {
+   "href": "mixed http links",
+   "status": "none",
+   "anchor": "",
+   "linkedFrom": [],
+   "note": "No http:// href in any page. /privacy-policy contains the literal text 'http://We Roll Up' three times (template boilerplate, not a link).",
+   "evidence": "tmp/understand/arch/links.json mixed = []; audit/raw/privacy-policy.html lines 360, 375, 380"
+  }
+ ],
+ "sourceDefects": [
+  "Culver City postcode printed as the street number: '11834 Jefferson Boulevard,  Culver City,  CA 11834' (footer, home card ' Culver City,  CA 11834 ', chooser modal). The correct ZIP is not in the crawl: UNVERIFIED.",
+  "Culver City phone 888-777-6655 (footer, Call Now tel:+18887776655): verify with the operator that it is real (UNVERIFIED).",
+  "tel: formats differ: tel:+1424 264 5423 (spaces, footer), tel:424 264 5423 (ZIP finder), tel:+14242645423, tel:+1888-777-6655, tel:+18887776655.",
+  "ZIP finder result 2 is labelled 'Playa Vista' but links to the Culver City store and menu.",
+  "Header menu label differences: global 'About' vs store menus 'About Us'; San Pedro menu 'Order Vapes & Cartridges' vs 'Order Vaporizers & Cartridges' elsewhere.",
+  "Top-bar option data-menu-url for San Pedro has no trailing slash (https://werollup.com/location/san-pedro/shop) and costs a 301; Culver City's has one.",
+  "The Culver City delivery-and-pickup page embeds the San Pedro map.",
+  "Breadcrumb 'Locations' crumb links to the current store or shop.",
+  "Accordion data-accordion-title double-escapes '&' ('&amp;amp;amp;').",
+  "overrides.css and overrides.js (/wp-content/themes/basebuildv3/resources/) are referenced on every page but were not harvested: their rules and behaviour are UNVERIFIED."
+ ],
+ "templates": [
+  {
+   "name": "home",
+   "wpTemplate": "template-homepage",
+   "representative": "/",
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "name": "flexible-page",
+   "wpTemplate": "template-flexible (Range page builder blocks)",
+   "representative": "/about-us",
+   "pages": [
+    "/about-us",
+    "/about-us/daily-deals",
+    "/contact",
+    "/education/cannabis-101",
+    "/education/recreational-medicinal",
+    "/lax-menu",
+    "/products/concentrates",
+    "/products/edibles",
+    "/products/flower",
+    "/products/pre-rolls",
+    "/products/topicals",
+    "/products/vaporizers-cartridges",
+    "/service-area/culver-city",
+    "/service-area/san-pedro",
+    "/weed-delivery"
+   ],
+   "subVariants": {
+    "contact": "/contact (form + 2 maps)",
+    "daily-deals": "/about-us/daily-deals",
+    "embed-weedmaps": "/lax-menu",
+    "builder-rich": "/weed-delivery (simple content + accordion)"
+   }
+  },
+  {
+   "name": "default-page",
+   "wpTemplate": "page-template-default (page header + content + sidebar)",
+   "representative": "/service-area/lax",
+   "pages": [
+    "/accessibility-statement",
+    "/education",
+    "/privacy-policy",
+    "/products",
+    "/service-area",
+    "/service-area/culver-city/culver-city-delivery-and-pickup",
+    "/service-area/lax",
+    "/service-area/lax/lax-weed-delivery",
+    "/service-area/marina-del-rey-ca",
+    "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+    "/service-area/playa-vista-ca",
+    "/service-area/playa-vista-ca/playa-vista-weed-delivery",
+    "/service-area/san-pedro/carson-ca",
+    "/service-area/san-pedro/rancho-palos-verdes-ca",
+    "/service-area/san-pedro/san-pedro-weed-delivery",
+    "/service-area/san-pedro/wilmington-ca",
+    "/service-area/westchester-ca",
+    "/service-area/westchester-ca/westchester-weed-delivery"
+   ]
+  },
+  {
+   "name": "location-hub",
+   "wpTemplate": "single-location (location CPT)",
+   "representative": "/location/san-pedro",
+   "pages": [
+    "/location/culver-city",
+    "/location/san-pedro"
+   ]
+  },
+  {
+   "name": "shop-weedmaps",
+   "wpTemplate": "single-location (location CPT child, location-pagetype cannabis-menu-page)",
+   "representative": "/location/culver-city/shop",
+   "pages": [
+    "/location/culver-city/shop",
+    "+ 18 query-string variants (shopRouteOf)"
+   ]
+  },
+  {
+   "name": "shop-jane",
+   "wpTemplate": "page 61855 (child of location 58921) with no page-template body class; Jane Menu plugin",
+   "representative": "/location/san-pedro/shop",
+   "pages": [
+    "/location/san-pedro/shop",
+    "+ 8 /shop/menu/<cat> and 19 query-string variants (shopRouteOf)"
+   ]
+  },
+  {
+   "name": "review-single",
+   "wpTemplate": "single-reviews (reviews CPT)",
+   "representative": "/reviews/james",
+   "pages": [
+    "/reviews/greg-s",
+    "/reviews/james",
+    "/reviews/jennifer",
+    "/reviews/patricia-h",
+    "/reviews/thomas-h"
+   ]
+  },
+  {
+   "name": "author-archive",
+   "wpTemplate": "author archive",
+   "representative": "/author/werollupadmin",
+   "pages": [
+    "/author/werollupadmin"
+   ]
+  },
+  {
+   "name": "taxonomy-archive",
+   "wpTemplate": "taxonomy location-pagetype archive",
+   "representative": "/location-pagetype/primary-location",
+   "pages": [
+    "/location-pagetype/cannabis-menu-page",
+    "/location-pagetype/primary-location"
+   ]
+  },
+  {
+   "name": "not-found",
+   "wpTemplate": "404 (body not captured)",
+   "representative": null,
+   "pages": [
+    "/products/edibles-gummies"
+   ]
+  }
+ ]
+}

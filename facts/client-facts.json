@@ -1,0 +1,874 @@
+{
+  "schema": "site-reforge/client-facts@1",
+  "note": "Declared facts. ONLY facts recorded here or present in audit/content-inventory.json may appear as claims on the rebuild. Everything else is a fabrication and sr-fabrication.mjs fails the gate.",
+  "provenance": {
+    "writtenBy": "WF1 Understand, compliance lane, 2026-10-13",
+    "source": "The live-site harvest of 2026-10-13 only: audit/raw/*.html (91 pages), audit/capture/baseline.index.1440.style.json (rendered top bar). No fact here comes from the client, from a third-party listing or from memory.",
+    "pageKeys": "Page references are URL paths on werollup.com. \"ALL_91\" = every crawled page. \"NON_LOCATION_40\" = the 40 crawled pages whose path does not start with /location or /location-pagetype.",
+    "evidenceTable": "docs/FACTS-EVIDENCE.md",
+    "clientStatus": "Nothing in this file has been confirmed by the client. Every conflicts[] and openQuestions[] entry needs the client."
+  },
+  "gateCaveat": "sr-fabrication.mjs adds EVERY string value in this file to its allowed corpus (factsCorpus walks all values, including quotes, notes and conflicts). Do not paste a value here that the live site does not show. Values that appear only inside conflicts[] are live-site values that conflict with each other; they are recorded so nobody has to guess, not so either one can be printed.",
+  "legalName": "",
+  "legalNameNote": "NOT STATED on any crawled page. The only possible trace is the Weedmaps URL slug \"the-green-co-dispensary-inc\" (a URL, not a statement of the legal name). Do not print a legal name until the client supplies it.",
+  "brand": "We Roll Up",
+  "brandEvidence": [
+    {
+      "quote": "We Roll Up All rights reserved.",
+      "pages": [
+        "ALL_91"
+      ],
+      "where": "footer, preceded by \"© 2026\""
+    },
+    {
+      "quote": "Welcome to We Roll Up",
+      "pages": [
+        "/about-us"
+      ],
+      "where": "About page heading"
+    }
+  ],
+  "brandVariants": [
+    {
+      "asShown": "We Roll Up LA",
+      "quote": "We Roll Up LA",
+      "pages": [
+        "/service-area/culver-city"
+      ],
+      "note": "appears only in the Culver City service-area copy"
+    }
+  ],
+  "phone": [
+    "424 264 5423",
+    "888-777-6655"
+  ],
+  "phoneNote": "phone[0] is the San Pedro number, also given as the general fallback (\"feel free to call us at 424 264 5423\"). phone[1] is the number printed for LAX - Culver City. Formats differ per occurrence: see addresses[].phoneOccurrences.",
+  "email": [],
+  "emailNote": "NO working email is published. The only email slot on the site is the placeholder \"Email: [email]\" with href mailto:[email] on /accessibility-statement (see sourceDefects).",
+  "addresses": [
+    {
+      "id": "san-pedro",
+      "storeName": "San Pedro - Palos Verdes",
+      "storeNameVariants": [
+        "San Pedro - Palos Verdes",
+        "San Pedro – Palos Verdes",
+        "San Pedro"
+      ],
+      "street": "1705 S Gaffey Street",
+      "locality": "San Pedro",
+      "region": "CA",
+      "postalCode": "90731",
+      "phone": "424 264 5423",
+      "evidence": [
+        {
+          "quote": "1705 S Gaffey Street, San Pedro, CA 90731",
+          "pages": [
+            "ALL_91"
+          ],
+          "where": "footer and the \"Choose Your Location\" modal"
+        },
+        {
+          "quote": "1705 S Gaffey Street San Pedro, CA 90731 424 264 5423",
+          "pages": [
+            "/contact"
+          ],
+          "where": "contact page store card"
+        },
+        {
+          "quote": "1705 S Gaffey Street, San Pedro 90731– CA , United States 424 264 5423",
+          "pages": [
+            "/privacy-policy"
+          ],
+          "where": "privacy policy (note the odd \"90731– CA\" order)"
+        }
+      ],
+      "phoneOccurrences": [
+        {
+          "text": "424 264 5423",
+          "href": "tel:+1424 264 5423",
+          "pages": [
+            "ALL_91"
+          ],
+          "where": "footer"
+        },
+        {
+          "text": "Call Now",
+          "href": "tel:+14242645423",
+          "pages": [
+            "30 pages: /location/san-pedro, /location/san-pedro/shop*, /location-pagetype/primary-location"
+          ],
+          "where": "location header button"
+        },
+        {
+          "text": "424 264 5423",
+          "href": "tel:424 264 5423",
+          "pages": [
+            "/"
+          ],
+          "where": "delivery zip finder, no-result message"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps?cid=5006542390870460260",
+      "mapsEvidence": "data-directions-url of the San Pedro option in #currently-shopping (ALL_91); \"Directions\" and \"Get Directions\" links",
+      "reviewUrl": "https://www.google.com/search?hl=en-US&gl=us&q=We+Roll+Up,+1705+S+Gaffey+St,+San+Pedro,+CA+90731&ludocid=5006542390870460260&lsig=AB86z5W0PW8o5oD0v0X_fMdgOIro#lrd=0x80dd371d9ba6c7d7:0x457acfc758c4c764,3",
+      "hoursAsShown": [
+        {
+          "text": "Open: 10:00 AM - 10:00 PM",
+          "pages": [
+            "ALL_91"
+          ],
+          "where": "top bar #locationHours, filled by main.js from data-hours of the selected store; CSS text-uppercase renders it \"OPEN: 10:00 AM - 10:00 PM\""
+        },
+        {
+          "text": "Sunday-Thursday 10:00 AM-8:00 PM Friday-Saturday 10:00 AM-9:00 PM",
+          "pages": [
+            "/contact"
+          ],
+          "where": "contact page store card \"Hours\""
+        }
+      ],
+      "hoursStatus": "CONFLICT C1. No hoursSpec is set on purpose: the two published schedules disagree.",
+      "licence": "UNVERIFIED which premises C10-0000854-LIC covers (see licences[] and conflict C5)."
+    },
+    {
+      "id": "culver-city",
+      "storeName": "LAX - Culver City",
+      "storeNameVariants": [
+        "LAX - Culver City",
+        "LAX – Culver City",
+        "LAX"
+      ],
+      "street": "11834 Jefferson Boulevard",
+      "locality": "Culver City",
+      "region": "CA",
+      "postalCodeAsShown": "11834",
+      "postalCodeStatus": "CONFLICT C4. The site prints \"Culver City, CA 11834\" everywhere; 11834 repeats the street number and does not fit the 9xxxx pattern of every ZIP in the site's own delivery list for this store. postalCode is deliberately left unset so no tool emits it into structured data. The client must supply the real ZIP.",
+      "phone": "888-777-6655",
+      "phoneStatus": "As printed consistently (footer, /contact, \"Call Now\"). UNVERIFIED that it reaches the store; the same template entry carries the wrong ZIP and \"Coming soon\" hours. Client to confirm.",
+      "evidence": [
+        {
+          "quote": "11834 Jefferson Boulevard, Culver City, CA 11834",
+          "pages": [
+            "ALL_91"
+          ],
+          "where": "footer and the \"Choose Your Location\" modal"
+        },
+        {
+          "quote": "11834 Jefferson Boulevard Culver City, CA 11834 888-777-6655",
+          "pages": [
+            "/contact"
+          ],
+          "where": "contact page store card"
+        }
+      ],
+      "phoneOccurrences": [
+        {
+          "text": "888-777-6655",
+          "href": "tel:+1888-777-6655",
+          "pages": [
+            "ALL_91"
+          ],
+          "where": "footer"
+        },
+        {
+          "text": "Call Now",
+          "href": "tel:+18887776655",
+          "pages": [
+            "21 pages: /location/culver-city, /location/culver-city/shop*, /location-pagetype/cannabis-menu-page"
+          ],
+          "where": "location header button"
+        }
+      ],
+      "mapsUrl": "https://www.google.com/maps?cid=376465196010288395",
+      "mapsEvidence": "data-directions-url of the Culver City option in #currently-shopping (ALL_91); \"Directions\" link on /location/culver-city*. The /contact \"Get Directions\" link is a different URL: https://www.google.com/maps/dir//we+roll+up+culver+city/@37.6822603,-111.5227734,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2b1001766f101:0x5397919e67db50b!2m2!1d-118.4021085!2d33.9854685?entry=ttu",
+      "reviewUrl": "https://search.google.com/local/writereview?placeid=ChIJAfFmFwCxwoARC7V95hl5OQU",
+      "hoursAsShown": [
+        {
+          "text": "Open: 10:00 AM - 10:00 PM",
+          "pages": [
+            "ALL_91"
+          ],
+          "where": "top bar #locationHours via data-hours of the Culver City option"
+        },
+        {
+          "text": "Sunday-Thursday Coming soon Friday-Saturday Coming Soon PM",
+          "pages": [
+            "/contact"
+          ],
+          "where": "contact page store card \"Hours\""
+        }
+      ],
+      "hoursStatus": "CONFLICT C2. No hoursSpec is set on purpose.",
+      "licence": "No licence number is attributed to this store anywhere on the site (conflict C5)."
+    }
+  ],
+  "hours": "",
+  "hoursNote": "Left empty on purpose (conflicts C1, C2, C3). Printable as copy, verbatim and in place: the top-bar string per store, and the /contact schedule. Not printable as a merged or reformatted schedule, and not to be emitted as openingHours until the client confirms one schedule per store.",
+  "operatingDaysClaim": [
+    {
+      "quote": "Our doors are open and our delivery runs seven days a week",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "quote": "Open seven days per week, our location at 1705 S Gaffey Street",
+      "pages": [
+        "/service-area/san-pedro"
+      ]
+    },
+    {
+      "quote": "We open seven days per week, so timing is rarely an obstacle.",
+      "pages": [
+        "/service-area/lax"
+      ]
+    }
+  ],
+  "licences": [
+    {
+      "number": "C10-0000854-LIC",
+      "asShown": "Cannabis License: C10-0000854-LIC",
+      "pages": [
+        "ALL_91"
+      ],
+      "where": "footer, every page",
+      "premises": "UNVERIFIED. The site shows one number with no store attribution, for two stores.",
+      "note": "The DCC licence search was not consulted (out of the brief). Client to confirm which premises this number covers and to supply the second store's number if that store is licensed and open."
+    }
+  ],
+  "certifications": [],
+  "awards": [],
+  "statistics": [],
+  "statisticsNote": "The site states no business statistics (customers served, years, ratings). It does repeat unsourced third-party market figures; those are listed in docs/COMPLIANCE.md (finding F-STAT), not here, because they are not facts about the client.",
+  "testimonials": [
+    {
+      "quote": "Awesome staff, friendly and knowledgeable. Welcomed from the moment you check in. Need more stars! Recommend to everyone. First time discount! Head here for quality products and FANTASTIC service.",
+      "attribution": "Jennifer",
+      "starsShown": 5,
+      "pages": [
+        "ALL_91"
+      ]
+    },
+    {
+      "quote": "I went in for the first time today. Perfect. Every tender was so nice and the guy that helped me pick out my stuff was so helpful and made sure I was really taken care of. I love that this new local place opened up and is awesome. I will definitely be making this my new first stop shop.",
+      "attribution": "Patricia H",
+      "starsShown": 5,
+      "pages": [
+        "ALL_91"
+      ]
+    },
+    {
+      "quote": "This place is amazing! Awesome service, the guys here take care of me!! Real blessing to this town! Awesome to see a legal dispensary in San Pedro! Come see David he’ll take care of you!",
+      "attribution": "Thomas H",
+      "starsShown": 5,
+      "pages": [
+        "ALL_91"
+      ]
+    },
+    {
+      "quote": "Great staff. They inform you on deals and are very friendly and efficient. Love this place.",
+      "attribution": "James",
+      "starsShown": 5,
+      "pages": [
+        "ALL_91"
+      ]
+    },
+    {
+      "quote": "I finally made it in here and man its rad! Super chill spot with a cool vibe, good product and budtenders who know their stuff. Stoked that there is a legal shop in Pedro now. Will for sure be going back.",
+      "attribution": "Greg S",
+      "starsShown": 5,
+      "pages": [
+        "ALL_91"
+      ]
+    }
+  ],
+  "testimonialsNote": "Shown in the \"Our Reviews / What our customers are saying\" carousel on every page; star counts are five fa-star icons each (not text). No platform, date or store is attributed to any review on the site. Each also has its own page /reviews/<name> whose H1 is the reviewer name. Jennifer's text contains a line break before \"First time discount!\".",
+  "clients": [],
+  "guarantees": [],
+  "pricing": [],
+  "pricingNote": "No price appears in the static HTML of any crawled page (a \"$\" search over all 91 pages returned 0 hits). Menu prices come from the embedded third-party menus at run time and are not facts of this file.",
+  "services": [
+    {
+      "name": "online ordering, in-store pickup, curbside pickup",
+      "quote": "conveniences such as online ordering, in-store pickup, and curbside pickup.",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "name": "delivery",
+      "quote": "bringing the dispensary experience directly to your door with our convenient, discreet, and reliable delivery service.",
+      "pages": [
+        "/"
+      ],
+      "status": "CONFLICT C3 (other pages say delivery is coming soon)"
+    },
+    {
+      "name": "delivery zip finder",
+      "quote": "Awesome! We deliver to you. Fast!",
+      "pages": [
+        "/"
+      ],
+      "note": "result text of the zip finder"
+    }
+  ],
+  "promotions": [
+    {
+      "quote": "We Roll Up Rosin Club + Buy any 5 rosin products + Get 25% Off",
+      "pages": [
+        "NON_LOCATION_40"
+      ],
+      "where": "scrolling top-bar marquee (#site-topbar #scroll-text), after \"Welcome to We Roll Up…\"",
+      "store": "not stated",
+      "timeBound": "possibly; no dates or terms on the site",
+      "compliance": "a discount, not free goods; must be current and true (Bus. & Prof. Code 26151(d), 26152(a))"
+    },
+    {
+      "quote": "10% Off - Seniors, Military Members, & Longshoremen",
+      "validity": "Valid at San Pedro - Palos Verdes",
+      "pages": [
+        "/about-us/daily-deals",
+        "/location/san-pedro"
+      ],
+      "timeBound": "possibly",
+      "compliance": "discount; low risk"
+    },
+    {
+      "quote": "Munchie Monday - 10% off Edibles",
+      "validity": "Valid at San Pedro - Palos Verdes",
+      "pages": [
+        "/about-us/daily-deals",
+        "/location/san-pedro"
+      ],
+      "timeBound": "possibly (weekly)",
+      "compliance": "discount; low risk"
+    },
+    {
+      "quote": "Early Bird Specials",
+      "validity": "Valid at LAX - Culver City",
+      "pages": [
+        "/about-us/daily-deals",
+        "/location/culver-city"
+      ],
+      "timeBound": "possibly; no terms shown",
+      "compliance": "no terms shown; low risk"
+    },
+    {
+      "quote": "Spin the Wheel for Prizes",
+      "validity": "Valid at LAX - Culver City",
+      "pages": [
+        "/about-us/daily-deals",
+        "/location/culver-city"
+      ],
+      "timeBound": "possibly",
+      "compliance": "HIGH RISK: a chance-based prize promotion. See docs/COMPLIANCE.md F-PROMO-1 (Bus. & Prof. Code 26153; 4 CCR 15040(a)(4), 15040.2)."
+    }
+  ],
+  "firstTimeDiscount": {
+    "quote": "First time discount!",
+    "where": "ONLY inside the customer review attributed to Jennifer (carousel, ALL_91). The site itself does not offer or describe a first-time discount anywhere.",
+    "rule": "Do not lift it out of the review into a headline, badge or offer."
+  },
+  "languages": [
+    {
+      "language": "Spanish",
+      "quote": "we always have a Spanish-speaking member of our team onsite",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "language": "Spanish",
+      "quote": "We speak Spanish!",
+      "pages": [
+        "/about-us"
+      ]
+    },
+    {
+      "language": "Spanish",
+      "quote": "Bilingual service with Spanish-speaking team members always available",
+      "pages": [
+        "/service-area/playa-vista-ca"
+      ]
+    }
+  ],
+  "languagesNote": "The Spanish-speaking claim has 34 distinct matches on 24 pages (product, education, about and service-area pages). It is not attributed to one store.",
+  "serviceAreas": {
+    "statedHub": {
+      "quote": "From our home base in San Pedro, we extend our reach to Culver City, Rancho Palos Verdes, Lomita, Wilmington, Harbor City, Torrance, Rolling Hills, Rolling Hills Estates, and Palos Verdes Estates.",
+      "pages": [
+        "/service-area"
+      ]
+    },
+    "servicePagesByPath": {
+      "underSanPedro": [
+        "/service-area/san-pedro",
+        "/service-area/san-pedro/carson-ca",
+        "/service-area/san-pedro/rancho-palos-verdes-ca",
+        "/service-area/san-pedro/san-pedro-weed-delivery",
+        "/service-area/san-pedro/wilmington-ca"
+      ],
+      "topLevel": [
+        "/service-area/culver-city",
+        "/service-area/culver-city/culver-city-delivery-and-pickup",
+        "/service-area/lax",
+        "/service-area/lax/lax-weed-delivery",
+        "/service-area/marina-del-rey-ca",
+        "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+        "/service-area/playa-vista-ca",
+        "/service-area/playa-vista-ca/playa-vista-weed-delivery",
+        "/service-area/westchester-ca",
+        "/service-area/westchester-ca/westchester-weed-delivery"
+      ],
+      "note": "Store attribution of the top-level areas is NOT stated; the URL hierarchy only suggests it."
+    },
+    "deliveryZipFinder": {
+      "where": "inline script on / (zip finder \"Your Delivery Location\"); functional data, not visible copy",
+      "location1": {
+        "label": "San Pedro",
+        "link": "/location/san-pedro/",
+        "menu": "/location/san-pedro/shop/",
+        "zips": [
+          "90254",
+          "90277",
+          "90275",
+          "90732",
+          "90274",
+          "90505",
+          "90503",
+          "90501",
+          "90502",
+          "90745",
+          "90717",
+          "90710",
+          "90744",
+          "90731",
+          "90822",
+          "90813",
+          "90806",
+          "90755",
+          "90810"
+        ]
+      },
+      "location2": {
+        "label": "Playa Vista",
+        "link": "/location/culver-city/",
+        "menu": "/location/culver-city/shop/",
+        "zips": [
+          "90402",
+          "90403",
+          "90401",
+          "90404",
+          "90405",
+          "90291",
+          "90292",
+          "90094",
+          "90066",
+          "90293",
+          "90245",
+          "90266",
+          "90254",
+          "90503",
+          "90278",
+          "90504",
+          "90506",
+          "90260",
+          "90250",
+          "90304",
+          "90301",
+          "90302",
+          "90303",
+          "90305",
+          "90047",
+          "90043",
+          "90230",
+          "90056",
+          "90062",
+          "90018",
+          "90016",
+          "90232",
+          "90034",
+          "90008",
+          "90014",
+          "90015",
+          "90019",
+          "90211",
+          "90095",
+          "90024",
+          "90048",
+          "90069",
+          "90036",
+          "90007",
+          "90210",
+          "90077",
+          "90071"
+        ],
+        "note": "labelled \"Playa Vista\" but links to the LAX - Culver City store (conflict C6)"
+      },
+      "zipsInBothLists": [
+        "90254",
+        "90503"
+      ],
+      "evaluationOrder": "location1 is tested first, so the shared ZIPs resolve to San Pedro",
+      "notFound": "We’re sorry! We couldn’t find any locations matching the zip code you entered. Please try another search, and to be safe feel free to call us at 424 264 5423 to confirm if we have options for your area or not."
+    }
+  },
+  "socialProfiles": [
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/we.roll.up/?hl=en",
+      "pages": [
+        "ALL_91"
+      ]
+    },
+    {
+      "label": "Google",
+      "url": "https://www.google.com/maps?cid=5006542390870460260",
+      "pages": [
+        "ALL_91"
+      ],
+      "note": "this cid is the San Pedro listing (same as the San Pedro directions link), shown on Culver City pages too"
+    },
+    {
+      "label": "Yelp",
+      "url": "https://www.yelp.com/biz/we-roll-up-los-angeles-4",
+      "pages": [
+        "ALL_91"
+      ],
+      "note": "store not stated"
+    },
+    {
+      "label": "Weedmaps",
+      "url": "https://weedmaps.com/dispensaries/the-green-co-dispensary-inc",
+      "pages": [
+        "ALL_91"
+      ],
+      "note": "store not stated; the slug names a different business name"
+    }
+  ],
+  "sameAs": [],
+  "sameAsNote": "Left empty on purpose. sr-seo copies top-level sameAs onto EVERY LocalBusiness node, which would tie the San Pedro Google listing (and profiles of unknown store) to the Culver City node. Fill only after the client attributes each profile to a store.",
+  "areaServed": [],
+  "areaServedNote": "Left empty on purpose: sr-seo copies it onto both store nodes, and the site does not attribute areas to stores.",
+  "businessTypeNote": "businessType is not set; sr-seo then uses LocalBusiness. The site declares no schema.org type and there is no JSON-LD on any crawled page.",
+  "ageGate": {
+    "heading": "Verify Your Age",
+    "question": "Are you over the age of 21?",
+    "yes": "Yes, I'm 21+",
+    "no": "No, I'm Under 21",
+    "denied": "We're sorry, but you do not meet the required age to enter this website.",
+    "thenStorePicker": "Choose your location",
+    "mechanism": "Bootstrap modal #ageGateModal, backdrop static, keyboard off; #mainContent stays hidden until passed. \"Yes\" reveals the store list; choosing a store sets localStorage agePass_v2=true and cookie agePass_v2=true (max-age 31536000, one year) and navigates to the store page. \"No\" shows the denied text only. Same markup on ALL_91."
+  },
+  "claims": [
+    {
+      "claim": "first licensed dispensary in San Pedro",
+      "variants": [
+        {
+          "quote": "As the first legal, licensed cannabis dispensary in San Pedro",
+          "pages": [
+            "/"
+          ]
+        },
+        {
+          "quote": "As San Pedro’s first licensed Cannabis dispensary",
+          "pages": [
+            "/about-us"
+          ]
+        },
+        {
+          "quote": "We are San Pedro’s original licensed dispensary",
+          "pages": [
+            "/products/concentrates"
+          ]
+        }
+      ],
+      "status": "Client claim; \"first\" or \"original\" licensed wording on 27 pages. UNVERIFIED; the client should hold substantiation (Bus. & Prof. Code 26151(d))."
+    },
+    {
+      "claim": "serves adults 21+ with valid ID",
+      "variants": [
+        {
+          "quote": "If you’re 21 or older with a valid ID",
+          "pages": [
+            "/"
+          ]
+        }
+      ]
+    },
+    {
+      "claim": "medicinal customers",
+      "variants": [
+        {
+          "quote": "To shop We Roll Up as a medicinal cannabis patient, you need a California MMJ card.",
+          "pages": [
+            "/education/recreational-medicinal"
+          ]
+        }
+      ],
+      "status": "CONFLICT C7"
+    }
+  ],
+  "notStatedOnSite": [
+    "legal business name",
+    "a working email address",
+    "the second store's licence number",
+    "hours for LAX - Culver City (only \"Coming soon\")",
+    "delivery minimum",
+    "delivery fee",
+    "delivery hours or windows (only \"Check delivery windows to select a time that works with your schedule\")",
+    "payment methods (no mention of cash, debit, card or ATM on any page)",
+    "any price",
+    "founding year or \"since\" date",
+    "review platform, dates or store",
+    "any JSON-LD (0 of 91 pages carry application/ld+json; seo-inventory jsonLd empty on all 91)",
+    "geo coordinates (only inside the /contact Culver City Google directions URL)",
+    "priceRange"
+  ],
+  "conflicts": [
+    {
+      "id": "C1",
+      "topic": "San Pedro hours",
+      "a": {
+        "text": "Open: 10:00 AM - 10:00 PM",
+        "pages": [
+          "ALL_91"
+        ],
+        "where": "top bar (data-hours)"
+      },
+      "b": {
+        "text": "Sunday-Thursday 10:00 AM-8:00 PM / Friday-Saturday 10:00 AM-9:00 PM",
+        "pages": [
+          "/contact"
+        ]
+      },
+      "resolution": "client"
+    },
+    {
+      "id": "C2",
+      "topic": "LAX - Culver City hours",
+      "a": {
+        "text": "Open: 10:00 AM - 10:00 PM",
+        "pages": [
+          "ALL_91"
+        ],
+        "where": "top bar (data-hours)"
+      },
+      "b": {
+        "text": "Sunday-Thursday Coming soon / Friday-Saturday Coming Soon PM",
+        "pages": [
+          "/contact"
+        ]
+      },
+      "resolution": "client"
+    },
+    {
+      "id": "C3",
+      "topic": "delivery availability",
+      "a": {
+        "text": "Our doors are open and our delivery runs seven days a week",
+        "pages": [
+          "/"
+        ]
+      },
+      "b": {
+        "text": "Check back for delivery coming soon / Check back for the convenience of delivery in the very near future. / watch for delivery services coming soon!",
+        "pages": [
+          "/products/pre-rolls",
+          "/products/vaporizers-cartridges",
+          "/education/recreational-medicinal"
+        ]
+      },
+      "resolution": "client (stale copy on the older product/education pages is likely, UNVERIFIED)"
+    },
+    {
+      "id": "C4",
+      "topic": "LAX - Culver City ZIP",
+      "a": {
+        "text": "Culver City, CA 11834",
+        "pages": [
+          "ALL_91"
+        ]
+      },
+      "b": {
+        "observation": "every ZIP in the site's own delivery list for this store starts with 90 (location2zips)",
+        "pages": [
+          "/"
+        ]
+      },
+      "resolution": "client supplies the ZIP; postalCode left unset"
+    },
+    {
+      "id": "C5",
+      "topic": "licence coverage",
+      "a": {
+        "text": "Cannabis License: C10-0000854-LIC",
+        "pages": [
+          "ALL_91"
+        ],
+        "note": "the only licence number on the site"
+      },
+      "b": {
+        "observation": "two stores are presented as open for shopping and delivery; 4 CCR 15000.1(a) requires a licence for each separate premises",
+        "pages": [
+          "ALL_91"
+        ]
+      },
+      "resolution": "client"
+    },
+    {
+      "id": "C6",
+      "topic": "Playa Vista as a location",
+      "a": {
+        "text": "Location: Playa Vista",
+        "pages": [
+          "/"
+        ],
+        "where": "zip finder result, links to /location/culver-city/"
+      },
+      "b": {
+        "observation": "the store is called LAX - Culver City everywhere else; the nav also links /shop-playa-vista?filters%5Broot_types%5D%5B%5D=vape on 40 pages (not crawled)",
+        "pages": [
+          "ALL_91"
+        ]
+      },
+      "resolution": "client"
+    },
+    {
+      "id": "C7",
+      "topic": "what a medicinal customer needs",
+      "a": {
+        "text": "To shop We Roll Up as a medicinal cannabis patient, you need a California MMJ card.",
+        "pages": [
+          "/education/recreational-medicinal"
+        ]
+      },
+      "b": {
+        "text": "You must be 21 or older for recreational purchases, or hold a valid medical recommendation, and we verify ID at the door.",
+        "pages": [
+          "/service-area/san-pedro/carson-ca"
+        ]
+      },
+      "resolution": "client (4 CCR 15404(b) speaks of a physician's recommendation)"
+    },
+    {
+      "id": "C8",
+      "topic": "review links on Culver City pages",
+      "a": {
+        "text": "Review Us -> writereview placeid ChIJAfFmFwCxwoARC7V95hl5OQU",
+        "pages": [
+          "/location/culver-city"
+        ]
+      },
+      "b": {
+        "text": "Explore All Reviews / Leave a Review -> the San Pedro Google listing (ludocid=5006542390870460260)",
+        "pages": [
+          "ALL_91"
+        ]
+      },
+      "resolution": "client; keep links as they are until then"
+    },
+    {
+      "id": "C9",
+      "topic": "age wording",
+      "a": {
+        "text": "Are you over the age of 21?",
+        "pages": [
+          "ALL_91"
+        ]
+      },
+      "b": {
+        "text": "Yes, I'm 21+",
+        "pages": [
+          "ALL_91"
+        ]
+      },
+      "resolution": "client (copy nuance: \"over 21\" vs \"21 or older\")"
+    },
+    {
+      "id": "C10",
+      "topic": "map on the Culver City delivery page",
+      "a": {
+        "text": "Order Now – Culver City Delivery",
+        "pages": [
+          "/service-area/culver-city/culver-city-delivery-and-pickup"
+        ],
+        "where": "heading above the Map embed"
+      },
+      "b": {
+        "observation": "the embedded Google map src names place 0x457acfc758c4c764 (We Roll Up, San Pedro; the same id as the San Pedro review link)",
+        "pages": [
+          "/service-area/culver-city/culver-city-delivery-and-pickup"
+        ]
+      },
+      "resolution": "client"
+    }
+  ],
+  "sourceDefects": [
+    {
+      "id": "S1",
+      "text": "Email: [email]",
+      "pages": [
+        "/accessibility-statement"
+      ],
+      "note": "placeholder; href mailto:[email]"
+    },
+    {
+      "id": "S2",
+      "text": "Coming Soon PM",
+      "pages": [
+        "/contact"
+      ],
+      "note": "template remnant in the LAX hours"
+    },
+    {
+      "id": "S3",
+      "text": "Culver City, CA 11834",
+      "pages": [
+        "ALL_91"
+      ],
+      "note": "ZIP equals the street number (C4)"
+    },
+    {
+      "id": "S4",
+      "text": "werollup.com",
+      "pages": [
+        "/service-area/culver-city"
+      ],
+      "note": "8 stray \"werollup.com\" tokens inside sentences (pasted citation residue)"
+    },
+    {
+      "id": "S5",
+      "text": "Delivery Radius GraphicInclude a simple circular graphic showing a five‑mile radius around your location.",
+      "pages": [
+        "/service-area/culver-city/culver-city-delivery-and-pickup"
+      ],
+      "note": "an unedited content brief. It sits INSIDE the <iframe> element of the Map embed (between <iframe ...> and </iframe>), so browsers do not render it (iframe parsing; not render-checked, the page is not among the 25 captured templates). audit/content-inventory.json bodyText does contain it, so text parity would wrongly expect it."
+    },
+    {
+      "id": "S6",
+      "text": "(WCAG 2.1) 2.1 Level AA",
+      "pages": [
+        "/accessibility-statement"
+      ],
+      "note": "duplicated version number"
+    },
+    {
+      "id": "S7",
+      "text": "send you home happy and with a smile ?",
+      "pages": [
+        "/about-us"
+      ],
+      "note": "a literal \"?\" in the HTML, probably a lost emoji"
+    },
+    {
+      "id": "S8",
+      "text": "Local specials: Residents often enjoy exclusive deals—check our Daily Deals product for current offers.",
+      "pages": [
+        "/service-area/culver-city/culver-city-delivery-and-pickup"
+      ],
+      "note": "\"product\" where \"page\" seems meant (UNVERIFIED intent)"
+    }
+  ],
+  "sourceDefectsNote": "Per PLAN D2 the rebuild carries copy verbatim; fixing any defect needs operator approval and a log entry."
+}

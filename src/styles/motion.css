@@ -1,0 +1,33 @@
+/* motion.css - FOUNDATION. DESIGN-SPEC 7: transform and opacity only (the individual translate / scale / rotate
+   properties included), no infinite CSS animation anywhere (R-27), reveals that never hide first-screen content and
+   never override a hover transform (7.2, D-12). The traps, as rules:
+   - site.js marks a [data-reveal] wrapper .is-wait ONLY when its top is at or below innerHeight at load; nothing in the
+     first screen is ever hidden or mid-transition at t=0 (R-24);
+   - the reveal moves the WRAPPER; hover lifts live on the card inside it (D-12, R-25);
+   - .is-in is set by an IntersectionObserver (threshold 0, rootMargin 0), a rAF position check, focusin (at once) and,
+     only when the observer never delivers, a 3 s fail-safe (R-23);
+   - reduced motion: nothing is ever hidden (site.js never adds .is-wait) and no transition runs. */
+[data-reveal] { --i: 0; }
+.motion-ok [data-reveal].is-wait { opacity: 0; translate: 0 var(--rise); }
+.motion-ok [data-reveal].is-in { opacity: 1; translate: 0 0;
+  transition: opacity var(--t-reveal-o) ease calc(var(--i) * 90ms), translate var(--t-reveal-t) var(--ease-out) calc(var(--i) * 90ms); }
+/* focus reveals at once, with no transition (7.2 rule 3) */
+.motion-ok [data-reveal].is-now { opacity: 1; translate: 0 0; transition: none; }
+
+/* never animated in: the licence line, the footer, the strips (7.2 rule 6, R-34) */
+.site-footer [data-reveal], .promo [data-reveal], .shopstrip [data-reveal] { opacity: 1 !important; translate: none !important; }
+
+/* menus, sheet, chooser, gate: fade and slide 10-40 px, 240-320 ms (7.1) */
+.mega:not([hidden]) { animation: wru-drop var(--t-menu) var(--ease-out) both; }
+.sheet:not([hidden]) { animation: wru-slide-in var(--t-menu) var(--ease-out) both; }
+.sheet-scrim:not([hidden]), .dialog:not([hidden]) .dialog__backdrop { animation: wru-fade var(--t-menu) ease both; }
+.dialog:not([hidden]) .dialog__card { animation: wru-rise var(--t-menu) var(--ease-out) both; }
+@keyframes wru-drop { from { opacity: 0; translate: 0 -10px; } to { opacity: 1; translate: 0 0; } }
+@keyframes wru-slide-in { from { opacity: 0; translate: -40px 0; } to { opacity: 1; translate: 0 0; } }
+@keyframes wru-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes wru-rise { from { opacity: 0; translate: 0 16px; } to { opacity: 1; translate: 0 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; transition-delay: 0s !important; scroll-behavior: auto !important; }
+  [data-reveal] { opacity: 1 !important; translate: none !important; }
+}

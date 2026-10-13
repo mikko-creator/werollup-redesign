@@ -1,0 +1,283 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "product-category",
+ "path": "/products/flower/",
+ "slug": "products-flower",
+ "sourceUrl": "https://werollup.com/products/flower",
+ "rawFile": "audit/raw/products-flower.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Flower – We Roll Up",
+ "metaDescription": "Smoking remains the most popular cannabis consumption method. It’s also one of the simplest.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/products/flower/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Flower",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Flower",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Flower",
+      "text": "Flower"
+     },
+     "image": {
+      "ref": "assets/source/refetch-cannabis-grinders-flower-flatlay.webp",
+      "src": "https://werollup.com/media/cannabis-grinders-flower-flatlay.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1080,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Why are we so especially proud of our selection of flower?",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h3",
+     "tag": "h2",
+     "html": "Why are we so especially proud of our selection of flower?",
+     "text": "Why are we so especially proud of our selection of flower?"
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Weed Flower at We Roll Up",
+     "text": "Weed Flower at We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "Smoking remains the most popular cannabis consumption method. It’s also one of the simplest. Whether you choose joints, pipes or bongs, all you need is the device, a lighter and premium bud from We Roll Up, and you’re set to enjoy an ideal experience. Shopping our shelves is a discovery of conscientiously cultivated and carefully curated flower. We carry the brands you’ve heard good things about and the new innovations everyone will soon be talking about.",
+     "text": "Smoking remains the most popular cannabis consumption method. It’s also one of the simplest. Whether you choose joints, pipes or bongs, all you need is the device, a lighter and premium bud from We Roll Up, and you’re set to enjoy an ideal experience. Shopping our shelves is a discovery of conscientiously cultivated and carefully curated flower. We carry the brands you’ve heard good things about and the new innovations everyone will soon be talking about."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Our Flower Hits Different",
+     "text": "Our Flower Hits Different"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "Flavor – We offer the results of painstaking and sophisticated growing practices, evidenced by the rich and wonderful flavor of each strain.",
+       "text": "Flavor – We offer the results of painstaking and sophisticated growing practices, evidenced by the rich and wonderful flavor of each strain."
+      },
+      {
+       "html": "Variety – From our very own brand of hybrids to a wide selection of indicas and sativas, there’s certain to be the perfect potency and effects for your preference.",
+       "text": "Variety – From our very own brand of hybrids to a wide selection of indicas and sativas, there’s certain to be the perfect potency and effects for your preference."
+      },
+      {
+       "html": "Quality – From the gorgeous color and exceptional texture, to the plentiful pistils and trichomes, our flower looks, smells and tastes amazing.",
+       "text": "Quality – From the gorgeous color and exceptional texture, to the plentiful pistils and trichomes, our flower looks, smells and tastes amazing."
+      },
+      {
+       "html": "Cleanliness – You can be sure our bud is free of seeds and contaminants",
+       "text": "Cleanliness – You can be sure our bud is free of seeds and contaminants"
+      },
+      {
+       "html": "Enjoyment – Nothing is quite the same as lighting up a joint to socialize, share or simply kick back and appreciate.",
+       "text": "Enjoyment – Nothing is quite the same as lighting up a joint to socialize, share or simply kick back and appreciate."
+      }
+     ]
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h2",
+     "tag": "h3",
+     "html": "Find the Flower You’re Looking for At We Roll Up",
+     "text": "Find the Flower You’re Looking for At We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "We Roll Up offers a welcoming, comfortable and casual atmosphere for medicinal patients, recreational enthusiasts and all walks of life. Our friendly staff is knowledgeable in<a href=\"/products/\"> our products</a>, and we always have a Spanish-speaking employee available. As the first licensed marijuana dispensary in San Pedro, we set the bar that much higher. Browse our flower in-store or by way of our website. For a quicker turnaround, order online for in-store or curbside pickup. Watch for delivery coming soon!",
+     "text": "We Roll Up offers a welcoming, comfortable and casual atmosphere for medicinal patients, recreational enthusiasts and all walks of life. Our friendly staff is knowledgeable in our products, and we always have a Spanish-speaking employee available. As the first licensed marijuana dispensary in San Pedro, we set the bar that much higher. Browse our flower in-store or by way of our website. For a quicker turnaround, order online for in-store or curbside pickup. Watch for delivery coming soon!"
+    },
+    {
+     "type": "buttons",
+     "items": [
+      {
+       "label": "Shop Now",
+       "text": "Shop Now",
+       "href": "/shop/",
+       "variant": "secondary",
+       "activeLocation": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "content",
+   "heading": "Cannabis Flower: The Heart of the Plant",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Cannabis Flower: The Heart of the Plant",
+     "text": "Cannabis Flower: The Heart of the Plant"
+    },
+    {
+     "type": "paragraph",
+     "html": "If you have ever stood at a dispensary counter wondering which jar holds the strain that matches your evening plans, you already understand why flower remains the centerpiece of cannabis culture. It is the most recognizable, most versatile, and arguably most honest form of the plant. At We Roll Up in <a href=\"/service-area/lax/\">LAX</a> and San Pedro, the first licensed cannabis <a href=\"/service-area/san-pedro/\">dispensary in San Pedro</a>, flower is where our passion truly shows. Every bud on our shelves has been chosen because it represents the quality, aroma, and effect that we want our community to experience.",
+     "text": "If you have ever stood at a dispensary counter wondering which jar holds the strain that matches your evening plans, you already understand why flower remains the centerpiece of cannabis culture. It is the most recognizable, most versatile, and arguably most honest form of the plant. At We Roll Up in LAX and San Pedro, the first licensed cannabis dispensary in San Pedro, flower is where our passion truly shows. Every bud on our shelves has been chosen because it represents the quality, aroma, and effect that we want our community to experience."
+    },
+    {
+     "type": "paragraph",
+     "html": "Flower refers to the dried, cured buds of the female cannabis plant. These buds carry the trichomes, the tiny resin glands that contain cannabinoids like THC and CBD, along with the terpenes responsible for scent and flavor. When you smoke or vaporize flower, you are experiencing the plant in its most complete and natural state, untouched by the additional processing that goes into concentrates or edibles.",
+     "text": "Flower refers to the dried, cured buds of the female cannabis plant. These buds carry the trichomes, the tiny resin glands that contain cannabinoids like THC and CBD, along with the terpenes responsible for scent and flavor. When you smoke or vaporize flower, you are experiencing the plant in its most complete and natural state, untouched by the additional processing that goes into concentrates or edibles."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "From Harvest to Shelf: How Flower Is Prepared",
+     "text": "From Harvest to Shelf: How Flower Is Prepared"
+    },
+    {
+     "type": "paragraph",
+     "html": "The journey of a quality bud begins long before it reaches our menu. After cultivators harvest the plants, the flower must be trimmed, dried, and cured. Drying lowers the moisture content slowly, which prevents mold and preserves the delicate terpene profile. Curing then allows the buds to rest in controlled containers, smoothing out harshness and deepening flavor over a period of weeks.",
+     "text": "The journey of a quality bud begins long before it reaches our menu. After cultivators harvest the plants, the flower must be trimmed, dried, and cured. Drying lowers the moisture content slowly, which prevents mold and preserves the delicate terpene profile. Curing then allows the buds to rest in controlled containers, smoothing out harshness and deepening flavor over a period of weeks."
+    },
+    {
+     "type": "paragraph",
+     "html": "By the time flower arrives at We Roll Up, it has passed through state-mandated lab testing for potency and contaminants. We review these results so we know exactly what each strain offers. Proper storage continues in-store, where temperature and humidity are managed to keep buds fresh, fragrant, and ready for you to enjoy the moment you take them home.",
+     "text": "By the time flower arrives at We Roll Up, it has passed through state-mandated lab testing for potency and contaminants. We review these results so we know exactly what each strain offers. Proper storage continues in-store, where temperature and humidity are managed to keep buds fresh, fragrant, and ready for you to enjoy the moment you take them home."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Understanding Strain Types and Effects",
+     "text": "Understanding Strain Types and Effects"
+    },
+    {
+     "type": "paragraph",
+     "html": "Choosing flower is rarely about THC percentage alone. The interplay of cannabinoids and terpenes shapes how a strain actually feels, a phenomenon often called the entourage effect. Our team takes the time to walk you through the categories so you can match the experience to your needs.",
+     "text": "Choosing flower is rarely about THC percentage alone. The interplay of cannabinoids and terpenes shapes how a strain actually feels, a phenomenon often called the entourage effect. Our team takes the time to walk you through the categories so you can match the experience to your needs."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong>Indica-leaning flower:</strong> Often associated with relaxation, body-heavy sensations, and evening or nighttime use when you want to unwind.",
+       "text": "Indica-leaning flower: Often associated with relaxation, body-heavy sensations, and evening or nighttime use when you want to unwind."
+      },
+      {
+       "html": "<strong>Sativa-leaning flower:</strong> Frequently chosen for daytime activity, creativity, and a more uplifting, mentally engaging experience.",
+       "text": "Sativa-leaning flower: Frequently chosen for daytime activity, creativity, and a more uplifting, mentally engaging experience."
+      },
+      {
+       "html": "<strong>Hybrid flower:</strong> Blended genetics that balance qualities of both, giving you flexibility for a range of moods and moments.",
+       "text": "Hybrid flower: Blended genetics that balance qualities of both, giving you flexibility for a range of moods and moments."
+      },
+      {
+       "html": "<strong>High-CBD flower:</strong> Lower in psychoactive intensity and popular among those seeking calm without a pronounced high.",
+       "text": "High-CBD flower: Lower in psychoactive intensity and popular among those seeking calm without a pronounced high."
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "These categories are starting points rather than strict rules. Terpenes such as myrcene, limonene, and pinene play a major role in how a strain behaves, which is why two indicas can feel quite different. We encourage you to ask questions, smell the jars when available, and explore until you find your match.",
+     "text": "These categories are starting points rather than strict rules. Terpenes such as myrcene, limonene, and pinene play a major role in how a strain behaves, which is why two indicas can feel quite different. We encourage you to ask questions, smell the jars when available, and explore until you find your match."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Ways to Enjoy Flower",
+     "text": "Ways to Enjoy Flower"
+    },
+    {
+     "type": "paragraph",
+     "html": "One reason flower endures is its sheer flexibility. You can grind it and roll it into a joint, pack it into a pipe or bong, or load it into a dry-herb vaporizer for a cleaner inhalation experience. Each method changes the pace and intensity of effects, giving you control over your session. For those who prefer convenience, we also stock pre-rolls made from quality flower, ready to enjoy without any preparation.",
+     "text": "One reason flower endures is its sheer flexibility. You can grind it and roll it into a joint, pack it into a pipe or bong, or load it into a dry-herb vaporizer for a cleaner inhalation experience. Each method changes the pace and intensity of effects, giving you control over your session. For those who prefer convenience, we also stock pre-rolls made from quality flower, ready to enjoy without any preparation."
+    },
+    {
+     "type": "paragraph",
+     "html": "Flower is equally useful for the home enthusiast who likes to craft. Many of our customers use it as the base for homemade infusions, butters, and oils. Whether you are a recreational novice trying your first eighth or a seasoned connoisseur seeking a specific terpene profile, our hand-picked selection is designed to fit your routine.",
+     "text": "Flower is equally useful for the home enthusiast who likes to craft. Many of our customers use it as the base for homemade infusions, butters, and oils. Whether you are a recreational novice trying your first eighth or a seasoned connoisseur seeking a specific terpene profile, our hand-picked selection is designed to fit your routine."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Why San Pedro Chooses We Roll Up for Flower",
+     "text": "Why San Pedro Chooses We Roll Up for Flower"
+    },
+    {
+     "type": "paragraph",
+     "html": "We are proud to function as part of the local society, serving recreational users, medical patients, novices, and aficionados alike. Our doors are open seven days a week, and we always have a Spanish-speaking member of our team onsite to make sure everyone feels welcome. We offer conveniences like online ordering, in-store pickup, and curbside pickup, so picking up your favorite flower fits easily into your day.",
+     "text": "We are proud to function as part of the local society, serving recreational users, medical patients, novices, and aficionados alike. Our doors are open seven days a week, and we always have a Spanish-speaking member of our team onsite to make sure everyone feels welcome. We offer conveniences like online ordering, in-store pickup, and curbside pickup, so picking up your favorite flower fits easily into your day."
+    },
+    {
+     "type": "paragraph",
+     "html": "Beyond San Pedro, we proudly serve the surrounding California, bringing affordable, lab-verified flower to neighbors throughout Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX. Stop by and let our knowledgeable staff guide you through an extensive menu, share insight into the strains we carry, and help you leave with a smile. <a href=\"/\">At We Roll Up</a>, finding your perfect flower is more than a transaction. It is part of how we elevate quality of life and bring our community together, one bud at a time.",
+     "text": "Beyond San Pedro, we proudly serve the surrounding California, bringing affordable, lab-verified flower to neighbors throughout Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX. Stop by and let our knowledgeable staff guide you through an extensive menu, share insight into the strains we carry, and help you leave with a smile. At We Roll Up, finding your perfect flower is more than a transaction. It is part of how we elevate quality of life and bring our community together, one bud at a time."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-cannabis-grinders-flower-flatlay.webp",
+  "src": "https://werollup.com/media/cannabis-grinders-flower-flatlay.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/flower/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-cannabis-grinders-flower-flatlay.webp"
+ ]
+}

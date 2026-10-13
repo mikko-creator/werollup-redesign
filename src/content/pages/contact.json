@@ -1,0 +1,296 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "contact",
+ "path": "/contact/",
+ "slug": "contact",
+ "sourceUrl": "https://werollup.com/contact",
+ "rawFile": "audit/raw/contact.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Contact – We Roll Up",
+ "metaDescription": "Use this contact form to reach out to our team. We’ll get back to you as quickly as we can, thank you!",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/contact/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Contact",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Contact",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Contact",
+      "text": "Contact"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "card-grid",
+   "heading": "San Pedro - Palos Verdes",
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "card-grid",
+     "intro": [],
+     "cards": [
+      {
+       "tone": "light",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h1",
+         "tag": "div",
+         "html": "<strong>San Pedro - Palos Verdes </strong>",
+         "text": "San Pedro - Palos Verdes"
+        },
+        {
+         "type": "paragraph",
+         "html": "1705 S Gaffey Street<br> San Pedro, CA 90731<br> <strong>424 264 5423</strong>",
+         "text": "1705 S Gaffey Street San Pedro, CA 90731 424 264 5423",
+         "bare": true
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Get Directions",
+           "text": "Get Directions",
+           "href": "https://www.google.com/maps?cid=5006542390870460260",
+           "variant": "primary",
+           "target": "_blank",
+           "rel": "noopener"
+          }
+         ]
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h5",
+         "tag": "div",
+         "html": "<strong>Hours</strong>",
+         "text": "Hours"
+        },
+        {
+         "type": "paragraph",
+         "html": "<strong>Sunday-Thursday</strong><br> 10:00 AM-8:00 PM",
+         "text": "Sunday-Thursday 10:00 AM-8:00 PM",
+         "bare": true
+        },
+        {
+         "type": "paragraph",
+         "html": "<strong>Friday-Saturday</strong><br> 10:00 AM-9:00 PM",
+         "text": "Friday-Saturday 10:00 AM-9:00 PM",
+         "bare": true
+        },
+        {
+         "type": "map",
+         "provider": "google-maps",
+         "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6636.484110472229!2d-118.2951575242192!3d33.72855643475246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd371d9ba6c7d7%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931865189!5m2!1sen!2sus",
+         "width": "100%",
+         "height": "450",
+         "html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6636.484110472229!2d-118.2951575242192!3d33.72855643475246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd371d9ba6c7d7%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931865189!5m2!1sen!2sus\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+        }
+       ]
+      },
+      {
+       "tone": "light",
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h1",
+         "tag": "div",
+         "html": "<strong>LAX - Culver City</strong>",
+         "text": "LAX - Culver City"
+        },
+        {
+         "type": "paragraph",
+         "html": "11834 Jefferson Boulevard<br> Culver City, CA 11834 <br> <strong>888-777-6655</strong>",
+         "text": "11834 Jefferson Boulevard Culver City, CA 11834 888-777-6655",
+         "bare": true
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Get Directions",
+           "text": "Get Directions",
+           "href": "https://www.google.com/maps/dir//we+roll+up+culver+city/@37.6822603,-111.5227734,5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c2b1001766f101:0x5397919e67db50b!2m2!1d-118.4021085!2d33.9854685?entry=ttu",
+           "variant": "primary",
+           "target": "_blank",
+           "rel": "noopener"
+          }
+         ]
+        },
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h5",
+         "tag": "div",
+         "html": "<strong>Hours</strong>",
+         "text": "Hours"
+        },
+        {
+         "type": "paragraph",
+         "html": "<strong>Sunday-Thursday</strong><br> Coming soon",
+         "text": "Sunday-Thursday Coming soon",
+         "bare": true
+        },
+        {
+         "type": "paragraph",
+         "html": "<strong>Friday-Saturday</strong><br> Coming Soon PM",
+         "text": "Friday-Saturday Coming Soon PM",
+         "bare": true
+        },
+        {
+         "type": "map",
+         "provider": "google-maps",
+         "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13233.10497309785!2d-118.4020791!3d33.9854376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b1001766f101%3A0x5397919e67db50b!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931845806!5m2!1sen!2sus",
+         "width": "100%",
+         "height": "450",
+         "html": "<iframe width=\"100%\" height=\"450\" style=\"border: 0;\" src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13233.10497309785!2d-118.4020791!3d33.9854376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b1001766f101%3A0x5397919e67db50b!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931845806!5m2!1sen!2sus\" allowfullscreen=\"allowfullscreen\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+        }
+       ]
+      }
+     ],
+     "outro": []
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "content",
+   "heading": "Contact Us Online",
+   "level": 3,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Contact Us Online",
+     "text": "Contact Us Online"
+    },
+    {
+     "type": "paragraph",
+     "html": "Use this contact form to reach out to our team. We’ll get back to you as quickly as we can, thank you!",
+     "text": "Use this contact form to reach out to our team. We’ll get back to you as quickly as we can, thank you!"
+    },
+    {
+     "type": "form",
+     "id": "contact",
+     "method": "post",
+     "action": "/__form-endpoint-not-configured__",
+     "enctype": "multipart/form-data",
+     "fields": [
+      {
+       "name": "input_1",
+       "type": "text",
+       "label": "Your Name",
+       "required": true,
+       "requiredMark": "*",
+       "placeholder": "Your Name"
+      },
+      {
+       "name": "input_2",
+       "type": "tel",
+       "label": "Your Phone",
+       "required": false,
+       "requiredMark": null,
+       "placeholder": "Your Phone"
+      },
+      {
+       "name": "input_3",
+       "type": "email",
+       "label": "Your Email Address",
+       "required": true,
+       "requiredMark": "*",
+       "placeholder": "Your Email Address"
+      },
+      {
+       "name": "input_4",
+       "type": "textarea",
+       "label": "Message",
+       "required": true,
+       "requiredMark": "*",
+       "placeholder": "Message",
+       "rows": 10
+      }
+     ],
+     "submit": {
+      "label": "Send",
+      "disabled": true
+     },
+     "note": "This form is not connected yet. Please call one of our stores.",
+     "dropped": [
+      {
+       "label": "CAPTCHA",
+       "reason": "reCAPTCHA is dropped with the old backend (BUILD-CONTRACT 4.7, OPEN-DECISIONS A12)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": {
+  "id": "contact",
+  "section": "s3"
+ },
+ "maps": [
+  {
+   "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6636.484110472229!2d-118.2951575242192!3d33.72855643475246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd371d9ba6c7d7%3A0x457acfc758c4c764!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931865189!5m2!1sen!2sus",
+   "width": "100%",
+   "height": "450"
+  },
+  {
+   "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13233.10497309785!2d-118.4020791!3d33.9854376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b1001766f101%3A0x5397919e67db50b!2sWe%20Roll%20Up!5e0!3m2!1sen!2sus!4v1719931845806!5m2!1sen!2sus",
+   "width": "100%",
+   "height": "450"
+  }
+ ],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

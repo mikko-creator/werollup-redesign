@@ -1,0 +1,20 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "https://werollup.com/products/edibles-gummies",
+      "reason": "status 404",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:45:54.137Z"
+    },
+    {
+      "stage": "assets:image",
+      "target": "https://werollup.comhttps//werollup.com/media/logo-white-x.png",
+      "reason": "fetch failed: ENOTFOUND: getaddrinfo ENOTFOUND werollup.comhttps",
+      "at": "2026-10-13T01:47:32.290Z"
+    }
+  ]
+}

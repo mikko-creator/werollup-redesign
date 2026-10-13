@@ -1,0 +1,237 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "service-area-town",
+ "path": "/service-area/san-pedro/rancho-palos-verdes-ca/",
+ "slug": "service-area-san-pedro-rancho-palos-verdes-ca",
+ "sourceUrl": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca",
+ "rawFile": "audit/raw/service-area-san-pedro-rancho-palos-verdes-ca.html",
+ "wpTemplate": "page-template-default",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Rancho Palos Verdes, CA – We Roll Up",
+ "metaDescription": "A weekend drive along the Palos Verdes Peninsula tends to follow a familiar arc.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Rancho Palos Verdes, CA",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Rancho Palos Verdes, CA",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Rancho Palos Verdes, CA",
+      "text": "Rancho Palos Verdes, CA"
+     },
+     "image": {
+      "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+      "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 2560,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Cannabis Access for Rancho Palos Verdes Residents",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "Cannabis Access for Rancho Palos Verdes Residents",
+     "text": "Cannabis Access for Rancho Palos Verdes Residents"
+    },
+    {
+     "type": "paragraph",
+     "html": "A weekend drive along the Palos Verdes Peninsula tends to follow a familiar arc. You wind past clifftop trails, pause at an ocean overlook, maybe stop for lunch near the harbor, and then realize you’d like to pick up some quality cannabis before heading home. For residents of Rancho Palos Verdes, that last stop has a clear answer just down the hill in San Pedro, where <a href=\"/\">We Roll Up</a> keeps its doors open seven days a week.",
+     "text": "A weekend drive along the Palos Verdes Peninsula tends to follow a familiar arc. You wind past clifftop trails, pause at an ocean overlook, maybe stop for lunch near the harbor, and then realize you’d like to pick up some quality cannabis before heading home. For residents of Rancho Palos Verdes, that last stop has a clear answer just down the hill in San Pedro, where We Roll Up keeps its doors open seven days a week."
+    },
+    {
+     "type": "paragraph",
+     "html": "Rancho Palos Verdes sits perched above the Pacific, a quiet residential community known for its bluffs, its trails, and its sweeping coastal views. What it doesn’t have is a storefront dispensary of its own, which makes the short trip into San Pedro the most practical option for adults who want legal, lab-tested products. As San Pedro’s first licensed cannabis dispensary, We Roll Up has become the natural destination for peninsula residents looking for something dependable.",
+     "text": "Rancho Palos Verdes sits perched above the Pacific, a quiet residential community known for its bluffs, its trails, and its sweeping coastal views. What it doesn’t have is a storefront dispensary of its own, which makes the short trip into San Pedro the most practical option for adults who want legal, lab-tested products. As San Pedro’s first licensed cannabis dispensary, We Roll Up has become the natural destination for peninsula residents looking for something dependable."
+    },
+    {
+     "type": "paragraph",
+     "html": "The drive from most parts of Rancho Palos Verdes takes only a handful of minutes, and the payoff is access to a curated, hand-picked selection rather than a guessing game. We function as part of the local society, serving recreational users, medical patients, first-timers, and longtime connoisseurs with the same level of attention. Whether you live near the lighthouse or up toward the ridgeline, you’re warmly welcome.",
+     "text": "The drive from most parts of Rancho Palos Verdes takes only a handful of minutes, and the payoff is access to a curated, hand-picked selection rather than a guessing game. We function as part of the local society, serving recreational users, medical patients, first-timers, and longtime connoisseurs with the same level of attention. Whether you live near the lighthouse or up toward the ridgeline, you’re warmly welcome."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "What Sets Our Selection Apart",
+     "text": "What Sets Our Selection Apart"
+    },
+    {
+     "type": "paragraph",
+     "html": "The shelves at We Roll Up are organized around variety and quality rather than volume for its own sake. Every category is represented, and the staff curates what comes in so that customers aren’t wading through filler to find something worthwhile. That approach matters to peninsula shoppers who would rather make one good trip than several disappointing ones.",
+     "text": "The shelves at We Roll Up are organized around variety and quality rather than volume for its own sake. Every category is represented, and the staff curates what comes in so that customers aren’t wading through filler to find something worthwhile. That approach matters to peninsula shoppers who would rather make one good trip than several disappointing ones."
+    },
+    {
+     "type": "paragraph",
+     "html": "Here is a snapshot of what you’ll find when you walk in or browse online:",
+     "text": "Here is a snapshot of what you’ll find when you walk in or browse online:"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      {
+       "html": "<strong><a href=\"/products/flower/\">Smokable flower</a>:</strong> a rotating lineup of strains spanning indica, sativa, and hybrid profiles for different moods and times of day",
+       "text": "Smokable flower: a rotating lineup of strains spanning indica, sativa, and hybrid profiles for different moods and times of day"
+      },
+      {
+       "html": "<strong><a href=\"/products/pre-rolls/\">Pre-rolls</a>:</strong> all types, from single joints to multi-packs and infused options for those who want extra potency",
+       "text": "Pre-rolls: all types, from single joints to multi-packs and infused options for those who want extra potency"
+      },
+      {
+       "html": "<strong><a href=\"/products/vaporizers-cartridges/\">Vapes</a>:</strong> a wide variety of cartridges and disposables built around clean hardware and reliable performance",
+       "text": "Vapes: a wide variety of cartridges and disposables built around clean hardware and reliable performance"
+      },
+      {
+       "html": "<strong><a href=\"/products/edibles/\">Edibles</a>:</strong> delicious gummies and other treats with clearly labeled doses for predictable results",
+       "text": "Edibles: delicious gummies and other treats with clearly labeled doses for predictable results"
+      },
+      {
+       "html": "<strong><a href=\"/products/concentrates/\">Concentrates</a>:</strong> potent extracts for experienced users who prioritize strength and flavor",
+       "text": "Concentrates: potent extracts for experienced users who prioritize strength and flavor"
+      },
+      {
+       "html": "<strong><a href=\"/products/topicals/\">Topicals</a>:</strong> soothing balms and creams designed for localized, non-intoxicating relief",
+       "text": "Topicals: soothing balms and creams designed for localized, non-intoxicating relief"
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "Each product carries the testing data that California law requires, so you know what you’re getting in terms of cannabinoid content and terpene profile. That transparency helps both medicinal patients tracking specific needs and recreational shoppers chasing a particular effect.",
+     "text": "Each product carries the testing data that California law requires, so you know what you’re getting in terms of cannabinoid content and terpene profile. That transparency helps both medicinal patients tracking specific needs and recreational shoppers chasing a particular effect."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": null,
+     "tag": "h2",
+     "html": "How the Visit Comes Together",
+     "text": "How the Visit Comes Together"
+    },
+    {
+     "type": "paragraph",
+     "html": "Shopping with us is designed to be straightforward whether it’s your first time or your fiftieth. The process respects your time and keeps everything above board from start to finish. For Rancho Palos Verdes residents who want to plan ahead, the convenience options are worth knowing about before you make the drive.",
+     "text": "Shopping with us is designed to be straightforward whether it’s your first time or your fiftieth. The process respects your time and keeps everything above board from start to finish. For Rancho Palos Verdes residents who want to plan ahead, the convenience options are worth knowing about before you make the drive."
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      {
+       "html": "<strong>Browse the menu:</strong> check live inventory online so you know what’s in stock before leaving the house",
+       "text": "Browse the menu: check live inventory online so you know what’s in stock before leaving the house"
+      },
+      {
+       "html": "<strong>Place your order:</strong> order online for pickup or simply walk in and explore the cases in person",
+       "text": "Place your order: order online for pickup or simply walk in and explore the cases in person"
+      },
+      {
+       "html": "<strong>Verify your age:</strong> bring a valid government-issued ID, as required for all legal cannabis purchases",
+       "text": "Verify your age: bring a valid government-issued ID, as required for all legal cannabis purchases"
+      },
+      {
+       "html": "<strong>Choose your pickup:</strong> grab your order inside the store or use curbside pickup without leaving your car",
+       "text": "Choose your pickup: grab your order inside the store or use curbside pickup without leaving your car"
+      }
+     ]
+    },
+    {
+     "type": "paragraph",
+     "html": "For anyone who prefers a guided experience, our team walks you through the menu and answers questions without pressure. We always have a Spanish-speaking member of our staff onsite, so language is never a barrier to a comfortable, informed visit.",
+     "text": "For anyone who prefers a guided experience, our team walks you through the menu and answers questions without pressure. We always have a Spanish-speaking member of our staff onsite, so language is never a barrier to a comfortable, informed visit."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "A Welcoming Team and Environment",
+     "text": "A Welcoming Team and Environment"
+    },
+    {
+     "type": "paragraph",
+     "html": "We’re proud of a diverse and knowledgeable team, and that pride shows in the way customers are treated. As the first legal, licensed dispensary in San Pedro, We Roll Up takes the responsibility of pioneering change for the better seriously. The space is secure, comfortable, and genuinely accepting, which matters when cannabis still carries lingering stigma for some shoppers.",
+     "text": "We’re proud of a diverse and knowledgeable team, and that pride shows in the way customers are treated. As the first legal, licensed dispensary in San Pedro, We Roll Up takes the responsibility of pioneering change for the better seriously. The space is secure, comfortable, and genuinely accepting, which matters when cannabis still carries lingering stigma for some shoppers."
+    },
+    {
+     "type": "paragraph",
+     "html": "The goal is simple: send you home happy and with a smile. Recreational novices appreciate the patient guidance, devotees appreciate the depth of the selection, and medicinal patients appreciate staff who actually listen to what they’re trying to accomplish. Locals, visitors, and adventurers from all walks of life are equally at home here.",
+     "text": "The goal is simple: send you home happy and with a smile. Recreational novices appreciate the patient guidance, devotees appreciate the depth of the selection, and medicinal patients appreciate staff who actually listen to what they’re trying to accomplish. Locals, visitors, and adventurers from all walks of life are equally at home here."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": null,
+     "tag": "h3",
+     "html": "Serving the Broader Coastal Community",
+     "text": "Serving the Broader Coastal Community"
+    },
+    {
+     "type": "paragraph",
+     "html": "While Rancho Palos Verdes is our focus here, our location<a href=\"/service-area/san-pedro/\"> in San Pedro</a> puts us within easy reach of communities across the California. The harbor area and the peninsula share a coastal character, and We Roll Up has positioned itself to serve that wider stretch of Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX with consistency and care.",
+     "text": "While Rancho Palos Verdes is our focus here, our location in San Pedro puts us within easy reach of communities across the California. The harbor area and the peninsula share a coastal character, and We Roll Up has positioned itself to serve that wider stretch of Carson, San Pedro, Wilmington, Westchester, Rancho Palos Verdes, Mar Vista, Del Rey, Lomita, Palos Verdes Estates, Playa Vista, Marina Del Ray, Fox Hills, Rolling Hills Estates, Rolling Hills, and LAX with consistency and care."
+    },
+    {
+     "type": "paragraph",
+     "html": "Finding your perfect strain is our mission, and we’re more than happy to smooth the path with online ordering, in-store pickup, and curbside pickup. For recreational and medicinal marijuana alike, We Roll Up is where potential and opportunity meet. We bring communities together through a supportive atmosphere and quality products that enrich socialization, provide medicinal relief, and offer a range of options for every need.",
+     "text": "Finding your perfect strain is our mission, and we’re more than happy to smooth the path with online ordering, in-store pickup, and curbside pickup. For recreational and medicinal marijuana alike, We Roll Up is where potential and opportunity meet. We bring communities together through a supportive atmosphere and quality products that enrich socialization, provide medicinal relief, and offer a range of options for every need."
+    },
+    {
+     "type": "paragraph",
+     "html": "So whether you’re winding down after a hike along the bluffs or stocking up for the weekend, let us welcome you. Stop by from Rancho Palos Verdes or anywhere nearby and discover the best of cannabinoids, terpenes, and effects at affordable prices.",
+     "text": "So whether you’re winding down after a hike along the bluffs or stocking up for the weekend, let us welcome you. Stop by from Rancho Palos Verdes or anywhere nearby and discover the best of cannabinoids, terpenes, and effects at affordable prices."
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp",
+  "src": "https://werollup.com/media/werollup-products-champagne-bar-display-hero.webp",
+  "source": "default"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/refetch-werollup-products-champagne-bar-display-hero.webp"
+ ]
+}

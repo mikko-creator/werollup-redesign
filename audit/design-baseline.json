@@ -1,0 +1,2407 @@
+{
+  "schema": "site-reforge/design-baseline@1",
+  "generated": "2026-10-13T02:02:27.893Z",
+  "evidence": "computed (browser capture)",
+  "capturedViewports": [
+    {
+      "file": "baseline.about-us-daily-deals.1024.style.json",
+      "url": "https://werollup.com/about-us/daily-deals/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.about-us-daily-deals.1440.style.json",
+      "url": "https://werollup.com/about-us/daily-deals/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.about-us-daily-deals.390.style.json",
+      "url": "https://werollup.com/about-us/daily-deals/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.about-us-daily-deals.768.style.json",
+      "url": "https://werollup.com/about-us/daily-deals/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.about-us.1024.style.json",
+      "url": "https://werollup.com/about-us/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.about-us.1440.style.json",
+      "url": "https://werollup.com/about-us/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.about-us.390.style.json",
+      "url": "https://werollup.com/about-us/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.about-us.768.style.json",
+      "url": "https://werollup.com/about-us/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.accessibility-statement.1024.style.json",
+      "url": "https://werollup.com/accessibility-statement/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.accessibility-statement.1440.style.json",
+      "url": "https://werollup.com/accessibility-statement/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.accessibility-statement.390.style.json",
+      "url": "https://werollup.com/accessibility-statement/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.accessibility-statement.768.style.json",
+      "url": "https://werollup.com/accessibility-statement/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.contact.1024.style.json",
+      "url": "https://werollup.com/contact/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.contact.1440.style.json",
+      "url": "https://werollup.com/contact/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.contact.390.style.json",
+      "url": "https://werollup.com/contact/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.contact.768.style.json",
+      "url": "https://werollup.com/contact/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-cannabis-101.1024.style.json",
+      "url": "https://werollup.com/education/cannabis-101/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-cannabis-101.1440.style.json",
+      "url": "https://werollup.com/education/cannabis-101/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-cannabis-101.390.style.json",
+      "url": "https://werollup.com/education/cannabis-101/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-cannabis-101.768.style.json",
+      "url": "https://werollup.com/education/cannabis-101/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-recreational-medicinal.1024.style.json",
+      "url": "https://werollup.com/education/recreational-medicinal/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-recreational-medicinal.1440.style.json",
+      "url": "https://werollup.com/education/recreational-medicinal/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-recreational-medicinal.390.style.json",
+      "url": "https://werollup.com/education/recreational-medicinal/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education-recreational-medicinal.768.style.json",
+      "url": "https://werollup.com/education/recreational-medicinal/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education.1024.style.json",
+      "url": "https://werollup.com/education/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education.1440.style.json",
+      "url": "https://werollup.com/education/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education.390.style.json",
+      "url": "https://werollup.com/education/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.education.768.style.json",
+      "url": "https://werollup.com/education/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.index.1024.style.json",
+      "url": "https://werollup.com/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.index.1440.style.json",
+      "url": "https://werollup.com/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.index.390.style.json",
+      "url": "https://werollup.com/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.index.768.style.json",
+      "url": "https://werollup.com/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.lax-menu.1024.style.json",
+      "url": "https://werollup.com/lax-menu/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.lax-menu.1440.style.json",
+      "url": "https://werollup.com/lax-menu/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.lax-menu.390.style.json",
+      "url": "https://werollup.com/lax-menu/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.lax-menu.768.style.json",
+      "url": "https://werollup.com/lax-menu/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city-shop.1024.style.json",
+      "url": "https://werollup.com/location/culver-city/shop/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city-shop.1440.style.json",
+      "url": "https://werollup.com/location/culver-city/shop/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city-shop.390.style.json",
+      "url": "https://werollup.com/location/culver-city/shop/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city-shop.768.style.json",
+      "url": "https://werollup.com/location/culver-city/shop/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city.1024.style.json",
+      "url": "https://werollup.com/location/culver-city/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city.1440.style.json",
+      "url": "https://werollup.com/location/culver-city/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city.390.style.json",
+      "url": "https://werollup.com/location/culver-city/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-culver-city.768.style.json",
+      "url": "https://werollup.com/location/culver-city/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro-shop.1024.style.json",
+      "url": "https://werollup.com/location/san-pedro/shop/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro-shop.1440.style.json",
+      "url": "https://werollup.com/location/san-pedro/shop/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro-shop.390.style.json",
+      "url": "https://werollup.com/location/san-pedro/shop/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro-shop.768.style.json",
+      "url": "https://werollup.com/location/san-pedro/shop/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro.1024.style.json",
+      "url": "https://werollup.com/location/san-pedro/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro.1440.style.json",
+      "url": "https://werollup.com/location/san-pedro/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro.390.style.json",
+      "url": "https://werollup.com/location/san-pedro/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.location-san-pedro.768.style.json",
+      "url": "https://werollup.com/location/san-pedro/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.privacy-policy.1024.style.json",
+      "url": "https://werollup.com/privacy-policy/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.privacy-policy.1440.style.json",
+      "url": "https://werollup.com/privacy-policy/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.privacy-policy.390.style.json",
+      "url": "https://werollup.com/privacy-policy/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.privacy-policy.768.style.json",
+      "url": "https://werollup.com/privacy-policy/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-concentrates.1024.style.json",
+      "url": "https://werollup.com/products/concentrates/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-concentrates.1440.style.json",
+      "url": "https://werollup.com/products/concentrates/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-concentrates.390.style.json",
+      "url": "https://werollup.com/products/concentrates/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-concentrates.768.style.json",
+      "url": "https://werollup.com/products/concentrates/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-edibles.1024.style.json",
+      "url": "https://werollup.com/products/edibles/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-edibles.1440.style.json",
+      "url": "https://werollup.com/products/edibles/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-edibles.390.style.json",
+      "url": "https://werollup.com/products/edibles/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-edibles.768.style.json",
+      "url": "https://werollup.com/products/edibles/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-flower.1024.style.json",
+      "url": "https://werollup.com/products/flower/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-flower.1440.style.json",
+      "url": "https://werollup.com/products/flower/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-flower.390.style.json",
+      "url": "https://werollup.com/products/flower/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-flower.768.style.json",
+      "url": "https://werollup.com/products/flower/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-topicals.1024.style.json",
+      "url": "https://werollup.com/products/topicals/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-topicals.1440.style.json",
+      "url": "https://werollup.com/products/topicals/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-topicals.390.style.json",
+      "url": "https://werollup.com/products/topicals/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-topicals.768.style.json",
+      "url": "https://werollup.com/products/topicals/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-vaporizers-cartridges.1024.style.json",
+      "url": "https://werollup.com/products/vaporizers-cartridges/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-vaporizers-cartridges.1440.style.json",
+      "url": "https://werollup.com/products/vaporizers-cartridges/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-vaporizers-cartridges.390.style.json",
+      "url": "https://werollup.com/products/vaporizers-cartridges/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products-vaporizers-cartridges.768.style.json",
+      "url": "https://werollup.com/products/vaporizers-cartridges/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products.1024.style.json",
+      "url": "https://werollup.com/products/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products.1440.style.json",
+      "url": "https://werollup.com/products/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products.390.style.json",
+      "url": "https://werollup.com/products/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.products.768.style.json",
+      "url": "https://werollup.com/products/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.reviews-james.1024.style.json",
+      "url": "https://werollup.com/reviews/james/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.reviews-james.1440.style.json",
+      "url": "https://werollup.com/reviews/james/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.reviews-james.390.style.json",
+      "url": "https://werollup.com/reviews/james/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.reviews-james.768.style.json",
+      "url": "https://werollup.com/reviews/james/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax-lax-weed-delivery.1024.style.json",
+      "url": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax-lax-weed-delivery.1440.style.json",
+      "url": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax-lax-weed-delivery.390.style.json",
+      "url": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax-lax-weed-delivery.768.style.json",
+      "url": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax.1024.style.json",
+      "url": "https://werollup.com/service-area/lax/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax.1440.style.json",
+      "url": "https://werollup.com/service-area/lax/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax.390.style.json",
+      "url": "https://werollup.com/service-area/lax/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area-lax.768.style.json",
+      "url": "https://werollup.com/service-area/lax/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area.1024.style.json",
+      "url": "https://werollup.com/service-area/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area.1440.style.json",
+      "url": "https://werollup.com/service-area/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area.390.style.json",
+      "url": "https://werollup.com/service-area/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.service-area.768.style.json",
+      "url": "https://werollup.com/service-area/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.weed-delivery.1024.style.json",
+      "url": "https://werollup.com/weed-delivery/",
+      "viewport": {
+        "w": 1024,
+        "h": 768,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.weed-delivery.1440.style.json",
+      "url": "https://werollup.com/weed-delivery/",
+      "viewport": {
+        "w": 1440,
+        "h": 900,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.weed-delivery.390.style.json",
+      "url": "https://werollup.com/weed-delivery/",
+      "viewport": {
+        "w": 390,
+        "h": 844,
+        "dpr": 1
+      }
+    },
+    {
+      "file": "baseline.weed-delivery.768.style.json",
+      "url": "https://werollup.com/weed-delivery/",
+      "viewport": {
+        "w": 768,
+        "h": 1024,
+        "dpr": 1
+      }
+    }
+  ],
+  "sourceCssBytes": 3643601,
+  "sourceStylesheets": 9,
+  "inlineStyleBlocks": 728,
+  "authorTokens": {
+    "fromSourceCss": {
+      "--bs-blue": "#0d6efd",
+      "--bs-indigo": "#6610f2",
+      "--bs-purple": "#6f42c1",
+      "--bs-pink": "#d63384",
+      "--bs-red": "#dc3545",
+      "--bs-orange": "#fd7e14",
+      "--bs-yellow": "#ffc107",
+      "--bs-green": "#198754",
+      "--bs-teal": "#20c997",
+      "--bs-cyan": "#0dcaf0",
+      "--bs-white": "#fff",
+      "--bs-gray": "#6c757d",
+      "--bs-gray-dark": "#343a40",
+      "--bs-gray-100": "#f8f9fa",
+      "--bs-gray-200": "#e9ecef",
+      "--bs-gray-300": "#dee2e6",
+      "--bs-gray-400": "#ced4da",
+      "--bs-gray-500": "#adb5bd",
+      "--bs-gray-600": "#6c757d",
+      "--bs-gray-700": "#495057",
+      "--bs-gray-800": "#343a40",
+      "--bs-gray-900": "#212529",
+      "--bs-primary": "#0d6efd",
+      "--bs-secondary": "#6c757d",
+      "--bs-success": "#198754",
+      "--bs-info": "#0dcaf0",
+      "--bs-warning": "#ffc107",
+      "--bs-danger": "#dc3545",
+      "--bs-light": "#f5f4f1",
+      "--bs-dark": "#2c2c2c",
+      "--bs-primary-rgb": "13,110,253",
+      "--bs-secondary-rgb": "108,117,125",
+      "--bs-success-rgb": "25,135,84",
+      "--bs-info-rgb": "13,202,240",
+      "--bs-warning-rgb": "255,193,7",
+      "--bs-danger-rgb": "220,53,69",
+      "--bs-light-rgb": "245,244,241",
+      "--bs-dark-rgb": "44,44,44",
+      "--bs-white-rgb": "255,255,255",
+      "--bs-black-rgb": "32,48,34",
+      "--bs-body-color-rgb": "33,37,41",
+      "--bs-body-bg-rgb": "255,255,255",
+      "--bs-font-sans-serif": "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+      "--bs-font-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+      "--bs-gradient": "linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0))",
+      "--bs-body-font-family": "var(--bs-font-sans-serif)",
+      "--bs-body-font-size": "1rem",
+      "--bs-body-font-weight": "400",
+      "--bs-body-line-height": "1.5",
+      "--bs-body-color": "#212529",
+      "--bs-body-bg": "#fff",
+      "--bs-gutter-x": "1.5rem",
+      "--bs-gutter-y": "0",
+      "--bs-table-bg": "transparent",
+      "--bs-table-accent-bg": "transparent",
+      "--bs-table-striped-color": "#212529",
+      "--bs-table-striped-bg": "rgba(0,0,0,.05)",
+      "--bs-table-active-color": "#212529",
+      "--bs-table-active-bg": "rgba(0,0,0,.1)",
+      "--bs-table-hover-color": "#212529",
+      "--bs-table-hover-bg": "rgba(0,0,0,.075)",
+      "--bs-position": "start",
+      "--bs-aspect-ratio": "100%",
+      "--bs-text-opacity": "0.25",
+      "--bs-bg-opacity": "1",
+      "--font-family-default": "'Libre Franklin', sans-serif !important",
+      "--wp-internal-comment": "\"Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer.\""
+    },
+    "fromComputedRoot": {
+      "--bs-yellow": "#ffc107",
+      "--bs-info": "#0dcaf0",
+      "--bs-orange": "#fd7e14",
+      "--bs-danger": "#dc3545",
+      "--bs-gray": "#6c757d",
+      "--bs-gray-600": "#6c757d",
+      "--bs-secondary-rgb": "108,117,125",
+      "--bs-body-bg-rgb": "255,255,255",
+      "--bs-success": "#198754",
+      "--bs-dark-rgb": "44,44,44",
+      "--bs-gradient": "linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0))",
+      "--bs-gray-500": "#adb5bd",
+      "--bs-white-rgb": "255,255,255",
+      "--bs-teal": "#20c997",
+      "--bs-warning-rgb": "255,193,7",
+      "--bs-indigo": "#6610f2",
+      "--bs-body-font-weight": "400",
+      "--bs-primary": "#0d6efd",
+      "--bs-font-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+      "--bs-body-line-height": "1.5",
+      "--bs-dark": "#2c2c2c",
+      "--bs-body-color-rgb": "33,37,41",
+      "--bs-font-sans-serif": "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+      "--bs-body-font-family": "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+      "--bs-cyan": "#0dcaf0",
+      "--bs-danger-rgb": "220,53,69",
+      "--bs-green": "#198754",
+      "--bs-gray-800": "#343a40",
+      "--bs-purple": "#6f42c1",
+      "--bs-light-rgb": "245,244,241",
+      "--bs-gray-200": "#e9ecef",
+      "--bs-info-rgb": "13,202,240",
+      "--bs-primary-rgb": "13,110,253",
+      "--bs-body-bg": "#fff",
+      "--bs-gray-400": "#ced4da",
+      "--bs-black-rgb": "32,48,34",
+      "--bs-body-font-size": "1rem",
+      "--bs-gray-300": "#dee2e6",
+      "--bs-gray-900": "#212529",
+      "--bs-secondary": "#6c757d",
+      "--bs-warning": "#ffc107",
+      "--wp-internal-comment": "\"Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer.\"",
+      "--bs-pink": "#d63384",
+      "--bs-success-rgb": "25,135,84",
+      "--bs-light": "#f5f4f1",
+      "--bs-gray-dark": "#343a40",
+      "--bs-gray-100": "#f8f9fa",
+      "--bs-blue": "#0d6efd",
+      "--bs-body-color": "#212529",
+      "--bs-red": "#dc3545",
+      "--bs-white": "#fff",
+      "--bs-gray-700": "#495057"
+    }
+  },
+  "color": {
+    "text": [
+      {
+        "value": "#203022",
+        "count": 29856
+      },
+      {
+        "value": "#ffffff",
+        "count": 9967
+      },
+      {
+        "value": "#2c2c2c",
+        "count": 6200
+      },
+      {
+        "value": "#5dbc5d",
+        "count": 1544
+      },
+      {
+        "value": "#f2f5ee",
+        "count": 1200
+      },
+      {
+        "value": "#000000",
+        "count": 441
+      },
+      {
+        "value": "#ffffff8c",
+        "count": 200
+      },
+      {
+        "value": "#f5f4f1",
+        "count": 75
+      },
+      {
+        "value": "#790000",
+        "count": 24
+      },
+      {
+        "value": "#9a9a9a",
+        "count": 16
+      },
+      {
+        "value": "#6c757d",
+        "count": 8
+      }
+    ],
+    "background": [
+      {
+        "value": "undefined",
+        "count": 47534
+      },
+      {
+        "value": "#203022",
+        "count": 788
+      },
+      {
+        "value": "#ffffff",
+        "count": 380
+      },
+      {
+        "value": "#5dbc5d",
+        "count": 345
+      },
+      {
+        "value": "#f5f4f1",
+        "count": 260
+      },
+      {
+        "value": "#2c2c2c",
+        "count": 108
+      },
+      {
+        "value": "#ffffffa6",
+        "count": 100
+      },
+      {
+        "value": "#cccccc",
+        "count": 12
+      },
+      {
+        "value": "#ffffff80",
+        "count": 4
+      }
+    ],
+    "border": [
+      {
+        "value": "#203022",
+        "count": 28064
+      },
+      {
+        "value": "#ffffff",
+        "count": 9819
+      },
+      {
+        "value": "#2c2c2c",
+        "count": 6204
+      },
+      {
+        "value": "#dee2e6",
+        "count": 1684
+      },
+      {
+        "value": "#5dbc5d",
+        "count": 1552
+      },
+      {
+        "value": "#f2f5ee",
+        "count": 1200
+      },
+      {
+        "value": "#000000",
+        "count": 321
+      },
+      {
+        "value": "#ffffff8c",
+        "count": 200
+      },
+      {
+        "value": "#767676",
+        "count": 116
+      },
+      {
+        "value": "rgb(222, 226, 230) rgb(32, 48, 34) rgb(32, 48, 34)",
+        "count": 108
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(255, 255, 255) rgb(222, 226, 230)",
+        "count": 100
+      },
+      {
+        "value": "#f5f4f1",
+        "count": 75
+      },
+      {
+        "value": "rgb(255, 255, 255) rgb(255, 255, 255) rgb(245, 244, 241)",
+        "count": 28
+      },
+      {
+        "value": "#790000",
+        "count": 24
+      },
+      {
+        "value": "#9a9a9a",
+        "count": 16
+      },
+      {
+        "value": "rgb(32, 48, 34) rgb(32, 48, 34) rgb(222, 226, 230)",
+        "count": 12
+      },
+      {
+        "value": "#6c757d",
+        "count": 8
+      }
+    ],
+    "allDeclaredInCss": [
+      {
+        "value": "#fff",
+        "count": 2885
+      },
+      {
+        "value": "#203022",
+        "count": 1804
+      },
+      {
+        "value": "#5dbc5d",
+        "count": 1074
+      },
+      {
+        "value": "#2c2c2c",
+        "count": 583
+      },
+      {
+        "value": "#0d6efd",
+        "count": 579
+      },
+      {
+        "value": "#f5f4f1",
+        "count": 542
+      },
+      {
+        "value": "#6c757d",
+        "count": 490
+      },
+      {
+        "value": "#212529",
+        "count": 479
+      },
+      {
+        "value": "#00000033",
+        "count": 380
+      },
+      {
+        "value": "#00000059",
+        "count": 370
+      },
+      {
+        "value": "hsla(0,0%,100%,.06)",
+        "count": 369
+      },
+      {
+        "value": "#dee2e6",
+        "count": 296
+      },
+      {
+        "value": "#93d293",
+        "count": 283
+      },
+      {
+        "value": "hsla(0,0%,100%,.55)",
+        "count": 277
+      },
+      {
+        "value": "#304833",
+        "count": 276
+      },
+      {
+        "value": "#dc3545",
+        "count": 205
+      },
+      {
+        "value": "#198754",
+        "count": 205
+      },
+      {
+        "value": "#ffc107",
+        "count": 197
+      },
+      {
+        "value": "#0dcaf0",
+        "count": 197
+      },
+      {
+        "value": "#00000013",
+        "count": 189
+      },
+      {
+        "value": "hsla(0,0%,100%,.1)",
+        "count": 188
+      },
+      {
+        "value": "#000000a6",
+        "count": 186
+      },
+      {
+        "value": "#00000066",
+        "count": 185
+      },
+      {
+        "value": "#343a40",
+        "count": 185
+      },
+      {
+        "value": "hsla(0,0%,100%,.95)",
+        "count": 185
+      },
+      {
+        "value": "hsla(0,0%,100%,.2)",
+        "count": 185
+      },
+      {
+        "value": "#2c2c2c59",
+        "count": 184
+      },
+      {
+        "value": "hsla(0,0%,100%,.15)",
+        "count": 104
+      },
+      {
+        "value": "#e9ecef",
+        "count": 103
+      },
+      {
+        "value": "#00000026",
+        "count": 102
+      },
+      {
+        "value": "#adb5bd",
+        "count": 97
+      },
+      {
+        "value": "#e8ece3",
+        "count": 97
+      },
+      {
+        "value": "#ced4da",
+        "count": 95
+      },
+      {
+        "value": "#495057",
+        "count": 95
+      },
+      {
+        "value": "#f8f9fa",
+        "count": 94
+      },
+      {
+        "value": "hsla(0,0%,100%,.35)",
+        "count": 94
+      },
+      {
+        "value": "#d63384",
+        "count": 93
+      },
+      {
+        "value": "hsla(0,0%,100%,.08)",
+        "count": 93
+      },
+      {
+        "value": "hsla(0,0%,100%,.62)",
+        "count": 93
+      },
+      {
+        "value": "#6610f2",
+        "count": 92
+      },
+      {
+        "value": "#6f42c1",
+        "count": 92
+      },
+      {
+        "value": "#fd7e14",
+        "count": 92
+      },
+      {
+        "value": "#20c997",
+        "count": 92
+      },
+      {
+        "value": "hsla(0,0%,100%,0)",
+        "count": 92
+      },
+      {
+        "value": "#203022d1",
+        "count": 92
+      },
+      {
+        "value": "#2030221f",
+        "count": 92
+      },
+      {
+        "value": "hsla(0,0%,100%,.88)",
+        "count": 92
+      },
+      {
+        "value": "hsla(0,0%,100%,.42)",
+        "count": 92
+      }
+    ]
+  },
+  "typography": {
+    "families": [
+      {
+        "value": "\"Libre Franklin\", sans-serif",
+        "count": 48435
+      },
+      {
+        "value": "HelveticaNeue, \"Libre Franklin\", sans-serif",
+        "count": 992
+      },
+      {
+        "value": "\"Times New Roman\"",
+        "count": 100
+      },
+      {
+        "value": "Agrandir, \"Libre Franklin\", sans-serif",
+        "count": 4
+      }
+    ],
+    "familiesDeclaredInCss": [
+      {
+        "value": "HelveticaNeue,Libre Franklin,sans-serif",
+        "count": 562
+      },
+      {
+        "value": "inherit",
+        "count": 100
+      },
+      {
+        "value": "var(--bs-font-sans-serif)",
+        "count": 94
+      },
+      {
+        "value": "var(--bs-body-font-family)",
+        "count": 92
+      },
+      {
+        "value": "'Libre Franklin', sans-serif !important",
+        "count": 91
+      },
+      {
+        "value": "'Source Sans Pro'",
+        "count": 30
+      },
+      {
+        "value": "'Libre Franklin'",
+        "count": 20
+      },
+      {
+        "value": "HelveticaNeue,Condensed",
+        "count": 3
+      },
+      {
+        "value": "Agrandir,Condensed",
+        "count": 3
+      },
+      {
+        "value": "sans-serif",
+        "count": 2
+      },
+      {
+        "value": "sans-serif!important",
+        "count": 1
+      },
+      {
+        "value": "helvetica,arial,sans-serif",
+        "count": 1
+      }
+    ],
+    "sizes": [
+      {
+        "value": "18px",
+        "count": 30220
+      },
+      {
+        "value": "16px",
+        "count": 8338
+      },
+      {
+        "value": "15.75px",
+        "count": 5201
+      },
+      {
+        "value": "14px",
+        "count": 2372
+      },
+      {
+        "value": "20px",
+        "count": 1608
+      },
+      {
+        "value": "28.432px",
+        "count": 558
+      },
+      {
+        "value": "21.328px",
+        "count": 426
+      },
+      {
+        "value": "37.904px",
+        "count": 284
+      },
+      {
+        "value": "13.7812px",
+        "count": 225
+      },
+      {
+        "value": "50.512px",
+        "count": 134
+      },
+      {
+        "value": "12.25px",
+        "count": 75
+      },
+      {
+        "value": "10.5px",
+        "count": 38
+      },
+      {
+        "value": "16.8px",
+        "count": 16
+      },
+      {
+        "value": "23.472px",
+        "count": 6
+      },
+      {
+        "value": "24px",
+        "count": 6
+      },
+      {
+        "value": "21.57px",
+        "count": 6
+      },
+      {
+        "value": "22.704px",
+        "count": 6
+      },
+      {
+        "value": "64px",
+        "count": 4
+      },
+      {
+        "value": "44.8px",
+        "count": 4
+      },
+      {
+        "value": "12px",
+        "count": 4
+      }
+    ],
+    "sizeScalePx": [
+      10.5,
+      12,
+      12.25,
+      13.7812,
+      14,
+      15.75,
+      16,
+      16.8,
+      18,
+      20,
+      21.328,
+      21.57,
+      22.704,
+      23.472,
+      24,
+      28.432,
+      37.904,
+      44.8,
+      50.512,
+      64
+    ],
+    "weights": [
+      {
+        "value": "400",
+        "count": 37272
+      },
+      {
+        "value": "700",
+        "count": 12207
+      },
+      {
+        "value": "600",
+        "count": 28
+      },
+      {
+        "value": "900",
+        "count": 24
+      }
+    ],
+    "lineHeights": [
+      {
+        "value": "24px",
+        "count": 41341
+      },
+      {
+        "value": "21.6px",
+        "count": 3825
+      },
+      {
+        "value": "20px",
+        "count": 1186
+      },
+      {
+        "value": "19.2px",
+        "count": 721
+      },
+      {
+        "value": "34.1184px",
+        "count": 558
+      },
+      {
+        "value": "25.5936px",
+        "count": 426
+      },
+      {
+        "value": "14px",
+        "count": 300
+      },
+      {
+        "value": "21px",
+        "count": 299
+      },
+      {
+        "value": "45.4848px",
+        "count": 284
+      },
+      {
+        "value": "60.6144px",
+        "count": 134
+      },
+      {
+        "value": "28.8px",
+        "count": 69
+      },
+      {
+        "value": "24.8px",
+        "count": 48
+      }
+    ],
+    "letterSpacings": [
+      {
+        "value": "0.5px",
+        "count": 1034
+      },
+      {
+        "value": "0.16px",
+        "count": 8
+      }
+    ],
+    "loadedFonts": [
+      "Libre Franklin 400 normal",
+      "Libre Franklin 700 normal"
+    ],
+    "fontFaces": [
+      "@font-face { font-family: \"Source Sans Pro\"; font-style: normal; font-weight: 400; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-400.woff2?ver=1667",
+      "@font-face { font-family: \"Source Sans Pro\"; font-style: normal; font-weight: 400; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-400.woff2?ver=1667243715\") format(\"woff2\"); font-",
+      "@font-face { font-family: \"Source Sans Pro\"; font-style: normal; font-weight: 600; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-600.woff2?ver=1667",
+      "@font-face { font-family: \"Source Sans Pro\"; font-style: normal; font-weight: 600; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-600.woff2?ver=1667243715\") format(\"woff2\"); font-",
+      "@font-face { font-family: \"Source Sans Pro\"; font-style: normal; font-weight: 700; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-ext-700.woff2?ver=1667",
+      "@font-face { font-family: \"Source Sans Pro\"; font-style: normal; font-weight: 700; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-80/source-sans-pro-normal-latin-700.woff2?ver=1667243715\") format(\"woff2\"); font-",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 300; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 300; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 400; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 400; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 600; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 600; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 700; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: italic; font-weight: 700; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-italic-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 300; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 300; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 400; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 400; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 600; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 600; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 700; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 700; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 800; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 800; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 900; unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin-ext.woff2?ver=166724371",
+      "@font-face { font-family: \"Libre Franklin\"; font-style: normal; font-weight: 900; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; src: url(\"//werollup.com/wp-content/uploads/omgf/omgf-stylesheet-138/libre-franklin-normal-latin.woff2?ver=1667243715\") format(\"woff2\"); font-displ",
+      "@font-face { font-family: lg; src: url(\"data:font/woff2;base64,d09GMgABAAAAAAkcAAsAAAAAEogAAAjNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgSQRCAqcLJZKCzoAATYCJANwBCAFgkoHIBupDgDm53Gzej8JpU0wqygVVyoWwphIsuuw60jpmBY6ppTa7mk7jtx57UQ0V2ulvfmteSIQji061T2HvfDEECASKizU5VUQXFjFRtgYTVg+woiYDVezOThR4tAvr/YYgOO/RZ+BAABzYtMA8Kl8Neg3UIDCoCkOyWBuLcCvSHycH78QvhFxmUCK03A0RwGSvXBAHgR8UB8DMvocJYAgbiZiJnqmYGbXjG3mz7P8nHhe8",
+      "@font-face { font-display: swap; font-style: normal; font-weight: 400; src: url(\"/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff\") format(\"woff\"), url(\"/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2\") format(\"woff2\"); }",
+      "@font-face { font-display: swap; font-style: normal; font-weight: 300; src: url(\"/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff\") format(\"woff\"), url(\"/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2\") format(\"woff2\"); }",
+      "@font-face { font-display: swap; font-style: normal; font-weight: 700; src: url(\"/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff\") format(\"woff\"), url(\"/wp-content/themes/basebuildv3/dist/fonts/HelveticaNeue-Condensed.woff2\") format(\"woff2\"); }",
+      "@font-face { font-display: swap; font-style: normal; font-weight: 400; src: url(\"/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff\") format(\"woff\"), url(\"/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2\") format(\"woff2\"); }",
+      "@font-face { font-display: swap; font-style: normal; font-weight: 300; src: url(\"/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff\") format(\"woff\"), url(\"/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2\") format(\"woff2\"); }",
+      "@font-face { font-display: swap; font-style: normal; font-weight: 700; src: url(\"/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff\") format(\"woff\"), url(\"/wp-content/themes/basebuildv3/dist/fonts/Agrandir-Tight.woff2\") format(\"woff2\"); }"
+    ]
+  },
+  "space": {
+    "paddings": [
+      {
+        "value": "24px",
+        "count": 8714
+      },
+      {
+        "value": "36px",
+        "count": 7016
+      },
+      {
+        "value": "12px",
+        "count": 4014
+      },
+      {
+        "value": "16px",
+        "count": 1547
+      },
+      {
+        "value": "40px",
+        "count": 764
+      },
+      {
+        "value": "6px",
+        "count": 720
+      },
+      {
+        "value": "7.5px",
+        "count": 700
+      },
+      {
+        "value": "8px",
+        "count": 502
+      },
+      {
+        "value": "75px",
+        "count": 382
+      },
+      {
+        "value": "25px",
+        "count": 382
+      },
+      {
+        "value": "7.2px",
+        "count": 328
+      },
+      {
+        "value": "72px",
+        "count": 307
+      },
+      {
+        "value": "50px",
+        "count": 84
+      },
+      {
+        "value": "144px",
+        "count": 68
+      },
+      {
+        "value": "2px",
+        "count": 58
+      },
+      {
+        "value": "104px",
+        "count": 50
+      },
+      {
+        "value": "60px",
+        "count": 50
+      },
+      {
+        "value": "32px",
+        "count": 40
+      },
+      {
+        "value": "5px",
+        "count": 24
+      },
+      {
+        "value": "4px",
+        "count": 24
+      },
+      {
+        "value": "240px",
+        "count": 22
+      },
+      {
+        "value": "18px",
+        "count": 18
+      },
+      {
+        "value": "1px",
+        "count": 8
+      },
+      {
+        "value": "10px",
+        "count": 4
+      }
+    ],
+    "margins": [
+      {
+        "value": "16px",
+        "count": 4373
+      },
+      {
+        "value": "0.8px",
+        "count": 3500
+      },
+      {
+        "value": "24px",
+        "count": 2269
+      },
+      {
+        "value": "6px",
+        "count": 2199
+      },
+      {
+        "value": "-12px",
+        "count": 1904
+      },
+      {
+        "value": "-1px",
+        "count": 1568
+      },
+      {
+        "value": "12px",
+        "count": 1053
+      },
+      {
+        "value": "72px",
+        "count": 529
+      },
+      {
+        "value": "120px",
+        "count": 380
+      },
+      {
+        "value": "36px",
+        "count": 234
+      },
+      {
+        "value": "4px",
+        "count": 224
+      },
+      {
+        "value": "216px",
+        "count": 190
+      },
+      {
+        "value": "32px",
+        "count": 144
+      },
+      {
+        "value": "96px",
+        "count": 131
+      },
+      {
+        "value": "192px",
+        "count": 110
+      },
+      {
+        "value": "48px",
+        "count": 100
+      },
+      {
+        "value": "3px",
+        "count": 84
+      },
+      {
+        "value": "144px",
+        "count": 50
+      },
+      {
+        "value": "60px",
+        "count": 44
+      },
+      {
+        "value": "0.03125px",
+        "count": 25
+      },
+      {
+        "value": "0.015625px",
+        "count": 25
+      },
+      {
+        "value": "8px",
+        "count": 20
+      },
+      {
+        "value": "219px",
+        "count": 16
+      },
+      {
+        "value": "15px",
+        "count": 15
+      }
+    ],
+    "gaps": [
+      {
+        "value": "8px",
+        "count": 1625
+      },
+      {
+        "value": "12px",
+        "count": 637
+      },
+      {
+        "value": "15px",
+        "count": 3
+      }
+    ],
+    "scalePx": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7.2,
+      7.5,
+      8,
+      10,
+      12,
+      15,
+      16,
+      18,
+      24,
+      25,
+      32,
+      36,
+      40,
+      50,
+      60,
+      72,
+      75,
+      104,
+      144,
+      240
+    ]
+  },
+  "shape": {
+    "radii": [
+      {
+        "value": "9px",
+        "count": 1740
+      },
+      {
+        "value": "30px",
+        "count": 880
+      },
+      {
+        "value": "8px",
+        "count": 344
+      },
+      {
+        "value": "3px",
+        "count": 316
+      },
+      {
+        "value": "50%",
+        "count": 221
+      },
+      {
+        "value": "4px",
+        "count": 108
+      }
+    ],
+    "radiiDeclaredInCss": [
+      {
+        "value": ".25rem",
+        "count": 386
+      },
+      {
+        "value": "999px",
+        "count": 370
+      },
+      {
+        "value": "1rem",
+        "count": 280
+      },
+      {
+        "value": "0",
+        "count": 228
+      },
+      {
+        "value": "30px",
+        "count": 98
+      },
+      {
+        "value": ".3rem",
+        "count": 97
+      },
+      {
+        "value": ".2rem",
+        "count": 96
+      },
+      {
+        "value": "8px",
+        "count": 94
+      },
+      {
+        "value": ".25rem!important",
+        "count": 93
+      },
+      {
+        "value": ".5em!important",
+        "count": 92
+      },
+      {
+        "value": "12px!important",
+        "count": 92
+      },
+      {
+        "value": ".65rem",
+        "count": 92
+      }
+    ],
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.075) 0px 2px 4px 0px",
+        "count": 1744
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.35) 0px 7px 15px -15px",
+        "count": 100
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.15) 0px 8px 16px 0px",
+        "count": 80
+      }
+    ],
+    "shadowsDeclaredInCss": [
+      {
+        "value": "none",
+        "count": 559
+      },
+      {
+        "value": "0 .125rem .25rem rgba(0,0,0,.075)",
+        "count": 186
+      },
+      {
+        "value": "0 1rem 3rem rgba(44,44,44,.35)",
+        "count": 184
+      },
+      {
+        "value": "0 7px 15px -15px rgba(0,0,0,.35)",
+        "count": 184
+      },
+      {
+        "value": "0 15px 30px -15px rgba(0,0,0,.65)",
+        "count": 184
+      },
+      {
+        "value": "0 2px 2px -2px rgba(0,0,0,.4)",
+        "count": 184
+      },
+      {
+        "value": "0 1.5rem 3rem rgba(0,0,0,.35),inset 0 0 0 1px hsla(0,0%,100%,.06)",
+        "count": 184
+      },
+      {
+        "value": "0 2px 0 rgba(0,0,0,.2)",
+        "count": 184
+      },
+      {
+        "value": "none !important",
+        "count": 92
+      },
+      {
+        "value": "0 0 0 .25rem rgba(13,110,253,.25)",
+        "count": 14
+      },
+      {
+        "value": "none!important",
+        "count": 12
+      },
+      {
+        "value": "0 0 0 .25rem rgba(25,135,84,.25)",
+        "count": 6
+      }
+    ]
+  },
+  "layout": {
+    "containers": [
+      {
+        "value": "100%",
+        "count": 1800
+      },
+      {
+        "value": "960px",
+        "count": 22
+      },
+      {
+        "value": "1320px",
+        "count": 22
+      },
+      {
+        "value": "720px",
+        "count": 22
+      }
+    ],
+    "containersDeclaredInCss": [
+      {
+        "value": "100%",
+        "count": 388
+      },
+      {
+        "value": "720px",
+        "count": 183
+      },
+      {
+        "value": "960px",
+        "count": 183
+      },
+      {
+        "value": "1140px",
+        "count": 92
+      },
+      {
+        "value": "500px",
+        "count": 92
+      },
+      {
+        "value": "800px",
+        "count": 92
+      },
+      {
+        "value": "767px){.location-chooser-modal{-webkit-box-align:start",
+        "count": 92
+      },
+      {
+        "value": "569px){.header-default{-ms-flex-wrap:wrap",
+        "count": 92
+      },
+      {
+        "value": "1199.98px){.header-default .dropdown.menu-item-has-children a{padding-left:15px",
+        "count": 92
+      },
+      {
+        "value": "32rem",
+        "count": 92
+      },
+      {
+        "value": "540px",
+        "count": 91
+      },
+      {
+        "value": "1320px",
+        "count": 91
+      }
+    ],
+    "breakpointsDeclaredInCss": [
+      {
+        "value": "@media (min-width:1200px)",
+        "count": 729
+      },
+      {
+        "value": "@media (min-width:992px)",
+        "count": 728
+      },
+      {
+        "value": "@media (min-width:768px)",
+        "count": 366
+      },
+      {
+        "value": "@media (min-width:576px)",
+        "count": 272
+      },
+      {
+        "value": "@media (min-width:1400px)",
+        "count": 183
+      },
+      {
+        "value": "@media (min-width:1800px)",
+        "count": 181
+      },
+      {
+        "value": "@media (max-width:575.98px)",
+        "count": 92
+      },
+      {
+        "value": "@media (max-width:5000px)",
+        "count": 91
+      },
+      {
+        "value": "@media (max-width:767px)",
+        "count": 91
+      },
+      {
+        "value": "@media (max-width:569px)",
+        "count": 91
+      },
+      {
+        "value": "@media (max-width:1199.98px)",
+        "count": 91
+      },
+      {
+        "value": "@media(min-width:992px)",
+        "count": 61
+      },
+      {
+        "value": "@media(min-width:1200px)",
+        "count": 45
+      },
+      {
+        "value": "@media(min-width:768px)",
+        "count": 23
+      },
+      {
+        "value": "@media(max-width:1199.98px)",
+        "count": 16
+      },
+      {
+        "value": "@media(min-width:576px)",
+        "count": 13
+      },
+      {
+        "value": "@media(min-width:1400px)",
+        "count": 13
+      },
+      {
+        "value": "@media(max-width:991.98px)",
+        "count": 13
+      },
+      {
+        "value": "@media(min-width:1800px)",
+        "count": 10
+      },
+      {
+        "value": "@media(max-width:575.98px)",
+        "count": 8
+      },
+      {
+        "value": "@media(max-width:767.98px)",
+        "count": 5
+      },
+      {
+        "value": "@media only screen and (min-width:1170px)",
+        "count": 3
+      },
+      {
+        "value": "@media only screen and (max-width:641px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (min-width:321px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (min-width:641px)",
+        "count": 2
+      },
+      {
+        "value": "@media(max-width:1399.98px)",
+        "count": 2
+      },
+      {
+        "value": "@media(max-width:1799.98px)",
+        "count": 2
+      },
+      {
+        "value": "@media only screen and (max-width:640px)",
+        "count": 1
+      },
+      {
+        "value": "@media only screen and (max-width:761px)",
+        "count": 1
+      },
+      {
+        "value": "@media(min-width:2400px)",
+        "count": 1
+      },
+      {
+        "value": "@media(min-width:3000px)",
+        "count": 1
+      },
+      {
+        "value": "@media(max-width:5000px)",
+        "count": 1
+      },
+      {
+        "value": "@media(max-width:767px)",
+        "count": 1
+      },
+      {
+        "value": "@media(max-width:569px)",
+        "count": 1
+      },
+      {
+        "value": "@media only screen and (min-width:768px)",
+        "count": 1
+      },
+      {
+        "value": "@media(min-width:992px)and (max-width:1254.98px)",
+        "count": 1
+      },
+      {
+        "value": "@media(min-width:1255px)",
+        "count": 1
+      },
+      {
+        "value": "@media screen and (min-width:1800px)",
+        "count": 1
+      },
+      {
+        "value": "@media (max-width:991.98px)",
+        "count": 1
+      },
+      {
+        "value": "@media (max-width:767.98px)",
+        "count": 1
+      }
+    ],
+    "breakpointsPx": [
+      98,
+      321,
+      569,
+      576,
+      640,
+      641,
+      761,
+      767,
+      768,
+      992,
+      1170,
+      1200,
+      1255,
+      1400,
+      1800,
+      2400,
+      3000,
+      5000
+    ]
+  },
+  "motionHints": {
+    "transitions": [
+      {
+        "value": "all 0s ease",
+        "count": 45683
+      },
+      {
+        "value": "all 0.35s ease",
+        "count": 2382
+      },
+      {
+        "value": "all 0.3s ease-in-out",
+        "count": 876
+      },
+      {
+        "value": "all 0.35s ease-in-out",
+        "count": 232
+      },
+      {
+        "value": "all 0.2s ease-in",
+        "count": 100
+      },
+      {
+        "value": "all 0.35s linear",
+        "count": 100
+      },
+      {
+        "value": "color, background-color, border-color 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out",
+        "count": 75
+      },
+      {
+        "value": "opacity, transform 0.75s ease",
+        "count": 28
+      },
+      {
+        "value": "color, background-color, border-color, box-shadow, border-radius, -webkit-box-shadow 0.15s, 0.15s, 0.15s, 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease, ease-in-out",
+        "count": 28
+      },
+      {
+        "value": "transform 0.2s linear",
+        "count": 21
+      },
+      {
+        "value": "transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)",
+        "count": 6
+      }
+    ],
+    "transforms": [
+      {
+        "value": "matrix(1, 0, 0, 1, 0, 0)",
+        "count": 28
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -2202.59, 0)",
+        "count": 17
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -2902.5, 0)",
+        "count": 17
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -680, 0)",
+        "count": 17
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -1720, 0)",
+        "count": 17
+      },
+      {
+        "value": "matrix(1.4, 0, 0, 1.4, 0, 0)",
+        "count": 9
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -1887.94, 0)",
+        "count": 3
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -2580, 0)",
+        "count": 3
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -1376, 0)",
+        "count": 3
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -728, 0)",
+        "count": 3
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -60.69, 0)",
+        "count": 2
+      },
+      {
+        "value": "matrix(1, 0, 0, 1, -2178, 0)",
+        "count": 2
+      }
+    ]
+  }
+}

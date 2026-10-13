@@ -1,0 +1,37 @@
+/* depth.css - FOUNDATION. DESIGN-SPEC 5: planes, the light-box stack (5.2) and protrusions (5.3).
+   Plates are STATIC translucent fills (no backdrop-filter, D-7). Scroll-linked offsets read --p (-1..1, clamped) that
+   site.js sets per [data-depth] section at 761 px and up, never under reduced motion; translate only. */
+
+/* the light box: an opaque photo mount with one or two plates behind it */
+.lbox { position: relative; isolation: isolate; }
+.lbox__frame { position: relative; z-index: var(--z-frame); padding: 14px; border-radius: var(--r-l); background: var(--forest-900); box-shadow: inset 0 0 0 1px var(--white-14), var(--lift); }
+.lbox__img, .lbox__frame > .img-slot { width: 100%; height: 100%; object-fit: cover; border-radius: 17px; }
+.lbox__plate { position: absolute; inset: 0; z-index: var(--z-plate); border-radius: var(--r-l); pointer-events: none;
+  transition: translate var(--t-fan) var(--ease-out); }
+.lbox__plate--1 { translate: 22px 20px; opacity: .8; }
+.lbox__plate--2 { translate: 44px 40px; opacity: .55; box-shadow: var(--glow); }
+.lbox--one .lbox__plate--1 { translate: -26px 20px; }
+/* plates on night (5.2) */
+.lbox--night .lbox__plate, .on-night .lbox__plate { background: var(--plate-night); border: 1px solid var(--white-12); }
+/* plates on light grounds (D-6): leaf-tinted edge, soft shadow, haze fill */
+.lbox--light .lbox__frame { background: var(--white); box-shadow: inset 0 0 0 1px var(--haze-300), var(--sh-plate-light); }
+.lbox--light .lbox__plate { background: var(--plate-light); border: 1px solid var(--leaf-ink-35); box-shadow: var(--sh-plate-light); }
+/* hover and focus inside the box: the plates fan out, the cut-out rises 6 px (5.2) */
+.lbox:hover .lbox__plate--1, .lbox:has(:focus-visible) .lbox__plate--1 { translate: 30px 27px; }
+.lbox:hover .lbox__plate--2, .lbox:has(:focus-visible) .lbox__plate--2 { translate: 58px 52px; }
+.lbox--one:hover .lbox__plate--1, .lbox--one:has(:focus-visible) .lbox__plate--1 { translate: -32px 26px; }
+
+/* protrusions (5.3): decorative, above their frame and the next band, never on text; clipped by body overflow-x */
+.cut { position: absolute; z-index: var(--z-cut); pointer-events: none; filter: var(--sh-cut); transition: translate var(--t-fan) var(--ease-out); }
+.on-light .cut { filter: var(--sh-cut-light); }
+.cut__img { width: 100%; height: auto; }
+.lbox:hover .cut, .lbox:has(:focus-visible) .cut { translate: 0 -6px; }
+
+/* depth planes (5.1): offsets only on wide screens with motion allowed; site.js writes --p on [data-depth] */
+@media (min-width: 761px) and (prefers-reduced-motion: no-preference) {
+  [data-depth] [data-plane="atmos"] { translate: 0 calc(var(--p, 0) * -80px); }
+  [data-depth] .lbox__plate--1 { translate: 22px calc(20px + var(--p, 0) * -26px); }
+  [data-depth] .lbox__plate--2 { translate: 44px calc(40px + var(--p, 0) * -46px); }
+  [data-depth] .lbox--one .lbox__plate--1 { translate: -26px calc(20px + var(--p, 0) * -26px); }
+  [data-depth] [data-plane="cut"] { translate: 0 calc(var(--p, 0) * 56px); }
+}

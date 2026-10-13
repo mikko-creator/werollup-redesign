@@ -1,0 +1,115 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "archive-taxonomy",
+ "path": "/location-pagetype/primary-location/",
+ "slug": "location-pagetype-primary-location",
+ "sourceUrl": "https://werollup.com/location-pagetype/primary-location",
+ "rawFile": "audit/raw/location-pagetype-primary-location.html",
+ "wpTemplate": "tax-location-pagetype",
+ "store": "san-pedro",
+ "menuFamily": "san-pedro",
+ "subheader": "shopping-strip",
+ "title": "Primary Location – We Roll Up",
+ "metaDescription": "Primary Location",
+ "metaDescriptionFrom": "h1",
+ "canonical": "https://werollup.com/location-pagetype/primary-location/",
+ "canonicalFrom": "self (A17: the source has none)",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Primary Location",
+ "breadcrumbs": [
+  {
+   "label": "Home",
+   "href": "/",
+   "current": false
+  },
+  {
+   "label": "Locations",
+   "href": "/location/san-pedro/",
+   "current": false
+  },
+  {
+   "label": "San Pedro - Palos Verdes",
+   "href": null,
+   "current": true
+  }
+ ],
+ "sections": [
+  {
+   "id": "s0",
+   "kind": "page-header",
+   "heading": "Primary Location",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Primary Location",
+      "text": "Primary Location",
+      "fromTitle": true
+     },
+     "image": null,
+     "overlay": null,
+     "source": "title"
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "kind": "post-list",
+   "heading": null,
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "post-list",
+     "posts": [
+      {
+       "date": {
+        "month": "Jan",
+        "day": "19",
+        "year": "2022"
+       },
+       "image": {
+        "ref": "assets/source/f06599a5-San-Pedro_-Palos-Verdes-1.webp",
+        "src": "https://werollup.com/media/San-Pedro_-Palos-Verdes-1.webp",
+        "alt": "San Pedro - Palos Verdes",
+        "width": 600,
+        "height": 531,
+        "role": "post"
+       },
+       "imageAltFrom": "post title (the source img has no alt)",
+       "iconLink": {
+        "href": "/location/san-pedro/",
+        "icon": "external-link-alt"
+       },
+       "title": "San Pedro - Palos Verdes",
+       "text": "San Pedro - Palos Verdes",
+       "href": "/location/san-pedro/",
+       "titleLook": "h3"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": null,
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [],
+ "imagesUsed": [
+  "assets/source/f06599a5-San-Pedro_-Palos-Verdes-1.webp"
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "product-category",
+ "path": "/products/concentrates/",
+ "slug": "products-concentrates",
+ "sourceUrl": "https://werollup.com/products/concentrates",
+ "rawFile": "audit/raw/products-concentrates.html",
+ "wpTemplate": "page-template-template-flexible",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "Concentrates – We Roll Up",
+ "metaDescription": "Whether you’re brand new to the world of concentrates or a seasoned connoisseur, looking for recreational enjoyment or medicinal benefits, you’ll be",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/products/concentrates/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Concentrates",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "page-header",
+   "heading": "Concentrates",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "page-header",
+     "heading": {
+      "type": "heading",
+      "level": 1,
+      "look": "h1",
+      "tag": "h1",
+      "html": "Concentrates",
+      "text": "Concentrates"
+     },
+     "image": {
+      "ref": "assets/source/refetch-cannabis-13.webp",
+      "src": "https://werollup.com/media/cannabis-13.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1305,
+      "role": "page-header"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))",
+     "source": "page"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "content",
+   "heading": "Weed Concentrates at We Roll Up",
+   "level": 2,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Weed Concentrates at We Roll Up",
+     "text": "Weed Concentrates at We Roll Up"
+    },
+    {
+     "type": "paragraph",
+     "html": "Whether you’re brand new to the world of concentrates or a seasoned connoisseur, looking for recreational enjoyment or medicinal benefits, you’ll be delighted with the selection and quality you’ll find at We Roll Up. We are <a href=\"/service-area/san-pedro/\">San Pedro’s</a> original licensed dispensary and always the go-to stop for locals and visitors from across the country. Hash, shatters, rosins, waxes, diamonds, and lots and lots of live resins are <a href=\"/products/\">showcased on our shelves</a>.",
+     "text": "Whether you’re brand new to the world of concentrates or a seasoned connoisseur, looking for recreational enjoyment or medicinal benefits, you’ll be delighted with the selection and quality you’ll find at We Roll Up. We are San Pedro’s original licensed dispensary and always the go-to stop for locals and visitors from across the country. Hash, shatters, rosins, waxes, diamonds, and lots and lots of live resins are showcased on our shelves."
+    },
+    {
+     "type": "heading",
+     "level": 2,
+     "look": "h2",
+     "tag": "h2",
+     "html": "Premium cannabis Dabs for Days",
+     "text": "Premium cannabis Dabs for Days"
+    },
+    {
+     "type": "paragraph",
+     "html": "With such a wide variety of consistencies, flavors, and potency, our concentrates are wonderfully versatile. They are made by separating out the excess plant materials and leaving behind cannabinoids and terpenes. Higher THC levels and longer-lasting effects mean that a gram of concentrate goes further than an 1/8th of dried flower. If you want to dab, smoke, vape, or make edibles, We Roll Up is sure to provide what’s best for you.",
+     "text": "With such a wide variety of consistencies, flavors, and potency, our concentrates are wonderfully versatile. They are made by separating out the excess plant materials and leaving behind cannabinoids and terpenes. Higher THC levels and longer-lasting effects mean that a gram of concentrate goes further than an 1/8th of dried flower. If you want to dab, smoke, vape, or make edibles, We Roll Up is sure to provide what’s best for you."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h2",
+     "tag": "h3",
+     "html": "Carefully Curated Concentrates",
+     "text": "Carefully Curated Concentrates"
+    },
+    {
+     "type": "paragraph",
+     "html": "The first step into the world of concentrates can be a bit overwhelming. Even for the well-seasoned consumer, you may have some questions. The casual vibe and friendly <a href=\"/\">professionals at We Roll Up</a> set you at ease. We’re happy to share our knowledge, and we always have a Spanish-speaking member of our staff available. For hectic schedules, we encourage online ordering and the quick turnaround of in-store or curbside pickup.",
+     "text": "The first step into the world of concentrates can be a bit overwhelming. Even for the well-seasoned consumer, you may have some questions. The casual vibe and friendly professionals at We Roll Up set you at ease. We’re happy to share our knowledge, and we always have a Spanish-speaking member of our staff available. For hectic schedules, we encourage online ordering and the quick turnaround of in-store or curbside pickup."
+    },
+    {
+     "type": "heading",
+     "level": 3,
+     "look": "h3",
+     "tag": "h3",
+     "html": "Check out our concentrate selection today!",
+     "text": "Check out our concentrate selection today!"
+    },
+    {
+     "type": "buttons",
+     "items": [
+      {
+       "label": "Shop Now",
+       "text": "Shop Now",
+       "href": "/shop/",
+       "variant": "secondary",
+       "activeLocation": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": {
+  "ref": "assets/source/refetch-cannabis-13.webp",
+  "src": "https://werollup.com/media/cannabis-13.webp",
+  "source": "page"
+ },
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/concentrates/"
+ ],
+ "imagesUsed": [
+  "assets/source/refetch-cannabis-13.webp"
+ ]
+}

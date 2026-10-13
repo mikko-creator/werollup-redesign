@@ -1,0 +1,537 @@
+{
+ "schema": "werollup/page@1",
+ "kind": "home",
+ "path": "/",
+ "slug": "index",
+ "sourceUrl": "https://werollup.com/",
+ "rawFile": "audit/raw/index.html",
+ "wpTemplate": "page-template-template-homepage",
+ "store": null,
+ "menuFamily": "primary",
+ "subheader": "marquee",
+ "title": "We Roll Up",
+ "metaDescription": "Full menu for your selected store, plus fresh daily deals.",
+ "metaDescriptionFrom": "paragraph",
+ "canonical": "https://werollup.com/",
+ "canonicalFrom": "source",
+ "robots": "max-image-preview:large",
+ "lang": "en-US",
+ "og": null,
+ "h1": "Shop Our Weed Products",
+ "breadcrumbs": [],
+ "sections": [
+  {
+   "id": "s1",
+   "kind": "hero-tile",
+   "heading": "Shop Our Weed Products",
+   "level": 1,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "hero-tile",
+     "image": {
+      "ref": "assets/source/01de0d97-werollup-san-pedro-storefront-classic-car-side-hero.webp",
+      "src": "https://werollup.com/media/werollup-san-pedro-storefront-classic-car-side-hero.webp",
+      "alt": "",
+      "width": 1920,
+      "height": 1439,
+      "role": "hero-tile"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15))",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 1,
+       "look": "h-ultra",
+       "tag": "h1",
+       "html": "Shop Our Weed Products",
+       "text": "Shop Our Weed Products"
+      },
+      {
+       "type": "paragraph",
+       "html": "Full menu for your selected store, plus fresh daily deals.",
+       "text": "Full menu for your selected store, plus fresh daily deals.",
+       "look": "fs-4"
+      },
+      {
+       "type": "paragraph",
+       "html": "Browse everything in stock — and check rotating specials before you shop.",
+       "text": "Browse everything in stock — and check rotating specials before you shop."
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Order Now",
+         "text": "Order Now",
+         "href": "/location/culver-city/shop/",
+         "variant": "light",
+         "chooser": true,
+         "laxUrl": "/location/culver-city/shop/",
+         "sanpedroUrl": "/location/san-pedro/shop/"
+        },
+        {
+         "label": "See Deals",
+         "text": "See Deals",
+         "href": "/about-us/daily-deals/",
+         "variant": "light",
+         "chooser": true,
+         "laxUrl": "/about-us/daily-deals/",
+         "sanpedroUrl": "/about-us/daily-deals/"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "hero-tile",
+     "image": {
+      "ref": "assets/source/75fcd114-werollup-branded-tray-preroll-flower-marble-table-card.webp",
+      "src": "https://werollup.com/media/werollup-branded-tray-preroll-flower-marble-table-card.webp",
+      "alt": "",
+      "width": 800,
+      "height": 1066,
+      "role": "hero-tile"
+     },
+     "overlay": "linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15))",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 2,
+       "look": "h-ultra",
+       "tag": "h2",
+       "html": "Delivery",
+       "text": "Delivery"
+      },
+      {
+       "type": "paragraph",
+       "html": "Get your order how and where it works for you.",
+       "text": "Get your order how and where it works for you.",
+       "look": "fs-4"
+      },
+      {
+       "type": "paragraph",
+       "html": "Pickup, delivery, and flexible options—so you never have to miss what you want.",
+       "text": "Pickup, delivery, and flexible options—so you never have to miss what you want."
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Delivery",
+         "text": "Delivery",
+         "href": "/weed-delivery/",
+         "variant": "light",
+         "chooser": true,
+         "laxUrl": "/weed-delivery/",
+         "sanpedroUrl": "/weed-delivery/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "kind": "location-cards",
+   "heading": "San Pedro - Palos Verdes",
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "location-cards",
+     "cards": [
+      {
+       "image": {
+        "ref": "assets/source/f06599a5-San-Pedro_-Palos-Verdes-1.webp",
+        "src": "https://werollup.com/media/San-Pedro_-Palos-Verdes-1.webp",
+        "alt": "",
+        "width": 600,
+        "height": 531,
+        "role": "location-card"
+       },
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "p",
+         "html": "San Pedro - Palos Verdes",
+         "text": "San Pedro - Palos Verdes"
+        },
+        {
+         "type": "paragraph",
+         "html": "1705 S Gaffey Street",
+         "text": "1705 S Gaffey Street",
+         "look": "small"
+        },
+        {
+         "type": "paragraph",
+         "html": "San Pedro, CA 90731",
+         "text": "San Pedro, CA 90731",
+         "look": "small"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop now",
+           "text": "Shop now",
+           "href": "/location/san-pedro/shop/",
+           "variant": "secondary",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "image": {
+        "ref": "assets/source/dd2e2c2b-LAX_-Culver-City-2.webp",
+        "src": "https://werollup.com/media/LAX_-Culver-City-2.webp",
+        "alt": "",
+        "width": 600,
+        "height": 569,
+        "role": "location-card"
+       },
+       "blocks": [
+        {
+         "type": "heading",
+         "level": null,
+         "look": "h4",
+         "tag": "p",
+         "html": "LAX - Culver City",
+         "text": "LAX - Culver City"
+        },
+        {
+         "type": "paragraph",
+         "html": "11834 Jefferson Boulevard",
+         "text": "11834 Jefferson Boulevard",
+         "look": "small"
+        },
+        {
+         "type": "paragraph",
+         "html": "Culver City, CA 11834",
+         "text": "Culver City, CA 11834",
+         "look": "small"
+        },
+        {
+         "type": "buttons",
+         "items": [
+          {
+           "label": "Shop now",
+           "text": "Shop now",
+           "href": "/location/culver-city/shop/",
+           "variant": "secondary",
+           "size": "sm"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "kind": "split",
+   "heading": "We Are Here to Serve Your Cannabis Needs",
+   "level": 3,
+   "sourceBg": "black",
+   "blocks": [
+    {
+     "type": "split",
+     "imageSide": "left",
+     "image": {
+      "ref": "assets/source/af620928-werollup-sour-kush-jar-preroll-crystal-tray-gallery.webp",
+      "src": "https://werollup.com/media/werollup-sour-kush-jar-preroll-crystal-tray-gallery.webp",
+      "alt": "We Roll Up image",
+      "width": 1200,
+      "height": 1600,
+      "role": "split"
+     },
+     "imageLabel": "We Roll Up image",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 3,
+       "look": "h1",
+       "tag": "h3",
+       "html": "We Are Here to Serve Your Cannabis Needs",
+       "text": "We Are Here to Serve Your Cannabis Needs"
+      },
+      {
+       "type": "paragraph",
+       "html": "Let us welcome you, share insight into our extensive menu of cannabis products and guide you through a positive and rewarding experience. Our friendly staff is here to help, and we always have a Spanish-speaking member of our team onsite. You’re going to enjoy exploring a wealth of options, including exceptional smokable flower, all types of pre-rolls, a wide variety of vapes, delicious gummies and",
+       "text": "Let us welcome you, share insight into our extensive menu of cannabis products and guide you through a positive and rewarding experience. Our friendly staff is here to help, and we always have a Spanish-speaking member of our team onsite. You’re going to enjoy exploring a wealth of options, including exceptional smokable flower, all types of pre-rolls, a wide variety of vapes, delicious gummies and"
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Order Now",
+         "text": "Order Now",
+         "href": "/shop/",
+         "variant": "secondary",
+         "chooser": true,
+         "laxUrl": "/location/culver-city/shop/",
+         "sanpedroUrl": "/location/san-pedro/shop/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "kind": "accordion",
+   "heading": "Shop Cannabis In-Store or Order Online for Pickup & Delivery",
+   "level": 3,
+   "sourceBg": "black",
+   "blocks": [
+    {
+     "type": "accordion",
+     "items": [
+      {
+       "id": "rpb-accordion-item-0-collapse",
+       "title": "Convenient Ways to Get Your Cannabis",
+       "text": "Convenient Ways to Get Your Cannabis",
+       "level": 2,
+       "open": true,
+       "blocks": [
+        {
+         "type": "paragraph",
+         "html": "Finding your perfect strain is our mission. We just love elevating the quality of life and are more than happy to smooth your path with conveniences such as online ordering, in-store pickup, and curbside pickup.",
+         "text": "Finding your perfect strain is our mission. We just love elevating the quality of life and are more than happy to smooth your path with conveniences such as online ordering, in-store pickup, and curbside pickup."
+        }
+       ]
+      },
+      {
+       "id": "rpb-accordion-item-1-collapse",
+       "title": "Shop Cannabis In-Store or Order Online for Pickup &amp; Delivery",
+       "text": "Shop Cannabis In-Store or Order Online for Pickup & Delivery",
+       "level": 2,
+       "open": false,
+       "blocks": [
+        {
+         "type": "heading",
+         "level": 3,
+         "look": null,
+         "tag": "h3",
+         "html": "Shop Cannabis In-Store or Order Online for Pickup &amp; Delivery",
+         "text": "Shop Cannabis In-Store or Order Online for Pickup & Delivery"
+        },
+        {
+         "type": "paragraph",
+         "html": "As the first legal, licensed cannabis dispensary in San Pedro, We Roll Up continues to pioneer change for the better — and that includes bringing the dispensary experience directly to your door with our convenient, discreet, and reliable delivery service. We believe access should never be a barrier, which is why we’ve made it easier than ever to get exactly what you need, whether you prefer to browse our welcoming in-store environment or place a delivery order from the comfort of home. Our doors are open and our delivery runs seven days a week, because your schedule matters and your comfort matters even more. We serve anyone and everyone from all walks of life — recreational novices trying cannabis for the first time, devoted enthusiasts who know their preferences inside and out, medicinal patients counting on consistency and care, locals who’ve made us part of their weekly routine, and visitors discovering everything San Pedro has to offer. If you’re 21 or older with a valid ID, getting what you need from We Roll Up has never been simpler — shop in store or place your delivery order and let us handle the rest. Our knowledgeable, passionate, and genuinely helpful staff members are committed to making every interaction exceptional, whether they’re guiding you through options at the counter or delivering your order straight to your doorstep with the efficiency, discretion, and care you deserve. However you choose to shop with us, the We Roll Up experience comes to you.",
+         "text": "As the first legal, licensed cannabis dispensary in San Pedro, We Roll Up continues to pioneer change for the better — and that includes bringing the dispensary experience directly to your door with our convenient, discreet, and reliable delivery service. We believe access should never be a barrier, which is why we’ve made it easier than ever to get exactly what you need, whether you prefer to browse our welcoming in-store environment or place a delivery order from the comfort of home. Our doors are open and our delivery runs seven days a week, because your schedule matters and your comfort matters even more. We serve anyone and everyone from all walks of life — recreational novices trying cannabis for the first time, devoted enthusiasts who know their preferences inside and out, medicinal patients counting on consistency and care, locals who’ve made us part of their weekly routine, and visitors discovering everything San Pedro has to offer. If you’re 21 or older with a valid ID, getting what you need from We Roll Up has never been simpler — shop in store or place your delivery order and let us handle the rest. Our knowledgeable, passionate, and genuinely helpful staff members are committed to making every interaction exceptional, whether they’re guiding you through options at the counter or delivering your order straight to your doorstep with the efficiency, discretion, and care you deserve. However you choose to shop with us, the We Roll Up experience comes to you."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "kind": "split",
+   "heading": "A Community Built Around Cannabis",
+   "level": 3,
+   "sourceBg": "light",
+   "blocks": [
+    {
+     "type": "split",
+     "imageSide": "right",
+     "image": {
+      "ref": "assets/source/8bd7f345-werollup-red-lighter-preroll-ashtray-playing-cards-gallery.webp",
+      "src": "https://werollup.com/media/werollup-red-lighter-preroll-ashtray-playing-cards-gallery.webp",
+      "alt": "We Roll Up image",
+      "width": 1200,
+      "height": 1600,
+      "role": "split"
+     },
+     "imageLabel": "We Roll Up image",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 3,
+       "look": "h1",
+       "tag": "h3",
+       "html": "A Community Built Around Cannabis",
+       "text": "A Community Built Around Cannabis"
+      },
+      {
+       "type": "paragraph",
+       "html": "For recreational and medicinal marijuana, We Roll Up is where potential and opportunity meet. We bring communities together through a supportive atmosphere and quality products that enrich socialization, bring medicinal relief, and provide a variety of options to suit all needs. Stop by from anywhere across the country and discover the best of cannabinoids, terpenes and effects.",
+       "text": "For recreational and medicinal marijuana, We Roll Up is where potential and opportunity meet. We bring communities together through a supportive atmosphere and quality products that enrich socialization, bring medicinal relief, and provide a variety of options to suit all needs. Stop by from anywhere across the country and discover the best of cannabinoids, terpenes and effects."
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Shop Now",
+         "text": "Shop Now",
+         "href": "/shop/",
+         "variant": "primary",
+         "chooser": true,
+         "laxUrl": "/location/culver-city/shop/",
+         "sanpedroUrl": "/location/san-pedro/shop/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "kind": "split",
+   "heading": null,
+   "level": null,
+   "sourceBg": null,
+   "blocks": [
+    {
+     "type": "split",
+     "imageSide": "left",
+     "image": {
+      "ref": "assets/source/a28ecfaf-werollup-san-pedro-storefront-classic-car-rear-gallery.webp",
+      "src": "https://werollup.com/media/werollup-san-pedro-storefront-classic-car-rear-gallery.webp",
+      "alt": "We Roll Up image",
+      "width": 1200,
+      "height": 1599,
+      "role": "split"
+     },
+     "imageLabel": "We Roll Up image",
+     "blocks": [
+      {
+       "type": "zip-finder",
+       "title": {
+        "look": "h2",
+        "html": "Your Delivery Location",
+        "text": "Your Delivery Location"
+       },
+       "empty": {
+        "title": {
+         "look": "h2",
+         "html": "No Locations Found",
+         "text": "No Locations Found"
+        },
+        "paragraphs": [
+         {
+          "html": "We’re sorry! We couldn’t find any locations matching the zip code you entered. Please try another search, and to be safe feel free to call us at <a href=\"tel:424 264 5423\">424 264 5423</a> to confirm if we have options for your area or not.",
+          "text": "We’re sorry! We couldn’t find any locations matching the zip code you entered. Please try another search, and to be safe feel free to call us at 424 264 5423 to confirm if we have options for your area or not."
+         }
+        ]
+       },
+       "results": {
+        "title": {
+         "look": "h1",
+         "html": "Awesome! We deliver to you. Fast!",
+         "text": "Awesome! We deliver to you. Fast!"
+        },
+        "paragraphs": [
+         {
+          "html": "Please order from this menu:",
+          "text": "Please order from this menu:"
+         }
+        ],
+        "rows": [
+         {
+          "id": "location1",
+          "label": "Location:",
+          "name": "San Pedro",
+          "href": "/location/san-pedro/",
+          "checks": [
+           "Delivery"
+          ],
+          "buttons": [
+           {
+            "label": "Delivery Menu",
+            "text": "Delivery Menu",
+            "href": "/location/san-pedro/shop/",
+            "variant": "light",
+            "icon": "truck"
+           }
+          ],
+          "again": "Search Again"
+         },
+         {
+          "id": "location2",
+          "label": "Location:",
+          "name": "Playa Vista",
+          "href": "/location/culver-city/",
+          "checks": [
+           "Delivery"
+          ],
+          "buttons": [
+           {
+            "label": "Delivery Menu",
+            "text": "Delivery Menu",
+            "href": "/location/culver-city/shop/",
+            "variant": "light",
+            "icon": "truck"
+           }
+          ],
+          "again": "Search Again"
+         }
+        ]
+       },
+       "form": {
+        "id": "zipSearchForm",
+        "name": "zipSearchForm",
+        "label": "Enter Your Zip Code",
+        "labelHidden": true,
+        "input": {
+         "type": "number",
+         "id": "zipcode",
+         "name": "zipcode",
+         "placeholder": "Enter Your Zip Code",
+         "required": true
+        },
+        "button": "Find my Location"
+       }
+      },
+      {
+       "type": "buttons",
+       "items": [
+        {
+         "label": "Order Now",
+         "text": "Order Now",
+         "href": "/shop/",
+         "variant": "accent",
+         "chooser": true,
+         "laxUrl": "/location/culver-city/shop/",
+         "sanpedroUrl": "/location/san-pedro/shop/"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "embed": null,
+ "form": null,
+ "maps": [],
+ "headerArt": null,
+ "generated": {
+  "hero": null,
+  "art": []
+ },
+ "variants": [],
+ "aliases": [
+  "/home/"
+ ],
+ "imagesUsed": [
+  "assets/source/01de0d97-werollup-san-pedro-storefront-classic-car-side-hero.webp",
+  "assets/source/75fcd114-werollup-branded-tray-preroll-flower-marble-table-card.webp",
+  "assets/source/8bd7f345-werollup-red-lighter-preroll-ashtray-playing-cards-gallery.webp",
+  "assets/source/a28ecfaf-werollup-san-pedro-storefront-classic-car-rear-gallery.webp",
+  "assets/source/af620928-werollup-sour-kush-jar-preroll-crystal-tray-gallery.webp",
+  "assets/source/dd2e2c2b-LAX_-Culver-City-2.webp",
+  "assets/source/f06599a5-San-Pedro_-Palos-Verdes-1.webp"
+ ]
+}

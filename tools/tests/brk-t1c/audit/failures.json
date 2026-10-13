@@ -1,0 +1,104 @@
+{
+  "schema": "site-reforge/failures@1",
+  "items": [
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/c",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.084Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/d",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.099Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/e",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.115Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/f",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.131Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/g",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.146Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead1",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.162Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead2",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.177Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead3",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.192Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead4",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.207Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead5",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.224Z"
+    },
+    {
+      "stage": "crawl:page",
+      "target": "http://127.0.0.1:55540/dead6",
+      "reason": "refused: HTTP 403",
+      "extra": {
+        "chain": []
+      },
+      "at": "2026-10-13T01:44:29.225Z"
+    }
+  ]
+}

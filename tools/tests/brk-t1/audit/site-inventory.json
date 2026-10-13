@@ -1,0 +1,154 @@
+{
+  "schema": "site-reforge/site-inventory@1",
+  "target": "http://127.0.0.1:55540/",
+  "origin": "http://127.0.0.1:55540",
+  "generated": "2026-10-13T01:44:28.069Z",
+  "discovery": {
+    "robots": {
+      "status": 200,
+      "sitemaps": [
+        "http://127.0.0.1:55540/sitemap_index.xml"
+      ],
+      "disallow": [],
+      "allow": []
+    },
+    "sitemaps": [
+      "http://127.0.0.1:55540/sitemap_index.xml",
+      "http://127.0.0.1:55540/sitemap.xml",
+      "http://127.0.0.1:55540/wp-sitemap.xml",
+      "http://127.0.0.1:55540/sitemap-index.xml"
+    ],
+    "sitemapUrlCount": 8,
+    "sitemapsFetched": [
+      "http://127.0.0.1:55540/sitemap_index.xml",
+      "http://127.0.0.1:55540/sitemap.xml",
+      "http://127.0.0.1:55540/wp-sitemap.xml",
+      "http://127.0.0.1:55540/sitemap-index.xml"
+    ],
+    "robotsHonoured": true,
+    "deferPattern": null,
+    "deferStop": false,
+    "excludePattern": null,
+    "excludedSample": []
+  },
+  "counts": {
+    "pages": 4,
+    "html": 3,
+    "nonHtml": 0,
+    "failed": 1,
+    "fetchedThisRun": 3,
+    "skippedResume": 0,
+    "blockedByRobots": 0,
+    "excludedByPattern": 0,
+    "skippedKnown404": 0,
+    "deferredRemaining": 0,
+    "breaker": {
+      "kind": "forbidden",
+      "status": 403,
+      "url": "http://127.0.0.1:55540/c",
+      "at": "2026-10-13T01:44:28.068Z"
+    },
+    "refusedHosts": [],
+    "aliasesCollapsed": 0
+  },
+  "truncated": true,
+  "queueRemaining": 10,
+  "maxPages": 100,
+  "pages": [
+    {
+      "url": "http://127.0.0.1:55540/",
+      "finalUrl": "http://127.0.0.1:55540/",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 294,
+      "sha256": "b022dfed41fc5f7d0aaa490d176a057be41d1e673e0664cd318a756ac3b0e990",
+      "savedAs": "index.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55540/dead1",
+        "http://127.0.0.1:55540/dead2",
+        "http://127.0.0.1:55540/dead3",
+        "http://127.0.0.1:55540/dead4",
+        "http://127.0.0.1:55540/dead5",
+        "http://127.0.0.1:55540/dead6"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:28.040Z"
+    },
+    {
+      "url": "http://127.0.0.1:55540/a",
+      "finalUrl": "http://127.0.0.1:55540/a",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 118,
+      "sha256": "c0030f7761a38771afa75f6e0f415688192ca3a9c8b38ced891557c8625785d1",
+      "savedAs": "a.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:28.043Z"
+    },
+    {
+      "url": "http://127.0.0.1:55540/b",
+      "finalUrl": "http://127.0.0.1:55540/b",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 118,
+      "sha256": "51133890b580d92010470c516f411bcf32d36e35904fce95831fa6b7a59d7550",
+      "savedAs": "b.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:28.055Z"
+    },
+    {
+      "url": "http://127.0.0.1:55540/c",
+      "status": 403,
+      "ok": false,
+      "error": "refused: HTTP 403",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "fetchedAt": "2026-10-13T01:44:28.068Z"
+    }
+  ]
+}

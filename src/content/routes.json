@@ -1,0 +1,1112 @@
+{
+ "schema": "werollup/routes@1",
+ "origin": "https://werollup.com",
+ "counts": {
+  "records": 91,
+  "paths": 54,
+  "variants": 37,
+  "aliases": 14,
+  "menuPaths": 8
+ },
+ "paths": [
+  {
+   "path": "/",
+   "slug": "index",
+   "kind": "home",
+   "sourceUrl": "https://werollup.com/",
+   "rawFile": "audit/raw/index.html",
+   "out": "index.html",
+   "canonical": "https://werollup.com/",
+   "variants": []
+  },
+  {
+   "path": "/about-us/",
+   "slug": "about-us",
+   "kind": "page",
+   "sourceUrl": "https://werollup.com/about-us",
+   "rawFile": "audit/raw/about-us.html",
+   "out": "about-us/index.html",
+   "canonical": "https://werollup.com/about-us/",
+   "variants": []
+  },
+  {
+   "path": "/about-us/daily-deals/",
+   "slug": "about-us-daily-deals",
+   "kind": "page",
+   "sourceUrl": "https://werollup.com/about-us/daily-deals",
+   "rawFile": "audit/raw/about-us-daily-deals.html",
+   "out": "about-us/daily-deals/index.html",
+   "canonical": "https://werollup.com/about-us/daily-deals/",
+   "variants": []
+  },
+  {
+   "path": "/accessibility-statement/",
+   "slug": "accessibility-statement",
+   "kind": "legal",
+   "sourceUrl": "https://werollup.com/accessibility-statement",
+   "rawFile": "audit/raw/accessibility-statement.html",
+   "out": "accessibility-statement/index.html",
+   "canonical": "https://werollup.com/accessibility-statement/",
+   "variants": []
+  },
+  {
+   "path": "/author/werollupadmin/",
+   "slug": "author-werollupadmin",
+   "kind": "archive-author",
+   "sourceUrl": "https://werollup.com/author/werollupadmin",
+   "rawFile": "audit/raw/author-werollupadmin.html",
+   "out": "author/werollupadmin/index.html",
+   "canonical": "https://werollup.com/author/werollupadmin/",
+   "variants": []
+  },
+  {
+   "path": "/contact/",
+   "slug": "contact",
+   "kind": "contact",
+   "sourceUrl": "https://werollup.com/contact",
+   "rawFile": "audit/raw/contact.html",
+   "out": "contact/index.html",
+   "canonical": "https://werollup.com/contact/",
+   "variants": []
+  },
+  {
+   "path": "/education/",
+   "slug": "education",
+   "kind": "education",
+   "sourceUrl": "https://werollup.com/education",
+   "rawFile": "audit/raw/education.html",
+   "out": "education/index.html",
+   "canonical": "https://werollup.com/education/",
+   "variants": []
+  },
+  {
+   "path": "/education/cannabis-101/",
+   "slug": "education-cannabis-101",
+   "kind": "education",
+   "sourceUrl": "https://werollup.com/education/cannabis-101",
+   "rawFile": "audit/raw/education-cannabis-101.html",
+   "out": "education/cannabis-101/index.html",
+   "canonical": "https://werollup.com/education/cannabis-101/",
+   "variants": []
+  },
+  {
+   "path": "/education/recreational-medicinal/",
+   "slug": "education-recreational-medicinal",
+   "kind": "education",
+   "sourceUrl": "https://werollup.com/education/recreational-medicinal",
+   "rawFile": "audit/raw/education-recreational-medicinal.html",
+   "out": "education/recreational-medicinal/index.html",
+   "canonical": "https://werollup.com/education/recreational-medicinal/",
+   "variants": []
+  },
+  {
+   "path": "/lax-menu/",
+   "slug": "lax-menu",
+   "kind": "lax-menu",
+   "sourceUrl": "https://werollup.com/lax-menu",
+   "rawFile": "audit/raw/lax-menu.html",
+   "out": "lax-menu/index.html",
+   "canonical": "https://werollup.com/lax-menu/",
+   "variants": []
+  },
+  {
+   "path": "/location-pagetype/cannabis-menu-page/",
+   "slug": "location-pagetype-cannabis-menu-page",
+   "kind": "archive-taxonomy",
+   "sourceUrl": "https://werollup.com/location-pagetype/cannabis-menu-page",
+   "rawFile": "audit/raw/location-pagetype-cannabis-menu-page.html",
+   "out": "location-pagetype/cannabis-menu-page/index.html",
+   "canonical": "https://werollup.com/location-pagetype/cannabis-menu-page/",
+   "variants": []
+  },
+  {
+   "path": "/location-pagetype/primary-location/",
+   "slug": "location-pagetype-primary-location",
+   "kind": "archive-taxonomy",
+   "sourceUrl": "https://werollup.com/location-pagetype/primary-location",
+   "rawFile": "audit/raw/location-pagetype-primary-location.html",
+   "out": "location-pagetype/primary-location/index.html",
+   "canonical": "https://werollup.com/location-pagetype/primary-location/",
+   "variants": []
+  },
+  {
+   "path": "/location/culver-city/",
+   "slug": "location-culver-city",
+   "kind": "location",
+   "sourceUrl": "https://werollup.com/location/culver-city",
+   "rawFile": "audit/raw/location-culver-city.html",
+   "out": "location/culver-city/index.html",
+   "canonical": "https://werollup.com/location/culver-city/",
+   "variants": []
+  },
+  {
+   "path": "/location/culver-city/shop/",
+   "slug": "location-culver-city-shop",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/culver-city/shop",
+   "rawFile": "audit/raw/location-culver-city-shop.html",
+   "out": "location/culver-city/shop/index.html",
+   "canonical": "https://werollup.com/location/culver-city/shop/",
+   "variants": [
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Daccessories-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-618f1e21.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-3cc637b8.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-cbf8e8a7.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-7d664180.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dedibles-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-9c7f12e1.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dflower-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-5aef42ce.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-b916ad9e.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dpre-rolls-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-d58f81ae.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dtopicals-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-ab85007d.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-6cffac32.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dvape-pens-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BanyClientCategories-255D-255B-255D-3D-fc9b33e5.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3D710-labs%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3D710-labs-26page-3D1.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Ddime%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Ddime-26page-3D1.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Delusive%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Delusive-26page-3D1.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dteds-budz%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dteds-budz-26page-3D1.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dtraditional%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dtraditional-26page-3D1.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=filter%255BbrandSlugs%255D%255B%255D%3Dwizard-trees%26page%3D1",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-filter-255BbrandSlugs-255D-255B-255D-3Dwizard-trees-26page-3D1.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    },
+    {
+     "query": "?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+     "sourceUrl": "https://werollup.com/location/culver-city/shop?store_path=%2F&store_query=page%3D1%26sortBy%3Dmost_popular&locationId=10599",
+     "rawFile": "audit/raw/location-culver-city-shop-store_path-2F-store_query-page-3D1-26sortBy-3Dmost_popular-locationId-10599.html",
+     "canonical": "https://werollup.com/location/culver-city/shop/"
+    }
+   ]
+  },
+  {
+   "path": "/location/san-pedro/",
+   "slug": "location-san-pedro",
+   "kind": "location",
+   "sourceUrl": "https://werollup.com/location/san-pedro",
+   "rawFile": "audit/raw/location-san-pedro.html",
+   "out": "location/san-pedro/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/",
+   "slug": "location-san-pedro-shop",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop",
+   "rawFile": "audit/raw/location-san-pedro-shop.html",
+   "out": "location/san-pedro/shop/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/",
+   "variants": [
+    {
+     "query": "?filters%5Bbrand%5D%5B%5D=710%20Labs",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=710%20Labs",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-710-20Labs.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=710%20Labs"
+    },
+    {
+     "query": "?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=Alien%20Labs",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-Alien-20Labs.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=Alien%20Labs"
+    },
+    {
+     "query": "?filters%5Bbrand%5D%5B%5D=PlugPlay",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=PlugPlay",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-PlugPlay.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=PlugPlay"
+    },
+    {
+     "query": "?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=ST%20IDES",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-ST-20IDES.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=ST%20IDES"
+    },
+    {
+     "query": "?filters%5Bbrand%5D%5B%5D=WYLD",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bbrand%5D%5B%5D=WYLD",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bbrand-5D-5B-5D-WYLD.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bbrand%5D%5B%5D=WYLD"
+    },
+    {
+     "query": "?filters%5Bfeelings%5D%5B%5D=Blissful",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Blissful",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Blissful.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Blissful"
+    },
+    {
+     "query": "?filters%5Bfeelings%5D%5B%5D=Creative",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Creative",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Creative.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Creative"
+    },
+    {
+     "query": "?filters%5Bfeelings%5D%5B%5D=Energetic",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Energetic",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Energetic.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Energetic"
+    },
+    {
+     "query": "?filters%5Bfeelings%5D%5B%5D=Hungry",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Hungry",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Hungry.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Hungry"
+    },
+    {
+     "query": "?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Pain+Free",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Pain-Free.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Pain+Free"
+    },
+    {
+     "query": "?filters%5Bfeelings%5D%5B%5D=Relaxed",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Relaxed",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Relaxed.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Relaxed"
+    },
+    {
+     "query": "?filters%5Bfeelings%5D%5B%5D=Sleepy",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Bfeelings%5D%5B%5D=Sleepy",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Bfeelings-5D-5B-5D-Sleepy.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Bfeelings%5D%5B%5D=Sleepy"
+    },
+    {
+     "query": "?filters%5Broot_types%5D%5B%5D=best_selling",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=best_selling",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-best_selling.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=best_selling"
+    },
+    {
+     "query": "?filters%5Broot_types%5D%5B%5D=edible",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=edible",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-edible.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=edible"
+    },
+    {
+     "query": "?filters%5Broot_types%5D%5B%5D=extract",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=extract",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-extract.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract"
+    },
+    {
+     "query": "?filters%5Broot_types%5D%5B%5D=flower",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=flower",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-flower.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=flower"
+    },
+    {
+     "query": "?filters%5Broot_types%5D%5B%5D=pre-roll",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=pre-roll",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-pre-roll.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=pre-roll"
+    },
+    {
+     "query": "?filters%5Broot_types%5D%5B%5D=topical",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=topical",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-topical.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=topical"
+    },
+    {
+     "query": "?filters%5Broot_types%5D%5B%5D=vape",
+     "sourceUrl": "https://werollup.com/location/san-pedro/shop?filters%5Broot_types%5D%5B%5D=vape",
+     "rawFile": "audit/raw/location-san-pedro-shop-filters-5Broot_types-5D-5B-5D-vape.html",
+     "canonical": "https://werollup.com/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=vape"
+    }
+   ]
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/edible/",
+   "slug": "location-san-pedro-shop-menu-edible",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/edible",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-edible.html",
+   "out": "location/san-pedro/shop/menu/edible/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/edible/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/extract/",
+   "slug": "location-san-pedro-shop-menu-extract",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/extract",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-extract.html",
+   "out": "location/san-pedro/shop/menu/extract/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/extract/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/flower/",
+   "slug": "location-san-pedro-shop-menu-flower",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/flower",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-flower.html",
+   "out": "location/san-pedro/shop/menu/flower/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/flower/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/gear/",
+   "slug": "location-san-pedro-shop-menu-gear",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/gear",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-gear.html",
+   "out": "location/san-pedro/shop/menu/gear/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/gear/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/jane-gold/",
+   "slug": "location-san-pedro-shop-menu-jane-gold",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/jane-gold",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-jane-gold.html",
+   "out": "location/san-pedro/shop/menu/jane-gold/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/jane-gold/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/pre-roll/",
+   "slug": "location-san-pedro-shop-menu-pre-roll",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/pre-roll",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-pre-roll.html",
+   "out": "location/san-pedro/shop/menu/pre-roll/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/pre-roll/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/topical/",
+   "slug": "location-san-pedro-shop-menu-topical",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/topical",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-topical.html",
+   "out": "location/san-pedro/shop/menu/topical/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/topical/",
+   "variants": []
+  },
+  {
+   "path": "/location/san-pedro/shop/menu/vape/",
+   "slug": "location-san-pedro-shop-menu-vape",
+   "kind": "shop",
+   "sourceUrl": "https://werollup.com/location/san-pedro/shop/menu/vape",
+   "rawFile": "audit/raw/location-san-pedro-shop-menu-vape.html",
+   "out": "location/san-pedro/shop/menu/vape/index.html",
+   "canonical": "https://werollup.com/location/san-pedro/shop/menu/vape/",
+   "variants": []
+  },
+  {
+   "path": "/privacy-policy/",
+   "slug": "privacy-policy",
+   "kind": "legal",
+   "sourceUrl": "https://werollup.com/privacy-policy",
+   "rawFile": "audit/raw/privacy-policy.html",
+   "out": "privacy-policy/index.html",
+   "canonical": "https://werollup.com/privacy-policy/",
+   "variants": []
+  },
+  {
+   "path": "/products/",
+   "slug": "products",
+   "kind": "products-hub",
+   "sourceUrl": "https://werollup.com/products",
+   "rawFile": "audit/raw/products.html",
+   "out": "products/index.html",
+   "canonical": "https://werollup.com/products/",
+   "variants": []
+  },
+  {
+   "path": "/products/concentrates/",
+   "slug": "products-concentrates",
+   "kind": "product-category",
+   "sourceUrl": "https://werollup.com/products/concentrates",
+   "rawFile": "audit/raw/products-concentrates.html",
+   "out": "products/concentrates/index.html",
+   "canonical": "https://werollup.com/products/concentrates/",
+   "variants": []
+  },
+  {
+   "path": "/products/edibles/",
+   "slug": "products-edibles",
+   "kind": "product-category",
+   "sourceUrl": "https://werollup.com/products/edibles",
+   "rawFile": "audit/raw/products-edibles.html",
+   "out": "products/edibles/index.html",
+   "canonical": "https://werollup.com/products/edibles/",
+   "variants": []
+  },
+  {
+   "path": "/products/flower/",
+   "slug": "products-flower",
+   "kind": "product-category",
+   "sourceUrl": "https://werollup.com/products/flower",
+   "rawFile": "audit/raw/products-flower.html",
+   "out": "products/flower/index.html",
+   "canonical": "https://werollup.com/products/flower/",
+   "variants": []
+  },
+  {
+   "path": "/products/pre-rolls/",
+   "slug": "products-pre-rolls",
+   "kind": "product-category",
+   "sourceUrl": "https://werollup.com/products/pre-rolls",
+   "rawFile": "audit/raw/products-pre-rolls.html",
+   "out": "products/pre-rolls/index.html",
+   "canonical": "https://werollup.com/products/pre-rolls/",
+   "variants": []
+  },
+  {
+   "path": "/products/topicals/",
+   "slug": "products-topicals",
+   "kind": "product-category",
+   "sourceUrl": "https://werollup.com/products/topicals",
+   "rawFile": "audit/raw/products-topicals.html",
+   "out": "products/topicals/index.html",
+   "canonical": "https://werollup.com/products/topicals/",
+   "variants": []
+  },
+  {
+   "path": "/products/vaporizers-cartridges/",
+   "slug": "products-vaporizers-cartridges",
+   "kind": "product-category",
+   "sourceUrl": "https://werollup.com/products/vaporizers-cartridges",
+   "rawFile": "audit/raw/products-vaporizers-cartridges.html",
+   "out": "products/vaporizers-cartridges/index.html",
+   "canonical": "https://werollup.com/products/vaporizers-cartridges/",
+   "variants": []
+  },
+  {
+   "path": "/reviews/greg-s/",
+   "slug": "reviews-greg-s",
+   "kind": "review",
+   "sourceUrl": "https://werollup.com/reviews/greg-s",
+   "rawFile": "audit/raw/reviews-greg-s.html",
+   "out": "reviews/greg-s/index.html",
+   "canonical": "https://werollup.com/reviews/greg-s/",
+   "variants": []
+  },
+  {
+   "path": "/reviews/james/",
+   "slug": "reviews-james",
+   "kind": "review",
+   "sourceUrl": "https://werollup.com/reviews/james",
+   "rawFile": "audit/raw/reviews-james.html",
+   "out": "reviews/james/index.html",
+   "canonical": "https://werollup.com/reviews/james/",
+   "variants": []
+  },
+  {
+   "path": "/reviews/jennifer/",
+   "slug": "reviews-jennifer",
+   "kind": "review",
+   "sourceUrl": "https://werollup.com/reviews/jennifer",
+   "rawFile": "audit/raw/reviews-jennifer.html",
+   "out": "reviews/jennifer/index.html",
+   "canonical": "https://werollup.com/reviews/jennifer/",
+   "variants": []
+  },
+  {
+   "path": "/reviews/patricia-h/",
+   "slug": "reviews-patricia-h",
+   "kind": "review",
+   "sourceUrl": "https://werollup.com/reviews/patricia-h",
+   "rawFile": "audit/raw/reviews-patricia-h.html",
+   "out": "reviews/patricia-h/index.html",
+   "canonical": "https://werollup.com/reviews/patricia-h/",
+   "variants": []
+  },
+  {
+   "path": "/reviews/thomas-h/",
+   "slug": "reviews-thomas-h",
+   "kind": "review",
+   "sourceUrl": "https://werollup.com/reviews/thomas-h",
+   "rawFile": "audit/raw/reviews-thomas-h.html",
+   "out": "reviews/thomas-h/index.html",
+   "canonical": "https://werollup.com/reviews/thomas-h/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/",
+   "slug": "service-area",
+   "kind": "service-area-hub",
+   "sourceUrl": "https://werollup.com/service-area",
+   "rawFile": "audit/raw/service-area.html",
+   "out": "service-area/index.html",
+   "canonical": "https://werollup.com/service-area/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/culver-city/",
+   "slug": "service-area-culver-city",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/culver-city",
+   "rawFile": "audit/raw/service-area-culver-city.html",
+   "out": "service-area/culver-city/index.html",
+   "canonical": "https://werollup.com/service-area/culver-city/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/culver-city/culver-city-delivery-and-pickup/",
+   "slug": "service-area-culver-city-culver-city-delivery-and-pickup",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup",
+   "rawFile": "audit/raw/service-area-culver-city-culver-city-delivery-and-pickup.html",
+   "out": "service-area/culver-city/culver-city-delivery-and-pickup/index.html",
+   "canonical": "https://werollup.com/service-area/culver-city/culver-city-delivery-and-pickup/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/lax/",
+   "slug": "service-area-lax",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/lax",
+   "rawFile": "audit/raw/service-area-lax.html",
+   "out": "service-area/lax/index.html",
+   "canonical": "https://werollup.com/service-area/lax/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/lax/lax-weed-delivery/",
+   "slug": "service-area-lax-lax-weed-delivery",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/lax/lax-weed-delivery",
+   "rawFile": "audit/raw/service-area-lax-lax-weed-delivery.html",
+   "out": "service-area/lax/lax-weed-delivery/index.html",
+   "canonical": "https://werollup.com/service-area/lax/lax-weed-delivery/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/marina-del-rey-ca/",
+   "slug": "service-area-marina-del-rey-ca",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/marina-del-rey-ca",
+   "rawFile": "audit/raw/service-area-marina-del-rey-ca.html",
+   "out": "service-area/marina-del-rey-ca/index.html",
+   "canonical": "https://werollup.com/service-area/marina-del-rey-ca/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+   "slug": "service-area-marina-del-rey-ca-marina-del-rey-weed-delivery",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+   "rawFile": "audit/raw/service-area-marina-del-rey-ca-marina-del-rey-weed-delivery.html",
+   "out": "service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/index.html",
+   "canonical": "https://werollup.com/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/playa-vista-ca/",
+   "slug": "service-area-playa-vista-ca",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/playa-vista-ca",
+   "rawFile": "audit/raw/service-area-playa-vista-ca.html",
+   "out": "service-area/playa-vista-ca/index.html",
+   "canonical": "https://werollup.com/service-area/playa-vista-ca/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/playa-vista-ca/playa-vista-weed-delivery/",
+   "slug": "service-area-playa-vista-ca-playa-vista-weed-delivery",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery",
+   "rawFile": "audit/raw/service-area-playa-vista-ca-playa-vista-weed-delivery.html",
+   "out": "service-area/playa-vista-ca/playa-vista-weed-delivery/index.html",
+   "canonical": "https://werollup.com/service-area/playa-vista-ca/playa-vista-weed-delivery/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/san-pedro/",
+   "slug": "service-area-san-pedro",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/san-pedro",
+   "rawFile": "audit/raw/service-area-san-pedro.html",
+   "out": "service-area/san-pedro/index.html",
+   "canonical": "https://werollup.com/service-area/san-pedro/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/san-pedro/carson-ca/",
+   "slug": "service-area-san-pedro-carson-ca",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/san-pedro/carson-ca",
+   "rawFile": "audit/raw/service-area-san-pedro-carson-ca.html",
+   "out": "service-area/san-pedro/carson-ca/index.html",
+   "canonical": "https://werollup.com/service-area/san-pedro/carson-ca/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/san-pedro/rancho-palos-verdes-ca/",
+   "slug": "service-area-san-pedro-rancho-palos-verdes-ca",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca",
+   "rawFile": "audit/raw/service-area-san-pedro-rancho-palos-verdes-ca.html",
+   "out": "service-area/san-pedro/rancho-palos-verdes-ca/index.html",
+   "canonical": "https://werollup.com/service-area/san-pedro/rancho-palos-verdes-ca/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/san-pedro/san-pedro-weed-delivery/",
+   "slug": "service-area-san-pedro-san-pedro-weed-delivery",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery",
+   "rawFile": "audit/raw/service-area-san-pedro-san-pedro-weed-delivery.html",
+   "out": "service-area/san-pedro/san-pedro-weed-delivery/index.html",
+   "canonical": "https://werollup.com/service-area/san-pedro/san-pedro-weed-delivery/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/san-pedro/wilmington-ca/",
+   "slug": "service-area-san-pedro-wilmington-ca",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/san-pedro/wilmington-ca",
+   "rawFile": "audit/raw/service-area-san-pedro-wilmington-ca.html",
+   "out": "service-area/san-pedro/wilmington-ca/index.html",
+   "canonical": "https://werollup.com/service-area/san-pedro/wilmington-ca/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/westchester-ca/",
+   "slug": "service-area-westchester-ca",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/westchester-ca",
+   "rawFile": "audit/raw/service-area-westchester-ca.html",
+   "out": "service-area/westchester-ca/index.html",
+   "canonical": "https://werollup.com/service-area/westchester-ca/",
+   "variants": []
+  },
+  {
+   "path": "/service-area/westchester-ca/westchester-weed-delivery/",
+   "slug": "service-area-westchester-ca-westchester-weed-delivery",
+   "kind": "service-area-town",
+   "sourceUrl": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery",
+   "rawFile": "audit/raw/service-area-westchester-ca-westchester-weed-delivery.html",
+   "out": "service-area/westchester-ca/westchester-weed-delivery/index.html",
+   "canonical": "https://werollup.com/service-area/westchester-ca/westchester-weed-delivery/",
+   "variants": []
+  },
+  {
+   "path": "/weed-delivery/",
+   "slug": "weed-delivery",
+   "kind": "delivery",
+   "sourceUrl": "https://werollup.com/weed-delivery",
+   "rawFile": "audit/raw/weed-delivery.html",
+   "out": "weed-delivery/index.html",
+   "canonical": "https://werollup.com/weed-delivery/",
+   "variants": []
+  }
+ ],
+ "menuPaths": [
+  "/location/san-pedro/shop/menu/edible/",
+  "/location/san-pedro/shop/menu/extract/",
+  "/location/san-pedro/shop/menu/flower/",
+  "/location/san-pedro/shop/menu/gear/",
+  "/location/san-pedro/shop/menu/jane-gold/",
+  "/location/san-pedro/shop/menu/pre-roll/",
+  "/location/san-pedro/shop/menu/topical/",
+  "/location/san-pedro/shop/menu/vape/"
+ ],
+ "aliases": [
+  {
+   "from": "/concentrates/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/concentrates",
+   "to": "/products/concentrates/",
+   "stub": "concentrates/index.html"
+  },
+  {
+   "from": "/culver-city/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/culver-city",
+   "to": "/service-area/culver-city/",
+   "stub": "culver-city/index.html"
+  },
+  {
+   "from": "/culver-city/culver-city-delivery-and-pickup/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/culver-city/culver-city-delivery-and-pickup",
+   "to": "/service-area/culver-city/culver-city-delivery-and-pickup/",
+   "stub": "culver-city/culver-city-delivery-and-pickup/index.html"
+  },
+  {
+   "from": "/daily-deals/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/daily-deals",
+   "to": "/about-us/daily-deals/",
+   "stub": "daily-deals/index.html"
+  },
+  {
+   "from": "/edibles-gummies/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/edibles-gummies",
+   "to": "/products/edibles/",
+   "stub": "edibles-gummies/index.html"
+  },
+  {
+   "from": "/flower/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/flower",
+   "to": "/products/flower/",
+   "stub": "flower/index.html"
+  },
+  {
+   "from": "/home/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/home",
+   "to": "/",
+   "stub": "home/index.html"
+  },
+  {
+   "from": "/lax/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/lax",
+   "to": "/service-area/lax/",
+   "stub": "lax/index.html"
+  },
+  {
+   "from": "/pre-rolls/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/pre-rolls",
+   "to": "/products/pre-rolls/",
+   "stub": "pre-rolls/index.html"
+  },
+  {
+   "from": "/san-pedro/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/san-pedro",
+   "to": "/location/san-pedro/",
+   "stub": "san-pedro/index.html"
+  },
+  {
+   "from": "/shop-playa-vista/",
+   "fromQuery": "?filters%5Broot_types%5D%5B%5D=vape",
+   "sourceUrl": "https://werollup.com/shop-playa-vista?filters%5Broot_types%5D%5B%5D=vape",
+   "to": "/location/culver-city/shop/",
+   "stub": "shop-playa-vista/index.html"
+  },
+  {
+   "from": "/shop/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/shop",
+   "to": "/location/culver-city/shop/",
+   "stub": "shop/index.html"
+  },
+  {
+   "from": "/topicals/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/topicals",
+   "to": "/products/topicals/",
+   "stub": "topicals/index.html"
+  },
+  {
+   "from": "/vaporizers-cartridges/",
+   "fromQuery": null,
+   "sourceUrl": "https://werollup.com/vaporizers-cartridges",
+   "to": "/products/vaporizers-cartridges/",
+   "stub": "vaporizers-cartridges/index.html"
+  }
+ ],
+ "slashRedirects": [
+  {
+   "from": "/about-us",
+   "to": "/about-us/"
+  },
+  {
+   "from": "/about-us/daily-deals",
+   "to": "/about-us/daily-deals/"
+  },
+  {
+   "from": "/accessibility-statement",
+   "to": "/accessibility-statement/"
+  },
+  {
+   "from": "/author/werollupadmin",
+   "to": "/author/werollupadmin/"
+  },
+  {
+   "from": "/contact",
+   "to": "/contact/"
+  },
+  {
+   "from": "/education",
+   "to": "/education/"
+  },
+  {
+   "from": "/education/cannabis-101",
+   "to": "/education/cannabis-101/"
+  },
+  {
+   "from": "/education/recreational-medicinal",
+   "to": "/education/recreational-medicinal/"
+  },
+  {
+   "from": "/lax-menu",
+   "to": "/lax-menu/"
+  },
+  {
+   "from": "/location-pagetype/cannabis-menu-page",
+   "to": "/location-pagetype/cannabis-menu-page/"
+  },
+  {
+   "from": "/location-pagetype/primary-location",
+   "to": "/location-pagetype/primary-location/"
+  },
+  {
+   "from": "/location/culver-city",
+   "to": "/location/culver-city/"
+  },
+  {
+   "from": "/location/culver-city/shop",
+   "to": "/location/culver-city/shop/"
+  },
+  {
+   "from": "/location/san-pedro",
+   "to": "/location/san-pedro/"
+  },
+  {
+   "from": "/location/san-pedro/shop",
+   "to": "/location/san-pedro/shop/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/edible",
+   "to": "/location/san-pedro/shop/menu/edible/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/extract",
+   "to": "/location/san-pedro/shop/menu/extract/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/flower",
+   "to": "/location/san-pedro/shop/menu/flower/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/gear",
+   "to": "/location/san-pedro/shop/menu/gear/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/jane-gold",
+   "to": "/location/san-pedro/shop/menu/jane-gold/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/pre-roll",
+   "to": "/location/san-pedro/shop/menu/pre-roll/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/topical",
+   "to": "/location/san-pedro/shop/menu/topical/"
+  },
+  {
+   "from": "/location/san-pedro/shop/menu/vape",
+   "to": "/location/san-pedro/shop/menu/vape/"
+  },
+  {
+   "from": "/privacy-policy",
+   "to": "/privacy-policy/"
+  },
+  {
+   "from": "/products",
+   "to": "/products/"
+  },
+  {
+   "from": "/products/concentrates",
+   "to": "/products/concentrates/"
+  },
+  {
+   "from": "/products/edibles",
+   "to": "/products/edibles/"
+  },
+  {
+   "from": "/products/flower",
+   "to": "/products/flower/"
+  },
+  {
+   "from": "/products/pre-rolls",
+   "to": "/products/pre-rolls/"
+  },
+  {
+   "from": "/products/topicals",
+   "to": "/products/topicals/"
+  },
+  {
+   "from": "/products/vaporizers-cartridges",
+   "to": "/products/vaporizers-cartridges/"
+  },
+  {
+   "from": "/reviews/greg-s",
+   "to": "/reviews/greg-s/"
+  },
+  {
+   "from": "/reviews/james",
+   "to": "/reviews/james/"
+  },
+  {
+   "from": "/reviews/jennifer",
+   "to": "/reviews/jennifer/"
+  },
+  {
+   "from": "/reviews/patricia-h",
+   "to": "/reviews/patricia-h/"
+  },
+  {
+   "from": "/reviews/thomas-h",
+   "to": "/reviews/thomas-h/"
+  },
+  {
+   "from": "/service-area",
+   "to": "/service-area/"
+  },
+  {
+   "from": "/service-area/culver-city",
+   "to": "/service-area/culver-city/"
+  },
+  {
+   "from": "/service-area/culver-city/culver-city-delivery-and-pickup",
+   "to": "/service-area/culver-city/culver-city-delivery-and-pickup/"
+  },
+  {
+   "from": "/service-area/lax",
+   "to": "/service-area/lax/"
+  },
+  {
+   "from": "/service-area/lax/lax-weed-delivery",
+   "to": "/service-area/lax/lax-weed-delivery/"
+  },
+  {
+   "from": "/service-area/marina-del-rey-ca",
+   "to": "/service-area/marina-del-rey-ca/"
+  },
+  {
+   "from": "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery",
+   "to": "/service-area/marina-del-rey-ca/marina-del-rey-weed-delivery/"
+  },
+  {
+   "from": "/service-area/playa-vista-ca",
+   "to": "/service-area/playa-vista-ca/"
+  },
+  {
+   "from": "/service-area/playa-vista-ca/playa-vista-weed-delivery",
+   "to": "/service-area/playa-vista-ca/playa-vista-weed-delivery/"
+  },
+  {
+   "from": "/service-area/san-pedro",
+   "to": "/service-area/san-pedro/"
+  },
+  {
+   "from": "/service-area/san-pedro/carson-ca",
+   "to": "/service-area/san-pedro/carson-ca/"
+  },
+  {
+   "from": "/service-area/san-pedro/rancho-palos-verdes-ca",
+   "to": "/service-area/san-pedro/rancho-palos-verdes-ca/"
+  },
+  {
+   "from": "/service-area/san-pedro/san-pedro-weed-delivery",
+   "to": "/service-area/san-pedro/san-pedro-weed-delivery/"
+  },
+  {
+   "from": "/service-area/san-pedro/wilmington-ca",
+   "to": "/service-area/san-pedro/wilmington-ca/"
+  },
+  {
+   "from": "/service-area/westchester-ca",
+   "to": "/service-area/westchester-ca/"
+  },
+  {
+   "from": "/service-area/westchester-ca/westchester-weed-delivery",
+   "to": "/service-area/westchester-ca/westchester-weed-delivery/"
+  },
+  {
+   "from": "/weed-delivery",
+   "to": "/weed-delivery/"
+  }
+ ],
+ "notFound": {
+  "file": "404.html",
+  "janeBootPrefix": "/location/san-pedro/shop/menu/",
+  "knownDead": [
+   {
+    "url": "https://werollup.com/products/edibles-gummies",
+    "path": "/products/edibles-gummies/",
+    "status": 404
+   }
+  ]
+ }
+}

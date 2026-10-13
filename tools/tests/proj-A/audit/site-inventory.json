@@ -1,0 +1,345 @@
+{
+  "schema": "site-reforge/site-inventory@1",
+  "target": "http://127.0.0.1:55560/",
+  "origin": "http://127.0.0.1:55560",
+  "generated": "2026-10-13T01:44:33.752Z",
+  "discovery": {
+    "robots": {
+      "status": 200,
+      "sitemaps": [
+        "http://127.0.0.1:55560/sitemap_index.xml"
+      ],
+      "disallow": [
+        "/private/"
+      ],
+      "allow": []
+    },
+    "sitemaps": [
+      "http://127.0.0.1:55560/sitemap_index.xml",
+      "http://127.0.0.1:55560/sitemap.xml",
+      "http://127.0.0.1:55560/wp-sitemap.xml",
+      "http://127.0.0.1:55560/sitemap-index.xml"
+    ],
+    "sitemapUrlCount": 8,
+    "sitemapsFetched": [
+      "http://127.0.0.1:55560/sitemap_index.xml",
+      "http://127.0.0.1:55560/sitemap.xml",
+      "http://127.0.0.1:55560/wp-sitemap.xml",
+      "http://127.0.0.1:55560/sitemap-index.xml",
+      "http://127.0.0.1:55560/s-pages.xml",
+      "http://127.0.0.1:55560/s-products.xml",
+      "http://127.0.0.1:55560/s-brands.xml"
+    ],
+    "robotsHonoured": true,
+    "deferPattern": "\\/products\\/",
+    "deferStop": false,
+    "excludePattern": "\\/cal\\/month(\\/|$)|[?&]brand=",
+    "excludedSample": [
+      "http://127.0.0.1:55560/cal/month",
+      "http://127.0.0.1:55560/brands/b1?brand=B1"
+    ]
+  },
+  "counts": {
+    "pages": 10,
+    "html": 10,
+    "nonHtml": 0,
+    "failed": 0,
+    "fetchedThisRun": 4,
+    "skippedResume": 6,
+    "blockedByRobots": 1,
+    "excludedByPattern": 2,
+    "skippedKnown404": 0,
+    "deferredRemaining": 0,
+    "breaker": null,
+    "refusedHosts": [],
+    "aliasesCollapsed": 0
+  },
+  "truncated": false,
+  "queueRemaining": 0,
+  "maxPages": 100,
+  "pages": [
+    {
+      "url": "http://127.0.0.1:55560/",
+      "finalUrl": "http://127.0.0.1:55560/",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 315,
+      "sha256": "2fedd7f0e22c89446709a9657a89da8f0e086c925e794e85872404bc0980ee3a",
+      "savedAs": "index.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/about",
+        "http://127.0.0.1:55560/cal/month",
+        "http://127.0.0.1:55560/brands/b1?brand=B1",
+        "http://127.0.0.1:55560/private/x"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:32.649Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/about",
+      "finalUrl": "http://127.0.0.1:55560/about",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 200,
+      "sha256": "85dffe0e5aa2d1e123d574454722cc174598349ad26b974bd60a92945d909237",
+      "savedAs": "about.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/blog/page/2"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:32.650Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/blog/page/2",
+      "finalUrl": "http://127.0.0.1:55560/blog/page/2",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 179,
+      "sha256": "7aa6c0ad67dfecf257627a13a9c52f9ac856f12829c9ef75fb01ab0c87426a28",
+      "savedAs": "blog-page-2.html",
+      "depth": 1,
+      "discoveredFrom": "http://127.0.0.1:55560/about",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:32.660Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/brands/b1",
+      "finalUrl": "http://127.0.0.1:55560/brands/b1",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 209,
+      "sha256": "7c68cefab0be36e2f2d03944b93ad37609986748a3bbebeff8d572c0139d813d",
+      "savedAs": "brands-b1.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/products/p4"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:32.659Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p1",
+      "finalUrl": "http://127.0.0.1:55560/products/p1",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "a8dd0a1c7147af7d86867dd5885d5c671f0097e5d3d083ca461384e7dfd68d7e",
+      "savedAs": "products-p1.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:33.221Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p2",
+      "finalUrl": "http://127.0.0.1:55560/products/p2",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "17aa0d8c4f541f8b8676e5b779538f1b5da47f4a8724d244b38c7ec28fad3fc1",
+      "savedAs": "products-p2.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:33.223Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p3",
+      "finalUrl": "http://127.0.0.1:55560/products/p3",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "06009dccd613825052bc19dcca2bb3d14fba132c3c068fb93e9aeca6571661aa",
+      "savedAs": "products-p3.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:33.719Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p4",
+      "finalUrl": "http://127.0.0.1:55560/products/p4",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "8b721e416c2709fb9535bc01506cd1fa391c9dc2952bc79fb6f1f952ca78ae40",
+      "savedAs": "products-p4.html",
+      "depth": 1,
+      "discoveredFrom": "http://127.0.0.1:55560/brands/b1",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:33.749Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p5",
+      "finalUrl": "http://127.0.0.1:55560/products/p5",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "ffe7880a665db7c41e29dd858fb5e53b55527b70c47c61eb99aaac535418446b",
+      "savedAs": "products-p5.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:33.723Z"
+    },
+    {
+      "url": "http://127.0.0.1:55560/products/p6",
+      "finalUrl": "http://127.0.0.1:55560/products/p6",
+      "aliases": [],
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html",
+      "bytes": 241,
+      "sha256": "91b043ad83c87a5c7fed797a35736a78411fb96349b195921aa70244c64e6589",
+      "savedAs": "products-p6.html",
+      "depth": 0,
+      "discoveredFrom": "seed",
+      "redirectChain": [],
+      "headers": {
+        "content-type": "text/html",
+        "x-powered-by": "",
+        "server": "",
+        "cache-control": "",
+        "link": ""
+      },
+      "internalLinks": [
+        "http://127.0.0.1:55560/brands/b1"
+      ],
+      "externalLinks": [],
+      "stylesheetHrefs": [],
+      "inlineStyleBytes": 0,
+      "fetchedAt": "2026-10-13T01:44:33.749Z"
+    }
+  ]
+}

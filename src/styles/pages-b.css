@@ -1,0 +1,148 @@
+/* pages-b.css - TEMPLATES-B (src/theme/templates-b.mjs). DESIGN-SPEC 6.18.5-6.18.8 and 6.18.11, 6.11, 5.4 (T1, T4).
+   Tokens only (DESIGN-SPEC 3; no literal colours outside tokens.css). Every :hover rule has its :focus-visible or
+   :has(:focus-visible) twin with the same declarations (7.4, R-29). Lifts use the individual translate property.
+   Nothing here touches the shop embed container or its ancestors (BUILD-CONTRACT 4.6, R-37). */
+
+/* ================================================================== store pages (6.18.6) */
+/* ---- hero: the place plate full-bleed, the G1 pane, the postcard light box (T4) */
+.store-hero { padding-block: 0; }
+.store-hero__art { position: absolute; inset: 0; z-index: -2; overflow: hidden; }
+.store-hero__img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 62%; }
+/* a night veil from the left keeps the pane's text legible; the right half shows the plate */
+.store-hero__veil { position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: linear-gradient(90deg, var(--night-62) 0%, var(--night-45) 34%, var(--night-10) 62%, var(--transparent) 80%), linear-gradient(0deg, var(--night-45), var(--transparent) 26%); }
+.store-hero__in { position: relative; display: grid; grid-template-columns: minmax(0, 600px) minmax(0, 1fr); align-items: center; column-gap: clamp(24px, 4vw, 64px); min-height: 460px; padding-block: 34px 88px; }
+.store-hero__pane { padding: clamp(22px, 2.4vw, 34px) clamp(22px, 2.6vw, 38px); }
+.store-hero__pane .store-hero__title { font-size: clamp(40px, min(5vw, 11svh), 72px); line-height: .95; letter-spacing: -.035em; color: var(--cream); }
+.store-hero__pane p { margin-top: 12px; color: var(--cream-92); font-size: 17px; line-height: 1.5; }
+.store-hero__pane .hd + p { margin-top: 18px; font-size: var(--fs-lead); font-weight: 500; line-height: 1.4; color: var(--cream); }
+.store-hero__pane .btn-row { margin-top: 22px; }
+.store-hero__aside { justify-self: center; padding: 44px 44px 40px 0; }
+
+/* the postcard light box: a white mount with the store's wash (San Pedro mint, LAX peach, 6.11), light plates (D-6)
+   behind it, and the postcard sitting in it, crossing the frame's top-right edge (T4: 300 / 340 / 190 px wide) */
+.store-hero__box { width: 320px; }
+.store-hero__box .lbox__frame { aspect-ratio: 16 / 15; }
+.store-hero__mat { display: block; width: 100%; height: 100%; border-radius: 17px; background: linear-gradient(160deg, var(--peach-35), var(--haze-100) 70%); }
+.tpl-store--san-pedro .store-hero__mat { background: linear-gradient(160deg, var(--mint-35), var(--haze-100) 70%); }
+.store-hero__card { width: 300px; top: -46px; right: -44px; rotate: 3deg; transition: translate var(--t-fan) var(--ease-out), rotate var(--t-fan) var(--ease-out); }
+.tpl-store--san-pedro .store-hero__card { rotate: -4deg; right: -34px; }
+/* postcards are static on scroll (5.1: "postcards static, hover straightens"); this wins over the depth plane rule */
+.store-hero .store-hero__card { translate: none; }
+.store-hero__box:hover .store-hero__card, .store-hero__box:has(:focus-visible) .store-hero__card { rotate: 0deg; translate: 0 -6px; }
+@media (min-width: 1440px) {
+  .store-hero__box { width: 360px; }
+  .store-hero__card { width: 340px; }
+}
+
+/* ---- the Delivery card (6.11): forest gradient, crossing the hero's bottom seam */
+.store-delivery { display: flow-root; padding-block: 0; } /* flow-root: the card's negative margin must not collapse into the band (it would pull the cream ground over the hero) */
+.card.store-dcard { margin-top: -56px; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; column-gap: clamp(20px, 3vw, 44px);
+  padding: clamp(22px, 2.6vw, 30px) clamp(22px, 3vw, 40px); background: var(--surface-delivery); border: 1px solid var(--white-10); color: var(--cream); box-shadow: var(--sh-2); }
+.card.store-dcard:hover, .card.store-dcard:has(:focus-visible) { translate: 0 -6px; box-shadow: var(--lift); }
+.store-delivery .store-dcard .hd { grid-column: 1; grid-row: 1 / span 3; font-size: clamp(30px, 3vw, 44px); font-weight: 800; letter-spacing: -.03em; line-height: 1; color: var(--cream); }
+.store-dcard p { grid-column: 2; margin: 0; color: var(--cream-82); font-size: 16px; line-height: 1.5; }
+.store-dcard .hd + p { margin: 0; color: var(--cream); font-size: 18px; font-weight: 600; }
+.store-dcard p + p { margin-top: 4px; }
+.store-dcard .btn-row { grid-column: 3; grid-row: 1 / span 3; margin: 0; }
+.store-dcard :focus-visible { outline-color: var(--leaf); }
+
+/* ---- sections: titles, the category and mood rails, deals, brands */
+.store-sec .store-sec__title { margin-bottom: clamp(22px, 3vw, 36px); }
+.store-sec--card-carousel { padding-top: clamp(72px, 8vw, 112px); }
+.store-rail .rail__track { grid-auto-columns: minmax(148px, 1fr); gap: 16px; }
+.scard { display: flex; flex-direction: column; width: 100%; overflow: hidden; }
+.scard__media { display: grid; place-items: center; height: 144px; padding: 16px 12px; background: var(--haze-100); border-bottom: 1px solid var(--haze-300); }
+.scard__img { display: block; height: 112px; width: auto; max-width: none; }
+.scard__body { flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 14px 16px 18px; }
+.scard__body .hd { font-size: 21px; font-weight: 700; letter-spacing: -.015em; line-height: 1.15; color: var(--forest); }
+.scard__btns { margin-top: auto; padding-top: 8px; }
+.scard__btns .btn { width: 100%; min-height: 44px; padding: 0 12px; }
+/* mood cards: the source's mood gradient as a 48 px wash at the top; the text stays forest on white (R-46) */
+.scard--mood .scard__wash { display: block; height: 48px; background: linear-gradient(to bottom right, var(--mood-a), var(--mood-b)); }
+.scard--mood .scard__body { padding-top: 16px; }
+.scard--mood .scard__body .p { font-size: 15px; color: var(--ink-muted); }
+.scard--mood .scard__body .hd { text-transform: uppercase; letter-spacing: .01em; }
+.scard--mood { --mood-a: var(--leaf-100); --mood-b: var(--haze-300); }
+/* the exact source gradients need mood tokens (requested from FOUNDATION: --mood-<name>-a / -b); until they exist the
+   washes use the nearest palette tokens */
+.mood-blissful { --mood-a: var(--mood-blissful-a, var(--leaf-100)); --mood-b: var(--mood-blissful-b, var(--leaf-300)); }
+.mood-creative { --mood-a: var(--mood-creative-a, var(--peach)); --mood-b: var(--mood-creative-b, var(--leaf-100)); }
+.mood-hungry { --mood-a: var(--mood-hungry-a, var(--peach)); --mood-b: var(--mood-hungry-b, var(--peach-35)); }
+.mood-pain-free { --mood-a: var(--mood-pain-free-a, var(--mint)); --mood-b: var(--mood-pain-free-b, var(--haze-300)); }
+.mood-relaxed { --mood-a: var(--mood-relaxed-a, var(--leaf-300)); --mood-b: var(--mood-relaxed-b, var(--mint)); }
+.mood-sleepy { --mood-a: var(--mood-sleepy-a, var(--haze-300)); --mood-b: var(--mood-sleepy-b, var(--mint)); }
+.mood-energetic { --mood-a: var(--mood-energetic-a, var(--leaf)); --mood-b: var(--mood-energetic-b, var(--leaf-300)); }
+/* FOUNDATION's ".band li a:not(.btn)" underlines link text in bands; a deal card is a card, not an inline link */
+.store-sec .deals a.deal { text-decoration: none; }
+.store-sec--deals .deals { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+.store-logos { gap: 16px; }
+
+/* ---- condensed desktop and tablets: a smaller postcard box (260 px card), so it never passes the window edge (R-8) */
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .store-hero__box { width: 280px; }
+  .store-hero__card { width: 260px; }
+}
+@media (min-width: 701px) and (max-width: 1023px) {
+  .store-hero__in { grid-template-columns: minmax(0, 1fr) 300px; min-height: 440px; }
+  .store-hero__box { width: 250px; }
+  .store-hero__card { width: 240px; }
+  .store-hero__aside { padding-right: 30px; }
+}
+
+/* ---- phones: the plate as a band at the top, the pane as an honest opaque card overlapping it (4.1: under the dark
+   veil the backdrop is too flat for glass at 390), the postcard box under the pane */
+@media (max-width: 700px) {
+  .store-hero__art { position: relative; inset: auto; height: 260px; }
+  .store-hero__veil { inset: 0 0 auto; height: 260px; background: linear-gradient(0deg, var(--night-45), var(--transparent) 45%); }
+  .store-hero__in { display: block; min-height: 0; padding-block: 0 96px; }
+  .store-hero__pane { margin-top: -88px; padding: 22px 20px 24px; }
+  .store-hero__pane.glass-pane { -webkit-backdrop-filter: none; backdrop-filter: none; background: var(--forest-900); }
+  .store-hero__pane .store-hero__title { font-size: clamp(34px, 10vw, 46px); }
+  .store-hero__pane .hd + p { font-size: 18px; margin-top: 14px; }
+  .store-hero__pane .btn-row { gap: 10px; flex-wrap: nowrap; }
+  .store-hero__pane .btn { padding: 0 18px; }
+  .store-hero__aside { display: flex; justify-content: center; padding: 52px 40px 30px 0; }
+  .store-hero__box { width: 214px; }
+  .store-hero__card { width: 190px; top: -38px; right: -30px; }
+  .tpl-store--san-pedro .store-hero__card { right: -26px; }
+  .card.store-dcard { display: block; margin-top: -64px; padding: 24px 22px; }
+  .store-dcard p { margin-top: 10px; }
+  .store-dcard .hd + p { margin-top: 12px; }
+  .store-dcard .btn-row { margin-top: 18px; }
+  .store-rail .rail__track { grid-auto-columns: minmax(148px, 46%); }
+}
+
+/* ================================================================== shop pages and /lax-menu (6.18.5, 6.18.8) */
+/* the defaults hold (compact banner, white static embed container); nothing is added on the embed's chain */
+
+/* banners on these templates (6.16, R-9): the place plates and the dusk-palms plate are pale where long titles run, so
+   the veil is raised with a bottom-up night gradient under the title row ("raise the veil, never lighten the text") */
+.tpl-shop .banner__veil, .tpl-sa .banner__veil { background: linear-gradient(0deg, var(--night-62) 0%, var(--night-45) 38%, var(--transparent) 72%), var(--veil-banner); }
+/* the LAX dusk plate has the brightest sky behind long titles (measured p05 3.15 at 1600 with the veil above): deeper */
+.plate-g-lax-dusk .banner__veil { background: linear-gradient(0deg, var(--night-72) 0%, var(--night-45) 48%, var(--transparent) 85%), var(--veil-banner); }
+
+/* ================================================================== service area (6.18.11, T1) */
+/* T1: the group's postcard crosses the banner's bottom edge on the right (220 / 220 / 132 px wide, static); the title
+   never runs under it, and the reading band below makes room for the part under the seam */
+/* postcard heights: San Pedro 600x531, LAX 600x569 -> at 220 px: 195 / 209; at 132 px: 117 / 125. Desktop: about 45 %
+   above the seam; phones: 18 px above (the full-width title ends 28 px above the seam), the rest below */
+/* the variables live on <body> (tpl-sa--town + the group class): the reading band after the banner is a sibling, and a
+   custom property does not reach a sibling (an undefined one would void the padding) */
+.tpl-sa--town { --sa-w: 220px; --sa-below: 108px; }
+.sa-postcard { width: var(--sa-w); right: max(var(--gutter), calc((100% - var(--container)) / 2 + 12px)); bottom: calc(-1 * var(--sa-below)); rotate: 3deg; }
+.sa-postcard--sp { rotate: -4deg; }
+.sa-banner--cut .banner__title { width: fit-content; max-width: calc(100% - var(--sa-w) - 56px); }
+.sa-banner--cut + .band { padding-top: max(var(--section-y), calc(var(--sa-below) + 36px)); }
+.tpl-sa .map iframe { height: auto; aspect-ratio: 16 / 9; }
+/* R-45: the 630 px reading card with 51 px side padding set 58-59 characters per line at 1280 (measured); 40 px gives
+   the spec's 62-75 (6.19: 18.5 px in a 630 px card) */
+.tpl-sa .rcard { padding-inline: clamp(22px, 3vw, 40px); }
+@media (max-width: 700px) {
+  .tpl-sa--town { --sa-w: 132px; }
+  .tpl-sa--sp { --sa-below: 99px; }
+  .tpl-sa--lax { --sa-below: 107px; }
+  .sa-postcard { right: var(--gutter); }
+  .sa-banner--cut .banner__title { max-width: 100%; }
+  .sa-banner--cut + .band { padding-top: calc(var(--sa-below) + 28px); }
+}
