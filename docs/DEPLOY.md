@@ -17,6 +17,52 @@ It needs:
 - **Contact form:** it posts to the placeholder `/__form-endpoint-not-configured__`, with its submit disabled (A12).
   Wire a backend (B9), then change the action and enable the button.
 
+## PUBLISHED 2026-10-14 (operator: "give me a public git repo and a public git preview link")
+
+- **Repo (public):** https://github.com/mikko-creator/werollup-redesign
+  - Branch `main`: ONE clean commit exported from this workspace's HEAD.
+  - Local copy: `publish/repo/`, its own git repo, ignored by the workspace.
+- **Preview (public, noindex):** https://mikko-creator.github.io/werollup-redesign/
+  - Branch `gh-pages`, pushed from `preview/`, its own git repo.
+  - Pages switched itself on when gh-pages was pushed, and built in about 10 s.
+
+**Never push this workspace repository itself.** Its history holds three kinds of file that must not go public:
+- the old site's COMMERCIAL fonts (Helvetica Neue Condensed, Agrandir), the lightGallery icon font and the agency theme
+  JavaScript (`assets/js`);
+- the full harvest evidence;
+- Jane's vendor tokens.
+
+Publish only through the export.
+
+**The repo export recipe** (re-run it for an update, then push one new commit on top of `main`):
+1. `git archive HEAD | tar -x -C publish/repo`, keeping its `.git`.
+2. Remove `audit/capture`, `audit/screens`, `assets/js`, `tools/sr-local`, `assets/fonts/{Agrandir-Tight,HelveticaNeue-Condensed,lg_}*`.
+3. Keep `publish/repo/README.md`.
+4. `node tools/redact-vendor-secrets.mjs --dir publish/repo`. It replaces every value in Jane's `#jane-app-secrets`
+   and fails if any AIza or Mapbox-style token is left.
+5. `node tools/secret-scan.mjs --dir publish/repo --keys <fal.key> --keys <hf.key>` must report 0 hits (11 patterns,
+   Mapbox included since 2026-10-14). Then commit and push.
+
+**Why the redaction exists.** GitHub push protection rejected the first push. It found a "Mapbox Secret Access Token"
+(`mapboxAccessToken` in `#jane-app-secrets`) that the scanner had no pattern for at the time. It was NOT bypassed: a
+public repo must not republish a vendor's token. Locally, `dist/` keeps the block byte-identical; the build-check embed
+gate and the hash-scoped allowlist cover that.
+
+**The preview recipe:**
+1. `MSYS_NO_PATHCONV=1 node tools/make-pages-preview.mjs --prefix /werollup-redesign --out preview`.
+2. `node tools/redact-vendor-secrets.mjs --dir preview`.
+3. The secret scan, which must report 0 hits.
+4. Commit inside `preview/`, then `git push origin gh-pages`.
+
+`make-pages-preview` also rewrites measured root-anchored regexes (`regexAnchors` in `tools/preview-literals.json`: the
+theme's store detection `/^\/location\/.../`). Any other root-anchored regex stops it.
+
+**Verified live, 2026-10-14:**
+- the home page returns 200 and is byte-identical to `preview/index.html`;
+- `tools/noindex-live-check.mjs`: 69/69 pages carry exactly one `noindex, nofollow`, and the styled 404 is noindex;
+- `tools/crawl-preview.mjs` (2 concurrent, 300 ms apart): 106/106 pages 200, 325 assets checked, 0 references outside
+  the prefix, and 1 expected 404, the A12 placeholder form action.
+
 ## Review preview (GitHub Pages project subpath), only with the operator's approval (PLAN D8)
 
 ```

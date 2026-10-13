@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "CAT-CBD",
+  "file": "assets/generated/cat-cbd.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio product photograph of an amber glass dropper bottle with a black rubber bulb dropper cap, completely plain with no label, standing upright, centred on a seamless plain light grey background, soft diffused studio light, crisp reflections, high resolution, photographic; no label, no text, no letters, no logos, no markings, no measurements, no people, no hands, no cartoon or illustration, no candy, no neon",
+  "input": {
+    "aspect_ratio": "3:4",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 3860659670,
+  "requestId": "01a13640-af9e-7853-9db6-526e6cdc6c8c",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a13640-e740-7831-8a0c-8bb109b7a20b"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "3ea7352234359c8d46bfbab5d3782190d24eb46335db479f9a00a0685e638996",
+  "raw": "tmp/img/raw/CAT-CBD.1791911582801.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-10-13T17:13:08.564Z",
+  "review": {
+    "verdict": "PENDING",
+    "reason": null
+  }
+}

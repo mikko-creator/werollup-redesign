@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "CAT-EDIBLES",
+  "file": "assets/generated/cat-edibles.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio product photograph of a closed round metal tin with a matte deep forest green finish and a plain unprinted lid, seen in three-quarter view, centred on a seamless plain light grey background, soft diffused studio light, crisp fine detail, high resolution, photographic; no label, no text, no letters, no logos, no printing, no food visible, no candy, no sweets, no gummies, no chocolate, no people, no hands, no cartoon or illustration, no neon",
+  "input": {
+    "aspect_ratio": "3:4",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 2327340856,
+  "requestId": "01a13640-5b03-7a42-9b66-dcc63da5980d",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a13640-a3d7-7233-b341-7471c85e44a5"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "9a2f8776ae5f3c2c26e4d62d0d45d3add834af7b04412821e9959f0e7702268e",
+  "raw": "tmp/img/raw/CAT-EDIBLES.1791911565161.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-10-13T17:12:52.640Z",
+  "review": {
+    "verdict": "PENDING",
+    "reason": null
+  }
+}

@@ -105,8 +105,24 @@ export function logoCarousel(b, ctx, page, o = {}) {
     + P.img(ctx, l.image.ref, { alt: l.image.alt || '', sizes: '120px', cls: 'logos__img', widths: [120, 240] }) + '</a></li>').join('') + '</ul>';
 }
 /** deals: white deal cards with a 4 px leaf rule, the title in forest with a leaf fire icon; each links to the store page */
+// revision 1 (operator 2026-10-14): "relevant imagery in the daily deals section". Each deal title (verbatim, matched
+// case-insensitively) maps to an image-plan slot; a deal without a mapping keeps the plain card. Munchie Monday uses the
+// unbranded edibles tin cut-out (A9: no candy imagery). Images are decorative: the title is the card's text.
+const DEAL_ART = {
+  'early bird specials': { slot: 'DEAL-EARLY' },
+  'spin the wheel for prizes': { slot: 'DEAL-WHEEL' },
+  '10% off - seniors, military members, & longshoremen': { slot: 'DEAL-HARBOR' },
+  'munchie monday - 10% off edibles': { slot: 'CAT-EDIBLES', cut: true },
+};
+const dealTitle = (d) => { const h = (d.blocks || []).find((x) => x && x.text); return h ? String(h.text).trim().toLowerCase().replace(/\s+/g, ' ') : ''; };
 export function deals(b, ctx, page, o = {}) {
-  return '<ul class="' + cx('deals', o.cls) + '" role="list">' + b.items.map((d, i) => P.reveal('<a' + attrs({ class: 'deal', href: P.href(ctx, d.href) }) + '>' + icon('fire', 'deal__ico') + '<div class="deal__body">' + renderBlocks(d.blocks, ctx, page, { tone: 'light', inCard: true }) + '</div></a>', { tag: 'li', step: i % 4 })).join('') + '</ul>';
+  return '<ul class="' + cx('deals', o.cls) + '" role="list">' + b.items.map((d, i) => {
+    const art = DEAL_ART[dealTitle(d)];
+    const media = art ? '<span class="' + cx('deal__media', art.cut && 'deal__media--cut') + '" aria-hidden="true">'
+      + P.img(ctx, art.slot, { alt: '', sizes: art.cut ? '(max-width: 700px) 150px, 190px' : '(min-width: 1024px) 600px, 94vw', cls: 'deal__img', widths: art.cut ? [160, 240, 320, 400] : [480, 640, 960, 1280], attrs: { 'data-decorative': '' } })
+      + '</span>' : '';
+    return P.reveal('<a' + attrs({ class: cx('deal', art && 'deal--art', art && art.cut && 'deal--cut'), href: P.href(ctx, d.href) }) + '>' + media + icon('fire', 'deal__ico') + '<div class="deal__body">' + renderBlocks(d.blocks, ctx, page, { tone: art ? 'night' : 'light', inCard: true }) + '</div></a>', { tag: 'li', step: i % 4 });
+  }).join('') + '</ul>';
 }
 export function linkCard(b, ctx, page, o = {}) { return '<a' + attrs({ class: cx('card card--white link-card', o.cls), href: P.href(ctx, b.href) }) + '>' + renderBlocks(b.blocks, ctx, page, { tone: 'light', inCard: true }) + '</a>'; }
 export function iconLink(b, ctx) { return '<a' + attrs({ class: 'icon-link', href: P.href(ctx, b.href), 'aria-label': b.label || null }) + '>' + icon(P.iconFor(b.icon) || 'external') + '</a>'; }

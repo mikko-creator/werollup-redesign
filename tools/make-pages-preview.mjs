@@ -38,7 +38,25 @@ const JSONBLOCK = /<script\b[^>]*type=["']application\/(?:ld\+)?json["'][^>]*>[\
 const INLINEJS = /(<script\b(?![^>]*\btype=["']application\/(?:ld\+)?json["'])(?![^>]*\bsrc=)[^>]*>)([\s\S]*?)(<\/script>)/gi;
 const JSLIT = /(['"`])(\/[A-Za-z0-9_\-./?=&%#]*)\1/g;
 
+const ANCHORS = fs.existsSync(LITERALS_FILE) ? JSON.parse(fs.readFileSync(LITERALS_FILE, 'utf8')).regexAnchors || [] : [];
+const BS = String.fromCharCode(92);
+// "/werollup-redesign" as it must appear inside a regex literal: "\/werollup-redesign"
+const ESCP = P.split('/').filter(Boolean).map((seg) => BS + '/' + seg).join('');
 function rewriteJs(s, rel, stats) {
+  // 2026-10-14: regex literals anchored at the domain root (the theme's store detection
+  // /^\/location\/(culver-city|san-pedro)(\/|$)/ tested against location.pathname) never match under a subpath. Rewrite
+  // the anchors measured in tools/preview-literals.json "regexAnchors"; any other root-anchored regex stops the run.
+  for (const seg of ANCHORS) {
+    const from = '^' + BS + '/' + seg, to = '^' + ESCP + BS + '/' + seg;
+    const n = s.split(from).length - 1;
+    if (n) { s = s.split(from).join(to); stats.refs += n; stats.regexAnchors = (stats.regexAnchors || 0) + n; }
+  }
+  const rootRegex = [];
+  for (let i = s.indexOf('^' + BS + '/'); i >= 0; i = s.indexOf('^' + BS + '/', i + 1)) {
+    const next = s.charAt(i + 3);
+    if (/[A-Za-z]/.test(next) && !s.startsWith(ESCP, i + 1)) rootRegex.push(s.slice(i, i + 40));
+  }
+  if (rootRegex.length) { console.error('unhandled root-anchored regex in ' + rel + ': ' + rootRegex.join(' | ') + '\n  measure it, then list its first path segment in tools/preview-literals.json "regexAnchors"'); process.exit(3); }
   const left = [];
   s = s.replace(JSLIT, (m, q, u) => {
     if (!needs(u)) return m;

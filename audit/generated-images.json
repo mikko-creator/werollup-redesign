@@ -129,12 +129,268 @@
       "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
       "generatedAt": "2026-10-13T06:12:45.552Z",
       "attempt": 2
+    },
+    {
+      "id": "CAT-PREROLL",
+      "file": "assets/generated/cat-preroll.png",
+      "raw": "tmp/img/raw/CAT-PREROLL.1791911560007.jpg",
+      "rawBytes": 391791,
+      "role": "cutout",
+      "alt": "",
+      "usedFor": [
+        "Shop by Category: Pre-Rolls (both store pages)"
+      ],
+      "prompt": "Studio product photograph of a single cannabis pre-roll joint rolled in natural unbleached brown hemp paper, green ground cannabis flower visible at its open twisted end, a short cardboard crutch at the narrow end, lying diagonally, centred on a seamless plain light grey background, soft diffused studio light, crisp fine detail, high resolution, photographic; no text, no logos, no brand marks, no printing, no packaging, no people, no hands, no smoke, no cartoon or illustration, no candy or sweets, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "3:4",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 2580200173,
+      "requestId": "01a13640-5b0c-7e73-8591-5995ad96c43f",
+      "width": 1792,
+      "height": 2368,
+      "cutout": {
+        "model": "fal-ai/birefnet/v2",
+        "requestId": "01a13640-8e50-7c50-b223-106000a1cad9"
+      },
+      "sha256": "a80eddc7cd5e12211f2e06a8076ced5673f23d03bbaaa0178d4782daf8911aec",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:12:45.486Z",
+      "attempt": 1
+    },
+    {
+      "id": "CAT-VAPE",
+      "file": "assets/generated/cat-vape.png",
+      "raw": "tmp/img/raw/CAT-VAPE.1791911564788.jpg",
+      "rawBytes": 381801,
+      "role": "cutout",
+      "alt": "",
+      "usedFor": [
+        "Shop by Category: Vapes (both store pages)"
+      ],
+      "prompt": "Studio product photograph of a single unbranded clear glass vape cartridge filled with golden amber oil, with a plain matte black mouthpiece and a plain brushed metal base, standing upright, centred on a seamless plain light grey background, soft diffused studio light, crisp reflections, high resolution, photographic; no logos, no text, no letters, no markings, no battery, no packaging, no people, no hands, no smoke, no cartoon or illustration, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "3:4",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 81680334,
+      "requestId": "01a13640-5b03-7a42-9b66-dcd87b17e8fe",
+      "width": 1792,
+      "height": 2368,
+      "cutout": {
+        "model": "fal-ai/birefnet/v2",
+        "requestId": "01a13640-a130-76e3-ba0c-04149a80e661"
+      },
+      "sha256": "05ea2774447958a9f384cbc99c1f8a3961c4ee34aac67a211099e4fe4a9a00ee",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:12:50.274Z",
+      "attempt": 1
+    },
+    {
+      "id": "CAT-EDIBLES",
+      "file": "assets/generated/cat-edibles.png",
+      "raw": "tmp/img/raw/CAT-EDIBLES.1791911565161.jpg",
+      "rawBytes": 450830,
+      "role": "cutout",
+      "alt": "",
+      "usedFor": [
+        "Shop by Category: Edibles (both store pages)",
+        "Daily Deals: Munchie Monday card"
+      ],
+      "prompt": "Studio product photograph of a closed round metal tin with a matte deep forest green finish and a plain unprinted lid, seen in three-quarter view, centred on a seamless plain light grey background, soft diffused studio light, crisp fine detail, high resolution, photographic; no label, no text, no letters, no logos, no printing, no food visible, no candy, no sweets, no gummies, no chocolate, no people, no hands, no cartoon or illustration, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "3:4",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 2327340856,
+      "requestId": "01a13640-5b03-7a42-9b66-dcc63da5980d",
+      "width": 1792,
+      "height": 2368,
+      "cutout": {
+        "model": "fal-ai/birefnet/v2",
+        "requestId": "01a13640-a3d7-7233-b341-7471c85e44a5"
+      },
+      "sha256": "9a2f8776ae5f3c2c26e4d62d0d45d3add834af7b04412821e9959f0e7702268e",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:12:52.640Z",
+      "attempt": 1
+    },
+    {
+      "id": "CAT-EXTRACT",
+      "file": "assets/generated/cat-extract.png",
+      "raw": "tmp/img/raw/CAT-EXTRACT.1791911576746.jpg",
+      "rawBytes": 541441,
+      "role": "cutout",
+      "alt": "",
+      "usedFor": [
+        "Shop by Category: Extract (both store pages)"
+      ],
+      "prompt": "Studio product photograph of a small round clear glass concentrate jar with its lid resting beside it, holding glossy golden amber cannabis concentrate, seen in three-quarter view, centred on a seamless plain light grey background, soft diffused studio light, crisp fine detail, high resolution, photographic; no label, no text, no letters, no logos, no markings, no people, no hands, no tools, no cartoon or illustration, no candy, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "3:4",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 3197654337,
+      "requestId": "01a13640-9cf0-7cb2-bce4-794ce3805bb5",
+      "width": 1792,
+      "height": 2368,
+      "cutout": {
+        "model": "fal-ai/birefnet/v2",
+        "requestId": "01a13640-d1af-7692-95cb-bd32d3940715"
+      },
+      "sha256": "056ede887ac22bf81061b81ea055a2c706737b9fa3c5e15ffdd83fcb65e0b1ef",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:13:03.112Z",
+      "attempt": 1
+    },
+    {
+      "id": "DEAL-EARLY",
+      "file": "assets/generated/deal-early.jpg",
+      "raw": "tmp/img/raw/DEAL-EARLY.1791911581718.jpg",
+      "rawBytes": 1433933,
+      "role": "art",
+      "alt": "",
+      "usedFor": [
+        "Daily Deals: Early Bird Specials (/location/culver-city/)"
+      ],
+      "prompt": "Golden sunrise over a quiet palm-lined boulevard in west Los Angeles, long soft shadows, warm peach and pale mint morning haze, empty street, calm, photographic, wide; no people, no vehicles, no signs, no storefronts, no text, no logos, no faces, no hands, no cartoon or illustration, no candy, no alcohol, no party, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "16:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 2354710657,
+      "requestId": "01a13640-b8dc-77a1-960a-547116bf5a89",
+      "width": 2752,
+      "height": 1536,
+      "cutout": null,
+      "sha256": "ca691c6b6bac75c1ae3f7f0c1fe3c5b6babdd73a9be7e562359e88c18f17a4fd",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:13:03.895Z",
+      "attempt": 1
+    },
+    {
+      "id": "CAT-CBD",
+      "file": "assets/generated/cat-cbd.png",
+      "raw": "tmp/img/raw/CAT-CBD.1791911582801.jpg",
+      "rawBytes": 372259,
+      "role": "cutout",
+      "alt": "",
+      "usedFor": [
+        "Shop by Category: CBD (both store pages)"
+      ],
+      "prompt": "Studio product photograph of an amber glass dropper bottle with a black rubber bulb dropper cap, completely plain with no label, standing upright, centred on a seamless plain light grey background, soft diffused studio light, crisp reflections, high resolution, photographic; no label, no text, no letters, no logos, no markings, no measurements, no people, no hands, no cartoon or illustration, no candy, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "3:4",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 3860659670,
+      "requestId": "01a13640-af9e-7853-9db6-526e6cdc6c8c",
+      "width": 1792,
+      "height": 2368,
+      "cutout": {
+        "model": "fal-ai/birefnet/v2",
+        "requestId": "01a13640-e740-7831-8a0c-8bb109b7a20b"
+      },
+      "sha256": "3ea7352234359c8d46bfbab5d3782190d24eb46335db479f9a00a0685e638996",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:13:08.564Z",
+      "attempt": 1
+    },
+    {
+      "id": "DEAL-HARBOR",
+      "file": "assets/generated/deal-harbor.jpg",
+      "raw": "tmp/img/raw/DEAL-HARBOR.1791911593358.jpg",
+      "rawBytes": 1126365,
+      "role": "art",
+      "alt": "",
+      "usedFor": [
+        "Daily Deals: 10% Off - Seniors, Military Members, & Longshoremen (/location/san-pedro/)"
+      ],
+      "prompt": "The Port of Los Angeles at golden hour seen from San Pedro: silhouettes of tall container gantry cranes over calm harbour water, soft haze, warm peach and pale mint sky, photographic, wide; no people, no text, no letters, no ship names, no logos, no signs, no faces, no hands, no cartoon or illustration, no candy, no alcohol, no party, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "16:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 2703876739,
+      "requestId": "01a13640-e4d1-7260-aaeb-d436de29dd65",
+      "width": 2752,
+      "height": 1536,
+      "cutout": null,
+      "sha256": "bb1270d7dd8577b66e5cae4808294c2734bb8a99fcef64219d8233e0dc9944f1",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:13:15.226Z",
+      "attempt": 1
+    },
+    {
+      "id": "DEAL-WHEEL",
+      "file": "assets/generated/deal-wheel.jpg",
+      "raw": "tmp/img/raw/DEAL-WHEEL.1791911595613.jpg",
+      "rawBytes": 752375,
+      "role": "art",
+      "alt": "",
+      "usedFor": [
+        "Daily Deals: Spin the Wheel for Prizes (/location/culver-city/)"
+      ],
+      "prompt": "Close-up of an elegant spinning wheel with alternating deep forest green and cream segments separated by polished brass dividers, motion blur from rotation, soft warm studio light, dark green background, photographic, wide; no numbers, no letters, no text, no symbols, no logos, no casino, no carnival, no confetti, no balloons, no people, no hands, no cartoon or illustration, no candy, no neon",
+      "model": "fal-ai/flux-pro/v1.1-ultra",
+      "input": {
+        "aspect_ratio": "16:9",
+        "output_format": "jpeg",
+        "num_images": 1,
+        "enable_safety_checker": true,
+        "safety_tolerance": "5"
+      },
+      "editOf": null,
+      "seed": 340876713,
+      "requestId": "01a13640-e1bf-7f13-947e-821c1172ffc0",
+      "width": 2752,
+      "height": 1536,
+      "cutout": null,
+      "sha256": "423f1833e85dc272c0627f847361248ca35f23c806202d583f4ae1a0943e75d2",
+      "aiLabel": "IPTC trainedAlgorithmicMedia XMP embedded (tools/ai-label.mjs)",
+      "generatedAt": "2026-10-13T17:13:17.111Z",
+      "attempt": 1
     }
   ],
   "failures": [],
   "spend": {
-    "ultraCalls": 6,
-    "cutoutCalls": 0,
+    "ultraCalls": 14,
+    "cutoutCalls": 5,
     "otherCalls": 0,
     "calls": [
       {
@@ -172,17 +428,95 @@
         "id": "G-VAPE-BANNER",
         "model": "fal-ai/flux-pro/v1.1-ultra",
         "at": "2026-10-13T06:12:15.151Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "CAT-PREROLL",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:12:28.088Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "CAT-EDIBLES",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:12:28.116Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "CAT-VAPE",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:12:28.118Z"
+      },
+      {
+        "kind": "cutout",
+        "id": "CAT-PREROLL",
+        "model": "fal-ai/birefnet/v2",
+        "at": "2026-10-13T17:12:41.753Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "CAT-EXTRACT",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:12:45.489Z"
+      },
+      {
+        "kind": "cutout",
+        "id": "CAT-VAPE",
+        "model": "fal-ai/birefnet/v2",
+        "at": "2026-10-13T17:12:46.579Z"
+      },
+      {
+        "kind": "cutout",
+        "id": "CAT-EDIBLES",
+        "model": "fal-ai/birefnet/v2",
+        "at": "2026-10-13T17:12:47.255Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "CAT-CBD",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:12:50.279Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "DEAL-EARLY",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:12:52.641Z"
+      },
+      {
+        "kind": "cutout",
+        "id": "CAT-EXTRACT",
+        "model": "fal-ai/birefnet/v2",
+        "at": "2026-10-13T17:12:58.991Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "DEAL-WHEEL",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:13:03.115Z"
+      },
+      {
+        "kind": "ultra",
+        "id": "DEAL-HARBOR",
+        "model": "fal-ai/flux-pro/v1.1-ultra",
+        "at": "2026-10-13T17:13:03.898Z"
+      },
+      {
+        "kind": "cutout",
+        "id": "CAT-CBD",
+        "model": "fal-ai/birefnet/v2",
+        "at": "2026-10-13T17:13:04.518Z"
       }
     ],
-    "estUSD": 0.36,
+    "estUSD": 0.865,
     "priceBasis": "about $0.06 per flux-pro ultra call and $0.005 per birefnet cut-out (fal list prices, UNVERIFIED against the invoice)",
     "caps": {
-      "ultra": 8,
-      "cutout": 0,
+      "ultra": 40,
+      "cutout": 12,
       "lane": "IMG"
     }
   },
-  "generated": "2026-10-13T06:12:45.552Z",
+  "generated": "2026-10-13T17:13:17.112Z",
   "rejected": [
     {
       "id": "G-VAPE-BANNER",

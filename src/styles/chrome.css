@@ -37,6 +37,10 @@
 .mainnav { margin-left: auto; }
 .mainnav__list { display: flex; align-items: center; gap: 2px; list-style: none; margin: 0; padding: 0; }
 .mainnav__mega { position: static; }
+/* revision 1 (operator 2026-10-14): hover opens the Products panel (site.js). While it is hover-open, an invisible strip
+   that starts 2 px under the button bridges the header gap to the panel, so the pointer never "leaves" on the way down
+   (the panel, later in the DOM, paints over the strip's lower part). */
+.mainnav__mega.is-hover-open > .navlink--mega::after { content: ""; position: absolute; left: -32px; right: -32px; top: calc(100% + 2px); height: 44px; }
 .navlink { position: relative; display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 13px; background: none; border: 0; border-radius: 6px; text-decoration: none; cursor: pointer;
   font: 700 var(--fs-ui)/1 var(--f-text); letter-spacing: .08em; text-transform: uppercase; color: var(--cream); white-space: nowrap; }
 .navlink::after { content: ""; position: absolute; left: 13px; right: 13px; bottom: 6px; height: 2px; border-radius: 2px; background: var(--leaf); transform: scaleX(0); transform-origin: left; transition: transform var(--t-hover) var(--ease-out); box-shadow: 0 0 12px var(--glow-65); }

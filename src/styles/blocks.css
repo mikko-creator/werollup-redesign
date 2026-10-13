@@ -123,6 +123,25 @@
 .deal:hover, .deal:focus-visible { translate: 0 -4px; background: var(--forest); color: var(--cream); }
 .deal:hover .hd, .deal:focus-visible .hd, .deal:hover p, .deal:focus-visible p, .deal:hover .p, .deal:focus-visible .p { color: var(--cream); }
 .deal:hover .deal__ico, .deal:focus-visible .deal__ico { color: var(--leaf); }
+/* revision 1 (operator 2026-10-14): deal cards with relevant imagery (blocks.mjs DEAL_ART). The photo fills the card under
+   a night scrim; the title sits at the bottom in cream. Munchie Monday: the edibles tin floats on a dusk gradient. */
+.deal--art { min-height: 240px; align-items: flex-end; padding: 22px 24px 24px 28px; background: var(--forest-950); border-color: var(--forest-700); color: var(--cream); isolation: isolate; }
+.deal--art::before { z-index: 2; }
+.deal__media { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+.deal__media .deal__img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform .7s var(--ease-out); }
+.deal--art::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to top, var(--night-90) 0%, var(--night-60) 45%, transparent 80%); }
+.deal--art .deal__body .hd { color: var(--cream); font-family: var(--f-display); font-weight: 800; font-size: clamp(22px, 2.1vw, 28px); letter-spacing: -.01em; line-height: 1.1; }
+.deal--art .deal__ico { color: var(--leaf); }
+.deal--art:hover, .deal--art:focus-visible { background: var(--forest-950); }
+.deal--art:hover .deal__media .deal__img, .deal--art:focus-visible .deal__media .deal__img { transform: scale(1.06); }
+.deal__media--cut { background: radial-gradient(80% 90% at 72% 36%, var(--peach) 0%, var(--peach-35) 45%, transparent 75%), linear-gradient(160deg, var(--mint), var(--forest-650) 85%); }
+.deal--cut::after { background: linear-gradient(to top, var(--night-90) 0%, var(--night-45) 36%, transparent 60%); }
+.deal__media--cut .deal__img { position: absolute; right: 6%; top: 4%; width: auto; height: 84%; object-fit: contain; filter: drop-shadow(0 20px 22px var(--shadow-black-45)); }
+/* narrow deal cards (the 4-across Daily Deals page): a smaller title so long deal names fit over the photo */
+.deals:has(> li:nth-child(4)) .deal--art .deal__body .hd { font-size: clamp(18px, 1.45vw, 22px); }
+.deals:has(> li:nth-child(4)) .deal--art { min-height: 270px; }
+.deal--cut:hover .deal__media--cut .deal__img, .deal--cut:focus-visible .deal__media--cut .deal__img { transform: translateY(-8px) rotate(-3deg); }
+@media (prefers-reduced-motion: reduce) { .deal--art .deal__img { transition: none; } }
 
 /* ------------------------------------------------------------------ posts, notice, icon links */
 .posts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: var(--gap-cards); list-style: none; margin: 0; padding: 0; }

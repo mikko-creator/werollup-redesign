@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "CAT-PREROLL",
+  "file": "assets/generated/cat-preroll.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio product photograph of a single cannabis pre-roll joint rolled in natural unbleached brown hemp paper, green ground cannabis flower visible at its open twisted end, a short cardboard crutch at the narrow end, lying diagonally, centred on a seamless plain light grey background, soft diffused studio light, crisp fine detail, high resolution, photographic; no text, no logos, no brand marks, no printing, no packaging, no people, no hands, no smoke, no cartoon or illustration, no candy or sweets, no neon",
+  "input": {
+    "aspect_ratio": "3:4",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 2580200173,
+  "requestId": "01a13640-5b0c-7e73-8591-5995ad96c43f",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a13640-8e50-7c50-b223-106000a1cad9"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "a80eddc7cd5e12211f2e06a8076ced5673f23d03bbaaa0178d4782daf8911aec",
+  "raw": "tmp/img/raw/CAT-PREROLL.1791911560007.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-10-13T17:12:45.486Z",
+  "review": {
+    "verdict": "PENDING",
+    "reason": null
+  }
+}

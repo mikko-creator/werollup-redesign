@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "CAT-VAPE",
+  "file": "assets/generated/cat-vape.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio product photograph of a single unbranded clear glass vape cartridge filled with golden amber oil, with a plain matte black mouthpiece and a plain brushed metal base, standing upright, centred on a seamless plain light grey background, soft diffused studio light, crisp reflections, high resolution, photographic; no logos, no text, no letters, no markings, no battery, no packaging, no people, no hands, no smoke, no cartoon or illustration, no neon",
+  "input": {
+    "aspect_ratio": "3:4",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 81680334,
+  "requestId": "01a13640-5b03-7a42-9b66-dcd87b17e8fe",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a13640-a130-76e3-ba0c-04149a80e661"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "05ea2774447958a9f384cbc99c1f8a3961c4ee34aac67a211099e4fe4a9a00ee",
+  "raw": "tmp/img/raw/CAT-VAPE.1791911564788.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-10-13T17:12:50.274Z",
+  "review": {
+    "verdict": "PENDING",
+    "reason": null
+  }
+}

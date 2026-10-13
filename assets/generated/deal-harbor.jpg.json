@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "DEAL-HARBOR",
+  "file": "assets/generated/deal-harbor.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "The Port of Los Angeles at golden hour seen from San Pedro: silhouettes of tall container gantry cranes over calm harbour water, soft haze, warm peach and pale mint sky, photographic, wide; no people, no text, no letters, no ship names, no logos, no signs, no faces, no hands, no cartoon or illustration, no candy, no alcohol, no party, no neon",
+  "input": {
+    "aspect_ratio": "16:9",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 2703876739,
+  "requestId": "01a13640-e4d1-7260-aaeb-d436de29dd65",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "bb1270d7dd8577b66e5cae4808294c2734bb8a99fcef64219d8233e0dc9944f1",
+  "raw": "tmp/img/raw/DEAL-HARBOR.1791911593358.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-10-13T17:13:15.226Z",
+  "review": {
+    "verdict": "PENDING",
+    "reason": null
+  }
+}

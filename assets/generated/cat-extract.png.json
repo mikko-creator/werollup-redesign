@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "CAT-EXTRACT",
+  "file": "assets/generated/cat-extract.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio product photograph of a small round clear glass concentrate jar with its lid resting beside it, holding glossy golden amber cannabis concentrate, seen in three-quarter view, centred on a seamless plain light grey background, soft diffused studio light, crisp fine detail, high resolution, photographic; no label, no text, no letters, no logos, no markings, no people, no hands, no tools, no cartoon or illustration, no candy, no neon",
+  "input": {
+    "aspect_ratio": "3:4",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "seed": 3197654337,
+  "requestId": "01a13640-9cf0-7cb2-bce4-794ce3805bb5",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a13640-d1af-7692-95cb-bd32d3940715"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "056ede887ac22bf81061b81ea055a2c706737b9fa3c5e15ffdd83fcb65e0b1ef",
+  "raw": "tmp/img/raw/CAT-EXTRACT.1791911576746.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-10-13T17:13:03.112Z",
+  "review": {
+    "verdict": "PENDING",
+    "reason": null
+  }
+}

@@ -305,6 +305,103 @@
       "still": "S-TRICHOME",
       "aiLabel": true,
       "uses": "loop over S-TRICHOME in the /products/flower banner (10.5; in that page's first screen, Q4)"
+    },
+    "CAT-PREROLL": {
+      "kind": "image",
+      "file": "assets/generated/cat-preroll.png",
+      "alt": "",
+      "role": "cutout",
+      "pages": [
+        "/location/culver-city/",
+        "/location/san-pedro/"
+      ],
+      "aiLabel": true,
+      "uses": "Shop by Category: Pre-Rolls floating cut-out (revision 1)"
+    },
+    "CAT-EDIBLES": {
+      "kind": "image",
+      "file": "assets/generated/cat-edibles.png",
+      "alt": "",
+      "role": "cutout",
+      "pages": [
+        "/location/culver-city/",
+        "/location/san-pedro/",
+        "/about-us/daily-deals/"
+      ],
+      "aiLabel": true,
+      "uses": "Shop by Category: Edibles floating cut-out; Daily Deals: Munchie Monday (revision 1)"
+    },
+    "CAT-VAPE": {
+      "kind": "image",
+      "file": "assets/generated/cat-vape.png",
+      "alt": "",
+      "role": "cutout",
+      "pages": [
+        "/location/culver-city/",
+        "/location/san-pedro/"
+      ],
+      "aiLabel": true,
+      "uses": "Shop by Category: Vapes floating cut-out (revision 1)"
+    },
+    "CAT-EXTRACT": {
+      "kind": "image",
+      "file": "assets/generated/cat-extract.png",
+      "alt": "",
+      "role": "cutout",
+      "pages": [
+        "/location/culver-city/",
+        "/location/san-pedro/"
+      ],
+      "aiLabel": true,
+      "uses": "Shop by Category: Extract floating cut-out (revision 1)"
+    },
+    "CAT-CBD": {
+      "kind": "image",
+      "file": "assets/generated/cat-cbd.png",
+      "alt": "",
+      "role": "cutout",
+      "pages": [
+        "/location/culver-city/",
+        "/location/san-pedro/"
+      ],
+      "aiLabel": true,
+      "uses": "Shop by Category: CBD floating cut-out (revision 1)"
+    },
+    "DEAL-EARLY": {
+      "kind": "image",
+      "file": "assets/generated/deal-early.jpg",
+      "alt": "",
+      "role": "art",
+      "pages": [
+        "/location/culver-city/",
+        "/about-us/daily-deals/"
+      ],
+      "aiLabel": true,
+      "uses": "Daily Deals: Early Bird Specials (revision 1)"
+    },
+    "DEAL-WHEEL": {
+      "kind": "image",
+      "file": "assets/generated/deal-wheel.jpg",
+      "alt": "",
+      "role": "art",
+      "pages": [
+        "/location/culver-city/",
+        "/about-us/daily-deals/"
+      ],
+      "aiLabel": true,
+      "uses": "Daily Deals: Spin the Wheel for Prizes (revision 1)"
+    },
+    "DEAL-HARBOR": {
+      "kind": "image",
+      "file": "assets/generated/deal-harbor.jpg",
+      "alt": "",
+      "role": "art",
+      "pages": [
+        "/location/san-pedro/",
+        "/about-us/daily-deals/"
+      ],
+      "aiLabel": true,
+      "uses": "Daily Deals: 10% Off - Seniors, Military Members, & Longshoremen (revision 1)"
     }
   }
 }

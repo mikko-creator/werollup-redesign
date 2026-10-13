@@ -5,7 +5,9 @@
     "/location/san-pedro/shop/",
     "/location/san-pedro/shop"
   ],
+  "regexAnchors": ["location"],
   "measured": {
+    "regexAnchors.location": "the theme store detection /^\\/location\\/(culver-city|san-pedro)(\\/|$)/ in src/scripts/site.js, tested against location.pathname (theme build 3a7cbdb, 2026-10-14): the only root-anchored regex in the bundle (counted by a node scan with a positive control)",
     "/location/san-pedro/shop/menu/": "dist/404.html inline Jane boot: the pathname test for San Pedro menu paths (stub build 4a43f879, 2026-10-13)",
     "/location/san-pedro/shop/": "dist/404.html inline Jane boot: the same-origin fetch of the shop page whose Jane head block it inserts (stub build 4a43f879, 2026-10-13)",
     "/location/san-pedro/shop": "the Jane runtime config partnerHostedPath in <script id=\"jane_frameless_embed_runtime_config\"> (untyped script) on the 9 San Pedro shop pages. PREVIEW ONLY: prefixed so Jane can match its route under the Pages subpath; dist/ keeps it byte-identical (build-check embed gate). Whether Jane renders off werollup.com at all is UNVERIFIED (OPEN-DECISIONS B13)."

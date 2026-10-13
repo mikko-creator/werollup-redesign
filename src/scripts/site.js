@@ -159,20 +159,45 @@
   });
 
   /* ---------------------------------------------------------------- 6.4 mega menu (D-10, R-18) */
-  var megaBtn = $('#megaBtn'), mega = $('#megaPanel');
+  var megaBtn = $('#megaBtn'), mega = $('#megaPanel'), megaBy = '', megaHoverT = 0;
   function closeMega(returnFocus) {
     if (!mega || mega.hidden) return;
+    clearTimeout(megaHoverT); megaBy = '';
     mega.hidden = true; megaBtn.setAttribute('aria-expanded', 'false');
+    var li = megaBtn.closest('.mainnav__mega'); if (li) li.classList.remove('is-hover-open');
     if (returnFocus) megaBtn.focus();
+  }
+  function openMega(by) {
+    if (!mega || !mega.hidden) return;
+    megaBy = by; mega.hidden = false; megaBtn.setAttribute('aria-expanded', 'true');
+    var li = megaBtn.closest('.mainnav__mega'); if (li && by === 'hover') li.classList.add('is-hover-open');
   }
   run('mega', function () {
     if (!megaBtn || !mega) return;
     megaBtn.addEventListener('click', function (e) {
-      if (!mega.hidden) { closeMega(false); return; }
-      mega.hidden = false; megaBtn.setAttribute('aria-expanded', 'true');
+      // revision 1 (operator 2026-10-14): a panel the mouse already opened by hovering stays open on a click (pinned)
+      if (!mega.hidden) { if (megaBy === 'hover') { megaBy = 'click'; return; } closeMega(false); return; }
+      openMega('click');
       // a keyboard open (Enter / Space: click with detail 0) moves focus to the first card; a mouse open does not
       if (e.detail === 0) { var first = $('.mcard', mega) || $('a', mega); if (first) first.focus(); }
     });
+    // revision 1: open on mouse hover (fine pointers only), after 70 ms of intent; leaving closes after 260 ms, and
+    // re-entering the button or the panel (both inside li.mainnav__mega) cancels the close. Touch and keyboard unchanged.
+    var megaLi = megaBtn.closest('.mainnav__mega');
+    var fine = window.matchMedia ? matchMedia('(hover: hover) and (pointer: fine)') : null;
+    if (megaLi) {
+      megaLi.addEventListener('pointerenter', function (e) {
+        if (e.pointerType !== 'mouse' || (fine && !fine.matches)) return;
+        clearTimeout(megaHoverT);
+        if (mega.hidden) megaHoverT = setTimeout(function () { openMega('hover'); }, 70);
+      });
+      megaLi.addEventListener('pointerleave', function (e) {
+        if (e.pointerType !== 'mouse') return;
+        clearTimeout(megaHoverT);
+        if (megaBy !== 'hover') return;
+        megaHoverT = setTimeout(function () { if (megaBy === 'hover') closeMega(false); }, 260);
+      });
+    }
     d.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !mega.hidden && (mega.contains(d.activeElement) || d.activeElement === megaBtn)) { e.preventDefault(); closeMega(true); } });
     d.addEventListener('pointerdown', function (e) { if (!mega.hidden && !mega.contains(e.target) && !megaBtn.contains(e.target)) closeMega(false); });
     mega.addEventListener('focusout', function (e) { var to = e.relatedTarget; if (to && !mega.contains(to) && to !== megaBtn) closeMega(false); });

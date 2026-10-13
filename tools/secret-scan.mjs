@@ -28,6 +28,9 @@ const PATTERNS = [
   ['slack-token', /\bxox[baprs]-[A-Za-z0-9-]{10,}\b/g],
   ['stripe-live-key', /\b[sr]k_live_[A-Za-z0-9]{20,}\b/g],
   ['private-key', /-----BEGIN (?:RSA |EC |OPENSSH |DSA |)PRIVATE KEY-----/g],
+  // werollup 2026-10-14: GitHub push protection blocked a Mapbox token inside Jane's #jane-app-secrets that this scanner
+  // had no pattern for. Mapbox tokens are pk./sk./tk. followed by a base64 JWT-like body.
+  ['mapbox-token', /\b(?:pk|sk|tk)\.ey[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}/g],
 ];
 for (const kf of keyFiles) {
   const v = fs.readFileSync(kf, 'utf8').trim();
@@ -96,7 +99,7 @@ function scan(files, base) {
 
 if (argv.includes('--control')) {
   const t = fs.mkdtempSync(path.join(os.tmpdir(), 'secret-ctl-'));
-  const planted = { 'a.html': 'key=AIza' + 'A'.repeat(35), 'b.js': 'gh' + 'p_' + 'a'.repeat(36), 'c.txt': 'AKIA' + 'ABCDEFGHIJKLMNOP', 'd.md': 'xox' + 'b-1234567890-abcdef', 'e.json': 'sk' + '_live_' + 'b'.repeat(24), 'f.pem': '-----BEGIN ' + 'PRIVATE KEY-----', 'g.webp': 'RIFF\u0000\u0000WEBPVP8 junk AIza' + 'B'.repeat(35) };
+  const planted = { 'a.html': 'key=AIza' + 'A'.repeat(35), 'b.js': 'gh' + 'p_' + 'a'.repeat(36), 'c.txt': 'AKIA' + 'ABCDEFGHIJKLMNOP', 'd.md': 'xox' + 'b-1234567890-abcdef', 'e.json': 'sk' + '_live_' + 'b'.repeat(24), 'f.pem': '-----BEGIN ' + 'PRIVATE KEY-----', 'g.webp': 'RIFF\u0000\u0000WEBPVP8 junk AIza' + 'B'.repeat(35), 'i.json': '{"mapboxAccessToken":"' + 'pk.' + 'ey' + 'A'.repeat(30) + '.' + 'B'.repeat(22) + '"}' };
   for (const kf of keyFiles) planted['h-' + path.basename(kf) + '.txt'] = 'x ' + fs.readFileSync(kf, 'utf8').trim() + ' y';
   for (const [n, v] of Object.entries(planted)) fs.writeFileSync(path.join(t, n), v);
   const r = scan(list(t), t);

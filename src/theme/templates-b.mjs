@@ -90,6 +90,7 @@ function storeSectionBlocks(page, ctx, api, s, night) {
   const tone = night ? 'night' : 'light';
   return s.blocks.map((b) => {
     if (b.type === 'heading') return B.heading(b, ctx, page, { cls: 'store-sec__title' });
+    if (b.type === 'card-carousel' && b.variant !== 'mood') return storeCategoryLoop(page, ctx, api, b);
     if (b.type === 'card-carousel') return P.reveal(storeRail(page, ctx, api, b), { cls: 'store-rail-wrap' });
     if (b.type === 'logo-carousel') return P.reveal(storeLogos(page, ctx, api, b), { cls: 'store-logos-wrap' });
     return B.renderBlock(b, ctx, page, { tone });
@@ -124,12 +125,35 @@ function storeRail(page, ctx, api, b) {
   return '<div class="' + P.cx('rail', 'store-rail', 'store-rail--' + (mood ? 'mood' : 'cat')) + '"><ul class="rail__track" role="list">' + items + '</ul></div>';
 }
 
-/** "Our Featured Brands": the partner logos, unaltered, on white 120 px chips in a static wrap grid (no autoplay).
- *  The chip's image box is 92 px (120 - 2 x 14 padding); every logo is contained in it, so sizes = its painted width. */
-const LOGO_BOX = 92;
+/** revision 1 (operator 2026-10-14): "Shop by Category" as floating high-resolution product cut-outs (no card frame) in
+ *  an infinite loop. The static HTML holds each card ONCE (labels and SHOP NOW links verbatim, so text and href parity
+ *  hold); src/scripts/pages-b.js clones the items (aria-hidden, inert) to make the loop seamless and adds the pause
+ *  control. Without JS, or under reduced motion, it is a static scroll row. The images are unbranded generated cut-outs
+ *  (A9) except Accessories, the client's real We Roll Up cap. */
+const CAT_ART = { flower: 'S-CUT-BUD', 'pre-rolls': 'CAT-PREROLL', edibles: 'CAT-EDIBLES', vapes: 'CAT-VAPE', extract: 'CAT-EXTRACT', cbd: 'CAT-CBD', accessories: 'CUT-CAP' };
+const catLabel = (c) => { const h = (c.blocks || []).find((x) => x && x.text && x.type !== 'buttons'); return h ? String(h.text).trim().toLowerCase() : ''; };
+function storeCategoryLoop(page, ctx, api, b) {
+  const { parts: P, blocks: B } = api;
+  const items = b.cards.map((c) => {
+    const slot = CAT_ART[catLabel(c)];
+    let media = '';
+    if (slot) media = P.img(ctx, slot, { alt: '', sizes: '(max-width: 700px) 150px, 230px', cls: 'pcat__img', widths: [160, 240, 320, 400, 520, 640], attrs: { 'data-decorative': '' } });
+    else if (c.image) media = P.img(ctx, c.image.ref, { alt: c.image.alt || '', sizes: '160px', cls: 'pcat__img', widths: [160, 240, 320], attrs: c.image.alt ? {} : { 'data-decorative': '' } });
+    const body = c.blocks.map((x) => (x.type === 'buttons'
+      ? P.buttonRow(ctx, x.items, { cls: 'pcat__btns', each: () => ({ kind: 'leaf', size: 'sm', arrow: false }) })
+      : B.renderBlock(x, ctx, page, { tone: 'light' }))).join('\n');
+    return '<li class="pcat__item"><div class="pcat__media">' + media + '<span class="pcat__shadow" aria-hidden="true"></span></div><div class="pcat__body">' + body + '</div></li>';
+  }).join('');
+  return '<div class="pcat" data-pcat><div class="pcat__viewport"><ul class="pcat__track" role="list">' + items + '</ul></div></div>';
+}
+
+/** "Our Featured Brands" (revision 1, operator 2026-10-14): the partner logos, unaltered, bigger and floating: no chip,
+ *  no border, a soft shadow and a hover lift. The logo box is 128 px (desktop: 7 logos fit one row at 1280); sizes = its
+ *  painted width. */
+const LOGO_BOX = 128;
 function storeLogos(page, ctx, api, b) {
   const { parts: P } = api;
-  return '<ul class="logos store-logos" role="list">' + b.logos.map((l) => {
+  return '<ul class="logos store-logos store-logos--float" role="list">' + b.logos.map((l) => {
     const im = l.image;
     const w = im.width && im.height ? Math.round(Math.min(LOGO_BOX, LOGO_BOX * im.width / im.height)) : LOGO_BOX;
     return '<li class="logos__item"><a' + P.attrs({ class: 'logos__link', href: P.href(ctx, l.href), rel: l.rel }) + '>'
