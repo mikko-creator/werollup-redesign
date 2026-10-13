@@ -1520,13 +1520,25 @@ html.jane-boot .not-found { display: none; }
 .pcat__body .hd { font: 800 25px/1.1 var(--f-display); letter-spacing: -.015em; color: var(--forest); }
 .pcat__btns .btn { min-height: 44px; padding: 0 20px; }
 .pcat__item:hover .pcat__img, .pcat__item:focus-within .pcat__img { transform: translateY(-12px) scale(1.07); }
-.pcat.is-looping .pcat__viewport { overflow: hidden; scroll-snap-type: none; }
-.pcat.is-looping .pcat__track { animation: wru-loop var(--pcat-dur, 42s) linear infinite; }
-.pcat.is-looping .pcat__img { animation: wru-float 5.5s ease-in-out infinite alternate; }
+/* revision 3 (operator 2026-10-14): the loop is driven by pages-b.js through scrollLeft (no CSS track animation), so a
+   visitor can also scroll it by hand (mouse drag, touch swipe, trackpad, the two arrow buttons) while it auto-scrolls;
+   three copies of the items keep both directions seamless. */
+.pcat.is-looping .pcat__viewport { overflow-x: auto; overflow-y: hidden; scroll-snap-type: none; scroll-behavior: auto; cursor: grab; overscroll-behavior-x: contain; }
+.pcat.is-dragging .pcat__viewport { cursor: grabbing; }
+.pcat.is-dragging .pcat__item { user-select: none; }
+.pcat.is-looping .pcat__img { animation: wru-float 5.5s ease-in-out infinite alternate; -webkit-user-drag: none; }
 .pcat.is-looping .pcat__item:nth-child(3n+2) .pcat__img { animation-delay: -1.8s; }
 .pcat.is-looping .pcat__item:nth-child(3n) .pcat__img { animation-delay: -3.6s; }
-.pcat.is-looping:hover .pcat__track, .pcat.is-looping:focus-within .pcat__track, .pcat.is-paused .pcat__track, .pcat.is-offscreen .pcat__track,
 .pcat.is-paused .pcat__img, .pcat.is-offscreen .pcat__img { animation-play-state: paused; }
+.pcat__nav { position: absolute; top: 126px; z-index: 3; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%;
+  background: var(--white); border: 1px solid var(--haze-300); color: var(--forest); cursor: pointer; box-shadow: 0 8px 20px var(--shadow-black-15); transition: transform var(--t-hover) var(--ease-out); }
+.pcat__nav--prev { left: 6px; }
+.pcat__nav--next { right: 6px; }
+.pcat__nav:hover { transform: scale(1.08); }
+.pcat__nav:focus-visible { outline: 3px solid var(--leaf-ink); outline-offset: 2px; }
+.pcat__nav-ico { display: block; width: 11px; height: 11px; border-top: 3px solid currentColor; border-right: 3px solid currentColor; }
+.pcat__nav--prev .pcat__nav-ico { rotate: -135deg; margin-left: 5px; }
+.pcat__nav--next .pcat__nav-ico { rotate: 45deg; margin-right: 5px; }
 .pcat__toggle { position: absolute; right: 4px; top: -8px; z-index: 3; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%;
   background: var(--white); border: 1px solid var(--haze-300); color: var(--forest); cursor: pointer; box-shadow: 0 6px 16px var(--shadow-black-15); }
 .pcat__toggle:focus-visible { outline: 3px solid var(--leaf-ink); outline-offset: 2px; }
@@ -1540,6 +1552,7 @@ html.jane-boot .not-found { display: none; }
   .pcat__media { height: 178px; }
   .pcat__img { height: 160px; }
   .pcat__body .hd { font-size: 21px; }
+  .pcat__nav { top: 99px; width: 40px; height: 40px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .pcat.is-looping .pcat__track, .pcat.is-looping .pcat__img { animation: none; }
@@ -1556,4 +1569,20 @@ html.jane-boot .not-found { display: none; }
 @media (max-width: 700px) {
   .store-logos--float { gap: 28px 34px; }
   .store-logos--float .logos__img { max-height: 96px; max-width: 150px; }
+}
+
+/* ------------------------------------------------------------------ revision 3 (operator 2026-10-14) */
+/* The store hero is a full-bleed looping video (V-HARBOR / V-LAX; the place plate still until the loop exists) under the
+   glass pane; the postcard light box is gone. The pane wrapper ignores the pointer so the loop's pause control (top-right)
+   stays clickable; the pane itself does not. */
+.store-hero--video .store-hero__in { grid-template-columns: minmax(0, 640px); min-height: clamp(460px, calc(100svh - var(--head-h) - 40px), 760px); pointer-events: none; }
+.store-hero--video .store-hero__pane { pointer-events: auto; }
+.store-hero__art .loop { z-index: auto; }
+.store-hero__art .loop__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 55%; }
+.store-hero__art .loop__toggle { top: 18px; right: 18px; bottom: auto; z-index: 4; }
+.store-hero--video .store-hero__veil { background: linear-gradient(90deg, var(--night-80) 0%, var(--night-45) 42%, transparent 72%), linear-gradient(to top, var(--forest-950) 0%, transparent 24%); }
+@media (max-width: 700px) {
+  .store-hero--video .store-hero__art { position: absolute; inset: 0; height: auto; }
+  .store-hero--video .store-hero__veil { inset: 0; height: auto; background: linear-gradient(to top, var(--night-90) 0%, var(--night-45) 52%, transparent 78%); }
+  .store-hero--video .store-hero__in { display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; min-height: clamp(520px, calc(100svh - var(--head-h)), 760px); padding-block: 0 24px; }
 }

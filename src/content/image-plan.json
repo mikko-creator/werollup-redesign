@@ -420,6 +420,42 @@
       "still": "S-BUD-BANNER",
       "aiLabel": true,
       "uses": "revision 2 (operator 2026-10-14): the home hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video request 97be34cf from S-BUD-BANNER; make-loop YDIF p95 2.32, 0 frames over 20"
+    },
+    "V-HARBOR": {
+      "file": "assets/generated/v-harbor-poster.webp",
+      "alt": "",
+      "role": "hero",
+      "kind": "video",
+      "pages": [
+        "/location/san-pedro/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-harbor.mp4",
+        "webm": "assets/generated/v-harbor.webm",
+        "mp4Phone": "assets/generated/v-harbor-phone.mp4",
+        "poster": "assets/generated/v-harbor-poster.webp"
+      },
+      "still": "G-HARBOR-HAZE",
+      "aiLabel": true,
+      "uses": "revision 3 (operator 2026-10-14): the San Pedro store hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video from G-HARBOR-HAZE"
+    },
+    "V-LAX": {
+      "file": "assets/generated/v-lax-poster.webp",
+      "alt": "",
+      "role": "hero",
+      "kind": "video",
+      "pages": [
+        "/location/culver-city/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-lax.mp4",
+        "webm": "assets/generated/v-lax.webm",
+        "mp4Phone": "assets/generated/v-lax-phone.mp4",
+        "poster": "assets/generated/v-lax-poster.webp"
+      },
+      "still": "G-LAX-DUSK",
+      "aiLabel": true,
+      "uses": "revision 3 (operator 2026-10-14): the Culver City store hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video from G-LAX-DUSK"
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/rev3/hf/v-harbor.mp4",
+  "inputDuration": 5.041667,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 3.542,
+  "outputs": {
+    "assets/generated/v-harbor.mp4": 286411,
+    "assets/generated/v-harbor.webm": 225057,
+    "assets/generated/v-harbor-poster.webp": 30236,
+    "assets/generated/v-harbor-phone.mp4": 94203
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 169,
+    "max": 0.822328,
+    "p95": 0.588133,
+    "mean": 0.394,
+    "framesOver20": 0,
+    "seamChange": 0.822328
+  },
+  "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video (from G-HARBOR-HAZE)). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "generatedAt": "2026-10-13T17:58:17.076Z"
+}

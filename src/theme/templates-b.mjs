@@ -61,19 +61,16 @@ function storeHero(page, ctx, api, s) {
   // the hero tile photos are deny-listed source photos (DESIGN-SPEC 10.3: 8b360abb, 7a4352fe, 085a05d4) or a content
   // photo in a hero role; the spec's hero is the place plate (G-LAX-DUSK / G-HARBOR-HAZE), so no tile photo is drawn
   const plate = (page.generated && page.generated.hero) || P.bannerArtFor(page);
-  // cover crop: desktop band >= 100vw wide and min 460 px tall (3136x1344 plate: 460 x 2.333 = 1074 px); phones: the
-  // plate band is 260 px tall (260 x 2.333 = 607 px painted width)
-  const art = P.decorative(ctx, plate, { sizes: '(max-width: 700px) 607px, max(100vw, 1074px)', loading: 'eager', fetchpriority: 'high', cls: 'store-hero__img', widths: [640, 960, 1280, 1600, 1920, 2400] });
   const paneInner = first.blocks.map((b) => (b.type === 'heading' ? B.heading(b, ctx, page, { cls: 'store-hero__title' }) : B.renderBlock(b, ctx, page, { tone: 'night', inHero: true }))).join('\n');
-  const postcard = P.REAL[POSTCARD_KEY[page.store]];
-  const box = P.lightBox(ctx, {
-    inner: '<span class="store-hero__mat" aria-hidden="true"></span>', plates: 2, tone: 'light', cls: 'store-hero__box',
-    cut: { ref: postcard, sizes: '(min-width: 1440px) 340px, (min-width: 1240px) 300px, (min-width: 1024px) 260px, (min-width: 701px) 240px, 190px', cls: 'store-hero__card', widths: [200, 300, 400, 600] },
-  });
+  // revision 3 (operator 2026-10-14: the hero must be a looping video, "not a fan of the small hero image"; visitors land
+  // on the store page after the age gate): the store's loop fills the hero behind the pane; the postcard light box is
+  // gone. Until the loop's files exist (or for a store without a loop) the place plate still fills the band instead.
+  const loop = STORE_LOOP[page.store] ? P.loop(ctx, STORE_LOOP[page.store], { cls: 'store-hero__loop', sizes: '100vw' }) : '';
+  const art = loop || P.decorative(ctx, plate, { sizes: '100vw', loading: 'eager', fetchpriority: 'high', cls: 'store-hero__img', widths: [640, 960, 1280, 1600, 1920, 2400] });
   const hero = P.band({
-    tone: 'night', id: s.id, cls: 'store-hero', depth: true,
-    inner: '<div class="store-hero__art" aria-hidden="true">' + art + '</div><div class="store-hero__veil" aria-hidden="true"></div>'
-      + P.wrap('<div class="store-hero__pane glass-pane">' + paneInner + '</div><div class="store-hero__aside">' + box + '</div>', 'wide', 'store-hero__in'),
+    tone: 'night', id: s.id, cls: 'store-hero store-hero--video', depth: true,
+    inner: '<div class="store-hero__art"' + (loop ? '' : ' aria-hidden="true"') + '>' + art + '</div><div class="store-hero__veil" aria-hidden="true"></div>'
+      + P.wrap('<div class="store-hero__pane glass-pane">' + paneInner + '</div>', 'wide', 'store-hero__in'),
   });
   if (!rest.length) return hero;
   const cards = rest.map((t) => {
@@ -83,6 +80,9 @@ function storeHero(page, ctx, api, s) {
   }).join('');
   return hero + '\n' + P.band({ tone: 'cream', cls: 'store-delivery', inner: P.wrap(cards) });
 }
+
+/** revision 3: the store hero loops (image-plan video slots; Higgsfield from the store's own place plate) */
+const STORE_LOOP = { 'san-pedro': 'V-HARBOR', 'culver-city': 'V-LAX' };
 
 /** a store section: its blocks in model order (headings, rails, deals, logos) */
 function storeSectionBlocks(page, ctx, api, s, night) {
