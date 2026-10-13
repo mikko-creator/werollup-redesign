@@ -402,6 +402,24 @@
       ],
       "aiLabel": true,
       "uses": "Daily Deals: 10% Off - Seniors, Military Members, & Longshoremen (revision 1)"
+    },
+    "V-HERO": {
+      "file": "assets/generated/v-hero-poster.webp",
+      "alt": "",
+      "role": "hero",
+      "kind": "video",
+      "pages": [
+        "/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-hero.mp4",
+        "webm": "assets/generated/v-hero.webm",
+        "mp4Phone": "assets/generated/v-hero-phone.mp4",
+        "poster": "assets/generated/v-hero-poster.webp"
+      },
+      "still": "S-BUD-BANNER",
+      "aiLabel": true,
+      "uses": "revision 2 (operator 2026-10-14): the home hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video request 97be34cf from S-BUD-BANNER; make-loop YDIF p95 2.32, 0 frames over 20"
     }
   }
 }

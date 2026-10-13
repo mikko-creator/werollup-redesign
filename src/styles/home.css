@@ -148,3 +148,26 @@
   .hm-cap { width: 150px; left: -20px; bottom: -58px; } /* 12 px or more of opaque cap outside the frame's left edge at 390 (5.3) */
   .hm-copy, .hm-zipcard { padding: 26px 22px; }
 }
+
+/* ------------------------------------------------------------------ revision 2 (operator 2026-10-14) */
+/* The hero is a full-bleed looping video (V-HERO; the S-BUD-BANNER still while the loop is absent) under one glass
+   pane. A left veil keeps the pane's backdrop dark enough for the h1 and lead; a bottom fade hands over to the next band.
+   The pane wrapper spans the band above the video, so it ignores the pointer (the pane itself does not), which keeps the
+   loop's pause control clickable. */
+.hm-hero--video { position: relative; }
+.hm-hero__media { position: absolute; inset: 0; z-index: var(--z-atmos); }
+.hm-hero__media .loop { z-index: auto; }
+.hm-hero__media .loop__video, .hm-hero__still, .hm-hero__still-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 66% 50%; }
+.hm-hero__media .loop__toggle { z-index: 4; top: 18px; right: 18px; bottom: auto; } /* in the first screen at every window (WCAG 2.2.2 control must be findable) */
+.hm-hero__veil { position: absolute; inset: 0; z-index: var(--z-atmos); pointer-events: none;
+  background: linear-gradient(90deg, var(--night-80) 0%, var(--night-45) 42%, transparent 72%), linear-gradient(to top, var(--forest-950) 0%, transparent 24%); }
+.hm-hero--video .hero-band__in { position: relative; z-index: 2; pointer-events: none; }
+.hm-hero--video .hm-hero__pane { pointer-events: auto; max-width: min(620px, 100%); }
+@media (max-width: 700px) {
+  /* measured 2026-10-14: the phone tile is display:block and the pane kept the old -140px overlap pull, so it rose 30px
+     above the band under the header. Reset the pull and seat the pane at the bottom of the first screen. */
+  .hm-hero--video .htile--first { display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; padding-bottom: 12px; } /* stretch: the pane is an inline-size container, so a centred flex item would collapse to 0 width */
+  .hm-hero--video .hm-hero__pane { margin-top: 0; }
+  .hm-hero__media .loop__video, .hm-hero__still-img { object-position: 58% 32%; }
+  .hm-hero__veil { background: linear-gradient(to top, var(--night-90) 0%, var(--night-45) 52%, transparent 78%); }
+}

@@ -105,7 +105,10 @@ export function rescan(dir) {
 
 function build(SRC, OUT) {
   const stats = { html: 0, css: 0, js: 0, copied: 0, refs: 0, jsLiterals: 0, dropped: [] };
-  fs.rmSync(OUT, { recursive: true, force: true });
+  // 2026-10-14: keep OUT/.git. The preview folder is its own git repo (the gh-pages branch); wiping it whole deleted
+  // that repo, and a later "git commit" inside it fell through to the parent workspace repo.
+  fs.mkdirSync(OUT, { recursive: true });
+  for (const e of fs.readdirSync(OUT)) if (e !== '.git') fs.rmSync(path.join(OUT, e), { recursive: true, force: true });
   (function walk(d) {
     for (const f of fs.readdirSync(d)) {
       const p = path.join(d, f), rel = path.relative(SRC, p).split(path.sep).join('/'), o = path.join(OUT, rel);

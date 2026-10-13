@@ -78,16 +78,20 @@ export function render(page, ctx, api) {
   const [s1, s2, s3, s4, s5, s6] = page.sections;
   const R = (b, o) => B.renderBlock(b, ctx, page, o);
 
-  /* 1. hero (6.9; D-1, D-2, D-4): one visual (the storefront light box) and one pane, nothing else */
+  /* 1. hero. Revision 2 (operator 2026-10-14: "make the hero section a looping video background too, not a fan of the
+     small hero image"): the V-HERO loop (Higgsfield, from the generated S-BUD-BANNER still; AI-labelled) fills the band
+     behind one glass pane with the verbatim h1, lead and CTAs. The S-BUD-BANNER still shows while the loop is absent
+     and is the poster under reduced motion. The storefront light box left the hero (the storefront photos stay in their
+     other roles: the ZIP band and the age gate). */
   const t1 = s1.blocks[0];
   const heroBody = t1.blocks.map((b) => (b.type === 'heading' && b.level === 1
     ? '<h1 class="hd hd--h-ultra hm-hero__title" id="hm-hero-title">' + weightSplit(b.html, 2, true) + '</h1>'
     : R(b, { tone: 'night', inHero: true }))).join('\n');
-  const heroBox = P.lightBox(ctx, { ref: t1.image.ref, sizes: HERO_SIZES, loading: 'eager', fetchpriority: 'high', plates: 1, tone: 'night', cls: 'htile__box hm-hero__box', widths: HERO_WIDTHS });
-  // D-2: on phones the mist plate lies under the lower half of the pane (CSS hides it from 701 px; lazy, so a hidden copy is never fetched)
-  const heroMist = '<div class="hm-hero__mist" aria-hidden="true">' + P.decorative(ctx, 'assets/generated/s-mist-phone.jpg', { sizes: '100vw', loading: 'lazy', cls: 'hm-hero__mist-img', widths: [640, 960, 1170] }) + '</div>';
-  const hero = P.band({ tone: 'night', atmosphere: true, id: s1.id, cls: 'hero-band hm-hero', depth: true, labelledby: 'hm-hero-title',
-    inner: heroMist + P.wrap('<div class="htile htile--first hm-hero__tile">' + heroBox + '<div class="htile__pane glass-pane hm-hero__pane" data-qa="hero-copy">' + heroBody + '</div></div>', 'wide', 'hero-band__in') });
+  const heroLoop = P.loop(ctx, 'V-HERO', { cls: 'hm-hero__loop', sizes: '100vw' });
+  const heroStill = heroLoop ? '' : '<div class="hm-hero__still" aria-hidden="true">' + P.decorative(ctx, 'S-BUD-BANNER', { sizes: '100vw', loading: 'eager', fetchpriority: 'high', cls: 'hm-hero__still-img', widths: [960, 1280, 1920, 2400] }) + '</div>';
+  const hero = P.band({ tone: 'night', atmosphere: true, id: s1.id, cls: 'hero-band hm-hero hm-hero--video', depth: true, labelledby: 'hm-hero-title',
+    inner: '<div class="hm-hero__media">' + (heroLoop || heroStill) + '</div><div class="hm-hero__veil" aria-hidden="true"></div>'
+      + P.wrap('<div class="htile htile--first hm-hero__tile"><div class="htile__pane glass-pane hm-hero__pane" data-qa="hero-copy">' + heroBody + '</div></div>', 'wide', 'hero-band__in') });
 
   /* 2. the Delivery card (6.11, from s1 tile 2) and the two store cards (s2) with the postcards crossing their tops (H1, H2) */
   const t2 = s1.blocks[1];
@@ -160,10 +164,15 @@ export function render(page, ctx, api) {
   const zip = P.band({ tone: 'night-calm', id: s6.id, cls: 'hm-zip',
     inner: '<div class="hm-zip__ground" aria-hidden="true"></div>' + P.wrap('<div class="hm-split hm-split--' + (z.imageSide === 'right' ? 'img-right' : 'img-left') + '">' + zipBox + P.reveal('<div class="hm-zipcard">' + zBody + '</div>', { cls: 'hm-split__copy', step: 1 }) + '</div>') });
 
-  // R-41: the hero image is preloaded with the same srcset and sizes as the <img>
-  const ss = /srcset="([^"]+)"/.exec(heroBox);
-  const sz = /sizes="([^"]+)"/.exec(heroBox);
-  const headExtra = ss && sz ? '<link rel="preload" as="image" imagesrcset="' + ss[1] + '" imagesizes="' + sz[1] + '" fetchpriority="high">\n' : '';
+  // R-41 (revision 2): preload what paints first in the hero: the loop's poster, or the still's srcset when there is no loop
+  let headExtra = '';
+  const posterM = /poster="([^"]+)"/.exec(heroLoop);
+  if (posterM) headExtra = '<link rel="preload" as="image" href="' + posterM[1] + '" fetchpriority="high">\n';
+  else {
+    const ss = /srcset="([^"]+)"/.exec(heroStill);
+    const sz = /sizes="([^"]+)"/.exec(heroStill);
+    if (ss && sz) headExtra = '<link rel="preload" as="image" imagesrcset="' + ss[1] + '" imagesizes="' + sz[1] + '" fetchpriority="high">\n';
+  }
 
   return { main: [hero, service, serve, accs, community, zip].join('\n'), promo: 'after-main', bodyClass: 'home', headExtra };
 }
