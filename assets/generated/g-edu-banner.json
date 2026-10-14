@@ -1,0 +1,23 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide banner photograph: a few plain unlabelled clear glass jars with plain metal lids, filled with cured green cannabis flower, standing on a pale stone shelf in the right half of the frame, calm empty soft-focus space on the left, soft window daylight, light haze, cream and leaf-green palette, shallow depth of field, photographic; no labels, no stickers, no print, no lettering, no numbers, no hands, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+  "input": {
+    "aspect_ratio": "16:9",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a137b2-35e3-79a2-9c73-e82018383466",
+  "seed": 3899850836,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 684432,
+  "sha256": "5f4f56a934f945a293181b49cce823db92febd92c2c30dcf117e4d10992d32e2",
+  "file": "tmp/rev4/img/g-edu-banner.jpg",
+  "generatedAt": "2026-10-13T23:56:40.199Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

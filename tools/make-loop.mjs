@@ -1,7 +1,7 @@
 // make-loop.mjs — turn one generated clip into a calm, seamless web loop. Node builtins + ffmpeg/ffprobe on PATH.
 //
 //   node tools/make-loop.mjs --in tmp/hf/aurora.mp4 --out assets/media/hero-aurora [--fade 1.5] [--width 1920]
-//        [--phone-width 720 --phone-aspect 9:16] [--crf 26] [--label "Higgsfield kling-video/v3.0-turbo/image-to-video"]
+//        [--phone-width 720 --phone-aspect 9:16 --phone-x 0.5] [--what "AI-generated still with a camera drift"] [--crf 26] [--label "Higgsfield kling-video/v3.0-turbo/image-to-video"]
 //
 // Seamless loop: L = xfade( clip[fade..T], clip[0..fade], offset = T - 2*fade, duration = fade ).
 //   L(0) = clip(fade); at its end L crossfades back into clip(fade) — so the last frame flows into the first.
@@ -41,7 +41,9 @@ const crf = String(args.crf || 26);
 const label = String(args.label || 'AI-generated video');
 // the IPTC digital source type URI rides in the note so a byte grep for trainedAlgorithmicMedia (DESIGN-SPEC R-40) finds
 // it in the container tags; tools/ai-label.mjs verify checks it there (lane IMG, 2026-10-12)
-const aiNote = 'AI-generated illustrative motion (' + label + '). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.';
+// --what: how the label opens; a camera drift over an AI still (tools/still-loop.mjs) is not AI motion
+const what = String(args.what || 'AI-generated illustrative motion');
+const aiNote = what + ' (' + label + '). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.';
 
 const probe = JSON.parse(run(FP, ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height,r_frame_rate,nb_frames:format=duration', '-of', 'json', inp]).stdout);
 const T = Number(probe.format.duration);
@@ -59,8 +61,11 @@ let phone = null;
 if (args['phone-width']) {
   const pw = Number(args['phone-width']);
   const [aw, ah] = String(args['phone-aspect'] || '9:16').split(':').map(Number);
+  // --phone-x 0..1: where the crop sits across the frame (0 left edge, 0.5 centre (default), 1 right edge), so a subject
+  // composed off-centre for a wide banner stays in the phone cut
+  const fx = Math.min(1, Math.max(0, Number(args['phone-x'] ?? 0.5)));
   phone = out + '-phone.mp4';
-  run(FF, ['-y', '-loglevel', 'error', '-i', mp4, '-vf', `crop='min(iw,ih*${aw}/${ah})':ih,scale=${pw}:-2:flags=lanczos,format=yuv420p`, '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', String(Number(crf) + 2), '-movflags', '+faststart', '-metadata', 'comment=' + aiNote, phone]);
+  run(FF, ['-y', '-loglevel', 'error', '-i', mp4, '-vf', `crop='min(iw,ih*${aw}/${ah})':ih:'(iw-ow)*${fx}':0,scale=${pw}:-2:flags=lanczos,format=yuv420p`, '-an', '-c:v', 'libx264', '-preset', 'slow', '-crf', String(Number(crf) + 2), '-movflags', '+faststart', '-metadata', 'comment=' + aiNote, phone]);
 }
 
 // calmness: YDIF per frame over the loop played twice (so the seam is measured as an ordinary frame change)

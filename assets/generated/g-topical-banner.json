@@ -1,0 +1,23 @@
+{
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide banner photograph: a calm flat-lay on a pale mint-cream surface: a plain unlabelled amber glass dropper bottle and a small clear glass dish holding a few drops of golden oil, among three fresh green cannabis fan leaves, arranged in the right half of the frame with calm empty pale surface on the left, soft diffused daylight, gentle leaf shadows, photographic; no label, no print, no lettering, no numbers, no hands, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+  "input": {
+    "aspect_ratio": "16:9",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a137b2-3589-79b0-9b38-0577e0807063",
+  "seed": 3689831655,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 1000782,
+  "sha256": "329e880234a919c1ee75c5d69e856dc7ede581050db68e52263f7a7a31130ad6",
+  "file": "tmp/rev4/img/g-topical-banner.jpg",
+  "generatedAt": "2026-10-13T23:56:40.217Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands."
+}

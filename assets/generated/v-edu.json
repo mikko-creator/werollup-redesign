@@ -1,0 +1,25 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/rev4/drift/v-edu.mp4",
+  "inputDuration": 11.5,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 10,
+  "outputs": {
+    "assets/generated/v-edu.mp4": 699827,
+    "assets/generated/v-edu.webm": 365009,
+    "assets/generated/v-edu-poster.webp": 64232,
+    "assets/generated/v-edu-phone.mp4": 181284
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 479,
+    "max": 2.52476,
+    "p95": 2.31559,
+    "mean": 1.268,
+    "framesOver20": 0,
+    "seamChange": 1.08117
+  },
+  "aiLabel": "AI-generated still with a slow camera drift (no AI motion) (fal flux-pro/v1.1-ultra still g-edu-banner, drift by tools/still-loop.mjs). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "generatedAt": "2026-10-14T00:27:23.370Z"
+}

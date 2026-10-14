@@ -266,7 +266,7 @@
       },
       "still": "S-MIST-BAND",
       "aiLabel": true,
-      "uses": "loop over S-MIST in the home Serve band and the flower Hits band (10.5, 7.5); never in the home hero"
+      "uses": "loop over S-MIST in the home Serve band and the flower Hits band (10.5, 7.5); never in the home hero; revision 4: also the banner loop of every S-MIST page (legal, archives, daily deals, reviews, 404)"
     },
     "V-DUSK": {
       "file": "assets/generated/v-dusk-poster.webp",
@@ -285,7 +285,7 @@
       },
       "still": "S-DUSK-PALMS-BAND",
       "aiLabel": true,
-      "uses": "loop over S-DUSK-PALMS in the home Community band (10.5)"
+      "uses": "loop over S-DUSK-PALMS in the home Community band (10.5); revision 4: also the banner loop of every S-DUSK-PALMS page (/about-us, /contact, /weed-delivery, /service-area)"
     },
     "V-TRICHOME": {
       "file": "assets/generated/v-trichome-poster.webp",
@@ -299,12 +299,11 @@
         "mp4": "assets/generated/v-trichome.mp4",
         "webm": "assets/generated/v-trichome.webm",
         "mp4Phone": "assets/generated/v-trichome-phone.mp4",
-        "webmPhone": "assets/generated/v-trichome-phone.webm",
         "poster": "assets/generated/v-trichome-poster.webp"
       },
       "still": "S-TRICHOME",
       "aiLabel": true,
-      "uses": "loop over S-TRICHOME in the /products/flower banner (10.5; in that page's first screen, Q4)"
+      "uses": "loop over S-TRICHOME in the /products/flower banner (10.5; in that page's first screen, Q4); revision 4: also generated in revision 4; plays as the /products/flower banner loop"
     },
     "CAT-PREROLL": {
       "kind": "image",
@@ -419,7 +418,7 @@
       },
       "still": "S-BUD-BANNER",
       "aiLabel": true,
-      "uses": "revision 2 (operator 2026-10-14): the home hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video request 97be34cf from S-BUD-BANNER; make-loop YDIF p95 2.32, 0 frames over 20"
+      "uses": "revision 2 (operator 2026-10-14): the home hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video request 97be34cf from S-BUD-BANNER; make-loop YDIF p95 2.32, 0 frames over 20; revision 4: also the /products/ banner loop (S-BUD-BANNER)"
     },
     "V-HARBOR": {
       "file": "assets/generated/v-harbor-poster.webp",
@@ -437,7 +436,7 @@
       },
       "still": "G-HARBOR-HAZE",
       "aiLabel": true,
-      "uses": "revision 3 (operator 2026-10-14): the San Pedro store hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video from G-HARBOR-HAZE"
+      "uses": "revision 3 (operator 2026-10-14): the San Pedro store hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video from G-HARBOR-HAZE; revision 4: also the banner loop of every G-HARBOR-HAZE page (San Pedro towns, the San Pedro shop and its 8 menu paths, the primary-location archive)"
     },
     "V-LAX": {
       "file": "assets/generated/v-lax-poster.webp",
@@ -455,7 +454,117 @@
       },
       "still": "G-LAX-DUSK",
       "aiLabel": true,
-      "uses": "revision 3 (operator 2026-10-14): the Culver City store hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video from G-LAX-DUSK"
+      "uses": "revision 3 (operator 2026-10-14): the Culver City store hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video from G-LAX-DUSK; revision 4: also the banner loop of every G-LAX-DUSK page (Westside towns, the Culver City shop, /lax-menu, the menu-page archive)"
+    },
+    "V-PREROLL": {
+      "file": "assets/generated/v-preroll-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/products/pre-rolls/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-preroll.mp4",
+        "webm": "assets/generated/v-preroll.webm",
+        "mp4Phone": "assets/generated/v-preroll-phone.mp4",
+        "poster": "assets/generated/v-preroll-poster.webp"
+      },
+      "still": "G-PREROLL-BANNER",
+      "aiLabel": true,
+      "uses": "revision 4 (operator 2026-10-14: looping videos on the inner pages): the /products/pre-rolls banner loop; an AI still (fal flux-pro/v1.1-ultra) with a slow camera drift rendered by tools/still-loop.mjs, no AI motion from G-PREROLL-BANNER (Higgsfield refused the still, status nsfw: request e8cfe90c)"
+    },
+    "V-VAPE": {
+      "file": "assets/generated/v-vape-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/products/vaporizers-cartridges/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-vape.mp4",
+        "webm": "assets/generated/v-vape.webm",
+        "mp4Phone": "assets/generated/v-vape-phone.mp4",
+        "poster": "assets/generated/v-vape-poster.webp"
+      },
+      "still": "G-VAPE-BANNER",
+      "aiLabel": true,
+      "uses": "revision 4 (operator 2026-10-14: looping videos on the inner pages): the /products/vaporizers-cartridges banner loop; Higgsfield kling-video/v3.0-turbo/image-to-video from G-VAPE-BANNER"
+    },
+    "V-EDIBLES": {
+      "file": "assets/generated/v-edibles-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/products/edibles/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-edibles.mp4",
+        "webm": "assets/generated/v-edibles.webm",
+        "mp4Phone": "assets/generated/v-edibles-phone.mp4",
+        "poster": "assets/generated/v-edibles-poster.webp"
+      },
+      "still": "S-CARD-EDIBLES",
+      "aiLabel": true,
+      "uses": "revision 4 (operator 2026-10-14: looping videos on the inner pages): the /products/edibles banner loop (the dewy leaf, deliberately non-depictive, A9); Higgsfield kling-video/v3.0-turbo/image-to-video from S-CARD-EDIBLES"
+    },
+    "V-CONCENTRATE": {
+      "file": "assets/generated/v-concentrate-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/products/concentrates/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-concentrate.mp4",
+        "webm": "assets/generated/v-concentrate.webm",
+        "mp4Phone": "assets/generated/v-concentrate-phone.mp4",
+        "poster": "assets/generated/v-concentrate-poster.webp"
+      },
+      "still": "assets/generated/g-concentrate-banner.jpg",
+      "aiLabel": true,
+      "uses": "revision 4 (operator 2026-10-14: looping videos on the inner pages): the /products/concentrates banner loop (a generated look-alike of the real banner photo, which is never AI-animated); Higgsfield kling-video/v3.0-turbo/image-to-video from assets/generated/g-concentrate-banner.jpg"
+    },
+    "V-TOPICAL": {
+      "file": "assets/generated/v-topical-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/products/topicals/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-topical.mp4",
+        "webm": "assets/generated/v-topical.webm",
+        "mp4Phone": "assets/generated/v-topical-phone.mp4",
+        "poster": "assets/generated/v-topical-poster.webp"
+      },
+      "still": "assets/generated/g-topical-banner.jpg",
+      "aiLabel": true,
+      "uses": "revision 4 (operator 2026-10-14: looping videos on the inner pages): the /products/topicals banner loop; an AI still (fal flux-pro/v1.1-ultra) with a slow camera drift rendered by tools/still-loop.mjs, no AI motion from g-topical-banner mirrored (the Higgsfield clip f5cb1f06 barely moved: YDIF p95 0.03); the still is a generated look-alike of the real topicals photo"
+    },
+    "V-EDU": {
+      "file": "assets/generated/v-edu-poster.webp",
+      "alt": "",
+      "role": "art",
+      "kind": "video",
+      "pages": [
+        "/education/",
+        "/education/cannabis-101/",
+        "/education/recreational-medicinal/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-edu.mp4",
+        "webm": "assets/generated/v-edu.webm",
+        "mp4Phone": "assets/generated/v-edu-phone.mp4",
+        "poster": "assets/generated/v-edu-poster.webp"
+      },
+      "still": "assets/generated/g-edu-banner.jpg",
+      "aiLabel": true,
+      "uses": "revision 4 (operator 2026-10-14: looping videos on the inner pages): the three education banners; an AI still (fal flux-pro/v1.1-ultra) with a slow camera drift rendered by tools/still-loop.mjs, no AI motion (Higgsfield refused this still twice, status nsfw: requests 5c762352 and fa4508ec); the still is a generated look-alike of the real mason-jars photo"
     }
   }
 }

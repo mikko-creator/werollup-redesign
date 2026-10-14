@@ -172,11 +172,11 @@ function renderFlower(page, ctx, api) {
   // F1 sits in the first screen: eager, not lazy (R-41). P.protrusion has no loading option yet (requested), so its
   // output is switched here; the markup is otherwise the primitive's own
   const f1 = P.slotReady(ctx, 'S-CUT-BUD') ? eager(P.protrusion(ctx, { ref: 'S-CUT-BUD', sizes: '(max-width: 700px) 104px, clamp(200px, 19vw, 280px)', cls: 'ta-f1', widths: [160, 240, 320, 480, 640] })) : '';
-  const trich = P.loop(ctx, 'V-TRICHOME', { cls: 'ta-banner-loop' }); // '' until IMAGERY delivers the loop (10.5)
+  // revision 4: V-TRICHOME plays as the banner's own loop (P.banner, BANNER_LOOP), so no separate loop is passed here
   const out = [];
   let longDone = false;
   for (const s of page.sections) {
-    if (s.kind === 'page-header') { out.push(bannerBand(page, ctx, api, s, { veil: 'deep', after: f1, cut: !!f1, loop: trich, bandCls: 'ta-banner--flower' })); continue; }
+    if (s.kind === 'page-header') { out.push(bannerBand(page, ctx, api, s, { veil: 'deep', after: f1, cut: !!f1, bandCls: 'ta-banner--flower' })); continue; }
     if (s.kind !== 'content') { out.push(api.defaultSection(page, ctx, s, 0, { light: 0, heroDone: true })); continue; }
     const li = s.blocks.findIndex((b) => b.type === 'list');
     if (!longDone && li > 0 && isHeading(s.blocks[li - 1]) && s.blocks.slice(0, li - 1).some(isHeading)) {

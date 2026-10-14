@@ -1,0 +1,25 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/rev4/hf/v-vape.mp4",
+  "inputDuration": 5.041667,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 3.542,
+  "outputs": {
+    "assets/generated/v-vape.mp4": 184441,
+    "assets/generated/v-vape.webm": 80926,
+    "assets/generated/v-vape-poster.webp": 37214,
+    "assets/generated/v-vape-phone.mp4": 50909
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 169,
+    "max": 0.840813,
+    "p95": 0.260509,
+    "mean": 0.156,
+    "framesOver20": 0,
+    "seamChange": 0.840813
+  },
+  "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video (from G-VAPE-BANNER)). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "generatedAt": "2026-10-14T00:09:04.079Z"
+}

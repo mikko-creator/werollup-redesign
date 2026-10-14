@@ -1,0 +1,25 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/rev4/hf/v-edibles.mp4",
+  "inputDuration": 5.041667,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 3.542,
+  "outputs": {
+    "assets/generated/v-edibles.mp4": 747416,
+    "assets/generated/v-edibles.webm": 459383,
+    "assets/generated/v-edibles-poster.webp": 68378,
+    "assets/generated/v-edibles-phone.mp4": 164762
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 169,
+    "max": 3.30545,
+    "p95": 2.76448,
+    "mean": 1.972,
+    "framesOver20": 0,
+    "seamChange": 3.30545
+  },
+  "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video (from S-CARD-EDIBLES)). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "generatedAt": "2026-10-14T00:09:19.124Z"
+}

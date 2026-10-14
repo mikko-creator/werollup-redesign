@@ -1,0 +1,25 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/rev4/hf/v-trichome.mp4",
+  "inputDuration": 5.041667,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 3.542,
+  "outputs": {
+    "assets/generated/v-trichome.mp4": 754903,
+    "assets/generated/v-trichome.webm": 518314,
+    "assets/generated/v-trichome-poster.webp": 93414,
+    "assets/generated/v-trichome-phone.mp4": 171016
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 169,
+    "max": 2.38357,
+    "p95": 1.51292,
+    "mean": 1.244,
+    "framesOver20": 0,
+    "seamChange": 2.38357
+  },
+  "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video (from S-TRICHOME)). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "generatedAt": "2026-10-14T00:08:54.067Z"
+}

@@ -134,6 +134,9 @@ export function renderPage(page, ctx) {
   const owner = KIND_OWNER[page.kind];
   const r = owner ? normalise(viaModule(owner, 'render', [page, ctx, api], page.path)) : null;
   const opts = { ...defaultOptions(page), ...(r || { main: defaultMain(page, ctx) }) };
+  // revision 4: a banner loop paints first on an inner page: preload its poster, as the home hero does (R-41)
+  const posterM = /rel="preload" as="image"/.test(opts.headExtra || '') ? null : /class="loop banner__loop"[^>]*><video[^>]*? poster="([^"]+)"/.exec(opts.main);
+  if (posterM) opts.headExtra = (opts.headExtra || '') + '<link rel="preload" as="image" href="' + posterM[1] + '" fetchpriority="high">\n';
   return S.renderDocument(page, ctx, opts);
 }
 

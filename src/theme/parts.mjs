@@ -181,6 +181,16 @@ export function bannerArtFor(page) {
   if (page.kind === 'service-area-town' || page.kind === 'shop' || page.kind === 'location') return sanPedroGroup ? 'G-HARBOR-HAZE' : 'G-LAX-DUSK';
   return 'S-MIST'; // legal, archives, reviews, 404
 }
+/** revision 4 (operator 2026-10-14: "add looping videos to the inner pages too"): the loop that replaces each banner art,
+ *  keyed by the ref bannerArtFor returns. Each loop is made from that same still; the real source photos get a generated
+ *  look-alike still instead, so no real photo is ever animated (the rule the store heroes follow). Most loops are
+ *  Higgsfield clips; V-PREROLL, V-EDU and V-TOPICAL are a slow camera drift over the still (tools/still-loop.mjs), because
+ *  the provider refused the pre-roll and jars stills (status nsfw) and barely moved the topicals one. */
+export const BANNER_LOOP = {
+  'S-MIST': 'V-MIST', 'S-DUSK-PALMS': 'V-DUSK', 'G-LAX-DUSK': 'V-LAX', 'G-HARBOR-HAZE': 'V-HARBOR', 'S-BUD-BANNER': 'V-HERO',
+  'S-TRICHOME': 'V-TRICHOME', 'G-PREROLL-BANNER': 'V-PREROLL', 'G-VAPE-BANNER': 'V-VAPE', 'S-CARD-EDIBLES': 'V-EDIBLES', 'S-EDIBLES-BANNER': 'V-EDIBLES',
+  [REAL.concentrate]: 'V-CONCENTRATE', [REAL.topicals]: 'V-TOPICAL', [REAL.masonJars]: 'V-EDU',
+};
 /** the page banner: art (cover) + veil + the h1 (the page-header heading block, rendered by the caller's heading fn).
  *  size: 'auto' picks short (one word, <= 12 chars) or long; 'compact' for shop, review and 404 banners. */
 export function banner(ctx, page, { headingHtml, headingText = '', art = undefined, size = 'auto', veil = 'default', cls = null, after = '', body = '', eyebrow = '' }) {
@@ -188,7 +198,9 @@ export function banner(ctx, page, { headingHtml, headingText = '', art = undefin
   const short = size === 'auto' ? (!/\s/.test(String(headingText).trim()) && String(headingText).trim().length <= SHORT_MAX) : size === 'short';
   const kind = size === 'compact' ? 'compact' : (short ? 'short' : 'long');
   const opts = { cls: 'banner__img', loading: 'eager', fetchpriority: 'high', widths: [640, 960, 1280, 1600, 1920, 2400] };
-  let artHtml = ref ? decorative(ctx, ref, { ...opts, sizes: '100vw' }) : '';
+  // revision 4: the art's loop when its files exist (its poster is the still); else the still, as before
+  const loopHtml = ref && BANNER_LOOP[ref] ? loop(ctx, BANNER_LOOP[ref], { cls: 'banner__loop', sizes: '100vw' }) : '';
+  let artHtml = ref && !loopHtml ? decorative(ctx, ref, { ...opts, sizes: '100vw' }) : '';
   let phoneH = null;
   const dim = / width="(\d+)" height="(\d+)"/.exec(artHtml);
   if (dim) {
@@ -201,9 +213,11 @@ export function banner(ctx, page, { headingHtml, headingText = '', art = undefin
     artHtml = decorative(ctx, ref, { ...opts, sizes: '(max-width: 700px) max(100vw, ' + phone + 'px), max(100vw, ' + desk + 'px)' });
   }
   const style = [kind === 'short' ? '--chars:' + Math.max(4, String(headingText).trim().length) : null, phoneH && phoneH < (kind === 'compact' ? 220 : 300) ? '--banner-phone-h:' + phoneH + 'px' : null].filter(Boolean).join(';') || null;
-  return '<div' + attrs({ class: cx('banner', 'banner--' + kind, 'banner--veil-' + veil, !ref && 'banner--plain', cls), style }) + '>'
-    + '<div class="banner__art" aria-hidden="true">' + artHtml + '</div><div class="banner__veil" aria-hidden="true"></div>'
-    + '<div class="wrap banner__in">' + eyebrow + headingHtml + body + '</div>' + after + '</div>';
+  // a loop is a direct child of the banner (not inside the aria-hidden art layer): its pause control must stay focusable
+  // and paint above the title (blocks.css "revision 4")
+  return '<div' + attrs({ class: cx('banner', 'banner--' + kind, 'banner--veil-' + veil, !ref && 'banner--plain', loopHtml && 'banner--video', cls), style }) + '>'
+    + (loopHtml ? '' : '<div class="banner__art" aria-hidden="true">' + artHtml + '</div>') + '<div class="banner__veil" aria-hidden="true"></div>'
+    + '<div class="wrap banner__in">' + eyebrow + headingHtml + body + '</div>' + loopHtml + after + '</div>';
 }
 
 /* ------------------------------------------------------------------ misc */

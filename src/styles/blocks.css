@@ -18,6 +18,12 @@
 .banner__btns { margin-top: 18px; }
 @media (min-width: 701px) { .banner--short .banner__title { font-size: min(clamp(96px, 16vw, 230px), calc((100vw - 2 * var(--gutter)) / (var(--chars, 8) * .62))); } }
 @media (max-width: 700px) { .banner { min-height: var(--banner-phone-h, 300px); } .banner--compact { min-height: var(--banner-phone-h, 220px); } .banner--long .banner__title, .banner--compact .banner__title { font-size: clamp(30px, 9vw, 44px); } }
+/* revision 4: a looping video banner (P.banner + BANNER_LOOP). The loop is a direct child of .banner with no z-index of
+   its own, so its video paints at the art's level (under the veil, inside the banner's isolation) while its pause
+   control paints above the title, top right, clear of the protrusions that cross the bottom seam. */
+.banner.banner--video > .loop.banner__loop { z-index: auto; pointer-events: none; }
+.banner.banner--video > .loop.banner__loop .loop__video { position: absolute; inset: 0; z-index: -2; object-position: var(--loop-pos, 50% 50%); }
+.banner.banner--video > .loop.banner__loop .loop__toggle { z-index: 2; top: 16px; bottom: auto; pointer-events: auto; }
 
 /* ------------------------------------------------------------------ 6.9 hero tiles (FOUNDATION default; HOME and
    TEMPLATES-B specialise) */

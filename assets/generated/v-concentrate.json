@@ -1,0 +1,25 @@
+{
+  "tool": "tools/make-loop.mjs",
+  "input": "tmp/rev4/hf/v-concentrate.mp4",
+  "inputDuration": 5.041667,
+  "fps": 24,
+  "fade": 1.5,
+  "loopDuration": 3.542,
+  "outputs": {
+    "assets/generated/v-concentrate.mp4": 489148,
+    "assets/generated/v-concentrate.webm": 210200,
+    "assets/generated/v-concentrate-poster.webp": 27506,
+    "assets/generated/v-concentrate-phone.mp4": 111586
+  },
+  "calmness": {
+    "metric": "ffmpeg signalstats YDIF (mean absolute luma change between consecutive frames, 0-255), measured over two plays of the loop",
+    "frames": 169,
+    "max": 1.74431,
+    "p95": 1.5209,
+    "mean": 1.146,
+    "framesOver20": 0,
+    "seamChange": 1.47548
+  },
+  "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video (from g-concentrate-banner, a generated still)). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "generatedAt": "2026-10-14T00:09:33.495Z"
+}
