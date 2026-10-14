@@ -36,7 +36,9 @@ Publish only through the export.
 
 **The repo export recipe** (re-run it for an update, then push one new commit on top of `main`):
 1. `git archive HEAD | tar -x -C publish/repo`, keeping its `.git`.
-2. Remove `audit/capture`, `audit/screens`, `assets/js`, `tools/sr-local`, `assets/fonts/{Agrandir-Tight,HelveticaNeue-Condensed,lg_}*`.
+2. Remove `audit/capture`, `audit/screens`, `assets/js`, `tools/sr-local`, `assets/fonts/{Agrandir-Tight,HelveticaNeue-Condensed,lg_}*`,
+   and `docs/RESUME.md`, which is the operator-internal handoff (session ids, local paths, key notes; kept out since
+   revision 5).
 3. Keep `publish/repo/README.md`.
 4. `node tools/redact-vendor-secrets.mjs --dir publish/repo`. It replaces every value in Jane's `#jane-app-secrets`
    and fails if any AIza or Mapbox-style token is left.

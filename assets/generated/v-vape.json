@@ -21,5 +21,6 @@
     "seamChange": 0.840813
   },
   "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video (from G-VAPE-BANNER)). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
-  "generatedAt": "2026-10-14T00:09:04.079Z"
+  "generatedAt": "2026-10-14T00:09:04.079Z",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
 }

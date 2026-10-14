@@ -21,5 +21,6 @@
     "seamChange": 2.60684
   },
   "aiLabel": "AI-generated illustrative motion (Higgsfield kling-video/v3.0-turbo/image-to-video (from S-BUD-BANNER)). IPTC digital source type: http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia. Not footage of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
-  "generatedAt": "2026-10-13T17:42:50.929Z"
+  "generatedAt": "2026-10-13T17:42:50.929Z",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
 }

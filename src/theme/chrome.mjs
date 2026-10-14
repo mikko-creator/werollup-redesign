@@ -23,10 +23,12 @@ export function categoryOf(item) {
   if (/flower/.test(s)) return 'flower';
   return null;
 }
-/** card images (DESIGN-SPEC 6.4; real photos where the spec names them, image-plan slots otherwise) */
+/** card images (DESIGN-SPEC 6.4; real photos where the spec names them, image-plan slots otherwise). Revision 6 (operator
+ *  2026-10-14, the hash and rosin focus): the Concentrates card (mega menu on every page, /products/ hub) shows the rosin
+ *  still's subject-centred phone crop instead of the source's concentrate photo */
 export const CARD_ART = {
   flower: P.REAL.masonJars, prerolls: 'S-CARD-PREROLL', vape: 'S-CARD-VAPE', edibles: 'S-CARD-EDIBLES',
-  concentrates: P.REAL.concentrate, topicals: P.REAL.topicals,
+  concentrates: 'assets/generated/s-rosin-banner-phone.jpg', topicals: P.REAL.topicals,
 };
 const linkA = (ctx, it, cls, extra = {}) => '<a' + attrs({ class: cls, href: P.href(ctx, it.href), ...extra }) + '>' + esc(it.label) + '</a>';
 /** a plain nested list in source order (used for the hidden parts of the header tree) */

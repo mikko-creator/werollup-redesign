@@ -102,7 +102,7 @@ export function default404Main(ctx) {
   const on = ctx.header.orderNow;
   const btns = '<div class="btn-row banner__btns">' + P.pill(ctx, { label: P.esc(home.label), href: home.href, kind: 'ghost' })
     + P.pill(ctx, { label: P.esc(on.label), href: on.href, kind: 'leaf', arrow: true, cls: 'active-location-menu js-selected-location-menu', attrs: { 'data-lax-url': on.laxUrl, 'data-sanpedro-url': on.sanpedroUrl } }) + '</div>';
-  return '<section class="banner-band on-night not-found">' + P.banner(ctx, PAGE_404, { headingHtml: '<h1 class="hd banner__title">Page not found</h1>', headingText: 'Page not found', art: 'S-MIST', size: 'compact', body: btns }) + '</section>\n'
+  return '<section class="banner-band on-night not-found">' + P.banner(ctx, PAGE_404, { headingHtml: '<h1 class="hd banner__title">Page not found</h1>', headingText: 'Page not found', art: 'S-ROSIN-BANNER', size: 'compact', body: btns }) + '</section>\n'
     + '<section class="embed-band jane-fallback"><div class="embed embed--jane">' + nf.janeBody + '</div></section>';
 }
 

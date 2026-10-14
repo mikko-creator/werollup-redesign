@@ -348,7 +348,7 @@ export function render404(ctx, api) {
     + P.pill(ctx, { label: P.esc(on.label), href: on.href, kind: 'leaf', arrow: true, cls: 'active-location-menu js-selected-location-menu', attrs: { 'data-lax-url': on.laxUrl, 'data-sanpedro-url': on.sanpedroUrl } })
     + '</div>';
   const main = '<section class="banner-band on-night ta-banner ta-banner--404 not-found">'
-    + P.banner(ctx, api.PAGE_404, { headingHtml: '<h1 class="hd banner__title">Page not found</h1>', headingText: 'Page not found', art: P.slotReady(ctx, 'S-MIST') ? 'S-MIST' : null, size: 'compact', body: btns })
+    + P.banner(ctx, api.PAGE_404, { headingHtml: '<h1 class="hd banner__title">Page not found</h1>', headingText: 'Page not found', art: P.slotReady(ctx, 'S-ROSIN-BANNER') ? 'S-ROSIN-BANNER' : (P.slotReady(ctx, 'S-MIST') ? 'S-MIST' : null), size: 'compact', body: btns }) // revision 6: the rosin
     + '</section>\n'
     + '<section class="embed-band jane-fallback"><div class="embed embed--jane">' + nf.janeBody + '</div></section>';
   return { main, bodyClass: 'ta ta-404' };

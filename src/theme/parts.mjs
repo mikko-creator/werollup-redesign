@@ -171,18 +171,25 @@ export function bannerArtFor(page) {
   if (page.generated && page.generated.hero) return page.generated.hero;
   // revision 5 (operator 2026-10-14, the hash and rosin pivot): /products/ and /products/concentrates/ show the rosin still
   // and its loop (V-ROSIN) instead of the bud (S-BUD-BANNER) and the concentrate look-alike
+  // revision 6 (operator 2026-10-14: "update internal pages imagery focus too"): the inner families that showed place or
+  // atmosphere (harbor haze, LAX dusk, dusk palms, mist) and the education jars show the rosin (R6_ART); the town pages keep
+  // their store postcard (T1) for the place; the category pages keep their own category art
   const map = {
     '/products/': 'S-ROSIN-BANNER', '/products/flower/': 'S-TRICHOME', '/products/concentrates/': 'S-ROSIN-BANNER',
     '/products/topicals/': REAL.topicals, '/products/edibles/': 'S-CARD-EDIBLES', '/products/pre-rolls/': 'G-PREROLL-BANNER',
-    '/products/vaporizers-cartridges/': 'G-VAPE-BANNER', '/about-us/': 'S-DUSK-PALMS', '/contact/': 'S-DUSK-PALMS',
-    '/weed-delivery/': 'S-DUSK-PALMS', '/service-area/': 'S-DUSK-PALMS', '/about-us/daily-deals/': 'S-MIST',
-    '/location-pagetype/cannabis-menu-page/': 'G-LAX-DUSK', '/location-pagetype/primary-location/': 'G-HARBOR-HAZE', '/lax-menu/': 'G-LAX-DUSK',
+    '/products/vaporizers-cartridges/': 'G-VAPE-BANNER', '/about-us/': R6_ART.company, '/contact/': R6_ART.company,
+    '/weed-delivery/': R6_ART.company, '/service-area/': R6_ART.company, '/about-us/daily-deals/': R6_ART.text,
+    '/location-pagetype/cannabis-menu-page/': R6_ART.lax, '/location-pagetype/primary-location/': R6_ART.sanPedro, '/lax-menu/': R6_ART.lax,
   };
   if (map[p]) return map[p];
-  if (page.kind === 'education') return REAL.masonJars;
-  if (page.kind === 'service-area-town' || page.kind === 'shop' || page.kind === 'location') return sanPedroGroup ? 'G-HARBOR-HAZE' : 'G-LAX-DUSK';
-  return 'S-MIST'; // legal, archives, reviews, 404
+  if (page.kind === 'education') return R6_ART.company;
+  if (page.kind === 'service-area-town' || page.kind === 'shop' || page.kind === 'location') return sanPedroGroup ? R6_ART.sanPedro : R6_ART.lax;
+  return R6_ART.text; // legal, archives, reviews, 404
 }
+/** revision 6: the art of each inner family. All four are the approved rosin still and its loop (V-ROSIN): the four new
+ *  hash and rosin stills generated for them were rejected (they read as cake, sugar, a gummy and syrup; tmp/rev6/), and the
+ *  media cap leaves no room for more. One key per family, so a later image can take one family over. */
+export const R6_ART = { sanPedro: 'S-ROSIN-BANNER', lax: 'S-ROSIN-BANNER', company: 'S-ROSIN-BANNER', text: 'S-ROSIN-BANNER' };
 /** revision 4 (operator 2026-10-14: "add looping videos to the inner pages too"): the loop that replaces each banner art,
  *  keyed by the ref bannerArtFor returns. Each loop is made from that same still; the real source photos get a generated
  *  look-alike still instead, so no real photo is ever animated (the rule the store heroes follow). Most loops are
