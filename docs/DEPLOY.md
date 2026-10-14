@@ -39,7 +39,11 @@ Publish only through the export.
 2. Remove `audit/capture`, `audit/screens`, `assets/js`, `tools/sr-local`, `assets/fonts/{Agrandir-Tight,HelveticaNeue-Condensed,lg_}*`,
    and `docs/RESUME.md`, which is the operator-internal handoff (session ids, local paths, key notes; kept out since
    revision 5).
-3. Keep `publish/repo/README.md`.
+3. Keep `publish/repo/README.md`. **Sync deletions** (step 1 only adds and overwrites): remove every file tracked in
+   `publish/repo` that is not in the workspace `HEAD` tree, except README.md and the files step 2 strips:
+   `git ls-tree -r --name-only HEAD > /tmp/h.txt`, then inside publish/repo
+   `git ls-files | grep -vxF -f /tmp/h.txt | grep -vx README.md | xargs git rm -q --`.
+   Revision 6 found 227 stale dist files (re-hashed images and videos) left by the earlier exports.
 4. `node tools/redact-vendor-secrets.mjs --dir publish/repo`. It replaces every value in Jane's `#jane-app-secrets`
    and fails if any AIza or Mapbox-style token is left.
 5. `node tools/secret-scan.mjs --dir publish/repo --keys <fal.key> --keys <hf.key>` must report 0 hits (11 patterns,
