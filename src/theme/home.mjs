@@ -13,6 +13,8 @@
 // The promo strip renders after </main> (promo 'after-main'): a parity region may not sit inside main (docs/THEME.md 3).
 // A loop slot that is declared but not generated renders its still (P.loop returns ''), so the build never breaks.
 
+import { COPY as R5, hashRosinBand, withHeroCta } from './rosin.mjs';
+
 const STRICT = process.env.THEME_STRICT === '1';
 const EXPECT = 'hero-tile,location-cards,split,accordion,split,split';
 
@@ -83,12 +85,24 @@ export function render(page, ctx, api) {
      behind one glass pane with the verbatim h1, lead and CTAs. The S-BUD-BANNER still shows while the loop is absent
      and is the poster under reduced motion. The storefront light box left the hero (the storefront photos stay in their
      other roles: the ZIP band and the age gate). */
+  /* Revision 5 (operator 2026-10-14: "pivot the focus of the site to hash and rosin ... pivot the hero motion graphic to a
+     high resolution rosin instead of a flower nugget"): the V-ROSIN loop (from the generated S-ROSIN-BANNER still) replaces
+     V-HERO; the h1 becomes "Curated Hash & Rosin" with a new lead line (data-r5, declared in operator-additions.json); the
+     source's second line gives way to it; the first call to action jumps to the Hash & Rosin band right below. The
+     source's first line stays: it is the page's meta description (build-check 4.9 needs it in <main>). */
   const t1 = s1.blocks[0];
-  const heroBody = t1.blocks.map((b) => (b.type === 'heading' && b.level === 1
-    ? '<h1 class="hd hd--h-ultra hm-hero__title" id="hm-hero-title">' + weightSplit(b.html, 2, true) + '</h1>'
-    : R(b, { tone: 'night', inHero: true }))).join('\n');
-  const heroLoop = P.loop(ctx, 'V-HERO', { cls: 'hm-hero__loop', sizes: '100vw' });
-  const heroStill = heroLoop ? '' : '<div class="hm-hero__still" aria-hidden="true">' + P.decorative(ctx, 'S-BUD-BANNER', { sizes: '100vw', loading: 'eager', fetchpriority: 'high', cls: 'hm-hero__still-img', widths: [960, 1280, 1920, 2400] }) + '</div>';
+  let paras = 0;
+  const heroBody = t1.blocks.map((b) => {
+    if (b.type === 'heading' && b.level === 1) {
+      return '<h1 class="hd hd--h-ultra hm-hero__title" id="hm-hero-title" data-r5="home-h1"><span class="hm-w300">' + P.esc(R5.homeTitleLight) + '</span> <span class="hm-w800">' + P.esc(R5.homeTitleHeavy) + ' <span class="hm-glow hm-glow--rosin">' + P.esc(R5.homeTitleGlow) + '</span></span></h1>\n'
+        + '<p class="p--fs-4 hm-hero__lead" data-r5="home-lead">' + P.esc(R5.homeLead) + '</p>';
+    }
+    if (b.type === 'paragraph' && ++paras === 2) return null;
+    if (b.type === 'buttons') return withHeroCta(ctx, P, R(b, { tone: 'night', inHero: true }));
+    return R(b, { tone: 'night', inHero: true });
+  }).filter((x) => x != null).join('\n');
+  const heroLoop = P.loop(ctx, 'V-ROSIN', { cls: 'hm-hero__loop loop--rosin', sizes: '100vw' }) || P.loop(ctx, 'V-HERO', { cls: 'hm-hero__loop', sizes: '100vw' });
+  const heroStill = heroLoop ? '' : '<div class="hm-hero__still" aria-hidden="true">' + P.decorative(ctx, P.slotReady(ctx, 'S-ROSIN-BANNER') ? 'S-ROSIN-BANNER' : 'S-BUD-BANNER', { sizes: '100vw', loading: 'eager', fetchpriority: 'high', cls: 'hm-hero__still-img', widths: [960, 1280, 1920, 2400] }) + '</div>';
   const hero = P.band({ tone: 'night', atmosphere: true, id: s1.id, cls: 'hero-band hm-hero hm-hero--video', depth: true, labelledby: 'hm-hero-title',
     inner: '<div class="hm-hero__media">' + (heroLoop || heroStill) + '</div><div class="hm-hero__veil" aria-hidden="true"></div>'
       + P.wrap('<div class="htile htile--first hm-hero__tile"><div class="htile__pane glass-pane hm-hero__pane" data-qa="hero-copy">' + heroBody + '</div></div>', 'wide', 'hero-band__in') });
@@ -174,5 +188,6 @@ export function render(page, ctx, api) {
     if (ss && sz) headExtra = '<link rel="preload" as="image" imagesrcset="' + ss[1] + '" imagesizes="' + sz[1] + '" fetchpriority="high">\n';
   }
 
-  return { main: [hero, service, serve, accs, community, zip].join('\n'), promo: 'after-main', bodyClass: 'home', headExtra };
+  // revision 5: the Hash & Rosin band (real menu products from both stores) right under the hero
+  return { main: [hero, hashRosinBand(ctx, api), service, serve, accs, community, zip].join('\n'), promo: 'after-main', bodyClass: 'home', headExtra };
 }

@@ -169,8 +169,10 @@ export function bannerArtFor(page) {
   const p = page.path || '';
   const sanPedroGroup = /^\/service-area\/san-pedro\//.test(p) || /^\/location\/san-pedro\//.test(p) || p === '/location-pagetype/primary-location/';
   if (page.generated && page.generated.hero) return page.generated.hero;
+  // revision 5 (operator 2026-10-14, the hash and rosin pivot): /products/ and /products/concentrates/ show the rosin still
+  // and its loop (V-ROSIN) instead of the bud (S-BUD-BANNER) and the concentrate look-alike
   const map = {
-    '/products/': 'S-BUD-BANNER', '/products/flower/': 'S-TRICHOME', '/products/concentrates/': REAL.concentrate,
+    '/products/': 'S-ROSIN-BANNER', '/products/flower/': 'S-TRICHOME', '/products/concentrates/': 'S-ROSIN-BANNER',
     '/products/topicals/': REAL.topicals, '/products/edibles/': 'S-CARD-EDIBLES', '/products/pre-rolls/': 'G-PREROLL-BANNER',
     '/products/vaporizers-cartridges/': 'G-VAPE-BANNER', '/about-us/': 'S-DUSK-PALMS', '/contact/': 'S-DUSK-PALMS',
     '/weed-delivery/': 'S-DUSK-PALMS', '/service-area/': 'S-DUSK-PALMS', '/about-us/daily-deals/': 'S-MIST',
@@ -190,6 +192,7 @@ export const BANNER_LOOP = {
   'S-MIST': 'V-MIST', 'S-DUSK-PALMS': 'V-DUSK', 'G-LAX-DUSK': 'V-LAX', 'G-HARBOR-HAZE': 'V-HARBOR', 'S-BUD-BANNER': 'V-HERO',
   'S-TRICHOME': 'V-TRICHOME', 'G-PREROLL-BANNER': 'V-PREROLL', 'G-VAPE-BANNER': 'V-VAPE', 'S-CARD-EDIBLES': 'V-EDIBLES', 'S-EDIBLES-BANNER': 'V-EDIBLES',
   [REAL.concentrate]: 'V-CONCENTRATE', [REAL.topicals]: 'V-TOPICAL', [REAL.masonJars]: 'V-EDU',
+  'S-ROSIN-BANNER': 'V-ROSIN', // revision 5
 };
 /** the page banner: art (cover) + veil + the h1 (the page-header heading block, rendered by the caller's heading fn).
  *  size: 'auto' picks short (one word, <= 12 chars) or long; 'compact' for shop, review and 404 banners. */

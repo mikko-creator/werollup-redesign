@@ -12,7 +12,7 @@ import * as B from './blocks.mjs';
 import * as C from './chrome.mjs';
 import * as S from './shell.mjs';
 
-export const styles = ['tokens.css', 'base.css', 'glass.css', 'depth.css', 'motion.css', 'chrome.css', 'blocks.css', 'forms.css', 'home.css', 'pages-a.css', 'pages-b.css'];
+export const styles = ['tokens.css', 'base.css', 'glass.css', 'depth.css', 'motion.css', 'chrome.css', 'blocks.css', 'forms.css', 'home.css', 'pages-a.css', 'pages-b.css', 'rosin.css'];
 export const scripts = ['site.js', 'home.js', 'pages-a.js', 'pages-b.js'];
 export const stylesDir = 'src/styles';
 export const scriptsDir = 'src/scripts';

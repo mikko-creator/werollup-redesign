@@ -196,7 +196,7 @@ export class ImagePipeline {
     const s = String(ref || '').trim();
     if (!s) return { missing: 'empty reference' };
     if (NEVER_SHIP.test(s)) throw new Error('platform UI image never ships (BUILD-CONTRACT 4.10): ' + s);
-    if (/^assets\/(source|generated|brand)\//.test(s)) {
+    if (/^assets\/(source|generated|brand|menu)\//.test(s)) { // menu: revision 5, the real product photos of the two live menus
       if (!exists(s)) return { missing: 'local file not found: ' + s };
       const m = fileInfo(s);
       return { file: s, width: m.width, height: m.height, format: m.format };
@@ -212,7 +212,7 @@ export class ImagePipeline {
       if (f && exists(f)) return { ...this.resolve(f), slot: s, alt: slot.alt };
       return { missing: 'image-plan slot not generated yet', slot: s };
     }
-    return { missing: 'unknown image ref "' + s + '": not a file under assets/source|generated|brand/, not a harvested live URL, not a slot id declared in src/content/image-plan.json' };
+    return { missing: 'unknown image ref "' + s + '": not a file under assets/source|generated|brand|menu/, not a harvested live URL, not a slot id declared in src/content/image-plan.json' };
   }
   /** plan the WebP variants of a file: [{ w, h, url }] ascending; widths never above the intrinsic width */
   variants(file, widths) {

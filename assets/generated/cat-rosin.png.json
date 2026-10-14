@@ -1,0 +1,62 @@
+{
+  "slot": "CAT-ROSIN",
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Studio product photograph of a small soft irregular mound of freshly pressed hash rosin, a waxy cannabis concentrate, golden with a fine grainy crystalline texture and a glossy oily sheen, a little translucent amber terpene oil pooling at its base, sitting on a small square of unbleached light-brown parchment paper, seen in three-quarter view, centred on a seamless plain white background, soft diffused studio light, crisp fine detail, high resolution, photographic; no label, no text, no letters, no logos, no markings, no people, no hands, no tools, no cartoon or illustration, no candy, no neon",
+  "input": {
+    "aspect_ratio": "3:4",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a138f7-e6bd-7981-8aad-cdc0ce1f86eb",
+  "seed": 2944595383,
+  "width": 1792,
+  "height": 2368,
+  "contentType": "image/jpeg",
+  "bytes": 579841,
+  "sha256": "99f80d3f7a0e6c2b18a9102c125d4c50eaf36429d105762408eae0cbb221aa67",
+  "file": "assets/generated/cat-rosin.png",
+  "generatedAt": "2026-10-14T05:52:20.788Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a138f8-0ae1-77e3-ab6f-b5fe4536a5dc",
+    "file": "tmp/rev5/media/cat-rosin-2.cut.png",
+    "bytes": 741190
+  },
+  "raw": "tmp/rev5/media/cat-rosin-2.jpg",
+  "grade": "birefnet cut-out (tmp/rev5/media/cat-rosin-2.cut.png): kept the largest alpha component (dropped a 126 px stray parchment-corner fleck), then re-framed by crop/pad only (no resampling) to 1118x1477 (the sibling 1792:2368 aspect) with the subject centred at x 0.50, y 0.62 and 0.66 of the width, like CAT-EXTRACT (0.50, 0.62, 0.73) and CAT-EDIBLES (0.52, 0.65, 0.62); birefnet dropped the low-contrast parchment and most of the oil pool",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "review": {
+    "verdict": "ACCEPT (revision 5 media lane)",
+    "attempts": [
+      {
+        "file": "tmp/rev5/media/cat-rosin.jpg",
+        "requestId": "01a138f6-46ec-7201-a7eb-06c2296348d7",
+        "cutout": {
+          "model": "fal-ai/birefnet/v2",
+          "requestId": "01a138f6-79d1-7b40-900a-97544722186c",
+          "file": "tmp/rev5/media/cat-rosin.cut.png",
+          "bytes": 1640214
+        },
+        "verdict": "REJECT",
+        "reason": "the jar filled with pale yellow cubes: reads as gummy candy, cheese or pineapple chunks, not rosin badder (DCC candy-like risk)"
+      },
+      {
+        "file": "tmp/rev5/media/cat-rosin-2.jpg",
+        "requestId": "01a138f7-e6bd-7981-8aad-cdc0ce1f86eb",
+        "cutout": {
+          "model": "fal-ai/birefnet/v2",
+          "requestId": "01a138f8-0ae1-77e3-ab6f-b5fe4536a5dc",
+          "file": "tmp/rev5/media/cat-rosin-2.cut.png",
+          "bytes": 741190
+        },
+        "verdict": "ACCEPT",
+        "reason": "a crystalline golden rosin mound; edges clean over black and over white"
+      }
+    ]
+  }
+}

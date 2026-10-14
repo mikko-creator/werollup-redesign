@@ -1,0 +1,91 @@
+/* rosin.css - revision 5 (operator 2026-10-14): the hash and rosin pivot. The Hash & Rosin band (src/theme/rosin.mjs), the
+   hero additions (the "Curated hash & rosin" eyebrow, the rosin call to action, the amber glow word) and the one new accent:
+   a warm resin amber, used sparingly on the night ground (no bright, flashy or holographic colour: docs/COMPLIANCE.md).
+   Contrast (WCAG 2.2 AA): rosin-300 on forest-950 about 11:1; rosin-ink on rosin-100 about 5.9:1. */
+:root {
+  --rosin-300: #f0c46c;
+  --rosin-100: #f8ead0;
+  --rosin-ink: #7a4f12;
+  --rosin-glow-30: rgba(226, 169, 63, .3);
+  --rosin-glow-14: rgba(226, 169, 63, .14);
+}
+
+/* the rosin pill (P.pill kind "rosin"): the hero jump and the band's first button */
+.btn--rosin { background: var(--rosin-300); color: var(--forest-950); }
+.btn--rosin::before { background: var(--rosin-100); }
+.btn--rosin::after { box-shadow: 0 0 0 1px var(--rosin-glow-30), 0 10px 30px -6px var(--rosin-glow-30); }
+
+/* hero additions: the amber glow word (home h1) and the eyebrow over the store h1 */
+.hm-glow.hm-glow--rosin { color: var(--rosin-300); text-shadow: 0 0 30px var(--rosin-glow-30); }
+.on-night .hr-hero-eyebrow { color: var(--rosin-300); margin-bottom: 14px; }
+/* phones: the hero rows were nowrap for two buttons; with the rosin jump in front it takes the first row, the source's
+   two buttons share the second (measured 2026-10-14 at 390: three nowrap pills broke "SHOP HASH & ROSIN" over 4 lines) */
+@media (max-width: 700px) {
+  .htile__pane .btn-row:has(> [data-r5="hero-cta"]), .store-hero__pane .btn-row:has(> [data-r5="hero-cta"]) { flex-wrap: wrap; }
+  .btn-row > [data-r5="hero-cta"] { flex: 1 0 100%; }
+  .btn-row:has(> [data-r5="hero-cta"]) > .btn:not([data-r5]) { flex: 1 1 0; white-space: nowrap; padding-inline: 14px; }
+  /* the rosin sits at 35-80 % of its phone frame, where the bottom-seated pane covers it (measured at 390x844): on
+     phones the rosin loop fills only the band above the pane, framed on the rosin; the band's night ground shows below */
+  .hm-hero__media .loop--rosin { bottom: auto; height: 58%; }
+  .store-hero__art .loop--rosin { bottom: auto; height: 44%; }
+  .hm-hero__media .loop--rosin, .store-hero__art .loop--rosin { -webkit-mask-image: linear-gradient(to bottom, var(--black) 72%, var(--transparent)); mask-image: linear-gradient(to bottom, var(--black) 72%, var(--transparent)); }
+  .hm-hero__media .loop--rosin .loop__video, .store-hero__art .loop--rosin .loop__video { object-position: 50% 63%; }
+}
+
+/* ------------------------------------------------------------------ the band */
+.hr-band { overflow: hidden; padding-block: clamp(56px, 7vw, 104px); border-top: 1px solid var(--white-06); }
+.hr-band__glow { position: absolute; z-index: -1; top: -30%; right: -12%; width: min(980px, 110vw); aspect-ratio: 1.4; pointer-events: none;
+  background: radial-gradient(closest-side, var(--rosin-glow-14), transparent 72%); }
+.hr-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px 48px; }
+.hr-head__copy { max-width: 660px; }
+.hr-band .hr-eyebrow { color: var(--rosin-300); }
+.hr-band h2.hr-title { margin-top: 14px; font-size: clamp(42px, 5.6vw, 84px); line-height: .94; letter-spacing: -.035em; color: var(--cream); }
+.hr-title__ink { color: var(--rosin-300); text-shadow: 0 0 34px var(--rosin-glow-30); }
+.hr-band .hr-lead { margin-top: 16px; max-width: 54ch; font-size: clamp(17px, 1.4vw, 20px); line-height: 1.5; color: var(--cream-82); text-wrap: pretty; }
+.hr-head__btns { margin-top: 0; }
+
+.hr-grid { list-style: none; margin: clamp(28px, 4vw, 48px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(14px, 1.6vw, 22px); }
+.hr-grid__item { display: flex; min-width: 0; }
+
+/* a product card: the menu photo on white, then type, name (the link; the whole card is its hit area), brand, size + price */
+.hr-card { position: relative; display: flex; flex-direction: column; width: 100%; overflow: hidden; border-radius: var(--r-m); background: var(--white); color: var(--forest);
+  box-shadow: 0 18px 40px -24px var(--shadow-black-80), 0 0 0 1px var(--white-08);
+  transition: translate var(--t-hover) var(--ease-out), box-shadow var(--t-hover) ease; }
+.hr-card:hover, .hr-card:has(:focus-visible) { translate: 0 -6px; box-shadow: 0 28px 54px -24px var(--shadow-black-80), 0 0 0 1px var(--rosin-glow-30), 0 0 44px -12px var(--rosin-glow-30); }
+.hr-card:has(.hr-card__link:focus-visible) { outline: 3px solid var(--rosin-300); outline-offset: 3px; }
+.hr-card__media { aspect-ratio: 1; display: grid; place-items: center; padding: 14px; background: radial-gradient(circle at 50% 42%, var(--white) 0%, var(--cream) 100%); border-bottom: 1px solid var(--haze-300); }
+.hr-card__img { display: block; width: 100%; height: 100%; object-fit: contain; transition: scale .5s var(--ease-out); }
+/* a photo that is not a packshot on white (a styled or macro shot) fills the square instead */
+.hr-card__media--cover { padding: 0; }
+.hr-card__media--cover .hr-card__img { object-fit: cover; }
+.hr-card:hover .hr-card__img { scale: 1.04; }
+.hr-card__body { flex: 1; display: flex; flex-direction: column; gap: 4px; padding: 14px 16px 18px; }
+.hr-card .hr-card__type { align-self: flex-start; padding: 3px 10px; border-radius: var(--r-pill); background: var(--rosin-100); color: var(--rosin-ink); font: 700 12px/1.35 var(--f-text); letter-spacing: .08em; text-transform: uppercase; }
+.hr-card__name { margin-top: 8px; font: 800 19px/1.15 var(--f-display); letter-spacing: -.015em; color: var(--forest); overflow-wrap: anywhere; }
+/* beats ".band.on-night li a:not(.btn)" (0,3,2: leaf-300, underline, position: relative), which would also make the link
+   the containing block of its own hit area */
+.hr-band .hr-card a.hr-card__link:not(.btn) { position: static; color: inherit; text-decoration: none; }
+.hr-card__link::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.hr-card__link:focus-visible { outline: none; }
+.hr-card .hr-card__brand { font-size: 14px; font-weight: 600; color: var(--ink-muted); }
+.hr-card .hr-card__meta { margin-top: auto; padding-top: 10px; font-size: 15px; font-weight: 700; color: var(--forest); }
+.hr-card__was { font-weight: 500; color: var(--ink-muted); }
+.hr-card__dot { padding-inline: 2px; color: var(--ink-muted); }
+.hr-card .hr-card__store { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--leaf-ink); }
+.hr-band .hr-note { margin-top: 22px; font-size: 13px; color: var(--cream-55); }
+
+@media (max-width: 1100px) {
+  .hr-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+/* phones: one swipe row (scroll-snap) inside the page gutter, so the page itself never scrolls sideways */
+@media (max-width: 700px) {
+  .hr-head__btns { width: 100%; }
+  .hr-grid { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 70%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; scrollbar-width: thin; }
+  .hr-grid__item { scroll-snap-align: start; }
+  .hr-card:hover, .hr-card:has(:focus-visible) { translate: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hr-card, .hr-card__img { transition: none; }
+  .hr-card:hover, .hr-card:has(:focus-visible) { translate: none; }
+  .hr-card:hover .hr-card__img { scale: none; }
+}

@@ -28,7 +28,8 @@
 //     exactly once inside main; pages without them in the source hold no Jane runtime and no wm.store tag;
 //   - hrefs (4.3, A8), per served page and region (the nine data-parity regions): the multiset of <a href> values equals
 //     the source region's, internal hrefs normalised to the trailing-slash path (query and fragment kept); the only
-//     exceptions are the A8 corrections and the removed links declared in src/content/changes.json (an exception that
+//     exceptions are the A8 corrections and the removed links declared in src/content/changes.json, and the links the
+//     operator asked for (src/content/operator-additions.json addedHrefs, revision 5 on) (an exception that
 //     does not apply is itself a finding); bare "#" (a dropdown toggle, no target) is not compared;
 //   - meta description (4.9, A17): exactly one, equal to og:description, at most 160 characters, and its words are a
 //     verbatim run of the page's own [data-parity=main] text (compared with all whitespace removed);
@@ -236,15 +237,17 @@ export function normHref(h) {
 }
 const hrefsOf = (node) => (node ? tp.findNodes(node, (x) => x.t === 'a' && 'href' in x.a).map((a) => normHref(a.a.href)).filter((h) => h !== '#') : null);
 const decodeAttr = (s) => String(s).replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-/** the href exceptions of changes.json: A8 corrections { page, region, from, to, count } and removed links { page, region, href, count } */
-export function hrefExceptions(changes) {
-  const fix = [], removed = [];
+/** the href exceptions of changes.json: A8 corrections { page, region, from, to, count } and removed links { page, region, href, count };
+ *  plus the links the operator asked for (src/content/operator-additions.json addedHrefs { id, page, region, href, count }) */
+export function hrefExceptions(changes, additions = null) {
+  const fix = [], removed = [], added = [];
   for (const c of changes.changes) {
     if (c.rule === 'A8') { fix.push({ id: c.id, page: c.page, region: c.region, from: normHref(c.before), to: normHref(c.after), count: c.count }); continue; }
     const m = /\shref="([^"]*)"/.exec(String(c.before || ''));
     if (m && !/\shref="/.test(String(c.after || ''))) removed.push({ id: c.id, page: c.page, region: c.region, href: normHref(decodeAttr(m[1])), count: c.count });
   }
-  return { fix, removed };
+  for (const a of (additions && additions.addedHrefs) || []) added.push({ id: a.id, page: a.page, region: a.region, href: normHref(a.href), count: a.count });
+  return { fix, removed, added };
 }
 const take = (arr, v, n) => { let k = 0; for (let i = 0; i < arr.length && k < n; i++) if (arr[i] === v) { arr.splice(i, 1); i--; k++; } return k; };
 /** compare one page's href multisets per region (srcRoot/builtRoot: text-parity trees) */
@@ -267,6 +270,11 @@ export function checkHrefs(pagePath, rel, srcRoot, builtRoot, ex, stats = {}) {
       add('corrected:' + x.id, n);
       if (n !== x.count) f.push({ check: 'href-exception-stale', file: rel, detail: x.id + ' ' + region + ': ' + x.from + ' found ' + n + 'x, declared ' + x.count + 'x' });
       for (let i = 0; i < n; i++) src.push(x.to);
+    }
+    // operator additions: the declared link joins the source multiset, so a declared link the build lacks shows as missing
+    for (const a of (ex.added || []).filter((y) => y.page === pagePath && y.region === region)) {
+      for (let i = 0; i < a.count; i++) src.push(a.href);
+      add('added:' + a.id, a.count);
     }
     const bag = new Map();
     for (const h of src) bag.set(h, (bag.get(h) || 0) + 1);
@@ -329,7 +337,9 @@ export function checkDataAttrs(rel, srcRoot, builtRoot) {
 function loadSource() {
   const routes = JSON.parse(fs.readFileSync(path.join(WS, 'src/content/routes.json'), 'utf8'));
   const changes = JSON.parse(fs.readFileSync(path.join(WS, 'src/content/changes.json'), 'utf8'));
-  return { routes, ex: hrefExceptions(changes) };
+  const addFile = path.join(WS, 'src/content/operator-additions.json');
+  const additions = fs.existsSync(addFile) ? JSON.parse(fs.readFileSync(addFile, 'utf8')) : null;
+  return { routes, ex: hrefExceptions(changes, additions) };
 }
 
 export function checkDist(dir) {

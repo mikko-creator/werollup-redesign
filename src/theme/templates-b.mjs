@@ -9,6 +9,8 @@
 // Fail closed: a page whose model does not have the shape these templates were written for throws, so a THEME_STRICT=1
 // build stops instead of silently dropping or reordering words.
 
+import { hashRosinBand, heroEyebrow, withHeroCta } from './rosin.mjs';
+
 /** the store's postcard (DESIGN-SPEC 10.2: store cards, chooser, gate rows, T1, T4) */
 const POSTCARD_KEY = { 'san-pedro': 'postcardSanPedro', 'culver-city': 'postcardLax' };
 /** T1 group: the 5 pages under /service-area/san-pedro/ take the San Pedro postcard, every other town page the LAX one */
@@ -61,24 +63,34 @@ function storeHero(page, ctx, api, s) {
   // the hero tile photos are deny-listed source photos (DESIGN-SPEC 10.3: 8b360abb, 7a4352fe, 085a05d4) or a content
   // photo in a hero role; the spec's hero is the place plate (G-LAX-DUSK / G-HARBOR-HAZE), so no tile photo is drawn
   const plate = (page.generated && page.generated.hero) || P.bannerArtFor(page);
-  const paneInner = first.blocks.map((b) => (b.type === 'heading' ? B.heading(b, ctx, page, { cls: 'store-hero__title' }) : B.renderBlock(b, ctx, page, { tone: 'night', inHero: true }))).join('\n');
+  // revision 5: the "Curated hash & rosin" eyebrow over the h1 and the jump to the Hash & Rosin band as the first button
+  // (both data-r5, declared in operator-additions.json); the model's words and buttons stay as they are
+  const paneInner = first.blocks.map((b) => {
+    if (b.type === 'heading') return (b.level === 1 ? heroEyebrow(P) : '') + B.heading(b, ctx, page, { cls: 'store-hero__title' });
+    if (b.type === 'buttons') return withHeroCta(ctx, P, B.renderBlock(b, ctx, page, { tone: 'night', inHero: true }));
+    return B.renderBlock(b, ctx, page, { tone: 'night', inHero: true });
+  }).join('\n');
   // revision 3 (operator 2026-10-14: the hero must be a looping video, "not a fan of the small hero image"; visitors land
   // on the store page after the age gate): the store's loop fills the hero behind the pane; the postcard light box is
   // gone. Until the loop's files exist (or for a store without a loop) the place plate still fills the band instead.
-  const loop = STORE_LOOP[page.store] ? P.loop(ctx, STORE_LOOP[page.store], { cls: 'store-hero__loop', sizes: '100vw' }) : '';
+  // revision 5: the rosin loop leads both store heroes (visitors land here from the age gate); the store's own loop is
+  // the fallback while V-ROSIN has no files, and it still plays on the store's inner pages (BANNER_LOOP)
+  const loop = P.loop(ctx, 'V-ROSIN', { cls: 'store-hero__loop loop--rosin', sizes: '100vw' }) || (STORE_LOOP[page.store] ? P.loop(ctx, STORE_LOOP[page.store], { cls: 'store-hero__loop', sizes: '100vw' }) : '');
   const art = loop || P.decorative(ctx, plate, { sizes: '100vw', loading: 'eager', fetchpriority: 'high', cls: 'store-hero__img', widths: [640, 960, 1280, 1600, 1920, 2400] });
   const hero = P.band({
     tone: 'night', id: s.id, cls: 'store-hero store-hero--video', depth: true,
     inner: '<div class="store-hero__art"' + (loop ? '' : ' aria-hidden="true"') + '>' + art + '</div><div class="store-hero__veil" aria-hidden="true"></div>'
       + P.wrap('<div class="store-hero__pane glass-pane">' + paneInner + '</div>', 'wide', 'store-hero__in'),
   });
-  if (!rest.length) return hero;
+  // revision 5: the Hash & Rosin band (this store's real menu products) right under the hero
+  const band = hashRosinBand(ctx, api, { store: page.store });
+  if (!rest.length) return hero + '\n' + band;
   const cards = rest.map((t) => {
     // the Delivery tile -> the forest Delivery card: "Delivery" (Bricolage 800, cream), the two lines, a leaf pill
     const inner = t.blocks.map((b) => (b.type === 'heading' ? B.heading(b, ctx, page, { cls: 'store-dcard__title' }) : B.renderBlock(b, ctx, page, { tone: 'night', inHero: true }))).join('\n');
     return P.cardShell(inner, { cls: 'store-dcard on-night', tone: 'forest' });
   }).join('');
-  return hero + '\n' + P.band({ tone: 'cream', cls: 'store-delivery', inner: P.wrap(cards) });
+  return hero + '\n' + band + '\n' + P.band({ tone: 'cream', cls: 'store-delivery', inner: P.wrap(cards) });
 }
 
 /** revision 3: the store hero loops (image-plan video slots; Higgsfield from the store's own place plate) */
@@ -131,11 +143,14 @@ function storeRail(page, ctx, api, b) {
  *  control. Without JS, or under reduced motion, it is a static scroll row. The images are unbranded generated cut-outs
  *  (A9) except Accessories, the client's real We Roll Up cap. */
 const CAT_ART = { flower: 'S-CUT-BUD', 'pre-rolls': 'CAT-PREROLL', edibles: 'CAT-EDIBLES', vapes: 'CAT-VAPE', extract: 'CAT-EXTRACT', cbd: 'CAT-CBD', accessories: 'CUT-CAP' };
+/** revision 5: the Extract card shows rosin (CAT-ROSIN) once that cut-out exists */
+const CAT_ART_R5 = { extract: 'CAT-ROSIN' };
 const catLabel = (c) => { const h = (c.blocks || []).find((x) => x && x.text && x.type !== 'buttons'); return h ? String(h.text).trim().toLowerCase() : ''; };
 function storeCategoryLoop(page, ctx, api, b) {
   const { parts: P, blocks: B } = api;
   const items = b.cards.map((c) => {
-    const slot = CAT_ART[catLabel(c)];
+    const r5 = CAT_ART_R5[catLabel(c)];
+    const slot = r5 && P.slotReady(ctx, r5) ? r5 : CAT_ART[catLabel(c)];
     let media = '';
     if (slot) media = P.img(ctx, slot, { alt: '', sizes: '(max-width: 700px) 150px, 230px', cls: 'pcat__img', widths: [160, 240, 320, 400, 520, 640], attrs: { 'data-decorative': '' } });
     else if (c.image) media = P.img(ctx, c.image.ref, { alt: c.image.alt || '', sizes: '160px', cls: 'pcat__img', widths: [160, 240, 320], attrs: c.image.alt ? {} : { 'data-decorative': '' } });

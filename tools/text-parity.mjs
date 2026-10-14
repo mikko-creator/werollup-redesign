@@ -20,7 +20,8 @@
 // boundaries (adjacent buttons such as "Order Now""See Deals" carry no space in the source; a link edge is never
 // wording); other inline elements are not ("Shop Now<span class=sr-only>Blissful</span>" stays one word). Text that main.js copies into the DOM (the top-bar data-address and data-hours of each store
 // option) is chrome text: it is inserted at #activeLocationDetails in the source (4.2).
-// Exceptions: src/content/parity-exceptions.json (each with its rule and evidence): replace, remove-source,
+// Exceptions: src/content/parity-exceptions.json (generated) plus src/content/operator-additions.json (the copy the operator
+// asked for, revision 5 on; written by tools/operator-additions.mjs) (each with its rule and evidence): replace, remove-source,
 // remove-built, set-order (review slides compared as a set, in the fixed order of audit/raw/index.html, A2),
 // must-not-render (text that must not appear anywhere in the built page), link-only (a removed link whose text stays).
 // An exception that does not apply where it says it does is itself a failure (stale exceptions never pass silently).
@@ -280,6 +281,9 @@ const fileOf = (p) => (p === '/' ? 'index.html' : p.slice(1) + 'index.html');
 function loadAll(dir) {
   const inv = JSON.parse(fs.readFileSync(path.join(WS, 'audit/site-inventory.json'), 'utf8'));
   const exs = JSON.parse(fs.readFileSync(path.join(WS, 'src/content/parity-exceptions.json'), 'utf8')).exceptions;
+  // the copy the operator asked for (revision 5 on): hand-declared in src/content/operator-additions.json, same entry format
+  const addFile = path.join(WS, 'src/content/operator-additions.json');
+  if (fs.existsSync(addFile)) exs.push(...JSON.parse(fs.readFileSync(addFile, 'utf8')).exceptions);
   const canonHtml = fs.readFileSync(path.join(WS, 'audit/raw/index.html'), 'utf8');
   const canonSlides = sourceRegions(canonHtml).reviewSlides;
   const records = inv.pages.filter((r) => r.status === 200).map((r) => ({ url: r.url, path: pathOf(r.url), raw: path.join(WS, 'audit/raw', r.savedAs), built: path.join(dir, fileOf(pathOf(r.url))) }));

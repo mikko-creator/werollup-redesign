@@ -1,0 +1,51 @@
+{
+  "slot": "S-ROSIN-BANNER",
+  "tool": "tools/fal-one.mjs",
+  "status": "ok",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide banner photograph, macro: a small soft irregular mound of freshly pressed hash rosin, a waxy cannabis concentrate, opaque pale gold with a fine grainy crystalline texture and a glossy oily sheen, tiny glistening terpene droplets on its surface and a little translucent amber terpene oil pooling at its base, sitting on a small square of unbleached parchment paper only a little wider than the rosin, one compact subject placed right of centre about two thirds of the way across the frame and spanning less than a third of the frame width, softly backlit so the rosin edges glow warm amber-gold, a deep dark forest-green background dissolving into soft haze with faint pale wisps, calm dark empty space across the whole left half, tack-sharp, shallow depth of field, realistic photographic texture; no hands, no jar, no packaging, no label, no print, no lettering, no numbers, no text, no logos; no people, no faces, no bodies, no cartoon or illustration, no candy or sweets, no alcohol, no party or nightlife, no luxury, no iridescent, holographic, rainbow or neon colours, no marks",
+  "input": {
+    "aspect_ratio": "16:9",
+    "output_format": "jpeg",
+    "num_images": 1,
+    "enable_safety_checker": true,
+    "safety_tolerance": "5"
+  },
+  "requestId": "01a138f6-4599-7a33-b074-a51b3775f45a",
+  "seed": 450667337,
+  "width": 2752,
+  "height": 1536,
+  "contentType": "image/jpeg",
+  "bytes": 719108,
+  "sha256": "e9bdbccab1ae8b0901d14fa7c435f95a6b6c35ffe405d8a1d8a0deef19ea0fb7",
+  "file": "assets/generated/s-rosin-banner.jpg",
+  "generatedAt": "2026-10-14T05:50:35.829Z",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of We Roll Up (werollup.com), its store, staff, customers, products or brands.",
+  "raw": "tmp/rev5/media/hero-c.jpg",
+  "phone": "assets/generated/s-rosin-banner-phone.jpg",
+  "phoneCrop": "ffmpeg crop of the master at full height (aspect 1170:960 = 1872x1536) at x 880 (the right limit; the subject-centred x 1100 is outside the frame), lanczos to 1170x960, q 2, labelled",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "review": {
+    "verdict": "ACCEPT (revision 5 media lane)",
+    "candidates": [
+      {
+        "file": "tmp/rev5/media/hero-a.jpg",
+        "requestId": "01a138f3-ce17-7953-b58d-bfba4b5351e4",
+        "verdict": "REJECT",
+        "reason": "a piped swirl that reads as buttercream or meringue (dessert imagery), sprinkle-like specks on the table"
+      },
+      {
+        "file": "tmp/rev5/media/hero-b.jpg",
+        "requestId": "01a138f3-cea2-7d22-bcf6-524912b4c80a",
+        "verdict": "REJECT",
+        "reason": "a faceted cube that reads as a gummy or rock-candy cube or a CG gemstone; triangulated CG facets; the parchment spans about 75 % of the frame"
+      },
+      {
+        "file": "tmp/rev5/media/hero-c.jpg",
+        "requestId": "01a138f6-4599-7a33-b074-a51b3775f45a",
+        "verdict": "ACCEPT",
+        "reason": "crystalline live rosin jam with a terpene-oil pool on parchment; no text, hands, neon or CG look; subject centre about 0.74 and width about 0.35 of the frame (target 0.62-0.70 and 0.31)"
+      }
+    ]
+  }
+}

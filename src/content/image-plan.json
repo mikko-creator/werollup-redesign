@@ -7,12 +7,10 @@
       "alt": "",
       "role": "hero",
       "kind": "image",
-      "pages": [
-        "/products/"
-      ],
+      "pages": [],
       "phone": "assets/generated/s-bud-banner-phone.jpg",
       "aiLabel": true,
-      "uses": "/products/ banner (6.18.9); the documented alternative home hero (Q1): switch \"/\" in by adding it to pages"
+      "uses": "/products/ banner (6.18.9); the documented alternative home hero (Q1): switch \"/\" in by adding it to pages; revision 5 (operator 2026-10-14, the hash and rosin pivot): S-ROSIN-BANNER replaces it on /products/; kept only as the home hero fallback still"
     },
     "S-TRICHOME": {
       "file": "assets/generated/s-trichome.jpg",
@@ -407,9 +405,7 @@
       "alt": "",
       "role": "hero",
       "kind": "video",
-      "pages": [
-        "/"
-      ],
+      "pages": [],
       "video": {
         "mp4": "assets/generated/v-hero.mp4",
         "webm": "assets/generated/v-hero.webm",
@@ -418,7 +414,7 @@
       },
       "still": "S-BUD-BANNER",
       "aiLabel": true,
-      "uses": "revision 2 (operator 2026-10-14): the home hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video request 97be34cf from S-BUD-BANNER; make-loop YDIF p95 2.32, 0 frames over 20; revision 4: also the /products/ banner loop (S-BUD-BANNER)"
+      "uses": "revision 2 (operator 2026-10-14): the home hero full-bleed loop; Higgsfield kling-video/v3.0-turbo/image-to-video request 97be34cf from S-BUD-BANNER; make-loop YDIF p95 2.32, 0 frames over 20; revision 4: also the /products/ banner loop (S-BUD-BANNER); revision 5: V-ROSIN replaces it (home hero, store heroes, /products/ banner); kept only as the fallback loop"
     },
     "V-HARBOR": {
       "file": "assets/generated/v-harbor-poster.webp",
@@ -565,6 +561,49 @@
       "still": "assets/generated/g-edu-banner.jpg",
       "aiLabel": true,
       "uses": "revision 4 (operator 2026-10-14: looping videos on the inner pages): the three education banners; an AI still (fal flux-pro/v1.1-ultra) with a slow camera drift rendered by tools/still-loop.mjs, no AI motion (Higgsfield refused this still twice, status nsfw: requests 5c762352 and fa4508ec); the still is a generated look-alike of the real mason-jars photo"
+    },
+    "S-ROSIN-BANNER": {
+      "file": "assets/generated/s-rosin-banner.jpg",
+      "alt": "",
+      "role": "hero",
+      "kind": "image",
+      "pages": [
+        "/products/",
+        "/products/concentrates/"
+      ],
+      "phone": "assets/generated/s-rosin-banner-phone.jpg",
+      "aiLabel": true,
+      "uses": "revision 5 (operator 2026-10-14: the hash and rosin pivot): the V-ROSIN still (the home hero fallback, home.mjs) and the /products/ and /products/concentrates/ banner (bannerArtFor, BANNER_LOOP -> V-ROSIN); fal-ai/flux-pro/v1.1-ultra request 01a138f6-4599-7a33-b074-a51b3775f45a (candidate C; A and B rejected as dessert- and candy-like)"
+    },
+    "V-ROSIN": {
+      "file": "assets/generated/v-rosin-poster.webp",
+      "alt": "",
+      "role": "hero",
+      "kind": "video",
+      "pages": [
+        "/"
+      ],
+      "video": {
+        "mp4": "assets/generated/v-rosin.mp4",
+        "webm": "assets/generated/v-rosin.webm",
+        "mp4Phone": "assets/generated/v-rosin-phone.mp4",
+        "poster": "assets/generated/v-rosin-poster.webp"
+      },
+      "still": "S-ROSIN-BANNER",
+      "aiLabel": true,
+      "uses": "revision 5 (operator 2026-10-14: the hash and rosin pivot): the home hero full-bleed loop, replacing V-HERO; also both store hero loops (templates-b.mjs: visitors land there from the age gate) and the /products/ and /products/concentrates/ banner loop (BANNER_LOOP S-ROSIN-BANNER); Higgsfield kling-video/v3.0-turbo/image-to-video request 1e73388d from S-ROSIN-BANNER; make-loop YDIF p95 0.93, max 1.48, 0 frames over 20; phone-x 0.866"
+    },
+    "CAT-ROSIN": {
+      "kind": "image",
+      "file": "assets/generated/cat-rosin.png",
+      "alt": "",
+      "role": "cutout",
+      "pages": [
+        "/location/culver-city/",
+        "/location/san-pedro/"
+      ],
+      "aiLabel": true,
+      "uses": "Shop by Category: the Extract floating cut-out (revision 5; replaces CAT-EXTRACT via templates-b.mjs CAT_ART_R5); fal-ai/flux-pro/v1.1-ultra request 01a138f7-e6bd-7981-8aad-cdc0ce1f86eb, birefnet 01a138f8-0ae1-77e3-ab6f-b5fe4536a5dc"
     }
   }
 }

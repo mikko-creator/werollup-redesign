@@ -1,0 +1,177 @@
+{
+ "schema": "werollup/operator-additions@1",
+ "note": "The copy and links the operator asked for (revision 5 on), declared for tools/text-parity.mjs (exceptions, the parity-exceptions.json entry format) and tools/build-check.mjs (addedHrefs). Written by tools/operator-additions.mjs from the built [data-r5] elements plus its hand list of dropped source copy; re-run it after any change to the added copy or src/content/hash-rosin.json.",
+ "exceptions": [
+  {
+   "id": "R5-home-h1-source",
+   "rule": "R5",
+   "page": "/",
+   "region": "main",
+   "kind": "remove-source",
+   "text": "Shop Our Weed Products",
+   "reason": "The home h1 becomes \"Curated Hash & Rosin\" (revision 5).",
+   "evidence": "audit/raw/index.html (the home hero)"
+  },
+  {
+   "id": "R5-home-line-2",
+   "rule": "R5",
+   "page": "/",
+   "region": "main",
+   "kind": "remove-source",
+   "text": "Browse everything in stock — and check rotating specials before you shop.",
+   "reason": "The second hero line gives way to the hash and rosin lead (revision 5).",
+   "evidence": "audit/raw/index.html (the home hero)"
+  },
+  {
+   "id": "R5-home-h1-home",
+   "rule": "R5",
+   "page": "/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "Curated Hash & Rosin",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"home-h1\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/index.html"
+  },
+  {
+   "id": "R5-home-lead-home",
+   "rule": "R5",
+   "page": "/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "Live rosin, temple balls and bubble hash, hand-picked for our San Pedro and Culver City menus.",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"home-lead\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/index.html"
+  },
+  {
+   "id": "R5-hero-cta-home",
+   "rule": "R5",
+   "page": "/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "Shop Hash & Rosin",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"hero-cta\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/index.html"
+  },
+  {
+   "id": "R5-home-band-home",
+   "rule": "R5",
+   "page": "/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "On our menus now Hash & Rosin Solventless hash and rosin from the makers on our shelves, live on both store menus. Shop San Pedro Shop Culver City Temple Ball Bolo Runtz Axiom Hash 1g · $25 San Pedro Rosin Melo Gold L.A. Family Farms 1g · $60 Culver City Live Rosin Fruit Smack Master Makers 1g · $30 San Pedro Live Rosin Honey Banana Humboldt Terp Council 1g · $60 Culver City Bubble Hash Chem Cookies Axiom Hash 1g · $18 San Pedro Whipped Live Rosin Zhem Pai Z 90µ Ahti Farms 1g · $50 Culver City Live Rosin Badder Zimosa #2 710 Labs 1g · $50 San Pedro Rosin Madd Fruit L.A. Family Farms 1g · $60 Culver City Menu snapshot from Oct 14, 2026. Prices and stock change daily; the live menu has the final word.",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"home-band\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/index.html"
+  },
+  {
+   "id": "R5-hero-eyebrow-location-culver-city",
+   "rule": "R5",
+   "page": "/location/culver-city/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "Curated hash & rosin",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"hero-eyebrow\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/location/culver-city/index.html"
+  },
+  {
+   "id": "R5-hero-cta-location-culver-city",
+   "rule": "R5",
+   "page": "/location/culver-city/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "Shop Hash & Rosin",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"hero-cta\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/location/culver-city/index.html"
+  },
+  {
+   "id": "R5-store-band-location-culver-city",
+   "rule": "R5",
+   "page": "/location/culver-city/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "On the Culver City menu Hash & Rosin Solventless hash and rosin on our Culver City shelves. Shop all concentrates Live Rosin Honey Banana Humboldt Terp Council 1g · $60 Rosin Melo Gold L.A. Family Farms 1g · $60 Temple Ball Bolo Runtz Hashish Lux Axiom Hash 1g · $30 Live Rosin Strawberry Pie Fresh Press 1g · $80 Rosin Madd Fruit L.A. Family Farms 1g · $60 Whipped Live Rosin Zhem Pai Z 90µ Ahti Farms 1g · $50 Tier 2 Rosin Zatomic CBX Cannabiotix 1g · $45 Whipped Live Rosin Pria Ahti Farms 1g · $50 Menu snapshot from Oct 14, 2026. Prices and stock change daily; the live menu has the final word.",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"store-band\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/location/culver-city/index.html"
+  },
+  {
+   "id": "R5-hero-eyebrow-location-san-pedro",
+   "rule": "R5",
+   "page": "/location/san-pedro/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "Curated hash & rosin",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"hero-eyebrow\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/location/san-pedro/index.html"
+  },
+  {
+   "id": "R5-hero-cta-location-san-pedro",
+   "rule": "R5",
+   "page": "/location/san-pedro/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "Shop Hash & Rosin",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"hero-cta\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/location/san-pedro/index.html"
+  },
+  {
+   "id": "R5-store-band-location-san-pedro",
+   "rule": "R5",
+   "page": "/location/san-pedro/",
+   "region": "main",
+   "kind": "remove-built",
+   "text": "On the San Pedro menu Hash & Rosin Solventless hash and rosin on our San Pedro shelves. Shop all concentrates Temple Ball Bolo Runtz Axiom Hash 1g · $25 Live Rosin Fruit Smack Master Makers 1g · $30 Bubble Hash Chem Cookies Axiom Hash 1g · $18 Live Rosin Badder Zimosa #2 710 Labs 1g · $50 Rosin Banana Cane #7 Forte 1g · $50 Live Rosin Blue Flame OG CBX Cannabiotix 1g · $50 Live Rosin Gravity Gush Master Makers 1g · $30 Live Rosin Badder Peel Out Punch 1g · $35 Menu snapshot from Oct 14, 2026. Prices and stock change daily; the live menu has the final word.",
+   "reason": "Revision 5 (operator 2026-10-14: \"pivot the focus of the site to hash and rosin ... highlight their hash and rosin products\"): added copy. The [data-r5=\"store-band\"] element.",
+   "evidence": "src/theme/rosin.mjs; dist/location/san-pedro/index.html"
+  }
+ ],
+ "addedHrefs": [
+  {
+   "id": "R5-hero-cta-home",
+   "page": "/",
+   "region": "main",
+   "href": "#hash-rosin",
+   "count": 1
+  },
+  {
+   "id": "R5-home-band-home",
+   "page": "/",
+   "region": "main",
+   "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "count": 5
+  },
+  {
+   "id": "R5-home-band-home",
+   "page": "/",
+   "region": "main",
+   "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+   "count": 5
+  },
+  {
+   "id": "R5-hero-cta-location-culver-city",
+   "page": "/location/culver-city/",
+   "region": "main",
+   "href": "#hash-rosin",
+   "count": 1
+  },
+  {
+   "id": "R5-store-band-location-culver-city",
+   "page": "/location/culver-city/",
+   "region": "main",
+   "href": "/location/culver-city/shop/?store_path=%2F&store_query=filter%255BanyClientCategories%255D%255B%255D%3Dconcentrates-category-pages%26sortBy%3Dmost_popular%26page%3D1&locationId=10599",
+   "count": 9
+  },
+  {
+   "id": "R5-hero-cta-location-san-pedro",
+   "page": "/location/san-pedro/",
+   "region": "main",
+   "href": "#hash-rosin",
+   "count": 1
+  },
+  {
+   "id": "R5-store-band-location-san-pedro",
+   "page": "/location/san-pedro/",
+   "region": "main",
+   "href": "/location/san-pedro/shop/?filters%5Broot_types%5D%5B%5D=extract",
+   "count": 9
+  }
+ ]
+}
